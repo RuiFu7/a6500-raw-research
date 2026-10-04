@@ -11,8 +11,6 @@ firmware/ghidra_*.log
 
 # Runtime capture data (binary dumps)
 experiments/data/
-experiments/**/*.BIN
-experiments/**/*.bin
 experiments/emulated/a6500-kernel/
 experiments/emulated/*.log
 
