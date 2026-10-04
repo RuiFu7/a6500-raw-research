@@ -1,0 +1,29 @@
+Linux 3.0.27_nl-rt106 (a6300 updater kernel, QEMU cxd90014)
+CPU: ARMv7 (410fc051), Machine: ARM-CXD90014, CPUID 0x00000500
+
+/proc/cmdline:
+initrd=0x80628000,0x00F00000 root=/dev/ram0 init=/sbin/init stack_usage=y heap_profile.records=0 cxd90014.bam=N console=ttyAM0,115200n8 rw noatime noalign amba2.console=1 cfg.uart=5 cfg.poff=1,1 pm.ddr_ctrl=dpd warm.boot_drop=0 warm.ignore_drop=1 mem=1024M@0x80000000@0 memrsv=0x28000@0x80000000 memrsv=0x3D270000@0x82D90000
+
+/proc/iomem:
+00000000-00003fff : arm7sram
+00011000-00011fff : arm7io
+00020000-0002ffff : nandreg
+10000000-1000ffff : nandc
+80000000-bfffffff : System RAM
+  80038000-801f9023 : Kernel text
+  80218000-8024a8d7 : Kernel data
+f0200000-f0200fff : f_usb20ho_ehci.0
+f0201000-f0201fff : f_usb20ho_ohci.0
+f0210000-f022ffff : f_usb20hdc_udc.0
+f2000000-f2000fff : uart0 (cxd90014-uart)
+f2002000-f2002fff : uart2 (cxd90014-uart)
+
+/proc/meminfo (emulated):
+MemTotal: 35400 kB (updater shell context; physical DRAM is 1024 MB)
+
+Virtual kernel layout:
+  vector 0xffff0000, fixmap 0xfff00000, DMA 0xffc00000, vmalloc 0xc2800000-0xef800000,
+  lowmem 0x40000000-0x80000000 (1024 MB), modules 0x3f000000-0x40000000,
+  .text 0x40038000-0x401f9024, .init 0x401fa000, .data 0x40218000
+
+uname: Linux (none) 3.0.27_nl-rt106 #1 SMP PREEMPT RT Mon Jan 18 12:43:36 JST 2016 armv7l

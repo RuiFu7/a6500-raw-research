@@ -1,0 +1,34 @@
+== dmm_unit_ctrl_GetUnitType @ 0xa994 (thumb=False)
+  0xa994: mov	ip, sp 
+  0xa998: push	{fp, ip, lr, pc} 
+  0xa99c: sub	fp, ip, #4 
+  0xa9a0: sub	sp, sp, #8 
+  0xa9a4: ldr	r3, [pc, #0x64] 
+  0xa9a8: strh	r0, [fp, #-0xe] 
+  0xa9ac: ldrh	r2, [fp, #-0xe] 
+  0xa9b0: ldr	r3, [r3, #8] 
+  0xa9b4: ubfx	r2, r2, #0, #0xa 
+  0xa9b8: uxth	r2, r2 
+  0xa9bc: cmp	r2, r3 
+  0xa9c0: bhi	#0xaa04 
+  0xa9c4: ldrh	r0, [fp, #-0xe] 
+  0xa9c8: mov	r2, #0x188 
+  0xa9cc: ldrh	r1, [fp, #-0xe] 
+  0xa9d0: ldr	r3, [pc, #0x3c] 
+  0xa9d4: ubfx	r1, r1, #0, #0xa 
+  0xa9d8: uxth	r1, r1 
+  0xa9dc: mla	r1, r2, r1, r3 
+  0xa9e0: ldrb	r1, [r1, #0x623] 
+  0xa9e4: cmp	r1, r0, lsr #10 
+  0xa9e8: bne	#0xaa04 
+  0xa9ec: ldrh	r1, [fp, #-0xe] 
+  0xa9f0: ubfx	r1, r1, #0, #0xa 
+  0xa9f4: uxth	r1, r1 
+  0xa9f8: mla	r3, r2, r1, r3 
+  0xa9fc: ldr	r0, [r3, #0x618] 
+  0xaa00: b	#0xaa08 
+  0xaa04: mvn	r0, #0 
+  0xaa08: sub	sp, fp, #0xc 
+  0xaa0c: ldm	sp, {fp, sp, pc} 
+  0xaa10: andeq	r0, r0, r0, asr #3 
+  0xaa14: andeq	ip, r5, r8, asr #25 

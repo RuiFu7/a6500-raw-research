@@ -1,0 +1,364 @@
+ADDRESS 00508760
+NO FUNCTION
+
+ADDRESS 005a6e64
+FUNCTION FUN_005a6e64 entry=005a6e64 body=[[005a6e64, 005a6eff]]
+CALLERS
+  From: 0074484a To: 005a6e64 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005a6e64  push {r4,r5,r6,lr}
+005a6e66  mov r5,r0
+005a6e68  mov r2,r5
+005a6e6a  sub sp,#0x18
+005a6e6c  movs r0,#0x3
+005a6e6e  ldr r1,[0x005a6f00]
+005a6e70  ldr r4,[0x005a6f10]
+005a6e72  bl 0x005a5118
+005a6e76  ldr r3,[0x005a6f14]
+005a6e78  mov r1,r5
+005a6e7a  add r4,pc
+005a6e7c  ldr r0,[r4,r3]
+005a6e7e  bl 0x00745d8c
+005a6e82  ldr r3,[0x005a6f18]
+005a6e84  ldr r5,[r4,r3]
+005a6e86  mov r0,r5
+005a6e88  bl 0x005ac7f0
+005a6e8c  mov r6,r0
+005a6e8e  cbz r0,0x005a6eac
+005a6e90  ldr r3,[0x005a6f1c]
+005a6e92  mov r0,r5
+005a6e94  mov r1,sp
+005a6e96  ldr r3,[r4,r3]
+005a6e98  str r3,[sp,#0x0]
+005a6e9a  ldr r3,[0x005a6f20]
+005a6e9c  ldr r3,[r4,r3]
+005a6e9e  str r3,[sp,#0x4]
+005a6ea0  ldr r3,[0x005a6f24]
+005a6ea2  ldr r3,[r4,r3]
+005a6ea4  str r3,[sp,#0x8]
+005a6ea6  bl 0x005ac658
+005a6eaa  b 0x005a6ef2
+005a6eac  add r0,sp,#0x14
+005a6eae  bl 0x00745eea
+005a6eb2  mov r3,r0
+005a6eb4  cbz r0,0x005a6ee6
+005a6eb6  ldr r2,[sp,#0x14]
+005a6eb8  cbz r2,0x005a6ee6
+005a6eba  ldr r1,[0x005a6f1c]
+005a6ebc  mov r0,r5
+005a6ebe  ldr r1,[r4,r1]
+005a6ec0  str r1,[r2,#0x0]
+005a6ec2  ldr r1,[0x005a6f20]
+005a6ec4  ldr r1,[r4,r1]
+005a6ec6  str r1,[r2,#0x4]
+005a6ec8  ldr r1,[0x005a6f24]
+005a6eca  ldr r1,[r4,r1]
+005a6ecc  str r1,[r2,#0x8]
+005a6ece  ldr r2,[0x005a6f28]
+005a6ed0  ldr r2,[r4,r2]
+005a6ed2  str r6,[sp,#0x10]
+005a6ed4  str r2,[sp,#0xc]
+005a6ed6  add r2,sp,#0xc
+005a6ed8  ldmia r2,{r1,r2}
+005a6eda  bl 0x00745f2a
+005a6ede  cbnz r0,0x005a6ef2
+005a6ee0  adds r0,#0x1
+005a6ee2  ldr r1,[0x005a6f04]
+005a6ee4  b 0x005a6eea
+005a6ee6  ldr r1,[0x005a6f08]
+005a6ee8  movs r0,#0x1
+005a6eea  mov.w r2,#0x800
+005a6eee  bl 0x005a5118
+005a6ef2  movs r0,#0x3
+005a6ef4  ldr r1,[0x005a6f0c]
+005a6ef6  movs r2,#0x0
+005a6ef8  bl 0x005a5118
+005a6efc  add sp,#0x18
+005a6efe  pop {r4,r5,r6,pc}
+DECOMPILED
+
+void FUN_005a6e64(undefined4 param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 uVar3;
+  int iVar4;
+  undefined4 uVar5;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  int local_18;
+  undefined4 *local_14;
+  
+  iVar4 = DAT_005a6f10;
+  FUN_005a5118(3,DAT_005a6f00,param_1);
+  iVar4 = iVar4 + 0x5a6e7e;
+  FUN_00745d8c(*(undefined4 *)(iVar4 + DAT_005a6f14),param_1);
+  uVar5 = *(undefined4 *)(iVar4 + DAT_005a6f18);
+  iVar1 = FUN_005ac7f0(uVar5);
+  if (iVar1 == 0) {
+    iVar2 = thunk_FUN_005a9504(&local_14);
+    uVar3 = DAT_005a6f08;
+    if ((iVar2 != 0) && (local_14 != (undefined4 *)0x0)) {
+      *local_14 = *(undefined4 *)(iVar4 + DAT_005a6f1c);
+      local_14[1] = *(undefined4 *)(iVar4 + DAT_005a6f20);
+      local_14[2] = *(undefined4 *)(iVar4 + DAT_005a6f24);
+      local_1c = *(undefined4 *)(iVar4 + DAT_005a6f28);
+      local_18 = iVar1;
+      iVar4 = FUN_00745f2a(uVar5,local_1c,0,iVar2);
+      uVar3 = DAT_005a6f04;
+      if (iVar4 != 0) goto LAB_005a6ef2;
+    }
+    FUN_005a5118(1,uVar3,0x800);
+  }
+  else {
+    local_28 = *(undefined4 *)(iVar4 + DAT_005a6f1c);
+    local_24 = *(undefined4 *)(iVar4 + DAT_005a6f20);
+    local_20 = *(undefined4 *)(iVar4 + DAT_005a6f24);
+    FUN_005ac658(uVar5,&local_28);
+  }
+LAB_005a6ef2:
+  FUN_005a5118(3,DAT_005a6f0c,0);
+  return;
+}
+
+
+
+ADDRESS 005a58ec
+FUNCTION FUN_005a58ec entry=005a58ec body=[[005a58ec, 005a5925]]
+CALLERS
+  From: 005a5a24 To: 005a58ec Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005a58ec  push {r4,r5,r6,r7,r8,lr}
+005a58f0  mov r5,r0
+005a58f2  ldr r4,[0x005a5928]
+005a58f4  lsls r7,r0,#0x10
+005a58f6  orr r7,r7,#0x208
+005a58fa  add r4,pc
+005a58fc  mov r1,r7
+005a58fe  ldr.w r6,[r4,r0,lsl #0x3]
+005a5902  add.w r4,r4,r5, lsl #0x3
+005a5906  movs r0,#0x1
+005a5908  mov r2,r6
+005a590a  bl 0x005a5118
+005a590e  ldr r4,[r4,#0x4]
+005a5910  movs r0,#0x1
+005a5912  mov r1,r7
+005a5914  mov r2,r4
+005a5916  bl 0x005a5118
+005a591a  mov r0,r6
+005a591c  mov r1,r4
+005a591e  pop.w {r4,r5,r6,r7,r8,lr}
+005a5922  b.w 0x005a5730
+DECOMPILED
+
+void FUN_005a58ec(int param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  uint uVar4;
+  
+  uVar4 = param_1 << 0x10 | 0x208;
+  iVar1 = DAT_005a5928 + 0x5a58fe;
+  uVar3 = *(undefined4 *)(iVar1 + param_1 * 8);
+  FUN_005a5118(1,uVar4,uVar3);
+  uVar2 = *(undefined4 *)(iVar1 + param_1 * 8 + 4);
+  FUN_005a5118(1,uVar4,uVar2);
+  FUN_005a5730(uVar3,uVar2);
+  return;
+}
+
+
+
+ADDRESS 005a59ac
+FUNCTION FUN_005a59ac entry=005a59ac body=[[005a59ac, 005a59db] [005a59ec, 005a5ac1]]
+CALLERS
+  From: 0073bd7e To: 005a59ac Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005a59ac  push {r4,r5,r6,lr}
+005a59ae  cmp r0,#0x1
+005a59b0  ldr r5,[0x005a5acc]
+005a59b2  mov r4,r0
+005a59b4  add r5,pc
+005a59b6  beq 0x005a59ca
+005a59b8  and r1,r0,#0xf
+005a59bc  lsrs r2,r4,#0x4
+005a59be  movs r0,#0x1
+005a59c0  lsls r1,r1,#0x10
+005a59c2  orr r1,r1,#0x8
+005a59c6  bl 0x005a5118
+005a59ca  mov r0,r4
+005a59cc  bl 0x00744b2e
+005a59d0  subs r3,r0,#0x1
+005a59d2  mov r6,r0
+005a59d4  cmp r3,#0xe
+005a59d6  bhi 0x005a5aa6
+005a59d8  tbb [pc,r3]
+005a59ec  bl 0x005a52f0
+005a59f0  b 0x005a5aa6
+005a59f2  bl 0x005a592c
+005a59f6  b 0x005a5aa6
+005a59f8  bl 0x005a5968
+005a59fc  b 0x005a5aa6
+005a59fe  mov r0,r4
+005a5a00  bl 0x00744b34
+005a5a04  rsbs.w r0,r0,#0x1
+005a5a08  it cc
+005a5a0a  mov.cc r0,#0x0
+005a5a0c  bl 0x005a7254
+005a5a10  b 0x005a5aa6
+005a5a12  mov r0,r4
+005a5a14  bl 0x00744b34
+005a5a18  bl 0x005a5580
+005a5a1c  b 0x005a5aa6
+005a5a1e  mov r0,r4
+005a5a20  bl 0x00744b34
+005a5a24  bl 0x005a58ec
+005a5a28  b 0x005a5aa6
+005a5a2a  bl 0x005a54e0
+005a5a2e  b 0x005a5aa6
+005a5a30  movs r0,#0x0
+005a5a32  mov r1,r0
+005a5a34  b 0x005a5a40
+005a5a36  mov r0,r4
+005a5a38  bl 0x00744b34
+005a5a3c  mov r1,r0
+005a5a3e  movs r0,#0x1
+005a5a40  bl 0x005ab3d4
+005a5a44  b 0x005a5aa6
+005a5a46  ldr r3,[0x005a5ad0]
+005a5a48  ldr r0,[r5,r3]
+005a5a4a  bl 0x005a7614
+005a5a4e  mov r0,r4
+005a5a50  bl 0x00744b34
+005a5a54  tst r0,#0x1
+005a5a58  mov r5,r0
+005a5a5a  bne 0x005a5a6e
+005a5a5c  movs r0,#0x20
+005a5a5e  bl 0x007477a0
+005a5a62  mov r2,r0
+005a5a64  cbz r0,0x005a5a6e
+005a5a66  movs r0,#0x1
+005a5a68  ldr r1,[0x005a5ac4]
+005a5a6a  bl 0x005a5118
+005a5a6e  tst r5,#0x2
+005a5a72  beq 0x005a5aa6
+005a5a74  ldr r0,[0x005a5ad4]
+005a5a76  add r0,pc
+005a5a78  bl 0x005a71e8
+005a5a7c  movs r0,#0x40
+005a5a7e  bl 0x007477a0
+005a5a82  mov r2,r0
+005a5a84  cbz r0,0x005a5aa6
+005a5a86  movs r0,#0x1
+005a5a88  ldr r1,[0x005a5ac8]
+005a5a8a  bl 0x005a5118
+005a5a8e  b 0x005a5aa6
+005a5a90  mov r0,r4
+005a5a92  bl 0x00744b34
+005a5a96  subs r0,#0x0
+005a5a98  it ne
+005a5a9a  mov.ne r0,#0x1
+005a5a9c  bl 0x005a52ac
+005a5aa0  b 0x005a5aa6
+005a5aa2  bl 0x005a5468
+005a5aa6  cmp r4,#0x1
+005a5aa8  beq 0x005a5abe
+005a5aaa  mov r0,r4
+005a5aac  bl 0x00744b34
+005a5ab0  lsls r1,r6,#0x10
+005a5ab2  orr r1,r1,#0x108
+005a5ab6  mov r2,r0
+005a5ab8  movs r0,#0x1
+005a5aba  bl 0x005a5118
+005a5abe  movs r0,#0x0
+005a5ac0  pop {r4,r5,r6,pc}
+DECOMPILED
+
+undefined4 FUN_005a59ac(uint param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  uint uVar3;
+  undefined4 uVar4;
+  int iVar5;
+  
+  iVar5 = DAT_005a5acc + 0x5a59b8;
+  if (param_1 != 1) {
+    FUN_005a5118(1,(param_1 & 0xf) << 0x10 | 8,param_1 >> 4);
+  }
+  iVar1 = FUN_00744b2e(param_1);
+  switch(iVar1) {
+  case 1:
+    FUN_005a52f0();
+    break;
+  case 2:
+    FUN_005a592c();
+    break;
+  case 3:
+    FUN_005a5968();
+    break;
+  case 4:
+    uVar3 = FUN_00744b34(param_1);
+    iVar5 = 1 - uVar3;
+    if (1 < uVar3) {
+      iVar5 = 0;
+    }
+    FUN_005a7254(iVar5);
+    break;
+  case 6:
+    FUN_00744b34(param_1);
+    FUN_005a5580();
+    break;
+  case 7:
+    FUN_00744b34(param_1);
+    FUN_005a58ec();
+    break;
+  case 8:
+    FUN_005a54e0();
+    break;
+  case 0xb:
+    uVar2 = 0;
+    uVar4 = 0;
+    goto LAB_005a5a40;
+  case 0xc:
+    uVar4 = FUN_00744b34(param_1);
+    uVar2 = 1;
+LAB_005a5a40:
+    FUN_005ab3d4(uVar2,uVar4);
+    break;
+  case 0xd:
+    FUN_005a7614(*(undefined4 *)(iVar5 + DAT_005a5ad0));
+    uVar3 = FUN_00744b34(param_1);
+    if (((uVar3 & 1) == 0) && (iVar5 = FUN_007477a0(0x20), iVar5 != 0)) {
+      FUN_005a5118(1,DAT_005a5ac4,iVar5);
+    }
+    if ((uVar3 & 2) != 0) {
+      FUN_005a71e8(DAT_005a5ad4 + 0x5a5a7a);
+      iVar5 = FUN_007477a0(0x40);
+      if (iVar5 != 0) {
+        FUN_005a5118(1,DAT_005a5ac8,iVar5);
+      }
+    }
+    break;
+  case 0xe:
+    iVar5 = FUN_00744b34(param_1);
+    FUN_005a52ac(iVar5 != 0);
+    break;
+  case 0xf:
+    FUN_005a5468();
+  }
+  if (param_1 != 1) {
+    uVar4 = FUN_00744b34(param_1);
+    FUN_005a5118(1,iVar1 << 0x10 | 0x108,uVar4);
+  }
+  return 0;
+}
+
+
+

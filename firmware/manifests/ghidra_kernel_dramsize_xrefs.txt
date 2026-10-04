@@ -1,0 +1,64 @@
+INFO  Using log config file: jar:file:/D:/Desktop/a6500/tools/vendor/ghidra_12.1.3_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: <workspace>\tools\vendor\ghidra_appdata\ghidra\ghidra_12.1.3_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: <workspace>\tools\vendor\ghidra_appdata\ghidra\ghidra_12.1.3_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (796 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (7299 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    <workspace>\tools\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    <workspace>\tools\vendor\ghidra_12.1.3_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: <workspace>\firmware\ghidra_projects\a6500_kernel (HeadlessAnalyzer)  
+INFO  Opening project: <workspace>\firmware\ghidra_projects\a6500_kernel (HeadlessProject)  
+INFO  REPORT: Processing project file: /vmlinux.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: GhidraRefs.java '403d1a0c' '403d1aa4'  (HeadlessAnalyzer)  
+INFO  SCRIPT: <workspace>\tools\ghidra_scripts\GhidraRefs.java (HeadlessAnalyzer)  
+INFO  GhidraRefs.java> ADDRESS 403d1a0c
+TO 403d1a0c
+  403b1898 -> 403d1a0c type=WRITE op=1 fn=FUN_403b1854:403b1854
+  403b1b74 -> 403d1a0c type=READ op=1 fn=FUN_403b1854:403b1854
+  403b17b0 -> 403d1a0c type=PARAM op=0 fn=FUN_403b165c:403b165c
+  403b121c -> 403d1a0c type=WRITE op=1 fn=
+  403b1214 -> 403d1a0c type=PARAM op=0 fn=
+  403b123c -> 403d1a0c type=WRITE op=1 fn=
+FROM 403d1a0c
+
+ADDRESS 403d1aa4
+TO 403d1aa4
+  403b1870 -> 403d1aa4 type=READ op=1 fn=FUN_403b1854:403b1854
+  403b1d20 -> 403d1aa4 type=READ op=1 fn=FUN_403b1854:403b1854
+  403b1d88 -> 403d1aa4 type=READ op=1 fn=FUN_403b1854:403b1854
+  403b17b8 -> 403d1aa4 type=READ op=1 fn=FUN_403b165c:403b165c
+  403b1788 -> 403d1aa4 type=READ op=1 fn=FUN_403b165c:403b165c
+  403b1790 -> 403d1aa4 type=WRITE op=1 fn=FUN_403b165c:403b165c
+FROM 403d1aa4
+
+ (GhidraScript)  
+INFO  GhidraRefs.java> Dumped references for 2 addresses (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /vmlinux.bin (HeadlessAnalyzer)  

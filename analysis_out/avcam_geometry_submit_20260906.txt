@@ -1,0 +1,184 @@
+ADDRESS 00690ac8
+FUNCTION FUN_00690ac8 entry=00690ac8 body=[[00690ac8, 00690b99]]
+CALLERS
+  From: 001da5e8 To: 00690ac8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00690ac8  push {r4,r5,r6,r7,r8,lr}
+00690acc  mov r5,r1
+00690ace  mov r4,r0
+00690ad0  ldr r1,[r1,#0x0]
+00690ad2  adds r6,r4,#0x4
+00690ad4  bl 0x001df9d4
+00690ad8  ldr r1,[r5,#0x4]
+00690ada  mov r0,r4
+00690adc  bl 0x001df960
+00690ae0  mov r0,r6
+00690ae2  bl 0x0068e26c
+00690ae6  ldr r1,[r5,#0x8]
+00690ae8  ldrb r7,[r4,#0x8]
+00690aea  mov r8,r0
+00690aec  mov r0,r4
+00690aee  bl 0x001df9a8
+00690af2  mov r1,r7
+00690af4  mov r2,r0
+00690af6  mov r0,r8
+00690af8  bl 0x006908fa
+00690afc  mov r0,r6
+00690afe  bl 0x0068e26c
+00690b02  ldr r1,[r5,#0x10]
+00690b04  ldrb r7,[r4,#0x8]
+00690b06  mov r8,r0
+00690b08  mov r0,r4
+00690b0a  bl 0x001df9a8
+00690b0e  mov r1,r7
+00690b10  mov r2,r0
+00690b12  mov r0,r8
+00690b14  bl 0x00690914
+00690b18  mov r0,r6
+00690b1a  bl 0x0068e26c
+00690b1e  ldr r1,[r5,#0x18]
+00690b20  ldrb r7,[r4,#0x8]
+00690b22  mov r8,r0
+00690b24  mov r0,r4
+00690b26  bl 0x001df9a8
+00690b2a  mov r1,r7
+00690b2c  mov r2,r0
+00690b2e  mov r0,r8
+00690b30  bl 0x0069092e
+00690b34  mov r0,r6
+00690b36  bl 0x0068e26c
+00690b3a  ldr r1,[r5,#0x20]
+00690b3c  ldrb r7,[r4,#0x8]
+00690b3e  mov r8,r0
+00690b40  mov r0,r4
+00690b42  bl 0x001df9a8
+00690b46  mov r1,r7
+00690b48  mov r2,r0
+00690b4a  mov r0,r8
+00690b4c  bl 0x00690948
+00690b50  mov r0,r6
+00690b52  bl 0x0068e26c
+00690b56  ldrb r1,[r4,#0x8]
+00690b58  ldr r2,[r5,#0xc]
+00690b5a  bl 0x00690908
+00690b5e  mov r0,r6
+00690b60  bl 0x0068e26c
+00690b64  ldrb r1,[r4,#0x8]
+00690b66  ldr r2,[r5,#0x14]
+00690b68  bl 0x00690922
+00690b6c  mov r0,r6
+00690b6e  bl 0x0068e26c
+00690b72  ldrb r1,[r4,#0x8]
+00690b74  ldr r2,[r5,#0x1c]
+00690b76  bl 0x0069093c
+00690b7a  mov r0,r6
+00690b7c  bl 0x0068e26c
+00690b80  ldrb r1,[r4,#0x8]
+00690b82  ldr r2,[r5,#0x24]
+00690b84  bl 0x00690956
+00690b88  mov r0,r6
+00690b8a  bl 0x0068e26c
+00690b8e  ldrb r1,[r4,#0x8]
+00690b90  movs r2,#0x0
+00690b92  pop.w {r4,r5,r6,r7,r8,lr}
+00690b96  b.w 0x00690962
+DECOMPILED
+
+void FUN_00690ac8(int param_1,undefined4 *param_2)
+
+{
+  undefined1 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  int iVar4;
+  
+  iVar4 = param_1 + 4;
+  FUN_001df9d4(param_1,*param_2);
+  FUN_001df960(param_1,param_2[1]);
+  uVar2 = FUN_0068e26c(iVar4);
+  uVar1 = *(undefined1 *)(param_1 + 8);
+  uVar3 = FUN_001df9a8(param_1,param_2[2]);
+  FUN_006908fa(uVar2,uVar1,uVar3);
+  uVar2 = FUN_0068e26c(iVar4);
+  uVar1 = *(undefined1 *)(param_1 + 8);
+  uVar3 = FUN_001df9a8(param_1,param_2[4]);
+  FUN_00690914(uVar2,uVar1,uVar3);
+  uVar2 = FUN_0068e26c(iVar4);
+  uVar1 = *(undefined1 *)(param_1 + 8);
+  uVar3 = FUN_001df9a8(param_1,param_2[6]);
+  FUN_0069092e(uVar2,uVar1,uVar3);
+  uVar2 = FUN_0068e26c(iVar4);
+  uVar1 = *(undefined1 *)(param_1 + 8);
+  uVar3 = FUN_001df9a8(param_1,param_2[8]);
+  FUN_00690948(uVar2,uVar1,uVar3);
+  uVar2 = FUN_0068e26c(iVar4);
+  FUN_00690908(uVar2,*(undefined1 *)(param_1 + 8),param_2[3]);
+  uVar2 = FUN_0068e26c(iVar4);
+  FUN_00690922(uVar2,*(undefined1 *)(param_1 + 8),param_2[5]);
+  uVar2 = FUN_0068e26c(iVar4);
+  FUN_0069093c(uVar2,*(undefined1 *)(param_1 + 8),param_2[7]);
+  uVar2 = FUN_0068e26c(iVar4);
+  FUN_00690956(uVar2,*(undefined1 *)(param_1 + 8),param_2[9]);
+  iVar4 = FUN_0068e26c(iVar4);
+  *(undefined4 *)(iVar4 + (uint)*(byte *)(param_1 + 8) * 0x80 + 0x250) = 0;
+  return;
+}
+
+
+
+ADDRESS 006909cc
+FUNCTION FUN_006909cc entry=006909cc body=[[00690828, 00690837] [006909cc, 00690a05]]
+CALLERS
+  From: 001da5f2 To: 006909cc Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 00690a16 To: 006909cc Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00690828  add.w r0,r0,#0x200
+0069082c  lsls r1,r1,#0x7
+0069082e  ldr r3,[r0,r1]
+00690830  bfi r3,r2,#0x4,#0x1
+00690834  str r3,[r0,r1]
+00690836  bx lr
+006909cc  push {r4,r5,r6,r7,r8,lr}
+006909d0  mov r4,r0
+006909d2  adds r5,r0,#0x4
+006909d4  mov r6,r1
+006909d6  mov r0,r5
+006909d8  mov r7,r2
+006909da  bl 0x0068e26c
+006909de  ldrb r1,[r4,#0x8]
+006909e0  movs r2,#0x0
+006909e2  bl 0x00690858
+006909e6  mov r0,r5
+006909e8  bl 0x0068e26c
+006909ec  ldrb r1,[r4,#0x8]
+006909ee  mov r2,r7
+006909f0  bl 0x00690808
+006909f4  mov r0,r5
+006909f6  bl 0x0068e26c
+006909fa  ldrb r1,[r4,#0x8]
+006909fc  mov r2,r6
+006909fe  pop.w {r4,r5,r6,r7,r8,lr}
+00690a02  b.w 0x00690828
+DECOMPILED
+
+void FUN_006909cc(int param_1,uint param_2,undefined4 param_3)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  int iVar3;
+  
+  iVar3 = param_1 + 4;
+  uVar1 = FUN_0068e26c(iVar3);
+  FUN_00690858(uVar1,*(undefined1 *)(param_1 + 8),0);
+  uVar1 = FUN_0068e26c(iVar3);
+  FUN_00690808(uVar1,*(undefined1 *)(param_1 + 8),param_3);
+  iVar3 = FUN_0068e26c(iVar3);
+  iVar2 = (uint)*(byte *)(param_1 + 8) * 0x80;
+  *(uint *)(iVar3 + 0x200 + iVar2) =
+       *(uint *)(iVar3 + 0x200 + iVar2) & 0xffffffef | (param_2 & 1) << 4;
+  return;
+}
+
+
+

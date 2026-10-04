@@ -1,0 +1,19 @@
+{
+ "input": "D:\\Desktop\\a6500\\experiments\\runtime\\20260901_a6500_movie_dump\\sdcard_dumps\\RD1.BIN",
+ "size": 2097152,
+ "width": 0,
+ "height": 0,
+ "bits": 0,
+ "auto": {
+  "u8": {
+   "min": 0,
+   "max": 255,
+   "mean": 160.50755643844604
+  },
+  "u16le": {
+   "min": 0,
+   "max": 65535,
+   "mean": 41133.24182319641
+  }
+ }
+}

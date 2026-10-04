@@ -1,0 +1,127 @@
+ADDRESS 0002b248
+FUNCTION GetDualRecStillMode entry=0002b248 body=[[0002b248, 0002b2b3]]
+CALLERS
+  From: Entry Point To: 0002b248 Type: EXTERNAL Op: -1 DEFAULT
+  From: 00052510 To: 0002b248 Type: DATA Op: 0 DEFAULT
+  From: 00020e5c To: 0002b248 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+0002b248  ldr r1,[0x0002b2b4]
+0002b24a  push {r3,r4,r5,r6,r7,r8,r9,lr}
+0002b24e  mov r5,r0
+0002b250  add r7,sp,#0x0
+0002b252  ldr r0,[r0,#0x18]
+0002b254  add r1,pc
+0002b256  blx 0x00021a20
+0002b25a  ldr r4,[r5,#0x8]
+0002b25c  cbz r4,0x0002b2ae
+0002b25e  adds r4,#0x78
+0002b260  movs r3,#0x0
+0002b262  mov r2,r3
+0002b264  mov r0,r3
+0002b266  ldr r6,[r4,#0x8]
+0002b268  ldr.w r8,[r4,#0xc]
+0002b26c  mov r4,r3
+0002b26e  b 0x0002b29e
+0002b270  adds r1,r6,r3
+0002b272  ldr.w lr,[r1,#0x4]
+0002b276  cmp.w lr,#0x0
+0002b27a  beq 0x0002b29a
+0002b27c  ldr.w r9,[r6,r3]
+0002b280  movs r1,#0x0
+0002b282  b 0x0002b296
+0002b284  add.w r12,lr,r1, lsl #0x3
+0002b288  ldr.w r12,[r12,#0x4]
+0002b28c  cmp r0,r12
+0002b28e  itt ls
+0002b290  mov.ls r4,r2
+0002b292  mov.ls r0,r12
+0002b294  adds r1,#0x1
+0002b296  cmp r1,r9
+0002b298  bcc 0x0002b284
+0002b29a  adds r2,#0x1
+0002b29c  adds r3,#0x8
+0002b29e  cmp r2,r8
+0002b2a0  bcc 0x0002b270
+0002b2a2  ldr r1,[0x0002b2b8]
+0002b2a4  mov r2,r4
+0002b2a6  ldr r0,[r5,#0x18]
+0002b2a8  add r1,pc
+0002b2aa  blx 0x00021a20
+0002b2ae  mov r0,r4
+0002b2b0  pop.w {r3,r4,r5,r6,r7,r8,r9,pc}
+DECOMPILED
+
+/* MprCtrlStillMgr::GetDualRecStillMode() */
+
+uint MprCtrlStillMgr::GetDualRecStillMode(void)
+
+{
+  int in_r0;
+  uint uVar1;
+  uint uVar2;
+  uint uVar3;
+  int iVar4;
+  int iVar5;
+  uint uVar6;
+  uint uVar7;
+  int iVar8;
+  
+  MonCtrl::ConPrintfMessage(*(char **)(in_r0 + 0x18),DAT_0002b2b4 + 0x2b258);
+  iVar5 = *(int *)(in_r0 + 8);
+  uVar6 = 0;
+  if (iVar5 != 0) {
+    iVar4 = 0;
+    uVar1 = 0;
+    uVar6 = 0;
+    for (uVar3 = 0; uVar3 < *(uint *)(iVar5 + 0x84); uVar3 = uVar3 + 1) {
+      iVar8 = *(int *)(*(int *)(iVar5 + 0x80) + iVar4 + 4);
+      if (iVar8 != 0) {
+        for (uVar2 = 0; uVar2 < *(uint *)(*(int *)(iVar5 + 0x80) + iVar4); uVar2 = uVar2 + 1) {
+          uVar7 = *(uint *)(iVar8 + uVar2 * 8 + 4);
+          if (uVar1 <= uVar7) {
+            uVar1 = uVar7;
+            uVar6 = uVar3;
+          }
+        }
+      }
+      iVar4 = iVar4 + 8;
+    }
+    MonCtrl::ConPrintfMessage(*(char **)(in_r0 + 0x18),DAT_0002b2b8 + 0x2b2ac,uVar6);
+  }
+  return uVar6;
+}
+
+
+
+ADDRESS 00033220
+FUNCTION CnvDualRecSize entry=00033220 body=[[00033220, 00033235]]
+CALLERS
+  From: Entry Point To: 00033220 Type: EXTERNAL Op: -1 DEFAULT
+  From: 00052828 To: 00033220 Type: DATA Op: 0 DEFAULT
+  From: 0002181c To: 00033220 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+00033220  cmp r0,#0x3
+00033222  push {r7,lr}
+00033224  add r7,sp,#0x0
+00033226  bhi 0x00033232
+00033228  ldr r3,[0x00033238]
+0003322a  add r3,pc
+0003322c  ldr.w r0,[r3,r0,lsl #0x2]
+00033230  pop {r7,pc}
+00033232  movs r0,#0x0
+00033234  pop {r7,pc}
+DECOMPILED
+
+/* UtilStillSize::CnvDualRecSize(int) */
+
+undefined4 UtilStillSize::CnvDualRecSize(int param_1)
+
+{
+  if ((uint)param_1 < 4) {
+    return *(undefined4 *)(DAT_00033238 + 0x3322e + param_1 * 4);
+  }
+  return 0;
+}
+
+
+

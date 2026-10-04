@@ -1,0 +1,17 @@
+# PMCA 临时 service shell
+python.exe tools/vendor/Sony-PMCA-RE/pmca-console.py serviceshell
+shell
+
+# 相机侧只读基线
+uname -a
+cat /proc/version
+cat /proc/cmdline
+cat /proc/meminfo
+cat /proc/iomem
+cat /proc/modules
+cat /proc/devices
+ls -la /dev/stream /dev/stream2 /dev/dmac /dev/uipc /dev/mcmn /dev/ldec /dev/hdmi /dev/mmca1 /dev/ms1 /dev/dnflasha16 /dev/nflasha1 /dev/nflasha3 /dev/nflasha7 /dev/nflasha15 /dev/dnflasha7 /dev/dnflasha15
+dmesg | /bin/busybox tail -n 200
+cat /proc/mounts
+exit
+exit

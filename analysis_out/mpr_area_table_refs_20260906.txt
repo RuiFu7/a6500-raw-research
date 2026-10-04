@@ -1,0 +1,31 @@
+ADDRESS 00b6e684
+TO 00b6e684
+  006c880a -> 00b6e684 type=WRITE op=1 fn=StreamAreaFree:006c8798
+  006c911e -> 00b6e684 type=WRITE op=1 fn=FUN_006c8ff4:006c8ff4
+  006c9118 -> 00b6e684 type=PARAM op=0 fn=FUN_006c8ff4:006c8ff4
+  006c913e -> 00b6e684 type=WRITE op=1 fn=FUN_006c8ff4:006c8ff4
+  006c8f9c -> 00b6e684 type=WRITE op=1 fn=GetMemoryInformation:004e4f2c
+  006c8f76 -> 00b6e684 type=WRITE op=1 fn=GetMemoryInformation:004e4f2c
+  006c5018 -> 00b6e684 type=DATA op=0 fn=
+  006c4f96 -> 00b6e684 type=READ op=1 fn=FUN_006c4f4c:006c4f4c
+  006c4f94 -> 00b6e684 type=PARAM op=0 fn=FUN_006c4f4c:006c4f4c
+FROM 00b6e684
+
+ADDRESS 00b6e028
+TO 00b6e028
+  006c4efe -> 00b6e028 type=PARAM op=0 fn=FUN_006c4ef0:006c4ef0
+  006c6c28 -> 00b6e028 type=DATA op=0 fn=
+  006c6d10 -> 00b6e028 type=DATA op=0 fn=
+  006c6c98 -> 00b6e028 type=PARAM op=0 fn=FUN_006c6c34:006c6c34
+  006c6ba6 -> 00b6e028 type=PARAM op=0 fn=
+FROM 00b6e028
+
+ADDRESS 00b6dfe0
+TO 00b6dfe0
+  006c4f12 -> 00b6dfe0 type=PARAM op=0 fn=FUN_006c4ef0:006c4ef0
+  006c6c30 -> 00b6dfe0 type=DATA op=0 fn=
+  006c6d18 -> 00b6dfe0 type=DATA op=0 fn=
+  006c6cd6 -> 00b6dfe0 type=PARAM op=0 fn=FUN_006c6c34:006c6c34
+  006c6be4 -> 00b6dfe0 type=PARAM op=0 fn=
+FROM 00b6dfe0
+

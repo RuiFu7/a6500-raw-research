@@ -1,0 +1,179 @@
+== dmm_ctrl_SyncMsg @ 0x71b8 (thumb=False)
+  0x000071b8: mov      ip, sp
+  0x000071bc: push     {r4, r5, r6, r7, r8, fp, ip, lr, pc}
+  0x000071c0: sub      fp, ip, #4
+  0x000071c4: sub      sp, sp, #0xf4
+  0x000071c8: mov      r5, r0
+  0x000071cc: mov      r4, r1
+  0x000071d0: sub      r0, fp, #0x94
+  0x000071d4: mov      r1, #0x54
+  0x000071d8: mov      r6, r2
+  0x000071dc: bl       #0x71dc ; __memzero
+  0x000071e0: sub      r0, fp, #0x104
+  0x000071e4: mov      r1, #0x70
+  0x000071e8: bl       #0x71e8 ; __memzero
+  0x000071ec: cmp      r6, #0x17
+  0x000071f0: sub      r2, fp, #0x94
+  0x000071f4: mov      r1, r4
+  0x000071f8: add      r0, r2, #0xc
+  0x000071fc: movhi    r2, #0x18
+  0x00007200: movls    r2, r6
+  0x00007204: str      r5, [fp, #-0x90]
+  0x00007208: bl       #0x7208 ; memcpy
+  0x0000720c: cmp      r6, #0
+  0x00007210: beq      #0x7220
+  0x00007214: mov      r0, r4
+  0x00007218: mov      r1, r6
+  0x0000721c: bl       #0x721c ; __memzero
+  0x00007220: bl       #0x7220 ; dmm_udm_slock_spin_lock
+  0x00007224: uxth     r0, r0
+  0x00007228: sxth     r7, r0
+  0x0000722c: cmp      r7, #0
+  0x00007230: bne      #0x72bc
+  0x00007234: bl       #0x548c
+  0x00007238: sub      r5, fp, #0x24
+  0x0000723c: mov      r8, r0
+  0x00007240: str      r0, [r5, #-0x70]!
+  0x00007244: mov      r0, r5
+  0x00007248: bl       #0x54c8
+  0x0000724c: ldr      r3, [fp, #-0x90]
+  0x00007250: mov      r1, #0
+  0x00007254: mov      r2, #2
+  0x00007258: str      r3, [sp]
+  0x0000725c: add      r3, r5, #0xc
+  0x00007260: str      r3, [sp, #4]
+  0x00007264: mov      r3, r8
+  0x00007268: str      r0, [sp, #8]
+  0x0000726c: mov      r0, #0
+  0x00007270: bl       #0x7270 ; dmm_log_Put
+  0x00007274: ldrh     r3, [fp, #-0x88]
+  0x00007278: cmp      r3, #0x1b
+  0x0000727c: bls      #0x7294
+  0x00007280: sub      r1, fp, #0x104
+  0x00007284: mov      r0, r5
+  0x00007288: add      r2, r1, #0x10
+  0x0000728c: bl       #0x5368 ; dmm_ctrl_InvMsgHdlr
+  0x00007290: b        #0x72e0
+  0x00007294: ldr      r2, [pc, #0x1d4]
+  0x00007298: cmp      r3, #1
+  0x0000729c: sub      r1, fp, #0x104
+  0x000072a0: streq    r7, [fp, #-0x7c]
+  0x000072a4: add      r3, r2, r3, lsl #2
+  0x000072a8: mov      r0, r5
+  0x000072ac: add      r2, r1, #0x10
+  0x000072b0: ldr      r3, [r3, #0x70]
+  0x000072b4: blx      r3
+  0x000072b8: b        #0x72e0
+  0x000072bc: ldrh     r3, [fp, #-0x88]
+  0x000072c0: sub      r2, fp, #0x200
+  0x000072c4: strh     r0, [r2, #0xfe]
+  0x000072c8: mvn      r3, r3, lsl #17
+  0x000072cc: mvn      r3, r3, lsr #17
+  0x000072d0: strh     r3, [r2, #0xfc]
+  0x000072d4: ldrh     r3, [fp, #-0x74]
+  0x000072d8: strh     r3, [fp, #-0xfe]
+  0x000072dc: b        #0x72e8
+  0x000072e0: cmp      r0, #5
+  0x000072e4: bhi      #0x73e0
+  0x000072e8: sub      r0, fp, #0x104
+  0x000072ec: sub      r5, fp, #0x40
+  0x000072f0: bl       #0x5500
+  0x000072f4: sub      r1, fp, #0x104
+  0x000072f8: cmp      r0, r6
+  0x000072fc: movlo    r6, r0
+  0x00007300: mov      r0, r4
+  0x00007304: uxth     r6, r6
+  0x00007308: mov      r2, r6
+  0x0000730c: bl       #0x730c ; memcpy
+  0x00007310: sub      r2, fp, #0x200
+  0x00007314: mov      r0, #0
+  0x00007318: mov      r1, #0
+  0x0000731c: ldrsh    r3, [r2, #0xfe]
+  0x00007320: cmp      r3, #0
+  0x00007324: ldr      r3, [fp, #-0x90]
+  0x00007328: movge    r2, #4
+  0x0000732c: movlt    r2, #0xa
+  0x00007330: stm      sp, {r3, r4, r6}
+  0x00007334: ldr      r3, [fp, #-0x94]
+  0x00007338: bl       #0x7338 ; dmm_log_Put
+  0x0000733c: mov      r0, r5
+  0x00007340: mov      r1, #0x18
+  0x00007344: bl       #0x7344 ; __memzero
+  0x00007348: ldrh     r3, [fp, #-0x88]
+  0x0000734c: cmp      r3, #0x16
+  0x00007350: bhi      #0x73e0
+  0x00007354: ldrsh    r3, [fp, #-0x88]
+  0x00007358: mov      r2, #1
+  0x0000735c: lsl      r2, r2, r3
+  0x00007360: ldr      r3, [pc, #0x10c]
+  0x00007364: and      r3, r2, r3
+  0x00007368: cmp      r3, #0
+  0x0000736c: beq      #0x73e0
+  0x00007370: ldr      r3, [pc, #0x100]
+  0x00007374: ldr      r4, [r3, #0x134]
+  0x00007378: cmp      r4, #0
+  0x0000737c: bne      #0x73e0
+  0x00007380: bl       #0x7380 ; dmm_ctrl_GetCmdQueueNum
+  0x00007384: cmp      r0, #0
+  0x00007388: beq      #0x73e0
+  0x0000738c: ldr      r0, [pc, #0xe8]
+  0x00007390: mov      r1, r5
+  0x00007394: mov      r2, #0x18
+  0x00007398: mvn      r3, #6
+  0x0000739c: strh     r4, [fp, #-0x40]
+  0x000073a0: strh     r3, [fp, #-0x3e]
+  0x000073a4: bl       #0x73a4 ; dmm_uipc_SndMsg
+  0x000073a8: cmp      r0, #0
+  0x000073ac: beq      #0x73d4
+  0x000073b0: ldr      r3, [pc, #0xc4]
+  0x000073b4: mov      r0, #0
+  0x000073b8: mov      r1, #0
+  0x000073bc: mov      r2, #7
+  0x000073c0: stm      sp, {r3, r5}
+  0x000073c4: mov      r3, #0x18
+  0x000073c8: str      r3, [sp, #8]
+  0x000073cc: mov      r3, r4
+  0x000073d0: bl       #0x73d0 ; dmm_log_Put
+  0x000073d4: ldr      r3, [pc, #0x9c]
+  0x000073d8: mov      r2, #1
+  0x000073dc: str      r2, [r3, #0x134]
+  0x000073e0: bl       #0x73e0 ; dmm_log_lkm_GetErrorLogStatus
+  0x000073e4: subs     r6, r0, #0
+  0x000073e8: bne      #0x7464
+  0x000073ec: bl       #0x73ec ; dmm_udm_slock_gettime
+  0x000073f0: ldrh     r5, [fp, #-0x88]
+  0x000073f4: cmp      r5, #0x1a
+  0x000073f8: str      r0, [fp, #-0x28]
+  0x000073fc: bhi      #0x7464
+  0x00007400: ldr      r4, [pc, #0x70]
+  0x00007404: add      r5, r4, r5, lsl #2
+  0x00007408: ldr      r3, [r5, #0x138]
+  0x0000740c: cmp      r3, r0
+  0x00007410: bhs      #0x7464
+  0x00007414: bl       #0x7414 ; dmm_timer_GetSyscnt
+  0x00007418: ldrh     r3, [fp, #-0x88]
+  0x0000741c: ldr      r2, [fp, #-0x28]
+  0x00007420: mov      r1, r6
+  0x00007424: add      r4, r4, r3, lsl #2
+  0x00007428: str      r2, [r4, #0x138]
+  0x0000742c: ldr      r2, [fp, #-0x90]
+  0x00007430: str      r3, [r4, #0x288]
+  0x00007434: add      r3, r3, #0x80000000
+  0x00007438: str      r2, [r4, #0x218]
+  0x0000743c: str      r0, [r5, #0x1a8]
+  0x00007440: ldr      r0, [fp, #-0x84]
+  0x00007444: str      r0, [r4, #0x2f8]
+  0x00007448: str      r2, [sp]
+  0x0000744c: sub      r2, fp, #0x28
+  0x00007450: str      r2, [sp, #4]
+  0x00007454: mov      r2, #4
+  0x00007458: str      r2, [sp, #8]
+  0x0000745c: add      r2, r2, #9
+  0x00007460: bl       #0x7460 ; dmm_log_Put
+  0x00007464: bl       #0x7464 ; dmm_udm_slock_spin_unlock
+  0x00007468: sub      sp, fp, #0x20
+  0x0000746c: ldm      sp, {r4, r5, r6, r7, r8, fp, sp, pc}
+  0x00007470: andeq    pc, r0, ip, ror #22
+  0x00007474: subseq   sl, r0, r0, asr r0
+  0x00007478: andeq    ip, r5, r0, asr #12
+  0x0000747c: rsbeq    r0, r1, ip, lsr r0

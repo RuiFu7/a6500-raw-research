@@ -1,0 +1,23 @@
+RANGE 003d2b80-003d2cd0
+DATA 003d2cbc  addr 009622c4
+DATA 003d2cc0  addr 000029b0
+DATA 003d2cc4  addr 00888418
+DATA 003d2cc8  addr 008bace7
+DATA 003d2ccc  addr 008bacd2
+003d2c92  ldrb r3,[r3,#0x2]
+003d2c94  movs r2,#0x1
+003d2c96  strb r3,[r0,#0xc]
+003d2c98  strb r2,[r0,#0xb]
+003d2c9a  strb.w r3,[r4,#0xfc]
+003d2c9e  ldr r3,[0x003d2ccc]
+003d2ca0  ldrb.w r2,[sp,#0x7]
+003d2ca4  add r3,pc
+003d2ca6  ldrb r1,[r3,#0x0]
+003d2ca8  cmp r1,r2
+003d2caa  beq 0x003d2cb8
+003d2cac  strb r2,[r3,#0x0]
+003d2cae  movs r0,#0x8f
+003d2cb0  add.w r1,sp,#0x7
+003d2cb4  bl 0x003ce4b4
+003d2cb8  movs r0,#0x0
+003d2cba  pop {r1,r2,r3,r4,r5,pc}

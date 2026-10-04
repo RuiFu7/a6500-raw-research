@@ -1,0 +1,323 @@
+ADDRESS 002c1b78
+FUNCTION FUN_002c1b78 entry=002c1b78 body=[[002c1b78, 002c1b91] [002c1bb4, 002c1bfb]]
+CALLERS
+  From: 002c1d6e To: 002c1b78 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+002c1b78  push {r3,lr}
+002c1b7a  add.w r3,r0,#0x5200
+002c1b7e  ldr.w r3,[r3,#0x94]
+002c1b82  cmp r3,#0x0
+002c1b84  bne 0x002c1bf0
+002c1b86  ldr.w r3,[r0,#0x1f0]
+002c1b8a  cmp r3,#0x21
+002c1b8c  bhi 0x002c1be0
+002c1b8e  tbb [pc,r3]
+002c1bb4  ldr r0,[r0,#0x70]
+002c1bb6  movw r3,#0x2f5
+002c1bba  movw r2,#0x1df
+002c1bbe  cmp r0,#0x1
+002c1bc0  ite ne
+002c1bc2  mov.ne r0,r2
+002c1bc4  mov.eq r0,r3
+002c1bc6  pop {r3,pc}
+002c1bc8  add.w r0,r0,#0x5a00
+002c1bcc  movw r3,#0x12d
+002c1bd0  ldr.w r0,[r0,#0xe8]
+002c1bd4  cmp r0,#0x3
+002c1bd6  ite eq
+002c1bd8  mov.eq r0,r3
+002c1bda  mov.ne.w r0,#0x132
+002c1bde  pop {r3,pc}
+002c1be0  ldr r0,[0x002c1bfc]
+002c1be2  movw r2,#0x74c
+002c1be6  ldr r1,[0x002c1c00]
+002c1be8  add r0,pc
+002c1bea  add r1,pc
+002c1bec  bl 0x002e6f88
+002c1bf0  movw r0,#0x1df
+002c1bf4  pop {r3,pc}
+002c1bf6  movw r0,#0x1df
+002c1bfa  pop {r3,pc}
+DECOMPILED
+
+undefined4 FUN_002c1b78(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  undefined4 uVar1;
+  
+  if (*(int *)(param_1 + 0x5294) == 0) {
+    switch(*(undefined4 *)(param_1 + 0x1f0)) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 6:
+    case 8:
+    case 9:
+    case 10:
+    case 0x13:
+    case 0x14:
+    case 0x17:
+    case 0x18:
+    case 0x19:
+    case 0x1a:
+    case 0x1b:
+    case 0x1c:
+    case 0x1f:
+    case 0x20:
+    case 0x21:
+      return 0x1df;
+    default:
+      FUN_002e6f88(DAT_002c1bfc + 0x2c1bec,DAT_002c1c00 + 0x2c1bee,0x74c,
+                   *(undefined4 *)(param_1 + 0x1f0),param_4);
+      break;
+    case 5:
+      if (*(int *)(param_1 + 0x70) == 1) {
+        uVar1 = 0x2f5;
+      }
+      else {
+        uVar1 = 0x1df;
+      }
+      return uVar1;
+    case 7:
+      if (*(int *)((int)&DAT_00005ae8 + param_1) == 3) {
+        uVar1 = 0x12d;
+      }
+      else {
+        uVar1 = 0x132;
+      }
+      return uVar1;
+    }
+  }
+  return 0x1df;
+}
+
+
+
+ADDRESS 002c1c04
+FUNCTION FUN_002c1c04 entry=002c1c04 body=[[002c1c04, 002c1c5d]]
+CALLERS
+  From: 002c1ca8 To: 002c1c04 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 002c1e32 To: 002c1c04 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+002c1c04  push {r3,lr}
+002c1c06  ldr.w r3,[r0,#0x1f0]
+002c1c0a  cmp r3,#0x7
+002c1c0c  beq 0x002c1c4e
+002c1c0e  add.w r0,r0,#0x5c00
+002c1c12  ldrb.w r3,[r0,#0x65]
+002c1c16  cbz r3,0x002c1c52
+002c1c18  ldr r3,[r0,#0x6c]
+002c1c1a  sub.w r2,r3,#0x5000
+002c1c1e  subs r2,#0x2
+002c1c20  cmp r2,#0x7
+002c1c22  bhi 0x002c1c3c
+002c1c24  movs r1,#0x1
+002c1c26  lsls.w r2,r1,r2
+002c1c2a  tst r2,#0x68
+002c1c2e  bne 0x002c1c38
+002c1c30  tst r2,#0x81
+002c1c34  bne 0x002c1c58
+002c1c36  b 0x002c1c3c
+002c1c38  ldr r0,[r0,#0x74]
+002c1c3a  pop {r3,pc}
+002c1c3c  ldr r0,[0x002c1c60]
+002c1c3e  movw r2,#0x773
+002c1c42  ldr r1,[0x002c1c64]
+002c1c44  add r0,pc
+002c1c46  add r1,pc
+002c1c48  bl 0x002e6f88
+002c1c4c  b 0x002c1c52
+002c1c4e  movs r0,#0x0
+002c1c50  pop {r3,pc}
+002c1c52  movw r0,#0x1df
+002c1c56  pop {r3,pc}
+002c1c58  movw r0,#0x1df
+002c1c5c  pop {r3,pc}
+DECOMPILED
+
+undefined4 FUN_002c1c04(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  uint uVar1;
+  
+  if (*(int *)(param_1 + 0x1f0) == 7) {
+    return 0;
+  }
+  if (*(char *)(param_1 + 0x5c65) != '\0') {
+    uVar1 = *(int *)(param_1 + 0x5c6c) - 0x5002;
+    if (uVar1 < 8) {
+      uVar1 = 1 << (uVar1 & 0xff);
+      if ((uVar1 & 0x68) != 0) {
+        return *(undefined4 *)(param_1 + 0x5c74);
+      }
+      if ((uVar1 & 0x81) != 0) {
+        return 0x1df;
+      }
+    }
+    FUN_002e6f88(DAT_002c1c60 + 0x2c1c48,DAT_002c1c64 + 0x2c1c4a,0x773,*(int *)(param_1 + 0x5c6c),
+                 param_4);
+  }
+  return 0x1df;
+}
+
+
+
+ADDRESS 002c1ed4
+FUNCTION FUN_002c1ed4 entry=002c1ed4 body=[[002c1ed4, 002c1ef1]]
+CALLERS
+  From: 002c1f92 To: 002c1ed4 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+002c1ed4  ldr.w r3,[r0,#0x1f0]
+002c1ed8  cmp r3,#0x7
+002c1eda  beq 0x002c1eec
+002c1edc  ldr r0,[r0,#0x38]
+002c1ede  ldr r3,[0x002c1ef4]
+002c1ee0  cmp r0,#0x2
+002c1ee2  ite ne
+002c1ee4  mov.ne r0,r3
+002c1ee6  mov.eq.w r0,#0x224
+002c1eea  bx lr
+002c1eec  mov.w r0,#0x144
+002c1ef0  bx lr
+DECOMPILED
+
+undefined4 FUN_002c1ed4(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  if (*(int *)(param_1 + 0x1f0) != 7) {
+    uVar1 = DAT_002c1ef4;
+    if (*(int *)(param_1 + 0x38) == 2) {
+      uVar1 = 0x224;
+    }
+    return uVar1;
+  }
+  return 0x144;
+}
+
+
+
+ADDRESS 002c1ef8
+FUNCTION FUN_002c1ef8 entry=002c1ef8 body=[[002c1ef8, 002c1f2f]]
+CALLERS
+  From: 002c1fa0 To: 002c1ef8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+002c1ef8  ldr.w r3,[r0,#0x1f0]
+002c1efc  cmp r3,#0x7
+002c1efe  beq 0x002c1f06
+002c1f00  cmp r3,#0x15
+002c1f02  bne 0x002c1f0c
+002c1f04  b 0x002c1f26
+002c1f06  movw r0,#0x133
+002c1f0a  bx lr
+002c1f0c  ldr r3,[r0,#0x38]
+002c1f0e  cmp r3,#0x2
+002c1f10  beq 0x002c1f2a
+002c1f12  ldrb.w r0,[r0,#0x805]
+002c1f16  movw r3,#0x2f3
+002c1f1a  ldr r2,[0x002c1f30]
+002c1f1c  cmp r0,#0x0
+002c1f1e  ite eq
+002c1f20  mov.eq r0,r2
+002c1f22  mov.ne r0,r3
+002c1f24  bx lr
+002c1f26  ldr r0,[0x002c1f34]
+002c1f28  bx lr
+002c1f2a  movw r0,#0x223
+002c1f2e  bx lr
+DECOMPILED
+
+undefined4 FUN_002c1ef8(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  if (*(int *)(param_1 + 0x1f0) == 7) {
+    return 0x133;
+  }
+  if (*(int *)(param_1 + 0x1f0) == 0x15) {
+    return DAT_002c1f34;
+  }
+  if (*(int *)(param_1 + 0x38) != 2) {
+    uVar1 = DAT_002c1f30;
+    if (*(char *)(param_1 + 0x805) != '\0') {
+      uVar1 = 0x2f3;
+    }
+    return uVar1;
+  }
+  return 0x223;
+}
+
+
+
+ADDRESS 002c1c40
+FUNCTION FUN_002c1c04 entry=002c1c04 body=[[002c1c04, 002c1c5d]]
+CALLERS
+  From: 002c1ca8 To: 002c1c04 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 002c1e32 To: 002c1c04 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+002c1c04  push {r3,lr}
+002c1c06  ldr.w r3,[r0,#0x1f0]
+002c1c0a  cmp r3,#0x7
+002c1c0c  beq 0x002c1c4e
+002c1c0e  add.w r0,r0,#0x5c00
+002c1c12  ldrb.w r3,[r0,#0x65]
+002c1c16  cbz r3,0x002c1c52
+002c1c18  ldr r3,[r0,#0x6c]
+002c1c1a  sub.w r2,r3,#0x5000
+002c1c1e  subs r2,#0x2
+002c1c20  cmp r2,#0x7
+002c1c22  bhi 0x002c1c3c
+002c1c24  movs r1,#0x1
+002c1c26  lsls.w r2,r1,r2
+002c1c2a  tst r2,#0x68
+002c1c2e  bne 0x002c1c38
+002c1c30  tst r2,#0x81
+002c1c34  bne 0x002c1c58
+002c1c36  b 0x002c1c3c
+002c1c38  ldr r0,[r0,#0x74]
+002c1c3a  pop {r3,pc}
+002c1c3c  ldr r0,[0x002c1c60]
+002c1c3e  movw r2,#0x773
+002c1c42  ldr r1,[0x002c1c64]
+002c1c44  add r0,pc
+002c1c46  add r1,pc
+002c1c48  bl 0x002e6f88
+002c1c4c  b 0x002c1c52
+002c1c4e  movs r0,#0x0
+002c1c50  pop {r3,pc}
+002c1c52  movw r0,#0x1df
+002c1c56  pop {r3,pc}
+002c1c58  movw r0,#0x1df
+002c1c5c  pop {r3,pc}
+DECOMPILED
+
+undefined4 FUN_002c1c04(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  uint uVar1;
+  
+  if (*(int *)(param_1 + 0x1f0) == 7) {
+    return 0;
+  }
+  if (*(char *)(param_1 + 0x5c65) != '\0') {
+    uVar1 = *(int *)(param_1 + 0x5c6c) - 0x5002;
+    if (uVar1 < 8) {
+      uVar1 = 1 << (uVar1 & 0xff);
+      if ((uVar1 & 0x68) != 0) {
+        return *(undefined4 *)(param_1 + 0x5c74);
+      }
+      if ((uVar1 & 0x81) != 0) {
+        return 0x1df;
+      }
+    }
+    FUN_002e6f88(DAT_002c1c60 + 0x2c1c48,DAT_002c1c64 + 0x2c1c4a,0x773,*(int *)(param_1 + 0x5c6c),
+                 param_4);
+  }
+  return 0x1df;
+}
+
+
+

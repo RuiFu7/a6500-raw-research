@@ -1,0 +1,71 @@
+ADDRESS 005050c4
+FUNCTION FUN_005050c4 entry=005050c4 body=[[005050c4, 0050512d]]
+CALLERS
+LISTING
+005050c4  push {r4,r5,r6,lr}
+005050c6  mov r4,r0
+005050c8  ldrb r1,[r0,#0x8]
+005050ca  ldr r0,[0x00505130]
+005050cc  ldrb r2,[r4,#0x9]
+005050ce  add r0,pc
+005050d0  ldr r5,[0x00505134]
+005050d2  str.w r1,[r0,#0x610]
+005050d6  add r5,pc
+005050d8  str.w r2,[r0,#0x614]
+005050dc  ldrb r6,[r4,#0xb]
+005050de  ldrb r3,[r4,#0xa]
+005050e0  orr.w r3,r3,r6, lsl #0x8
+005050e4  ldrb r6,[r4,#0xc]
+005050e6  orr.w r3,r3,r6, lsl #0x10
+005050ea  ldrb r6,[r4,#0xd]
+005050ec  orr.w r3,r3,r6, lsl #0x18
+005050f0  str.w r3,[r0,#0x618]
+005050f4  ldr r0,[0x00505138]
+005050f6  ldr r0,[r5,r0]
+005050f8  ldrb.w r0,[r0,#0x32]
+005050fc  cbz r0,0x00505106
+005050fe  ldr r0,[0x0050513c]
+00505100  add r0,pc
+00505102  bl 0x002e6f88
+00505106  ldrb r1,[r4,#0x5]
+00505108  ldrb r3,[r4,#0x4]
+0050510a  ldrb r0,[r4,#0x3]
+0050510c  orr.w r3,r3,r1, lsl #0x8
+00505110  ldrb r1,[r4,#0x6]
+00505112  ldrb r2,[r4,#0x2]
+00505114  orr.w r3,r3,r1, lsl #0x10
+00505118  ldrb r1,[r4,#0x7]
+0050511a  orr.w r0,r2,r0, lsl #0x8
+0050511e  ldr r2,[0x00505140]
+00505120  orr.w r1,r3,r1, lsl #0x18
+00505124  add r2,pc
+00505126  bl 0x005047dc
+0050512a  movs r0,#0x1
+0050512c  pop {r4,r5,r6,pc}
+DECOMPILED
+
+undefined4 FUN_005050c4(int param_1)
+
+{
+  byte bVar1;
+  int iVar2;
+  int iVar3;
+  
+  iVar3 = DAT_00505134;
+  iVar2 = DAT_00505130;
+  bVar1 = *(byte *)(param_1 + 9);
+  *(uint *)(DAT_00505130 + 0x5056e2) = (uint)*(byte *)(param_1 + 8);
+  *(uint *)(iVar2 + 0x5056e6) = (uint)bVar1;
+  *(undefined4 *)(iVar2 + 0x5056ea) = *(undefined4 *)(param_1 + 10);
+  if (*(char *)(*(int *)(iVar3 + 0x5050da + DAT_00505138) + 0x32) != '\0') {
+    FUN_002e6f88(DAT_0050513c + 0x505104);
+  }
+  FUN_005047dc(*(undefined2 *)(param_1 + 2),*(undefined4 *)(param_1 + 4),DAT_00505140 + 0x505128);
+  return 1;
+}
+
+
+
+ADDRESS 005016f0
+NO FUNCTION
+

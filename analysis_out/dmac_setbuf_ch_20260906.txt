@@ -1,0 +1,182 @@
+== boss_hw_dmac_proc_setbuf_reg_ch @ 0x170c (thumb=False)
+  0x170c: mov	ip, sp 
+  0x1710: push	{r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc} 
+  0x1714: sub	fp, ip, #4 
+  0x1718: sub	sp, sp, #0xc 
+  0x171c: subs	r4, r0, #0 
+  0x1720: str	r1, [fp, #-0x30] 
+  0x1724: mov	r5, r2 
+  0x1728: moveq	r0, r4 
+  0x172c: beq	#0x1760 
+  0x1730: ldr	r1, [r4, #4] 
+  0x1734: ldr	r3, [fp, #-0x30] 
+  0x1738: cmp	r1, r3 
+  0x173c: movls	r0, #0 
+  0x1740: bls	#0x1760 
+  0x1744: ldr	r0, [r4] 
+  0x1748: adds	r0, r0, r3 
+  0x174c: beq	#0x1760 
+  0x1750: rsb	r1, r3, r1 
+  0x1754: ldr	r2, [pc, #0x25c] 
+  0x1758: mov	r3, r5 
+  0x175c: bl	#0x175c 
+  0x1760: ldr	r3, [fp, #-0x30] 
+  0x1764: cmp	r4, #0 
+  0x1768: add	sl, r0, r3 
+  0x176c: moveq	r0, r4 
+  0x1770: beq	#0x17a4 
+  0x1774: ldr	r1, [r4, #4] 
+  0x1778: cmp	r1, sl 
+  0x177c: movls	r0, #0 
+  0x1780: bls	#0x17a4 
+  0x1784: ldr	r0, [r4] 
+  0x1788: adds	r0, r0, sl 
+  0x178c: beq	#0x17a4 
+  0x1790: ldr	r3, [r5] 
+  0x1794: dsb	sy 
+  0x1798: ldr	r2, [pc, #0x21c] 
+  0x179c: rsb	r1, sl, r1 
+  0x17a0: bl	#0x17a0 
+  0x17a4: cmp	r4, #0 
+  0x17a8: add	r8, r0, sl 
+  0x17ac: moveq	r0, r4 
+  0x17b0: beq	#0x17e4 
+  0x17b4: ldr	r1, [r4, #4] 
+  0x17b8: cmp	r1, r8 
+  0x17bc: movls	r0, #0 
+  0x17c0: bls	#0x17e4 
+  0x17c4: ldr	r0, [r4] 
+  0x17c8: adds	r0, r0, r8 
+  0x17cc: beq	#0x17e4 
+  0x17d0: ldr	r3, [r5, #4] 
+  0x17d4: dsb	sy 
+  0x17d8: ldr	r2, [pc, #0x1e0] 
+  0x17dc: rsb	r1, r8, r1 
+  0x17e0: bl	#0x17e0 
+  0x17e4: cmp	r4, #0 
+  0x17e8: add	r7, r0, r8 
+  0x17ec: moveq	r0, r4 
+  0x17f0: beq	#0x1824 
+  0x17f4: ldr	r1, [r4, #4] 
+  0x17f8: cmp	r1, r7 
+  0x17fc: movls	r0, #0 
+  0x1800: bls	#0x1824 
+  0x1804: ldr	r0, [r4] 
+  0x1808: adds	r0, r0, r7 
+  0x180c: beq	#0x1824 
+  0x1810: ldr	r3, [r5, #8] 
+  0x1814: dsb	sy 
+  0x1818: ldr	r2, [pc, #0x1a4] 
+  0x181c: rsb	r1, r7, r1 
+  0x1820: bl	#0x1820 
+  0x1824: cmp	r4, #0 
+  0x1828: add	r6, r0, r7 
+  0x182c: moveq	r0, r4 
+  0x1830: beq	#0x1864 
+  0x1834: ldr	r1, [r4, #4] 
+  0x1838: cmp	r1, r6 
+  0x183c: movls	r0, #0 
+  0x1840: bls	#0x1864 
+  0x1844: ldr	r0, [r4] 
+  0x1848: adds	r0, r0, r6 
+  0x184c: beq	#0x1864 
+  0x1850: ldr	r3, [r5, #0xc] 
+  0x1854: dsb	sy 
+  0x1858: ldr	r2, [pc, #0x168] 
+  0x185c: rsb	r1, r6, r1 
+  0x1860: bl	#0x1860 
+  0x1864: cmp	r4, #0 
+  0x1868: add	sb, r0, r6 
+  0x186c: moveq	r0, r4 
+  0x1870: beq	#0x18a4 
+  0x1874: ldr	r1, [r4, #4] 
+  0x1878: cmp	r1, sb 
+  0x187c: movls	r0, #0 
+  0x1880: bls	#0x18a4 
+  0x1884: ldr	r0, [r4] 
+  0x1888: adds	r0, r0, sb 
+  0x188c: beq	#0x18a4 
+  0x1890: ldr	r3, [r5, #0x10] 
+  0x1894: dsb	sy 
+  0x1898: ldr	r2, [pc, #0x12c] 
+  0x189c: rsb	r1, sb, r1 
+  0x18a0: bl	#0x18a0 
+  0x18a4: cmp	r4, #0 
+  0x18a8: add	sl, r0, sb 
+  0x18ac: moveq	r0, r4 
+  0x18b0: beq	#0x18e4 
+  0x18b4: ldr	r1, [r4, #4] 
+  0x18b8: cmp	r1, sl 
+  0x18bc: movls	r0, #0 
+  0x18c0: bls	#0x18e4 
+  0x18c4: ldr	r0, [r4] 
+  0x18c8: adds	r0, r0, sl 
+  0x18cc: beq	#0x18e4 
+  0x18d0: ldr	r3, [r5, #0x14] 
+  0x18d4: dsb	sy 
+  0x18d8: ldr	r2, [pc, #0xf0] 
+  0x18dc: rsb	r1, sl, r1 
+  0x18e0: bl	#0x18e0 
+  0x18e4: cmp	r4, #0 
+  0x18e8: add	r8, r0, sl 
+  0x18ec: moveq	r0, r4 
+  0x18f0: beq	#0x1924 
+  0x18f4: ldr	r1, [r4, #4] 
+  0x18f8: cmp	r1, r8 
+  0x18fc: movls	r0, #0 
+  0x1900: bls	#0x1924 
+  0x1904: ldr	r0, [r4] 
+  0x1908: adds	r0, r0, r8 
+  0x190c: beq	#0x1924 
+  0x1910: ldr	r3, [r5, #0x18] 
+  0x1914: dsb	sy 
+  0x1918: ldr	r2, [pc, #0xb4] 
+  0x191c: rsb	r1, r8, r1 
+  0x1920: bl	#0x1920 
+  0x1924: cmp	r4, #0 
+  0x1928: add	r7, r0, r8 
+  0x192c: moveq	r0, r4 
+  0x1930: beq	#0x1964 
+  0x1934: ldr	r1, [r4, #4] 
+  0x1938: cmp	r1, r7 
+  0x193c: movls	r0, #0 
+  0x1940: bls	#0x1964 
+  0x1944: ldr	r0, [r4] 
+  0x1948: adds	r0, r0, r7 
+  0x194c: beq	#0x1964 
+  0x1950: ldr	r3, [r5, #0x1c] 
+  0x1954: dsb	sy 
+  0x1958: ldr	r2, [pc, #0x78] 
+  0x195c: rsb	r1, r7, r1 
+  0x1960: bl	#0x1960 
+  0x1964: cmp	r4, #0 
+  0x1968: add	r6, r0, r7 
+  0x196c: moveq	r0, r4 
+  0x1970: beq	#0x19a4 
+  0x1974: ldr	r1, [r4, #4] 
+  0x1978: cmp	r1, r6 
+  0x197c: movls	r0, #0 
+  0x1980: bls	#0x19a4 
+  0x1984: ldr	r0, [r4] 
+  0x1988: adds	r0, r0, r6 
+  0x198c: beq	#0x19a4 
+  0x1990: ldr	r3, [r5, #0x20] 
+  0x1994: dsb	sy 
+  0x1998: ldr	r2, [pc, #0x3c] 
+  0x199c: rsb	r1, r6, r1 
+  0x19a0: bl	#0x19a0 
+  0x19a4: ldr	r3, [fp, #-0x30] 
+  0x19a8: rsb	r6, r3, r6 
+  0x19ac: add	r0, r6, r0 
+  0x19b0: sub	sp, fp, #0x28 
+  0x19b4: ldm	sp, {r4, r5, r6, r7, r8, sb, sl, fp, sp, pc} 
+  0x19b8: andeq	r0, r0, pc, ror r6 
+  0x19bc: andeq	r0, r0, r0, lsr #13 
+  0x19c0: andeq	r0, r0, pc, lsr #13 
+  0x19c4: strheq	r0, [r0], -lr 
+  0x19c8: andeq	r0, r0, sp, asr #13 
+  0x19cc: ldrdeq	r0, r1, [r0], -ip 
+  0x19d0: andeq	r0, r0, fp, ror #13 
+  0x19d4: strdeq	r0, r1, [r0], -sl 
+  0x19d8: andeq	r0, r0, sb, lsl #14 
+  0x19dc: andeq	r0, r0, r8, lsl r7 

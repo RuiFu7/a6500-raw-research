@@ -1,0 +1,47 @@
+== dmm_ctrl_OpenUnitHdlr @ 0x5854 (thumb=False)
+  0x5854: mov	ip, sp 
+  0x5858: push	{r4, r5, r6, r7, fp, ip, lr, pc} 
+  0x585c: sub	fp, ip, #4 
+  0x5860: ldrh	r3, [r0, #0xc] 
+  0x5864: mov	r5, r1 
+  0x5868: mov	r4, r0 
+  0x586c: mvn	r3, r3, lsl #17 
+  0x5870: mvn	r3, r3, lsr #17 
+  0x5874: strh	r3, [r1] 
+  0x5878: ldrh	r3, [r0, #0x20] 
+  0x587c: strh	r3, [r1, #6] 
+  0x5880: ldrh	r3, [r0, #0xe] 
+  0x5884: strh	r3, [r1, #4] 
+  0x5888: ldrh	r1, [r0, #0x22] 
+  0x588c: cmp	r1, #0 
+  0x5890: beq	#0x58a0 
+  0x5894: cmp	r1, #4 
+  0x5898: movwne	r6, #0xfffc 
+  0x589c: bne	#0x58b0 
+  0x58a0: ldrh	r0, [r4, #0xe] 
+  0x58a4: add	r3, r5, #8 
+  0x58a8: bl	#0x58a8 
+  0x58ac: mov	r6, r0 
+  0x58b0: ldr	r3, [r4, #0x18] 
+  0x58b4: cmp	r3, #0 
+  0x58b8: beq	#0x58dc 
+  0x58bc: sxth	r2, r6 
+  0x58c0: mvn	r3, #0x3300 
+  0x58c4: cmp	r2, r3 
+  0x58c8: ldreq	r3, [r4, #8] 
+  0x58cc: moveq	r7, #3 
+  0x58d0: orreq	r3, r3, #3 
+  0x58d4: streq	r3, [r4, #8] 
+  0x58d8: beq	#0x58e0 
+  0x58dc: mov	r7, #2 
+  0x58e0: ldrh	r0, [r4, #0xe] 
+  0x58e4: mov	r3, #1 
+  0x58e8: ldr	r1, [r4, #4] 
+  0x58ec: ldrh	r2, [r4, #0xc] 
+  0x58f0: bl	#0x58f0 
+  0x58f4: strh	r6, [r5, #0xa] 
+  0x58f8: sxth	r0, r6 
+  0x58fc: bl	#0x51e4 
+  0x5900: strh	r0, [r5, #2] 
+  0x5904: mov	r0, r7 
+  0x5908: ldm	sp, {r4, r5, r6, r7, fp, sp, pc} 

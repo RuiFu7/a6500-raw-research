@@ -1,0 +1,552 @@
+ADDRESS 00366f2e
+NO FUNCTION
+
+ADDRESS 0035c278
+FUNCTION FUN_0035c278 entry=0035c278 body=[[0035c278, 0035c30b]]
+CALLERS
+LISTING
+0035c278  push {r4,r7,lr}
+0035c27a  sub sp,#0x54
+0035c27c  mov r4,r0
+0035c27e  add r7,sp,#0x0
+0035c280  ldr r1,[0x0035c318]
+0035c282  ldr r0,[r0,#0x10]
+0035c284  movs r3,#0x1
+0035c286  ldr r2,[0x0035c31c]
+0035c288  bl 0x003623ac
+0035c28c  ldr r4,[r4,#0x74]
+0035c28e  ldr.w r3,[r4,#0x138]
+0035c292  str r3,[r7,#0x0]
+0035c294  ldr.w r3,[r4,#0x140]
+0035c298  str r3,[r7,#0x4]
+0035c29a  add.w r3,r4,#0x148
+0035c29e  ldrd r0,r1,[r3,#0x0]
+0035c2a2  ldrd r2,r3,[r4,#0x10]
+0035c2a6  strd r0,r1,[r7,#0x8]
+0035c2aa  ldrd r0,r1,[r4,#0x40]
+0035c2ae  strd r2,r3,[r7,#0x10]
+0035c2b2  ldrd r2,r3,[r4,#0x58]
+0035c2b6  strd r0,r1,[r7,#0x18]
+0035c2ba  movs r1,#0x1c
+0035c2bc  ldr r0,[r4,#0x68]
+0035c2be  strd r2,r3,[r7,#0x28]
+0035c2c2  blx 0x00180e84
+0035c2c6  movs r1,#0x18
+0035c2c8  str r0,[r7,#0x30]
+0035c2ca  ldr.w r0,[r4,#0x80]
+0035c2ce  blx 0x00180e84
+0035c2d2  movs r3,#0x40
+0035c2d4  movs r1,#0x0
+0035c2d6  str r3,[r7,#0x3c]
+0035c2d8  subs r3,#0x3e
+0035c2da  str r3,[r7,#0x40]
+0035c2dc  str r3,[r7,#0x48]
+0035c2de  subs r3,#0x2
+0035c2e0  strb.w r3,[r7,#0x4c]
+0035c2e4  str r3,[r7,#0x34]
+0035c2e6  str r3,[r7,#0x44]
+0035c2e8  str r0,[r7,#0x38]
+0035c2ea  movs r0,#0x0
+0035c2ec  strd r0,r1,[r7,#0x20]
+0035c2f0  mov.w r0,#0x310
+0035c2f4  blx 0x00181038
+0035c2f8  movs r1,#0x2a
+0035c2fa  mov r2,r7
+0035c2fc  mov r4,r0
+0035c2fe  bl 0x0053a630
+0035c302  mov r0,r4
+0035c304  add.w r7,r7,#0x54
+0035c308  mov sp,r7
+0035c30a  pop {r4,r7,pc}
+DECOMPILED
+
+void * FUN_0035c278(int param_1)
+
+{
+  void *pvVar1;
+  int iVar2;
+  undefined4 local_60;
+  undefined4 local_5c;
+  undefined4 local_58;
+  undefined4 uStack_54;
+  undefined4 local_50;
+  undefined4 uStack_4c;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  undefined4 local_18;
+  undefined1 local_14;
+  
+  FUN_003623ac(*(undefined4 *)(param_1 + 0x10),DAT_0035c318,DAT_0035c31c,1);
+  iVar2 = *(int *)(param_1 + 0x74);
+  local_60 = *(undefined4 *)(iVar2 + 0x138);
+  local_5c = *(undefined4 *)(iVar2 + 0x140);
+  local_58 = *(undefined4 *)(iVar2 + 0x148);
+  uStack_54 = *(undefined4 *)(iVar2 + 0x14c);
+  local_50 = *(undefined4 *)(iVar2 + 0x10);
+  uStack_4c = *(undefined4 *)(iVar2 + 0x14);
+  local_48 = *(undefined4 *)(iVar2 + 0x40);
+  uStack_44 = *(undefined4 *)(iVar2 + 0x44);
+  local_38 = *(undefined4 *)(iVar2 + 0x58);
+  uStack_34 = *(undefined4 *)(iVar2 + 0x5c);
+  local_30 = __aeabi_uidiv(*(undefined4 *)(iVar2 + 0x68),0x1c);
+  local_28 = __aeabi_uidiv(*(undefined4 *)(iVar2 + 0x80),0x18);
+  local_24 = 0x40;
+  local_20 = 2;
+  local_18 = 2;
+  local_14 = 0;
+  local_2c = 0;
+  local_1c = 0;
+  local_40 = 0;
+  uStack_3c = 0;
+  pvVar1 = operator_new(0x310);
+  FUN_0053a630(pvVar1,0x2a,&local_60);
+  return pvVar1;
+}
+
+
+
+ADDRESS 0039e520
+FUNCTION FUN_0039e520 entry=0039e520 body=[[0039e520, 0039e5ef]]
+CALLERS
+  From: 0039e64c To: 0039e520 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0039e520  push {r4,r5,r7,r8,r9,lr}
+0039e524  sub sp,#0x50
+0039e526  mov r4,r0
+0039e528  add r7,sp,#0x0
+0039e52a  ldr r0,[r0,#0x50]
+0039e52c  bl 0x0037da88
+0039e530  ldr r1,[r4,#0x68]
+0039e532  ldr.w r3,[r0,#0x108]
+0039e536  str r3,[r7,#0x0]
+0039e538  ldr.w r3,[r0,#0x110]
+0039e53c  str r3,[r7,#0x4]
+0039e53e  add.w r3,r0,#0x118
+0039e542  ldrd r8,r9,[r3,#0x0]
+0039e546  ldrd r2,r3,[r0,#0xd0]
+0039e54a  strd r8,r9,[r7,#0x8]
+0039e54e  strd r2,r3,[r7,#0x10]
+0039e552  ldrd r2,r3,[r0,#0x58]
+0039e556  ldrd r8,r9,[r0,#0x10]
+0039e55a  strd r2,r3,[r7,#0x28]
+0039e55e  mov.w r3,#0x12c
+0039e562  str r3,[r7,#0x38]
+0039e564  subs r3,#0xec
+0039e566  str r3,[r7,#0x3c]
+0039e568  subs r3,#0x3e
+0039e56a  cmp r1,#0x1
+0039e56c  mov.w r2,#0x200
+0039e570  strd r8,r9,[r7,#0x18]
+0039e574  str r2,[r7,#0x30]
+0039e576  str r3,[r7,#0x40]
+0039e578  str r3,[r7,#0x48]
+0039e57a  bne 0x0039e590
+0039e57c  add.w r0,r0,#0x2b0
+0039e580  strb.w r1,[r7,#0x4c]
+0039e584  str r2,[r7,#0x34]
+0039e586  ldrd r8,r9,[r0,#0x0]
+0039e58a  strd r8,r9,[r7,#0x20]
+0039e58e  b 0x0039e5a0
+0039e590  movs r3,#0x0
+0039e592  movs r0,#0x0
+0039e594  movs r1,#0x0
+0039e596  strb.w r3,[r7,#0x4c]
+0039e59a  strd r0,r1,[r7,#0x20]
+0039e59e  str r3,[r7,#0x34]
+0039e5a0  mov.w r0,#0x310
+0039e5a4  str r3,[r7,#0x44]
+0039e5a6  blx 0x00181038
+0039e5aa  movs r1,#0x2a
+0039e5ac  mov r2,r7
+0039e5ae  mov r5,r0
+0039e5b0  bl 0x0053a630
+0039e5b4  str.w r5,[r4,#0x84]
+0039e5b8  ldr r0,[0x0039e5fc]
+0039e5ba  bl 0x0039e1f0
+0039e5be  ldr.w r0,[r4,#0x84]
+0039e5c2  ldr r2,[r4,#0x4c]
+0039e5c4  movs r1,#0x3
+0039e5c6  ldr r3,[r4,#0x48]
+0039e5c8  bl 0x0051abcc
+0039e5cc  mov r4,r0
+0039e5ce  cbz r0,0x0039e5e4
+0039e5d0  ldr r0,[0x0039e600]
+0039e5d2  bl 0x0039e31c
+0039e5d6  movs r0,#0x8
+0039e5d8  mov r1,r4
+0039e5da  bl 0x0039ce5e
+0039e5de  ldr r0,[0x0039e604]
+0039e5e0  bl 0x0039ce42
+0039e5e4  movs r0,#0x0
+0039e5e6  add.w r7,r7,#0x50
+0039e5ea  mov sp,r7
+0039e5ec  pop.w {r4,r5,r7,r8,r9,pc}
+DECOMPILED
+
+undefined4 FUN_0039e520(int param_1)
+
+{
+  int iVar1;
+  void *pvVar2;
+  undefined4 local_68;
+  undefined4 local_64;
+  undefined4 local_60;
+  undefined4 uStack_5c;
+  undefined4 local_58;
+  undefined4 uStack_54;
+  undefined4 local_50;
+  undefined4 uStack_4c;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 local_34;
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  bool local_1c;
+  
+  iVar1 = FUN_0037da88(*(undefined4 *)(param_1 + 0x50));
+  local_68 = *(undefined4 *)(iVar1 + 0x108);
+  local_64 = *(undefined4 *)(iVar1 + 0x110);
+  local_60 = *(undefined4 *)(iVar1 + 0x118);
+  uStack_5c = *(undefined4 *)(iVar1 + 0x11c);
+  local_58 = *(undefined4 *)(iVar1 + 0xd0);
+  uStack_54 = *(undefined4 *)(iVar1 + 0xd4);
+  local_40 = *(undefined4 *)(iVar1 + 0x58);
+  uStack_3c = *(undefined4 *)(iVar1 + 0x5c);
+  local_50 = *(undefined4 *)(iVar1 + 0x10);
+  uStack_4c = *(undefined4 *)(iVar1 + 0x14);
+  local_30 = 300;
+  local_2c = 0x40;
+  local_24 = 2;
+  local_1c = *(int *)(param_1 + 0x68) != 1;
+  local_38 = 0x200;
+  local_28 = 2;
+  local_20 = 2;
+  if (local_1c) {
+    local_24 = 0;
+    local_48 = 0;
+    uStack_44 = 0;
+    local_34 = 0;
+  }
+  else {
+    local_34 = 0x200;
+    local_48 = *(undefined4 *)(iVar1 + 0x2b0);
+    uStack_44 = *(undefined4 *)(iVar1 + 0x2b4);
+  }
+  local_1c = !local_1c;
+  pvVar2 = operator_new(0x310);
+  FUN_0053a630(pvVar2,0x2a,&local_68);
+  *(void **)(param_1 + 0x84) = pvVar2;
+  FUN_0039e1f0(DAT_0039e5fc);
+  iVar1 = FUN_0051abcc(*(undefined4 *)(param_1 + 0x84),3,*(undefined4 *)(param_1 + 0x4c),
+                       *(undefined4 *)(param_1 + 0x48));
+  if (iVar1 != 0) {
+    FUN_0039e31c(DAT_0039e600);
+    FUN_0039ce5e(8,iVar1);
+    FUN_0039ce42(DAT_0039e604);
+  }
+  return 0;
+}
+
+
+
+ADDRESS 003a0bf4
+FUNCTION FUN_003a0bf4 entry=003a0bf4 body=[[003a0b34, 003a0bdb] [003a0bf4, 003a0c07]]
+CALLERS
+LISTING
+003a0b34  push {r4,r5,r7,lr}
+003a0b36  sub sp,#0x48
+003a0b38  mov r4,r0
+003a0b3a  add r7,sp,#0x0
+003a0b3c  ldr r0,[r0,#0x50]
+003a0b3e  bl 0x0037da88
+003a0b42  ldr.w r3,[r0,#0x108]
+003a0b46  str r3,[r7,#0x0]
+003a0b48  ldr.w r3,[r0,#0x110]
+003a0b4c  str r3,[r7,#0x4]
+003a0b4e  ldr.w r3,[r0,#0x118]
+003a0b52  str r3,[r7,#0x8]
+003a0b54  ldrd r2,r3,[r0,#0xd0]
+003a0b58  strd r2,r3,[r7,#0x10]
+003a0b5c  ldrd r2,r3,[r0,#0x10]
+003a0b60  strd r2,r3,[r7,#0x18]
+003a0b64  ldrd r2,r3,[r0,#0x58]
+003a0b68  mov.w r0,#0x148
+003a0b6c  strd r2,r3,[r7,#0x20]
+003a0b70  mov.w r3,#0x154
+003a0b74  str r3,[r7,#0x28]
+003a0b76  subs r3,#0x3c
+003a0b78  str r3,[r7,#0x2c]
+003a0b7a  subs r3,#0x18
+003a0b7c  str r3,[r7,#0x30]
+003a0b7e  mov.w r3,#0x200
+003a0b82  str r3,[r7,#0x34]
+003a0b84  subs r3,#0xd4
+003a0b86  str r3,[r7,#0x38]
+003a0b88  mov.w r3,#0x500
+003a0b8c  str r3,[r7,#0x3c]
+003a0b8e  movs r3,#0x2
+003a0b90  str r3,[r7,#0x40]
+003a0b92  str r3,[r7,#0x44]
+003a0b94  blx 0x00181038
+003a0b98  mov r1,r7
+003a0b9a  movs r2,#0x2a
+003a0b9c  mov r5,r0
+003a0b9e  bl 0x0053cf64
+003a0ba2  str.w r5,[r4,#0x84]
+003a0ba6  ldr r0,[0x003a0be8]
+003a0ba8  bl 0x003a0830
+003a0bac  ldr.w r0,[r4,#0x84]
+003a0bb0  ldr r2,[r4,#0x4c]
+003a0bb2  movs r1,#0x3
+003a0bb4  ldr r3,[r4,#0x48]
+003a0bb6  bl 0x0051abcc
+003a0bba  mov r4,r0
+003a0bbc  cbz r0,0x003a0bd2
+003a0bbe  ldr r0,[0x003a0bec]
+003a0bc0  bl 0x003a08f4
+003a0bc4  movs r0,#0x8
+003a0bc6  mov r1,r4
+003a0bc8  bl 0x0039ce5e
+003a0bcc  ldr r0,[0x003a0bf0]
+003a0bce  bl 0x0039ce42
+003a0bd2  movs r0,#0x0
+003a0bd4  add.w r7,r7,#0x48
+003a0bd8  mov sp,r7
+003a0bda  pop {r4,r5,r7,pc}
+003a0bf4  push {r4,r5,r7,lr}
+003a0bf6  add r7,sp,#0x0
+003a0bf8  mov r4,r0
+003a0bfa  bl 0x003a0a48
+003a0bfe  mov r0,r4
+003a0c00  pop.w {r4,r5,r7,lr}
+003a0c04  b.w 0x003a0b34
+DECOMPILED
+
+undefined4 FUN_003a0bf4(int param_1)
+
+{
+  int iVar1;
+  void *pvVar2;
+  undefined4 local_58;
+  undefined4 local_54;
+  undefined4 local_50;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  undefined4 local_18;
+  undefined4 local_14;
+  
+  FUN_003a0a48();
+  iVar1 = FUN_0037da88(*(undefined4 *)(param_1 + 0x50));
+  local_58 = *(undefined4 *)(iVar1 + 0x108);
+  local_54 = *(undefined4 *)(iVar1 + 0x110);
+  local_50 = *(undefined4 *)(iVar1 + 0x118);
+  local_48 = *(undefined4 *)(iVar1 + 0xd0);
+  uStack_44 = *(undefined4 *)(iVar1 + 0xd4);
+  local_40 = *(undefined4 *)(iVar1 + 0x10);
+  uStack_3c = *(undefined4 *)(iVar1 + 0x14);
+  local_38 = *(undefined4 *)(iVar1 + 0x58);
+  uStack_34 = *(undefined4 *)(iVar1 + 0x5c);
+  local_30 = 0x154;
+  local_2c = 0x118;
+  local_28 = 0x100;
+  local_24 = 0x200;
+  local_20 = 300;
+  local_1c = 0x500;
+  local_18 = 2;
+  local_14 = 2;
+  pvVar2 = operator_new(0x148);
+  FUN_0053cf64(pvVar2,&local_58,0x2a);
+  *(void **)(param_1 + 0x84) = pvVar2;
+  FUN_003a0830(DAT_003a0be8);
+  iVar1 = FUN_0051abcc(*(undefined4 *)(param_1 + 0x84),3,*(undefined4 *)(param_1 + 0x4c),
+                       *(undefined4 *)(param_1 + 0x48));
+  if (iVar1 != 0) {
+    FUN_003a08f4(DAT_003a0bec);
+    FUN_0039ce5e(8,iVar1);
+    FUN_0039ce42(DAT_003a0bf0);
+  }
+  return 0;
+}
+
+
+
+ADDRESS 0053bf3c
+FUNCTION FUN_0053bf3c entry=0053bf3c body=[[0053bf3c, 0053c047]]
+CALLERS
+  From: 00381bf4 To: 0053bf3c Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0053bf3c  push {r4,r5,r6,r7,lr}
+0053bf3e  sub sp,#0xc
+0053bf40  add r7,sp,#0x8
+0053bf42  mov r4,r0
+0053bf44  mov r5,r2
+0053bf46  bl 0x00535784
+0053bf4a  ldr r3,[0x0053c070]
+0053bf4c  movs r0,#0x18
+0053bf4e  str r3,[r4,#0x0]
+0053bf50  blx 0x00181038
+0053bf54  mov r6,r0
+0053bf56  bl 0x00536c58
+0053bf5a  str r6,[r4,#0x78]
+0053bf5c  movs r0,#0x18
+0053bf5e  blx 0x00181038
+0053bf62  mov r6,r0
+0053bf64  bl 0x0085b4b8
+0053bf68  str r6,[r4,#0x7c]
+0053bf6a  movs r0,#0x1c
+0053bf6c  blx 0x00181038
+0053bf70  mov r6,r0
+0053bf72  bl 0x0085bf2c
+0053bf76  str.w r6,[r4,#0x80]
+0053bf7a  movs r0,#0x18
+0053bf7c  blx 0x00181038
+0053bf80  mov r6,r0
+0053bf82  bl 0x0085d70c
+0053bf86  str.w r6,[r4,#0x84]
+0053bf8a  movs r0,#0x18
+0053bf8c  blx 0x00181038
+0053bf90  mov r6,r0
+0053bf92  bl 0x0085d050
+0053bf96  str.w r6,[r4,#0x88]
+0053bf9a  movs r0,#0x54
+0053bf9c  blx 0x00181038
+0053bfa0  ldrd r2,r3,[r5,#0x8]
+0053bfa4  mov r6,r0
+0053bfa6  strd r2,r3,[sp,#0x0]
+0053bfaa  ldm.w r5,{r1,r2}
+0053bfae  bl 0x005369c0
+0053bfb2  str.w r6,[r4,#0xa0]
+0053bfb6  mov r0,r6
+0053bfb8  bl 0x00536614
+0053bfbc  cbnz r0,0x0053bfce
+0053bfbe  movs r2,#0x0
+0053bfc0  movs r3,#0x0
+0053bfc2  strd r2,r3,[r5,#0x8]
+0053bfc6  strd r2,r3,[r5,#0x10]
+0053bfca  strd r2,r3,[r5,#0x18]
+0053bfce  movs r0,#0x14
+0053bfd0  blx 0x00181038
+0053bfd4  movs r1,#0x1
+0053bfd6  mov r6,r0
+0053bfd8  bl 0x006844d0
+0053bfdc  str.w r6,[r4,#0x8c]
+0053bfe0  movs r0,#0x14
+0053bfe2  blx 0x00181038
+0053bfe6  ldr r1,[r5,#0x20]
+0053bfe8  mov r6,r0
+0053bfea  bl 0x006844d0
+0053bfee  str.w r6,[r4,#0x90]
+0053bff2  movs r0,#0x20
+0053bff4  blx 0x00181038
+0053bff8  ldr r1,[r5,#0x24]
+0053bffa  mov r6,r0
+0053bffc  ldrd r2,r3,[r5,#0x10]
+0053c000  bl 0x0053661c
+0053c004  str.w r6,[r4,#0x98]
+0053c008  movs r0,#0x20
+0053c00a  blx 0x00181038
+0053c00e  movs r1,#0x2
+0053c010  ldrd r2,r3,[r5,#0x18]
+0053c014  mov r6,r0
+0053c016  bl 0x0053661c
+0053c01a  str.w r6,[r4,#0x9c]
+0053c01e  movs r0,#0x14
+0053c020  blx 0x00181038
+0053c024  movs r1,#0x1
+0053c026  mov r6,r0
+0053c028  bl 0x006844d0
+0053c02c  movs r3,#0x0
+0053c02e  str.w r6,[r4,#0x94]
+0053c032  strb.w r3,[r4,#0x74]
+0053c036  mov r0,r4
+0053c038  mov r1,r5
+0053c03a  bl 0x0053beac
+0053c03e  mov r0,r4
+0053c040  add.w r7,r7,#0x4
+0053c044  mov sp,r7
+0053c046  pop {r4,r5,r6,r7,pc}
+DECOMPILED
+
+undefined4 * FUN_0053bf3c(undefined4 *param_1,undefined4 param_2,undefined4 *param_3)
+
+{
+  void *pvVar1;
+  int iVar2;
+  
+  FUN_00535784();
+  *param_1 = DAT_0053c070;
+  pvVar1 = operator_new(0x18);
+  FUN_00536c58();
+  param_1[0x1e] = pvVar1;
+  pvVar1 = operator_new(0x18);
+  FUN_0085b4b8();
+  param_1[0x1f] = pvVar1;
+  pvVar1 = operator_new(0x1c);
+  FUN_0085bf2c();
+  param_1[0x20] = pvVar1;
+  pvVar1 = operator_new(0x18);
+  FUN_0085d70c();
+  param_1[0x21] = pvVar1;
+  pvVar1 = operator_new(0x18);
+  FUN_0085d050();
+  param_1[0x22] = pvVar1;
+  pvVar1 = operator_new(0x54);
+  FUN_005369c0(pvVar1,*param_3,param_3[1],param_3[3],param_3[2],param_3[3]);
+  param_1[0x28] = pvVar1;
+  iVar2 = FUN_00536614(pvVar1);
+  if (iVar2 == 0) {
+    param_3[2] = 0;
+    param_3[3] = 0;
+    param_3[4] = 0;
+    param_3[5] = 0;
+    param_3[6] = 0;
+    param_3[7] = 0;
+  }
+  pvVar1 = operator_new(0x14);
+  FUN_006844d0(pvVar1,1);
+  param_1[0x23] = pvVar1;
+  pvVar1 = operator_new(0x14);
+  FUN_006844d0(pvVar1,param_3[8]);
+  param_1[0x24] = pvVar1;
+  pvVar1 = operator_new(0x20);
+  FUN_0053661c(pvVar1,param_3[9],param_3[4],param_3[5]);
+  param_1[0x26] = pvVar1;
+  pvVar1 = operator_new(0x20);
+  FUN_0053661c(pvVar1,2,param_3[6],param_3[7]);
+  param_1[0x27] = pvVar1;
+  pvVar1 = operator_new(0x14);
+  FUN_006844d0(pvVar1,1);
+  param_1[0x25] = pvVar1;
+  *(undefined1 *)(param_1 + 0x1d) = 0;
+  FUN_0053beac(param_1,param_3);
+  return param_1;
+}
+
+
+

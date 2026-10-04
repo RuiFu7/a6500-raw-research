@@ -1,0 +1,340 @@
+ADDRESS 003bfe5c
+FUNCTION FUN_003bfd70 entry=003bfd70 body=[[003bfd70, 003bfe6b]]
+CALLERS
+LISTING
+003bfd70  push {r4,r5,r6,r7,r8,r9,r10,r11,lr}
+003bfd74  sub sp,#0x9c
+003bfd76  add r7,sp,#0x10
+003bfd78  mov r4,r0
+003bfd7a  mov r0,r1
+003bfd7c  str r3,[r7,#0x0]
+003bfd7e  mov r6,r1
+003bfd80  ldr r3,[r1,#0x0]
+003bfd82  mov r11,r2
+003bfd84  ldr.w r3,[r3,#0x104]
+003bfd88  blx r3
+003bfd8a  ldr r3,[r6,#0x0]
+003bfd8c  ldr.w r3,[r3,#0xf0]
+003bfd90  mov r9,r0
+003bfd92  mov r0,r6
+003bfd94  blx r3
+003bfd96  ldr r3,[r6,#0x0]
+003bfd98  ldr.w r3,[r3,#0x10c]
+003bfd9c  mov r5,r0
+003bfd9e  mov r0,r6
+003bfda0  blx r3
+003bfda2  ldr r3,[r6,#0x0]
+003bfda4  ldr.w r3,[r3,#0x130]
+003bfda8  mov r10,r0
+003bfdaa  mov r0,r6
+003bfdac  blx r3
+003bfdae  str r0,[r7,#0x4]
+003bfdb0  mov r0,r6
+003bfdb2  bl 0x0073ae2e
+003bfdb6  ldr r3,[r6,#0x0]
+003bfdb8  add.w r1,r7,#0x80
+003bfdbc  add.w r2,r7,#0x87
+003bfdc0  ldr r3,[r3,#0x3c]
+003bfdc2  mov r8,r0
+003bfdc4  mov r0,r6
+003bfdc6  blx r3
+003bfdc8  ldrb.w r1,[r7,#0x87]
+003bfdcc  ldr r2,[r4,#0x0]
+003bfdce  mov r0,r4
+003bfdd0  ldr r3,[r4,#0x14]
+003bfdd2  str r1,[sp,#0x0]
+003bfdd4  ldr.w r1,[r7,#0x80]
+003bfdd8  str r1,[sp,#0x4]
+003bfdda  add.w r1,r7,#0x5c
+003bfdde  str r1,[sp,#0x8]
+003bfde0  movs r1,#0x2
+003bfde2  ldr r6,[r2,#0x64]
+003bfde4  mov r2,r8
+003bfde6  ldr.w r3,[r3,#0xf8]
+003bfdea  blx r6
+003bfdec  ldr r3,[r4,#0x14]
+003bfdee  movs r1,#0x3
+003bfdf0  ldr r0,[r4,#0x28]
+003bfdf2  str r5,[r7,#0x28]
+003bfdf4  ldr.w r2,[r3,#0xf0]
+003bfdf8  ldr.w r3,[r3,#0xf8]
+003bfdfc  str.w r9,[r7,#0x2c]
+003bfe00  str r2,[r7,#0x8]
+003bfe02  str r3,[r7,#0xc]
+003bfe04  ldr r3,[r7,#0x68]
+003bfe06  str.w r10,[r7,#0x30]
+003bfe0a  str r3,[r7,#0x14]
+003bfe0c  ldr r3,[r7,#0x6c]
+003bfe0e  str r3,[r7,#0x18]
+003bfe10  ldr r3,[r7,#0x70]
+003bfe12  str r3,[r7,#0x1c]
+003bfe14  ldrb.w r3,[r7,#0x74]
+003bfe18  strb.w r3,[r7,#0x20]
+003bfe1c  ldr r3,[r7,#0x5c]
+003bfe1e  str r3,[r7,#0x24]
+003bfe20  ldrb.w r3,[r7,#0x7c]
+003bfe24  strb.w r3,[r7,#0x34]
+003bfe28  ldr r3,[r7,#0x60]
+003bfe2a  str r3,[r7,#0x38]
+003bfe2c  movs r3,#0x0
+003bfe2e  str r3,[r7,#0x3c]
+003bfe30  str r3,[r7,#0x44]
+003bfe32  str r3,[r7,#0x48]
+003bfe34  strb.w r3,[r7,#0x4c]
+003bfe38  bl 0x003b3b08
+003bfe3c  ldr r3,[r7,#0x4]
+003bfe3e  str.w r11,[r7,#0x50]
+003bfe42  str r3,[r7,#0x54]
+003bfe44  ldr r3,[r7,#0x0]
+003bfe46  str r3,[r7,#0x58]
+003bfe48  strb.w r0,[r7,#0x4d]
+003bfe4c  mov.w r0,#0x3d0
+003bfe50  blx 0x00181038
+003bfe54  add.w r1,r7,#0x8
+003bfe58  movs r2,#0x13
+003bfe5a  mov r4,r0
+003bfe5c  bl 0x005c4080
+003bfe60  mov r0,r4
+003bfe62  add.w r7,r7,#0x8c
+003bfe66  mov sp,r7
+003bfe68  pop.w {r4,r5,r6,r7,r8,r9,r10,r11,pc}
+DECOMPILED
+
+void * FUN_003bfd70(int *param_1,int *param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  void *pvVar6;
+  undefined4 local_a8;
+  undefined4 local_a4;
+  undefined4 local_9c;
+  undefined4 local_98;
+  undefined4 local_94;
+  undefined1 local_90;
+  undefined4 local_8c;
+  undefined4 local_88;
+  undefined4 local_84;
+  undefined4 local_80;
+  undefined1 local_7c;
+  undefined4 local_78;
+  undefined4 local_74;
+  undefined4 local_6c;
+  undefined4 local_68;
+  undefined1 local_64;
+  undefined1 local_63;
+  undefined4 local_60;
+  undefined4 local_5c;
+  undefined4 local_58;
+  undefined4 local_54;
+  undefined4 local_50;
+  undefined4 local_48;
+  undefined4 local_44;
+  undefined4 local_40;
+  undefined1 local_3c;
+  undefined1 local_34;
+  undefined4 local_30;
+  undefined1 local_29 [5];
+  
+  uVar1 = (**(code **)(*param_2 + 0x104))(param_2);
+  uVar2 = (**(code **)(*param_2 + 0xf0))(param_2);
+  uVar3 = (**(code **)(*param_2 + 0x10c))(param_2);
+  uVar4 = (**(code **)(*param_2 + 0x130))(param_2);
+  uVar5 = FUN_0073ae2e(param_2);
+  (**(code **)(*param_2 + 0x3c))(param_2,&local_30,local_29);
+  (**(code **)(*param_1 + 100))
+            (param_1,2,uVar5,*(undefined4 *)(param_1[5] + 0xf8),local_29[0],local_30,&local_54);
+  local_a8 = *(undefined4 *)(param_1[5] + 0xf0);
+  local_a4 = *(undefined4 *)(param_1[5] + 0xf8);
+  local_9c = local_48;
+  local_98 = local_44;
+  local_94 = local_40;
+  local_90 = local_3c;
+  local_8c = local_54;
+  local_7c = local_34;
+  local_78 = local_50;
+  local_74 = 0;
+  local_6c = 0;
+  local_68 = 0;
+  local_64 = 0;
+  local_88 = uVar2;
+  local_84 = uVar1;
+  local_80 = uVar3;
+  local_63 = FUN_003b3b08(param_1[10],3);
+  local_60 = param_3;
+  local_5c = uVar4;
+  local_58 = param_4;
+  pvVar6 = operator_new(0x3d0);
+  FUN_005c4080(pvVar6,&local_a8,0x13);
+  return pvVar6;
+}
+
+
+
+ADDRESS 00366dc8
+FUNCTION FUN_00366dc8 entry=00366dc8 body=[[00366dc8, 00366e97]]
+CALLERS
+LISTING
+00366dc8  push {r4,r5,r6,r7,r8,r9,r10,lr}
+00366dcc  sub sp,#0x90
+00366dce  mov r4,r0
+00366dd0  add r7,sp,#0x10
+00366dd2  ldr r5,[r0,#0x54]
+00366dd4  ldr.w r8,[r0,#0x64]
+00366dd8  ldr r0,[r0,#0x44]
+00366dda  ldr r3,[r0,#0x0]
+00366ddc  ldr.w r3,[r3,#0x130]
+00366de0  blx r3
+00366de2  mov r10,r0
+00366de4  ldr r0,[r4,#0x44]
+00366de6  bl 0x0073ae2e
+00366dea  add.w r1,r7,#0x78
+00366dee  add.w r2,r7,#0x7f
+00366df2  mov r9,r0
+00366df4  ldr r0,[r4,#0x44]
+00366df6  ldr r3,[r0,#0x0]
+00366df8  ldr r3,[r3,#0x3c]
+00366dfa  blx r3
+00366dfc  ldrb.w r1,[r7,#0x7f]
+00366e00  ldr r2,[r4,#0x0]
+00366e02  mov r0,r4
+00366e04  ldr r3,[r4,#0x74]
+00366e06  str r1,[sp,#0x0]
+00366e08  ldr r1,[r7,#0x78]
+00366e0a  str r1,[sp,#0x4]
+00366e0c  add.w r1,r7,#0x54
+00366e10  str r1,[sp,#0x8]
+00366e12  movs r1,#0x2
+00366e14  ldr.w r6,[r2,#0x230]
+00366e18  mov r2,r9
+00366e1a  ldr.w r3,[r3,#0xb0]
+00366e1e  blx r6
+00366e20  ldr r3,[r4,#0x74]
+00366e22  mov.w r0,#0x3d0
+00366e26  str r5,[r7,#0x20]
+00366e28  str.w r8,[r7,#0x28]
+00366e2c  ldr.w r2,[r3,#0xa8]
+00366e30  str.w r10,[r7,#0x4c]
+00366e34  str r2,[r7,#0x0]
+00366e36  ldr.w r2,[r3,#0xb0]
+00366e3a  ldr.w r3,[r3,#0xb8]
+00366e3e  str r2,[r7,#0x4]
+00366e40  str r3,[r7,#0x8]
+00366e42  ldr r3,[r7,#0x64]
+00366e44  ldr r2,[r7,#0x60]
+00366e46  str r3,[r7,#0x10]
+00366e48  ldr r3,[r7,#0x68]
+00366e4a  str r2,[r7,#0xc]
+00366e4c  ldrb.w r2,[r7,#0x74]
+00366e50  str r3,[r7,#0x14]
+00366e52  ldrb.w r3,[r7,#0x6c]
+00366e56  strb.w r2,[r7,#0x2c]
+00366e5a  ldr r2,[r7,#0x58]
+00366e5c  strb r3,[r7,#0x18]
+00366e5e  ldr r3,[r7,#0x54]
+00366e60  str r2,[r7,#0x30]
+00366e62  movs r2,#0x1
+00366e64  str r2,[r7,#0x34]
+00366e66  str r3,[r7,#0x1c]
+00366e68  movs r3,#0x0
+00366e6a  strb.w r2,[r7,#0x44]
+00366e6e  str r3,[r7,#0x24]
+00366e70  str r3,[r7,#0x3c]
+00366e72  str r3,[r7,#0x40]
+00366e74  strb.w r3,[r7,#0x45]
+00366e78  str r3,[r7,#0x48]
+00366e7a  adds r3,#0x2
+00366e7c  str r3,[r7,#0x38]
+00366e7e  blx 0x00181038
+00366e82  mov r1,r7
+00366e84  movs r2,#0x13
+00366e86  mov r4,r0
+00366e88  bl 0x005c4080
+00366e8c  mov r0,r4
+00366e8e  add.w r7,r7,#0x80
+00366e92  mov sp,r7
+00366e94  pop.w {r4,r5,r6,r7,r8,r9,r10,pc}
+DECOMPILED
+
+void * FUN_00366dc8(int *param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  void *pvVar3;
+  int iVar4;
+  int iVar5;
+  int iVar6;
+  undefined4 local_a0;
+  undefined4 local_9c;
+  undefined4 local_98;
+  undefined4 local_94;
+  undefined4 local_90;
+  undefined4 local_8c;
+  undefined1 local_88;
+  undefined4 local_84;
+  int local_80;
+  undefined4 local_7c;
+  int local_78;
+  undefined1 local_74;
+  undefined4 local_70;
+  undefined4 local_6c;
+  undefined4 local_68;
+  undefined4 local_64;
+  undefined4 local_60;
+  undefined1 local_5c;
+  undefined1 local_5b;
+  undefined4 local_58;
+  undefined4 local_54;
+  undefined4 local_4c;
+  undefined4 local_48;
+  undefined4 local_40;
+  undefined4 local_3c;
+  undefined4 local_38;
+  undefined1 local_34;
+  undefined1 local_2c;
+  undefined4 local_28;
+  undefined1 local_21;
+  
+  iVar5 = param_1[0x15];
+  iVar6 = param_1[0x19];
+  uVar1 = (**(code **)(*(int *)param_1[0x11] + 0x130))();
+  uVar2 = FUN_0073ae2e(param_1[0x11]);
+  (**(code **)(*(int *)param_1[0x11] + 0x3c))((int *)param_1[0x11],&local_28,&local_21);
+  (**(code **)(*param_1 + 0x230))
+            (param_1,2,uVar2,*(undefined4 *)(param_1[0x1d] + 0xb0),local_21,local_28,&local_4c);
+  iVar4 = param_1[0x1d];
+  local_a0 = *(undefined4 *)(iVar4 + 0xa8);
+  local_9c = *(undefined4 *)(iVar4 + 0xb0);
+  local_98 = *(undefined4 *)(iVar4 + 0xb8);
+  local_90 = local_3c;
+  local_94 = local_40;
+  local_8c = local_38;
+  local_74 = local_2c;
+  local_88 = local_34;
+  local_70 = local_48;
+  local_6c = 1;
+  local_84 = local_4c;
+  local_5c = 1;
+  local_7c = 0;
+  local_64 = 0;
+  local_60 = 0;
+  local_5b = 0;
+  local_58 = 0;
+  local_68 = 2;
+  local_80 = iVar5;
+  local_78 = iVar6;
+  local_54 = uVar1;
+  pvVar3 = operator_new(0x3d0);
+  FUN_005c4080(pvVar3,&local_a0,0x13);
+  return pvVar3;
+}
+
+
+
+ADDRESS 00366ea4
+NO FUNCTION
+

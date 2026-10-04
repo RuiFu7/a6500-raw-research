@@ -1,0 +1,499 @@
+== dmm_ext_tbl_Init @ 0xde44 (thumb=False)
+  0x0000de44: mov      ip, sp
+  0x0000de48: push     {r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+  0x0000de4c: sub      fp, ip, #4
+  0x0000de50: ldr      r3, [pc, #0x3f0]
+  0x0000de54: mov      r7, #0
+  0x0000de58: ldr      r0, [pc, #0x3ec]
+  0x0000de5c: mov      r1, #0x1000
+  0x0000de60: ldr      r4, [pc, #0x3e8]
+  0x0000de64: mov      r8, r7
+  0x0000de68: str      r7, [r3, #-0x9d0]
+  0x0000de6c: bl       #0xde6c ; __memzero
+  0x0000de70: add      r5, r4, #0x500
+  0x0000de74: add      r8, r8, #1
+  0x0000de78: cmp      r8, #2
+  0x0000de7c: bls      #0xde84
+  0x0000de80: bl       #0xddc4
+  0x0000de84: mov      r0, r5
+  0x0000de88: mov      r1, #0x50
+  0x0000de8c: bl       #0xde8c ; dmm_config_GetConfigData
+  0x0000de90: subs     r3, r0, #0
+  0x0000de94: bne      #0xe22c
+  0x0000de98: ldr      r3, [r5, #8]
+  0x0000de9c: cmn      r3, #1
+  0x0000dea0: strne    r4, [r5]
+  0x0000dea4: bne      #0xded8
+  0x0000dea8: ldr      r3, [pc, #0x398]
+  0x0000deac: mov      r6, r0
+  0x0000deb0: str      r0, [r5]
+  0x0000deb4: mov      r7, r0
+  0x0000deb8: ldr      r4, [pc, #0x394]
+  0x0000debc: str      r0, [r3, #0x634]
+  0x0000dec0: str      r0, [r3, #0x638]
+  0x0000dec4: str      r0, [r3, #0x63c]
+  0x0000dec8: str      r0, [r3, #0x640]
+  0x0000decc: str      r0, [r3, #0x644]
+  0x0000ded0: ldr      r5, [pc, #0x380]
+  0x0000ded4: b        #0xdf70
+  0x0000ded8: add      r7, r7, #1
+  0x0000dedc: cmp      r7, #0x40
+  0x0000dee0: bls      #0xdee8
+  0x0000dee4: bl       #0xddc4
+  0x0000dee8: mov      r0, r4
+  0x0000deec: mov      r1, #0x14
+  0x0000def0: bl       #0xdef0 ; dmm_config_GetConfigData
+  0x0000def4: subs     r3, r0, #0
+  0x0000def8: bne      #0xe22c
+  0x0000defc: ldr      r3, [r4, #8]
+  0x0000df00: cmn      r3, #1
+  0x0000df04: beq      #0xdf64
+  0x0000df08: cmp      r3, #0x800
+  0x0000df0c: blo      #0xdf14
+  0x0000df10: bl       #0xddc4
+  0x0000df14: ldr      r3, [pc, #0x32c]
+  0x0000df18: ldr      r2, [r3, #-0x9d0]
+  0x0000df1c: cmp      r2, #2
+  0x0000df20: bhi      #0xdf58
+  0x0000df24: ldr      r1, [r4, #0x10]
+  0x0000df28: tst      r1, #0x2000000
+  0x0000df2c: beq      #0xdf5c
+  0x0000df30: ldr      r0, [r4]
+  0x0000df34: add      r1, r3, r2, lsl #3
+  0x0000df38: add      r2, r2, #1
+  0x0000df3c: str      r0, [r1, #0x648]
+  0x0000df40: ldr      ip, [r4, #0xc]
+  0x0000df44: str      r2, [r3, #-0x9d0]
+  0x0000df48: sub      ip, ip, #1
+  0x0000df4c: add      r0, ip, r0
+  0x0000df50: str      r0, [r1, #0x64c]
+  0x0000df54: b        #0xdf5c
+  0x0000df58: bl       #0xddc4
+  0x0000df5c: add      r4, r4, #0x14
+  0x0000df60: b        #0xded8
+  0x0000df64: add      r5, r5, #0x50
+  0x0000df68: add      r4, r4, #0x14
+  0x0000df6c: b        #0xde74
+  0x0000df70: add      r7, r7, #1
+  0x0000df74: cmp      r7, #0x400
+  0x0000df78: bls      #0xdf80
+  0x0000df7c: bl       #0xddc4
+  0x0000df80: mov      r0, r5
+  0x0000df84: mov      r1, #0x50
+  0x0000df88: bl       #0xdf88 ; dmm_config_GetConfigData
+  0x0000df8c: subs     r3, r0, #0
+  0x0000df90: bne      #0xe22c
+  0x0000df94: ldr      r2, [r5, #8]
+  0x0000df98: cmn      r2, #1
+  0x0000df9c: beq      #0xdff4
+  0x0000dfa0: ldr      r3, [r5, #0xc]
+  0x0000dfa4: str      r4, [r5]
+  0x0000dfa8: cmp      r3, #0x400
+  0x0000dfac: bhi      #0xdfd4
+  0x0000dfb0: ldr      r0, [pc, #0x2a0]
+  0x0000dfb4: mov      r1, #0x50
+  0x0000dfb8: ldr      r8, [pc, #0x288]
+  0x0000dfbc: rsb      r0, r0, r5
+  0x0000dfc0: add      r8, r8, r3, lsl #1
+  0x0000dfc4: bl       #0xdfc4 ; __aeabi_uidiv
+  0x0000dfc8: add      r8, r8, #0x660
+  0x0000dfcc: strh     r0, [r8]
+  0x0000dfd0: b        #0xdfd8
+  0x0000dfd4: bl       #0xddc4
+  0x0000dfd8: ldr      r0, [pc, #0x278]
+  0x0000dfdc: mov      r1, #0x50
+  0x0000dfe0: mov      r8, #0
+  0x0000dfe4: rsb      r0, r0, r5
+  0x0000dfe8: bl       #0xdfe8 ; __aeabi_uidiv
+  0x0000dfec: mov      sl, r0
+  0x0000dff0: b        #0xe008
+  0x0000dff4: ldr      r2, [pc, #0x24c]
+  0x0000dff8: str      r3, [r5]
+  0x0000dffc: str      r7, [r2, #0xe64]
+  0x0000e000: str      r6, [r2, #0xe68]
+  0x0000e004: b        #0xe22c
+  0x0000e008: add      r6, r6, #1
+  0x0000e00c: cmp      r6, #0xc00
+  0x0000e010: bls      #0xe018
+  0x0000e014: bl       #0xddc4
+  0x0000e018: add      r8, r8, #1
+  0x0000e01c: cmp      r8, #0x260
+  0x0000e020: bls      #0xe028
+  0x0000e024: bl       #0xddc4
+  0x0000e028: mov      r0, r4
+  0x0000e02c: mov      r1, #0x14
+  0x0000e030: bl       #0xe030 ; dmm_config_GetConfigData
+  0x0000e034: subs     r3, r0, #0
+  0x0000e038: bne      #0xe22c
+  0x0000e03c: ldr      r3, [r4, #8]
+  0x0000e040: cmn      r3, #1
+  0x0000e044: beq      #0xe220
+  0x0000e048: cmp      r3, #0x800
+  0x0000e04c: blo      #0xe058
+  0x0000e050: bl       #0xddc4
+  0x0000e054: b        #0xe080
+  0x0000e058: ldr      r1, [pc, #0x1e8]
+  0x0000e05c: add      r2, r1, r3, lsl #1
+  0x0000e060: sub      r2, r2, #0x9c0
+  0x0000e064: sub      r2, r2, #0xc
+  0x0000e068: ldrh     r2, [r2]
+  0x0000e06c: cmp      r2, #0xc7
+  0x0000e070: movls    r0, #0xc8
+  0x0000e074: mlals    r3, r0, r3, r2
+  0x0000e078: addls    r1, r1, r3, lsl #2
+  0x0000e07c: strls    sl, [r1, #0xe6c]
+  0x0000e080: ldr      r0, [r4, #8]
+  0x0000e084: ldr      r1, [pc, #0x1bc]
+  0x0000e088: add      r3, r1, r0, lsl #1
+  0x0000e08c: sub      r3, r3, #0x9c0
+  0x0000e090: sub      r3, r3, #0xc
+  0x0000e094: ldrh     r2, [r3]
+  0x0000e098: cmp      r2, #0
+  0x0000e09c: moveq    r2, #1
+  0x0000e0a0: beq      #0xe0c8
+  0x0000e0a4: mov      ip, #0xc8
+  0x0000e0a8: mla      r0, ip, r0, r2
+  0x0000e0ac: add      ip, r1, r0, lsl #2
+  0x0000e0b0: mov      r1, ip
+  0x0000e0b4: ldr      ip, [ip, #0xe68]
+  0x0000e0b8: ldr      r1, [r1, #0xe6c]
+  0x0000e0bc: cmp      ip, r1
+  0x0000e0c0: beq      #0xe0cc
+  0x0000e0c4: add      r2, r2, #1
+  0x0000e0c8: strh     r2, [r3]
+  0x0000e0cc: ldr      r3, [pc, #0x174]
+  0x0000e0d0: ldr      r2, [r3, #0x634]
+  0x0000e0d4: cmp      r2, #0x1f
+  0x0000e0d8: bhi      #0xe1a4
+  0x0000e0dc: ldr      ip, [r4, #0x10]
+  0x0000e0e0: tst      ip, #0x40000000
+  0x0000e0e4: beq      #0xe1a8
+  0x0000e0e8: ldr      r0, [pc, #0x16c]
+  0x0000e0ec: ldr      r1, [r4, #8]
+  0x0000e0f0: add      lr, r0, r2, lsl #2
+  0x0000e0f4: add      r2, r2, #1
+  0x0000e0f8: str      r2, [r3, #0x634]
+  0x0000e0fc: ldr      r2, [r3, #0x640]
+  0x0000e100: str      r1, [lr, #-0xb4c]
+  0x0000e104: cmp      r2, #7
+  0x0000e108: bhi      #0xe124
+  0x0000e10c: cmp      ip, #0
+  0x0000e110: addlt    r0, r0, r2, lsl #2
+  0x0000e114: addlt    r2, r2, #1
+  0x0000e118: strlt    r2, [r3, #0x640]
+  0x0000e11c: strlt    r1, [r0, #-0xacc]
+  0x0000e120: b        #0xe128
+  0x0000e124: bl       #0xddc4
+  0x0000e128: ldr      r2, [pc, #0x118]
+  0x0000e12c: ldr      r3, [r2, #0x644]
+  0x0000e130: cmp      r3, #7
+  0x0000e134: bhi      #0xe160
+  0x0000e138: ldr      r1, [r4, #0x10]
+  0x0000e13c: tst      r1, #0x4000000
+  0x0000e140: beq      #0xe164
+  0x0000e144: ldr      r1, [pc, #0x110]
+  0x0000e148: ldr      r0, [r4, #8]
+  0x0000e14c: add      r1, r1, r3, lsl #2
+  0x0000e150: add      r3, r3, #1
+  0x0000e154: str      r3, [r2, #0x644]
+  0x0000e158: str      r0, [r1, #-0xaac]
+  0x0000e15c: b        #0xe164
+  0x0000e160: bl       #0xddc4
+  0x0000e164: ldr      sb, [pc, #0xdc]
+  0x0000e168: ldr      r3, [sb, #0x63c]
+  0x0000e16c: cmp      r3, #7
+  0x0000e170: bhi      #0xe190
+  0x0000e174: ldr      r2, [r4, #0x10]
+  0x0000e178: tst      r2, #0x8000000
+  0x0000e17c: ldrne    r1, [sb, #0x638]
+  0x0000e180: ldrne    r2, [pc, #0xd4]
+  0x0000e184: addne    r2, r2, r1, lsl #2
+  0x0000e188: strne    r3, [r2, #-0xa8c]
+  0x0000e18c: b        #0xe194
+  0x0000e190: bl       #0xddc4
+  0x0000e194: ldr      r3, [sb, #0x63c]
+  0x0000e198: add      r3, r3, #1
+  0x0000e19c: str      r3, [sb, #0x63c]
+  0x0000e1a0: b        #0xe1a8
+  0x0000e1a4: bl       #0xddc4
+  0x0000e1a8: ldr      r2, [pc, #0x98]
+  0x0000e1ac: ldr      r3, [r2, #0x638]
+  0x0000e1b0: cmp      r3, #7
+  0x0000e1b4: bhi      #0xe1e0
+  0x0000e1b8: ldr      r1, [r4, #0x10]
+  0x0000e1bc: tst      r1, #0x8000000
+  0x0000e1c0: beq      #0xe1e4
+  0x0000e1c4: ldr      r1, [pc, #0x90]
+  0x0000e1c8: ldr      r0, [r4, #8]
+  0x0000e1cc: add      r1, r1, r3, lsl #2
+  0x0000e1d0: add      r3, r3, #1
+  0x0000e1d4: str      r3, [r2, #0x638]
+  0x0000e1d8: str      r0, [r1, #-0xa6c]
+  0x0000e1dc: b        #0xe1e4
+  0x0000e1e0: bl       #0xddc4
+  0x0000e1e4: ldr      r3, [pc, #0x70]
+  0x0000e1e8: ldr      r2, [r3, #-0xa4c]
+  0x0000e1ec: cmp      r2, #0x3f
+  0x0000e1f0: bhi      #0xe214
+  0x0000e1f4: ldr      r1, [r4, #0x10]
+  0x0000e1f8: tst      r1, #0x100000
+  0x0000e1fc: ldrne    r0, [r4, #8]
+  0x0000e200: addne    r1, r3, r2, lsl #2
+  0x0000e204: addne    r2, r2, #1
+  0x0000e208: strne    r2, [r3, #-0xa4c]
+  0x0000e20c: strne    r0, [r1, #-0xa48]
+  0x0000e210: b        #0xe218
+  0x0000e214: bl       #0xddc4
+  0x0000e218: add      r4, r4, #0x14
+  0x0000e21c: b        #0xe008
+  0x0000e220: add      r5, r5, #0x50
+  0x0000e224: add      r4, r4, #0x14
+  0x0000e228: b        #0xdf70
+  0x0000e22c: ldr      r2, [pc, #0x28]
+  0x0000e230: sxth     r0, r3
+  0x0000e234: ldr      r1, [pc, #0x24]
+  0x0000e238: str      r1, [r2, #-0x948]
+  0x0000e23c: ldr      r1, [pc, #0x14]
+  0x0000e240: str      r1, [r2, #-0x944]
+  0x0000e244: ldm      sp, {r3, r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+  0x0000e248: andeq    r2, pc, r0, lsl r0
+  0x0000e24c: andeq    r1, pc, r4, asr #12
+  0x0000e250: andeq    lr, ip, r0, lsr #1
+  0x0000e254: andeq    lr, ip, r0, asr #12
+  0x0000e258: andeq    sp, sp, r0, asr #12
+  0x0000e25c: eoreq    r3, r8, r8, asr #19
+  0x0000e260: andeq    lr, ip, r0, lsr #11
+== dmm_ext_tbl_InitExtra @ 0xe264 (thumb=False)
+  0x0000e264: mov      ip, sp
+  0x0000e268: push     {r4, r5, r6, r7, r8, sl, fp, ip, lr, pc}
+  0x0000e26c: sub      fp, ip, #4
+  0x0000e270: sub      sp, sp, #0x50
+  0x0000e274: mov      r1, #0x50
+  0x0000e278: sub      r0, fp, #0x74
+  0x0000e27c: bl       #0xe27c ; dmm_module_GetConfigData
+  0x0000e280: cmp      r0, #0
+  0x0000e284: bne      #0xe414
+  0x0000e288: ldr      r3, [fp, #-0x6c]
+  0x0000e28c: cmn      r3, #1
+  0x0000e290: bne      #0xe410
+  0x0000e294: ldr      r3, [pc, #0x184]
+  0x0000e298: ldr      r6, [r3, #0xe64]
+  0x0000e29c: cmp      r6, #0
+  0x0000e2a0: beq      #0xe408
+  0x0000e2a4: sub      r2, r6, #1
+  0x0000e2a8: mov      r4, #0x50
+  0x0000e2ac: ldr      r1, [pc, #0x170]
+  0x0000e2b0: mul      r2, r4, r2
+  0x0000e2b4: add      r0, r1, r2
+  0x0000e2b8: ldr      r0, [r0, #-0xa20]
+  0x0000e2bc: cmp      r0, #0
+  0x0000e2c0: bne      #0xe408
+  0x0000e2c4: ldr      r7, [r3, #0xe68]
+  0x0000e2c8: mov      r5, #0x14
+  0x0000e2cc: ldr      r3, [pc, #0x154]
+  0x0000e2d0: sub      r4, r1, #0xa20
+  0x0000e2d4: add      r4, r4, r2
+  0x0000e2d8: mla      r5, r5, r7, r3
+  0x0000e2dc: cmp      r6, #0x400
+  0x0000e2e0: bhi      #0xe410
+  0x0000e2e4: mov      r0, r4
+  0x0000e2e8: mov      r1, #0x50
+  0x0000e2ec: bl       #0xe2ec ; dmm_module_GetConfigData
+  0x0000e2f0: cmp      r0, #0
+  0x0000e2f4: bne      #0xe414
+  0x0000e2f8: ldr      r3, [r4, #8]
+  0x0000e2fc: cmn      r3, #1
+  0x0000e300: beq      #0xe344
+  0x0000e304: ldr      sl, [r4, #0xc]
+  0x0000e308: sub      r3, sl, #0x3b4
+  0x0000e30c: sub      r3, r3, #2
+  0x0000e310: cmp      r3, #0x31
+  0x0000e314: bhi      #0xe410
+  0x0000e318: ldr      r0, [pc, #0x10c]
+  0x0000e31c: mov      r1, #0x50
+  0x0000e320: str      r5, [r4]
+  0x0000e324: rsb      r0, r0, r4
+  0x0000e328: bl       #0xe328 ; __aeabi_uidiv
+  0x0000e32c: ldr      r3, [pc, #0xec]
+  0x0000e330: add      sl, r3, sl, lsl #1
+  0x0000e334: add      sl, sl, #0x660
+  0x0000e338: mov      r8, r0
+  0x0000e33c: strh     r0, [sl]
+  0x0000e340: b        #0xe34c
+  0x0000e344: str      r0, [r4]
+  0x0000e348: b        #0xe414
+  0x0000e34c: add      r7, r7, #1
+  0x0000e350: cmp      r7, #0xc00
+  0x0000e354: bhi      #0xe410
+  0x0000e358: mov      r0, r5
+  0x0000e35c: mov      r1, #0x14
+  0x0000e360: bl       #0xe360 ; dmm_config_GetConfigData
+  0x0000e364: cmp      r0, #0
+  0x0000e368: bne      #0xe414
+  0x0000e36c: ldr      r3, [r5, #8]
+  0x0000e370: cmn      r3, #1
+  0x0000e374: beq      #0xe3f8
+  0x0000e378: cmp      r3, #0x800
+  0x0000e37c: bhs      #0xe410
+  0x0000e380: ldr      r0, [pc, #0x98]
+  0x0000e384: add      r1, r0, r3, lsl #1
+  0x0000e388: sub      r1, r1, #0x9c0
+  0x0000e38c: sub      r1, r1, #0xc
+  0x0000e390: ldrh     r2, [r1]
+  0x0000e394: cmp      r2, #0xc7
+  0x0000e398: bhi      #0xe3bc
+  0x0000e39c: mov      ip, #0xc8
+  0x0000e3a0: cmp      r2, #0
+  0x0000e3a4: mla      ip, ip, r3, r2
+  0x0000e3a8: moveq    r3, #1
+  0x0000e3ac: strheq   r3, [r1]
+  0x0000e3b0: add      r0, r0, ip, lsl #2
+  0x0000e3b4: str      r8, [r0, #0xe6c]
+  0x0000e3b8: beq      #0xe3f0
+  0x0000e3bc: mov      r0, #0xc8
+  0x0000e3c0: ldr      r1, [pc, #0x58]
+  0x0000e3c4: mla      r0, r0, r3, r2
+  0x0000e3c8: add      ip, r1, r0, lsl #2
+  0x0000e3cc: mov      r0, ip
+  0x0000e3d0: ldr      ip, [ip, #0xe68]
+  0x0000e3d4: ldr      r0, [r0, #0xe6c]
+  0x0000e3d8: cmp      ip, r0
+  0x0000e3dc: addne    r3, r1, r3, lsl #1
+  0x0000e3e0: addne    r2, r2, #1
+  0x0000e3e4: subne    r3, r3, #0x9c0
+  0x0000e3e8: subne    r3, r3, #0xc
+  0x0000e3ec: strhne   r2, [r3]
+  0x0000e3f0: add      r5, r5, #0x14
+  0x0000e3f4: b        #0xe34c
+  0x0000e3f8: add      r4, r4, #0x50
+  0x0000e3fc: add      r5, r5, #0x14
+  0x0000e400: add      r6, r6, #1
+  0x0000e404: b        #0xe2dc
+  0x0000e408: movw     r0, #0xffff
+  0x0000e40c: b        #0xe414
+  0x0000e410: movw     r0, #0xfff3
+  0x0000e414: sxth     r0, r0
+  0x0000e418: sub      sp, fp, #0x24
+  0x0000e41c: ldm      sp, {r4, r5, r6, r7, r8, sl, fp, sp, pc}
+  0x0000e420: andeq    r2, pc, r0, lsl r0
+  0x0000e424: andeq    lr, sp, r0, rrx
+  0x0000e428: andeq    lr, ip, r0, asr #12
+  0x0000e42c: andeq    sp, sp, r0, asr #12
+== dmm_ext_tbl_GetRootExtentTbl @ 0xe430 (thumb=False)
+  0x0000e430: mov      ip, sp
+  0x0000e434: push     {fp, ip, lr, pc}
+  0x0000e438: sub      fp, ip, #4
+  0x0000e43c: ldr      r3, [pc, #4]
+  0x0000e440: ldr      r0, [r3, #-0x948]
+  0x0000e444: ldm      sp, {fp, sp, pc}
+  0x0000e448: eoreq    r3, r8, r8, asr #19
+== dmm_ext_tbl_GetExtentTbl @ 0xe44c (thumb=False)
+  0x0000e44c: mov      ip, sp
+  0x0000e450: push     {fp, ip, lr, pc}
+  0x0000e454: sub      fp, ip, #4
+  0x0000e458: ldr      r3, [pc, #4]
+  0x0000e45c: ldr      r0, [r3, #-0x944]
+  0x0000e460: ldm      sp, {fp, sp, pc}
+  0x0000e464: eoreq    r3, r8, r8, asr #19
+== dmm_ext_tbl_GetExtentTblIndex @ 0xe468 (thumb=False)
+  0x0000e468: mov      ip, sp
+  0x0000e46c: push     {fp, ip, lr, pc}
+  0x0000e470: sub      fp, ip, #4
+  0x0000e474: cmp      r0, #0x800
+  0x0000e478: mvnhs    r0, #0
+  0x0000e47c: ldmhs    sp, {fp, sp, pc}
+  0x0000e480: cmp      r1, #0xc7
+  0x0000e484: movls    r3, #0xc8
+  0x0000e488: mvnhi    r0, #0
+  0x0000e48c: mlals    r1, r3, r0, r1
+  0x0000e490: ldrls    r3, [pc, #8]
+  0x0000e494: addls    r1, r3, r1, lsl #2
+  0x0000e498: ldrls    r0, [r1, #0xe6c]
+  0x0000e49c: ldm      sp, {fp, sp, pc}
+  0x0000e4a0: andeq    r2, pc, r0, lsl r0
+== dmm_ext_tbl_GetExtentTblNameIndex @ 0xe4a4 (thumb=False)
+  0x0000e4a4: mov      ip, sp
+  0x0000e4a8: push     {fp, ip, lr, pc}
+  0x0000e4ac: sub      fp, ip, #4
+  0x0000e4b0: cmp      r0, #0x400
+  0x0000e4b4: mvnhi    r0, #0
+  0x0000e4b8: ldrls    r3, [pc, #0xc]
+  0x0000e4bc: addls    r0, r3, r0, lsl #1
+  0x0000e4c0: addls    r0, r0, #0x660
+  0x0000e4c4: ldrhls   r0, [r0]
+  0x0000e4c8: ldm      sp, {fp, sp, pc}
+  0x0000e4cc: andeq    r2, pc, r0, lsl r0
+== dmm_ext_tbl_GetExtentCount @ 0xe4d0 (thumb=False)
+  0x0000e4d0: mov      ip, sp
+  0x0000e4d4: push     {fp, ip, lr, pc}
+  0x0000e4d8: sub      fp, ip, #4
+  0x0000e4dc: cmp      r0, #0x800
+  0x0000e4e0: movhs    r0, #0
+  0x0000e4e4: ldrlo    r3, [pc, #0xc]
+  0x0000e4e8: addlo    r0, r3, r0, lsl #1
+  0x0000e4ec: ldrlo    r3, [pc, #8]
+  0x0000e4f0: ldrhlo   r0, [r0, r3]
+  0x0000e4f4: ldm      sp, {fp, sp, pc}
+  0x0000e4f8: andeq    r2, pc, r0, lsl r0
+== dmm_ext_tbl_GetBootExtentCnt @ 0xe500 (thumb=False)
+  0x0000e500: mov      ip, sp
+  0x0000e504: push     {fp, ip, lr, pc}
+  0x0000e508: sub      fp, ip, #4
+  0x0000e50c: ldr      r3, [pc, #4]
+  0x0000e510: ldr      r0, [r3, #0x634]
+  0x0000e514: ldm      sp, {fp, sp, pc}
+  0x0000e518: andeq    r2, pc, r0, lsl r0
+== dmm_ext_tbl_GetBootFreeExtentCnt @ 0xe538 (thumb=False)
+  0x0000e538: mov      ip, sp
+  0x0000e53c: push     {fp, ip, lr, pc}
+  0x0000e540: sub      fp, ip, #4
+  0x0000e544: ldr      r3, [pc, #4]
+  0x0000e548: ldr      r0, [r3, #0x640]
+  0x0000e54c: ldm      sp, {fp, sp, pc}
+  0x0000e550: andeq    r2, pc, r0, lsl r0
+== dmm_ext_tbl_GetExtentUnitType @ 0xe570 (thumb=False)
+  0x0000e570: mov      ip, sp
+  0x0000e574: push     {r3, r4, fp, ip, lr, pc}
+  0x0000e578: sub      fp, ip, #4
+  0x0000e57c: mov      r4, r0
+  0x0000e580: bl       #0xe580 ; dmm_unit_tbl_GetUnitTbl
+  0x0000e584: mov      r3, #0
+  0x0000e588: b        #0xe5b0
+  0x0000e58c: add      r1, r0, r3
+  0x0000e590: add      r3, r3, #8
+  0x0000e594: ldr      r1, [r1, #4]
+  0x0000e598: ldr      ip, [r1]
+  0x0000e59c: ldr      r1, [pc, #0x20]
+  0x0000e5a0: add      r1, r1, r4, lsl #2
+  0x0000e5a4: ldr      r1, [r1, #-0xb4c]
+  0x0000e5a8: cmp      ip, r1
+  0x0000e5ac: beq      #0xe5bc
+  0x0000e5b0: ldr      r2, [r0, r3]
+  0x0000e5b4: cmn      r2, #1
+  0x0000e5b8: bne      #0xe58c
+  0x0000e5bc: mov      r0, r2
+  0x0000e5c0: ldm      sp, {r3, r4, fp, sp, pc}
+  0x0000e5c4: eoreq    r3, r8, r8, asr #19
+== dmm_ext_tbl_GetFreeExtentUnitType @ 0xe640 (thumb=False)
+  0x0000e640: mov      ip, sp
+  0x0000e644: push     {r3, r4, fp, ip, lr, pc}
+  0x0000e648: sub      fp, ip, #4
+  0x0000e64c: mov      r4, r0
+  0x0000e650: bl       #0xe650 ; dmm_unit_tbl_GetUnitTbl
+  0x0000e654: mov      r3, #0
+  0x0000e658: b        #0xe680
+  0x0000e65c: add      r1, r0, r3
+  0x0000e660: add      r3, r3, #8
+  0x0000e664: ldr      r1, [r1, #4]
+  0x0000e668: ldr      ip, [r1]
+  0x0000e66c: ldr      r1, [pc, #0x20]
+  0x0000e670: add      r1, r1, r4, lsl #2
+  0x0000e674: ldr      r1, [r1, #-0xacc]
+  0x0000e678: cmp      ip, r1
+  0x0000e67c: beq      #0xe68c
+  0x0000e680: ldr      r2, [r0, r3]
+  0x0000e684: cmn      r2, #1
+  0x0000e688: bne      #0xe65c
+  0x0000e68c: mov      r0, r2
+  0x0000e690: ldm      sp, {r3, r4, fp, sp, pc}
+  0x0000e694: eoreq    r3, r8, r8, asr #19

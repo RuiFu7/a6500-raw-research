@@ -1,0 +1,7 @@
+== dmm_unit_ctrl_GetUnitTop @ 0xaec0 (thumb=False)
+  0xaec0: mov	ip, sp 
+  0xaec4: push	{fp, ip, lr, pc} 
+  0xaec8: sub	fp, ip, #4 
+  0xaecc: ldr	r0, [pc] 
+  0xaed0: ldm	sp, {fp, sp, pc} 
+  0xaed4: andeq	sp, r5, r0, ror #5 

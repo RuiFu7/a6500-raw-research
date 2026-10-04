@@ -1,0 +1,1347 @@
+target	string_address	string	from	ref_type	function	function_addr
+RAW	0082ab01	[ADF][DEBUG]SAN RAW_LPCM WP %x
+				
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006eaf0	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006eb9c	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ebda	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ec1e	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ec5a	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ed12	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006edd2	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ec98	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006ecd4	DATA	FUN_0006ea94	0006ea94
+Movie	00834d75	void cdTestAvc_MovieCodecYcPinSetting()	0006eb32	DATA	FUN_0006ea94	0006ea94
+Movie	00834d9d	void cdTestAvc_MovieCodecSetWorkArea()	0006cd1e	DATA	FUN_0006cce0	0006cce0
+Movie	00834dc4	void cdTestAvc_MovieCodecReleaseWorkArea()	0006cc2e	DATA	FUN_0006cbf0	0006cbf0
+Movie	00834dc4	void cdTestAvc_MovieCodecReleaseWorkArea()	0006cc62	DATA	FUN_0006cbf0	0006cbf0
+Movie	00834dc4	void cdTestAvc_MovieCodecReleaseWorkArea()	0006cc92	DATA	FUN_0006cbf0	0006cbf0
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006cdd4	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006ceb0	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006cf18	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006d052	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006d0ba	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006d11a	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006d180	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006cf78	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006cfde	DATA	FUN_0006cd84	0006cd84
+Movie	00834def	void cdTestAvc_MovieCodecSetMemEsAugi()	0006ce34	DATA	FUN_0006cd84	0006cd84
+Movie	00834e17	UINT32 cdTestAvc_MovieCodecSendDfmsAvbbc(UINT32)	0006e9f4	DATA	FUN_0006dd34	0006dd34
+Movie	00834e97	[CDiag tdMovieCodecDebug ]ENC_OPEN ACK : %x
+	0006c074	PARAM	FUN_0006bff0	0006bff0
+Movie	00834ee7	[CDiag tdMovieCodecDebug ]ENC_OPEN COMP : %x
+	0006c096	PARAM	FUN_0006bff0	0006bff0
+Movie	00834f38	[CDiag tdMovieCodecDebug ]ENC_START ACK : %x
+	0006c0ba	PARAM	FUN_0006bff0	0006bff0
+Movie	00834f8a	[CDiag tdMovieCodecDebug ]ENC_START COMP : %x
+	0006c0dc	PARAM	FUN_0006bff0	0006bff0
+Movie	00834fde	[CDiag tdMovieCodecDebug ][TD] ENC_NEXTFRM ACK : %x
+	0006c0fe	PARAM	FUN_0006bff0	0006bff0
+Movie	00835039	[CDiag tdMovieCodecDebug ][TD] ENC_NEXTFRM COMP : %x
+	0006c11c	PARAM	FUN_0006bff0	0006bff0
+Movie	00835091	[CDiag tdMovieCodecDebug ]ENC_STOP ACK : %x
+	0006c13a	PARAM	FUN_0006bff0	0006bff0
+Movie	008350e1	[CDiag tdMovieCodecDebug ] ENC_STOP COMP : %x
+	0006c158	PARAM	FUN_0006bff0	0006bff0
+Movie	00835133	[CDiag tdMovieCodecDebug ] ENC_CLOSE ACK : %x
+	0006c178	PARAM	FUN_0006bff0	0006bff0
+Movie	00835186	[CDiag tdMovieCodecDebug ][TD] ENC_CLOSE COMP : %x
+	0006c196	PARAM	FUN_0006bff0	0006bff0
+Movie	008351e1	[CDiag tdMovieCodecDebug ]ENC_UNIT_ENC(%ld) : %x
+	0006c1c2	PARAM	FUN_0006bff0	0006bff0
+Movie	00835232	[CDiag tdMovieCodecDebug] [ERR]ENC_ERROR : %x
+	0006c1fa	PARAM	FUN_0006bff0	0006bff0
+Movie	00835283	[CDiag tdMovieCodecDebug ]DEC_OPEN ACK : %x
+	0006c21a	PARAM	FUN_0006bff0	0006bff0
+Movie	008352d3	[CDiag tdMovieCodecDebug ]DEC_OPEN COMP : %x
+	0006c238	PARAM	FUN_0006bff0	0006bff0
+Movie	00835324	[CDiag tdMovieCodecDebug ]DEC_START ACK : %x
+	0006c258	PARAM	FUN_0006bff0	0006bff0
+Movie	00835376	[CDiag tdMovieCodecDebug ]DEC_START COMP : %x
+	0006c276	PARAM	FUN_0006bff0	0006bff0
+Movie	008353cc	[CDiag tdMovieCodecDebug ]DEC_Frame display : %x
+	0006c298	PARAM	FUN_0006bff0	0006bff0
+Movie	00835422	[CDiag tdMovieCodecDebug ]DEC_Frame hide : %x
+	0006c2b6	PARAM	FUN_0006bff0	0006bff0
+Movie	0083547a	[CDiag tdMovieCodecDebug ]DEC_CHANGESPEED ACK : %x
+	0006c2d2	PARAM	FUN_0006bff0	0006bff0
+Movie	008354d8	[CDiag tdMovieCodecDebug ]DEC_CHANGESPEED COMP : %x
+	0006c2ea	PARAM	FUN_0006bff0	0006bff0
+Movie	00835531	[CDiag tdMovieCodecDebug ]DEC_NEXFRM ACK : %x
+	0006c30a	PARAM	FUN_0006bff0	0006bff0
+Movie	00835585	[CDiag tdMovieCodecDebug ][DEC_NEXFRM COMP : %x
+	0006c322	PARAM	FUN_0006bff0	0006bff0
+Movie	008355d8	[CDiag tdMovieCodecDebug ]DEC_STOP ACK : %x
+	0006c342	PARAM	FUN_0006bff0	0006bff0
+Movie	00835628	[CDiag tdMovieCodecDebug ]DEC_STOP COMP : %x
+	0006c360	PARAM	FUN_0006bff0	0006bff0
+Movie	00835679	[CDiag tdMovieCodecDebug ]DEC_CLOSE ACK : %x
+	0006c380	PARAM	FUN_0006bff0	0006bff0
+Movie	008356cb	[CDiag tdMovieCodecDebug ]DEC_CLOSE COMP : %x
+	0006c39e	PARAM	FUN_0006bff0	0006bff0
+Movie	00835726	[CDiag tdMovieCodecDebug ][TD] VideoIP Play END(0x1A) : %x
+	0006c3c0	PARAM	FUN_0006bff0	0006bff0
+Movie	0083578e	[CDiag tdMovieCodecDebug ][VideoIP Play END(0x1B) : %x
+	0006c3de	PARAM	FUN_0006bff0	0006bff0
+Movie	008357ea	[CDiag tdMovieCodecDebug ]DEC STREAM END : %x
+	0006c3fa	PARAM	FUN_0006bff0	0006bff0
+Movie	00835838	[CDiag tdMovieCodecDebug] [ERR]DEC_ERROR : %x
+	0006c41a	PARAM	FUN_0006bff0	0006bff0
+Movie	00835895	[CDiag tdMovieCodecDebug ]ENC_STOP_BY_INTERNAL_CMP : %x
+	0006c43a	PARAM	FUN_0006bff0	0006bff0
+Movie	008358f3	[CDiag tdMovieCodecDebug ]DEC_NEXTTHM ACK : %x
+	0006c45c	PARAM	FUN_0006bff0	0006bff0
+Movie	00835949	[CDiag tdMovieCodecDebug ]DEC_NEXTTHM CPMP : %x
+	0006c47a	PARAM	FUN_0006bff0	0006bff0
+Movie	008359a5	[CDiag tdMovieCodecDebug] [ERR]MSG RECEIVE?? id [%x] : %x
+	0006c49c	PARAM	FUN_0006bff0	0006bff0
+Movie	00835a03	[CDiag tdMovieCodecDebug ]SET_MODE COMP : %x
+	0006c648	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835a53	[CDiag tdMovieCodecDebug ]PREPROC COMP : %x
+	0006c678	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835aa3	[CDiag tdMovieCodecDebug ][TD] POSTPROC COMP : %x
+	0006c6a8	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835b03	[CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT YC
+	0006c74a	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835b6b	[CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT AUDIO
+	0006c76a	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835bd0	[CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT YC
+	0006c796	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835c28	[CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT AUDIO
+	0006c7b4	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835c93	[CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT_COMP YC : %x 
+	0006c816	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835d11	[CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT_COMP AUDIO : %x 
+	0006c842	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835d8c	[CDiag tdMovieCodecDebug ] MSGID_PIN_CONNECT_COMP YC : %x 
+	0006c87c	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835dfb	[CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT_COMP AUDIO : %x 
+	0006c8a2	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835e6a	[CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_DISCONNECT YC 
+	0006c8ca	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835edf	[CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_DISCONNECT AUDIO 
+	0006c8e6	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835f41	[CDiag tdMovieCodecDebug ]PIN_DISCONNECT YC 
+	0006c90e	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835f95	[CDiag tdMovieCodecDebug ]PIN_DISCONNECT AUDIO 
+	0006c928	PARAM	FUN_0006c5e0	0006c5e0
+Movie	00835fc6	[CDiag tdMovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP YC : %x
+	0006c998	PARAM	FUN_0006c5e0	0006c5e0
+Movie	0083606f	[CDiag tdMovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP AUDIO: %x
+	0006c9c6	PARAM	FUN_0006c5e0	0006c5e0
+Movie	008360dd	[CDiag tdMovieCodecDebug ][TD] PIN_DISCONNECT_COMP YC : %x 
+	0006ca02	PARAM	FUN_0006c5e0	0006c5e0
+Movie	0083614a	[CDiag tdMovieCodecDebug ]PIN_DISCONNECT_COMP AUDIO : %x 
+	0006ca22	PARAM	FUN_0006c5e0	0006c5e0
+Movie	008361ac	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]Work Close Error[%d] :%x,%x
+	0006cc44	PARAM	FUN_0006cbf0	0006cbf0
+Movie	00836215	[CDiag tdMovieCodecDebug ][%s],[%d]Work Close OK[%d] :%x,%x
+	0006cc78	PARAM	FUN_0006cbf0	0006cbf0
+Movie	00836284	[CDiag tdMovieCodecDebug ][%s],[%d]Work Area is not open? : NG[%d] :0x%x 
+	0006cca8	PARAM	FUN_0006cbf0	0006cbf0
+Movie	008362f5	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]Work Open Error[%d] :%x,%x
+	0006cd34	PARAM	FUN_0006cce0	0006cce0
+Movie	0083635c	[CDiag tdMovieCodecDebug ]Work Open OK[%d] :%x,%x
+	0006cd5c	PARAM	FUN_0006cce0	0006cce0
+Movie	008363b7	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm OPEN Error :%x
+	0006cde4	PARAM	FUN_0006cd84	0006cd84
+Movie	00836422	[CDiag tdMovieCodecDebug ]ENC AudioLpcm OPEN OK :%x
+	0006ce00	PARAM	FUN_0006cd84	0006cd84
+Movie	00836480	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm CLOSE Error :%x
+	0006ce44	PARAM	FUN_0006cd84	0006cd84
+Movie	008364ed	[CDiag tdMovieCodecDebug ]ENC AudioLpcm CLOSE OK :%x
+	0006ce64	PARAM	FUN_0006cd84	0006cd84
+Movie	00836549	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC VideoEs OPEN Error :%x
+	0006cec0	PARAM	FUN_0006cd84	0006cd84
+Movie	008365b0	[CDiag tdMovieCodecDebug ]ENC VideoEs OPEN OK :%x
+	0006cee0	PARAM	FUN_0006cd84	0006cd84
+Movie	00836609	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioEs OPEN Error :%x
+	0006cf28	PARAM	FUN_0006cd84	0006cd84
+Movie	00836670	[CDiag tdMovieCodecDebug ]ENC AudioEs OPEN OK :%x
+	0006cf44	PARAM	FUN_0006cd84	0006cd84
+Movie	008366ca	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC VideoEs CLOSE Error :%x
+	0006cf88	PARAM	FUN_0006cd84	0006cd84
+Movie	00836733	[CDiag tdMovieCodecDebug ]ENC VideoEs CLOSE OK :%x
+	0006cfa8	PARAM	FUN_0006cd84	0006cd84
+Movie	0083678e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioEs CLOSE Error :%x
+	0006cfee	PARAM	FUN_0006cd84	0006cd84
+Movie	008367f7	[CDiag tdMovieCodecDebug ]ENC AudioEs CLOSE OK :%x
+	0006d00e	PARAM	FUN_0006cd84	0006cd84
+Movie	00836851	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Open Error :%x
+	0006d062	PARAM	FUN_0006cd84	0006cd84
+Movie	008368b8	[CDiag tdMovieCodecDebug ]DEC VideoEs Open OK :%x
+	0006d082	PARAM	FUN_0006cd84	0006cd84
+Movie	00836911	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Open Error :%x
+	0006d0ca	PARAM	FUN_0006cd84	0006cd84
+Movie	00836978	[CDiag tdMovieCodecDebug ]DEC AudioEs Open OK :%x
+	0006d0e6	PARAM	FUN_0006cd84	0006cd84
+Movie	008369d2	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Close Error :%x
+	0006d12a	PARAM	FUN_0006cd84	0006cd84
+Movie	00836a3b	[CDiag tdMovieCodecDebug ]DEC VideoEs Close OK :%x
+	0006d14a	PARAM	FUN_0006cd84	0006cd84
+Movie	00836a96	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Close Error :%x
+	0006d190	PARAM	FUN_0006cd84	0006cd84
+Movie	00836aff	[CDiag tdMovieCodecDebug ]DEC AudioEs Close OK :%x
+	0006d1b0	PARAM	FUN_0006cd84	0006cd84
+Movie	00836b51	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]memAlloc Error :%x
+				
+Movie	00836c3e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]AUDIO PIN memAlloc Error :%x
+	0006d46a	PARAM	FUN_0006b928	0006b928
+Movie	00836ca9	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]AUDIO PIN Share Error :%x
+	0006d4a6	PARAM	FUN_0006b928	0006b928
+Movie	00836d12	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]AUDIO Lpcm Share Error :%x
+	0006d4e6	PARAM	FUN_0006b928	0006b928
+Movie	00836f20	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]Error cdTestAvc_sendYcMemOutAddress = %d
+				
+Movie	00836fa8	[CDiag tdMovieCodecDebug ]EncOpenParam 
+	0006ded2	PARAM	FUN_0006dd34	0006dd34
+Movie	00837022	[CDiag tdMovieCodecDebug ]  Video ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+	0006df04	PARAM	FUN_0006dd34	0006dd34
+Movie	008370d4	[CDiag tdMovieCodecDebug ]  Audio ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+	0006df32	PARAM	FUN_0006dd34	0006dd34
+Movie	00837189	[CDiag tdMovieCodecDebug ]  Video Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+	0006df64	PARAM	FUN_0006dd34	0006dd34
+Movie	00837241	[CDiag tdMovieCodecDebug ]  Audio Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+	0006df96	PARAM	FUN_0006dd34	0006dd34
+Movie	008372d8	[CDiag tdMovieCodecDebug ]  Host Status Table topAddress 0x%08lx 
+	0006dfb4	PARAM	FUN_0006dd34	0006dd34
+Movie	0083734e	[CDiag tdMovieCodecDebug ]  Avco Status Table topAddress 0x%08lx 
+	0006dfd6	PARAM	FUN_0006dd34	0006dd34
+Movie	008373b6	[CDiag tdMovieCodecDebug ]SEND MSG : ENC_OPEN 
+	0006e0c4	PARAM	FUN_0006dd34	0006dd34
+Movie	0083740c	[CDiag tdMovieCodecDebug ]SEND MSG : ENC_START 
+	0006e348	PARAM	FUN_0006dd34	0006dd34
+Movie	00837462	[CDiag tdMovieCodecDebug ]SEND MSG : ENC_STOP 
+	0006e3f4	PARAM	FUN_0006dd34	0006dd34
+Movie	008374b8	[CDiag tdMovieCodecDebug ]SEND MSG : ENC_CLOSE 
+	0006e46c	PARAM	FUN_0006dd34	0006dd34
+Movie	0083752c	[CDiag tdMovieCodecDebug ][DECOPEN PRM] VES address = %08x (nc:%08x) size = %08x 
+	0006e4e2	PARAM	FUN_0006dd34	0006dd34
+Movie	008375c2	[CDiag tdMovieCodecDebug ][DECOPEN PRM] AES address = %08x (nc:%08x) size = %08x 
+	0006e52e	PARAM	FUN_0006dd34	0006dd34
+Movie	00837658	[CDiag tdMovieCodecDebug ][DECOPEN PRM] VPI address = %08x (nc:%08x) size = %08x 
+	0006e580	PARAM	FUN_0006dd34	0006dd34
+Movie	008376ee	[CDiag tdMovieCodecDebug ][DECOPEN PRM] API address = %08x (nc:%08x) size = %08x 
+	0006e5ce	PARAM	FUN_0006dd34	0006dd34
+Movie	00837786	[CDiag tdMovieCodecDebug ][DECOPEN PRM] VInfo address = %08x (nc:%08x) size = %08x 
+	0006e61c	PARAM	FUN_0006dd34	0006dd34
+Movie	00837820	[CDiag tdMovieCodecDebug ][DECOPEN PRM] AInfo address = %08x (nc:%08x) size = %08x 
+	0006e666	PARAM	FUN_0006dd34	0006dd34
+Movie	008378bf	[CDiag tdMovieCodecDebug ][DECOPEN PRM] HostStatus address = %08x (nc:%08x) size = %08x 
+	0006e6a6	PARAM	FUN_0006dd34	0006dd34
+Movie	0083795a	[CDiag tdMovieCodecDebug ][DECOPEN PRM] AvConStatus address = %08x size = %08x 
+	0006e6d6	PARAM	FUN_0006dd34	0006dd34
+Movie	008379fa	[CDiag tdMovieCodecDebug ][Send] DEC OPEN prm=%08x
+	0006e7f6	PARAM	FUN_0006dd34	0006dd34
+Movie	00837ab6	[CDiag tdMovieCodecDebug ] SEND MSG : DEC_START 
+	0006e8f0	PARAM	FUN_0006dd34	0006dd34
+Movie	00837b0e	[CDiag tdMovieCodecDebug ]SEND MSG : DEC_CLOSE 
+	0006e968	PARAM	FUN_0006dd34	0006dd34
+Movie	00837b64	[CDiag tdMovieCodecDebug ]SEND MSG : DEC_STOP 
+	0006e9e0	PARAM	FUN_0006dd34	0006dd34
+Movie	00837b94	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]ERR_PARAM_ERR
+	0006ea00	PARAM	FUN_0006dd34	0006dd34
+Movie	00837bf0	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC PIN memAlloc Error :%x
+	0006eb02	PARAM	FUN_0006ea94	0006ea94
+Movie	00837c55	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC PIN Share Error :%x
+	0006eb42	PARAM	FUN_0006ea94	0006ea94
+Movie	00837cc1	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+	0006ebac	PARAM	FUN_0006ea94	0006ea94
+Movie	00837cc1	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+	0006ec2e	PARAM	FUN_0006ea94	0006ea94
+Movie	00837cc1	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+	0006ed22	PARAM	FUN_0006ea94	0006ea94
+Movie	00837cc1	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+	0006eca8	PARAM	FUN_0006ea94	0006ea94
+Movie	00837d2e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+	0006ebea	PARAM	FUN_0006ea94	0006ea94
+Movie	00837d2e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+	0006ec6a	PARAM	FUN_0006ea94	0006ea94
+Movie	00837d2e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+	0006ede2	PARAM	FUN_0006ea94	0006ea94
+Movie	00837d2e	[CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+	0006ece4	PARAM	FUN_0006ea94	0006ea94
+Movie	00837d6f	void cdTestAvc_MovieCodecAudioPinSetting()	0006d45a	DATA	FUN_0006b928	0006b928
+Movie	00837d6f	void cdTestAvc_MovieCodecAudioPinSetting()	0006d496	DATA	FUN_0006b928	0006b928
+Movie	00837d6f	void cdTestAvc_MovieCodecAudioPinSetting()	0006d4d6	DATA	FUN_0006b928	0006b928
+Movie	00839ac4	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/include/mcConfig.h	00103d08	PARAM	FUN_00103cf0	00103cf0
+Movie	00839ac4	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/include/mcConfig.h	0009112c	PARAM	FUN_0009110c	0009110c
+Movie	00839ac4	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/include/mcConfig.h	00076412	PARAM	FUN_0007638c	0007638c
+Movie	0083d9fb	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/mcAvsc/strmEng/strmEngEnc/StrmEngEncInfoHd.h	00086f4e	PARAM	FUN_00086ebc	00086ebc
+Movie	0083da8a	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/mcAvsc/strmEng/strmEngEnc/StrmEngEncInfoSd.h	0008700a	PARAM	FUN_00086f98	00086f98
+Movie	0083dcc1	[MCUTILPTM ][ERR][%s][%s()][%d] AutoEditMovie CLKTYPE error. clkNow=%d 
+	0008c2a2	PARAM	FUN_0008c1b4	0008c1b4
+Movie	0083eaee	[DECMODEMGR]Cancel CMD_ID_MUTE_VIDEO_DISP in AutoEditMovie
+	0008f6de	PARAM	FUN_0008f3bc	0008f3bc
+Movie	0083fe2d	[DECAUDPRM ]End HD_SAKUHINKA, NotFreeLpcmBuff, OnlyStill AutoEditMovie
+				
+Movie	0083fe75	[DECAUDPRM ][ERR]No Movie Duration Data!!! File:%s, Func:%s() ,Line:%d 
+	00091da6	PARAM	FUN_00091d78	00091d78
+Movie	0083ff5f	void McAvcDecAudioParam::ParseMovieDuration()				
+Movie	0083ff8d	__uint32_t McAvcDecAudioParam::GetMovieDuration(__uint32_t)	00091d9c	DATA	FUN_00091d78	00091d78
+Movie	0084071e	[DECAUDSEQ ]Cancel CID_SETMUTE in AutoEditMovie
+	000925a8	PARAM	FUN_00092394	00092394
+Movie	00844f2f	20McAvcEncModeEncMovie				
+Movie	00845058	N20McAvcEncModeEncMovie10callback_tE				
+Movie	0084991b	__int32_t McAvcEncVideoBestEffortStateEncMovie::NotifyEncodeTcubInfo(const McAvcYcData*)	000a78be	DATA	FUN_000a7870	000a7870
+Movie	00849974	__int32_t McAvcEncVideoBestEffortStateEncMovie::ProcEncodingState()				
+Movie	008499b8	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*)				
+Movie	00849a2f	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*)				
+Movie	00849ab7	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*)				
+Movie	00849b29	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*)				
+Movie	00849b97	36McAvcEncVideoBestEffortStateEncMovie				
+Movie	00849bbe	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::ProcVsync()				
+Movie	00849c32	seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncMovie.cpp	000a7c52	DATA		
+Movie	00849c32	seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncMovie.cpp	000a78b8	DATA	FUN_000a7870	000a7870
+Movie	00849c32	seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncMovie.cpp	000a7cc8	DATA		
+Movie	0084a452	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE_COMP*)				
+Movie	0084a4d1	__int32_t McAvcEncVideoBestEffortStateEncMovie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_IMAGE_OUT_TIM_INFO*, __uint32_t*)				
+Movie	0084a59d	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::ReleaseEsComp(const PARAM_AVC_ENC_VIDEO_RELEASE_ES_COMP*)				
+Movie	0084a60f	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::EncPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_PICTURE_COMP*)				
+Movie	0084a683	__int32_t McAvcEncVideoBestEffortStateEncMovie::StockYcData()				
+Movie	0084a6c1	bool McAvcEncVideoBestEffortStateEncMovie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoBestEffortUserDataMgr::OUTPUT_USER_DATA_INFO*)				
+Movie	0084a74a	__int32_t McAvcEncVideoBestEffortStateEncMovie::ProcEncoding(bool, bool*, bool*)	000a7c58	DATA		
+Movie	0084a74a	__int32_t McAvcEncVideoBestEffortStateEncMovie::ProcEncoding(bool, bool*, bool*)	000a7cce	DATA		
+Movie	0084a79b	virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*)				
+Movie	0084a900	virtual __int32_t McAvcEncVideoBestEffortStateEncReady::InitializeMovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*)	000a7fc2	DATA		
+Movie	0084c27b	virtual Int32 McAvcEncVideoSeqCtrlBaseNormal::RecvAvcEncInitMovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*)				
+Movie	0084cebe	virtual Int32 McAvcEncVideoSeqCtrlBaseNormal::RecvAvcEncSetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*)				
+Movie	0084d54c	[EncStateBase]m_avcEncVideInitMovieComp[%s][%d]
+				
+Movie	0084eb58	void McAvcEncVideoOuCrankOverflowStateEncReady::SetNormalEncState(McAvcEncVideoOuCrankStateEncMovie::SUB_STATE)	000adcae	DATA	FUN_000adc34	000adc34
+Movie	0084eee1	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcFindingStartPinState()				
+Movie	0084ef29	33McAvcEncVideoOuCrankStateEncMovie				
+Movie	0084ef4d	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncoding(bool, bool*, bool*)				
+Movie	0084ef9b	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE_COMP*)				
+Movie	0084f017	__int32_t McAvcEncVideoOuCrankStateEncMovie::NotifyEncodeTcubInfo(const McAvcYcData*)				
+Movie	0084f06d	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcFindingEarlyStopPinState()				
+Movie	0084f0b9	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*)				
+Movie	0084f125	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::ReleaseEsComp(const PARAM_AVC_ENC_VIDEO_RELEASE_ES_COMP*)				
+Movie	0084f194	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcFindingStopPinState()				
+Movie	0084f1db	__int32_t McAvcEncVideoOuCrankStateEncMovie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_IMAGE_OUT_TIM_INFO*, __uint32_t*)				
+Movie	0084f2a4	seqCtrl/video/oucrank/support/mcAvcEncVideoOuCrankStateEncMovie.cpp				
+Movie	0084fc2f	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::EncPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_PICTURE_COMP*)				
+Movie	0084fca0	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*)				
+Movie	0084fd14	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncodingState()				
+Movie	0084fd55	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*)				
+Movie	0084fdc4	__int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncodingEarlyStop(bool, bool*, bool*, DataflowInfra_StdYc::PIN_YC_TCUB_TC_DATA*)				
+Movie	0084fe46	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*)				
+Movie	0084fecb	__int32_t McAvcEncVideoOuCrankStateEncMovie::StockYcData()				
+Movie	0084ff06	bool McAvcEncVideoOuCrankStateEncMovie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoOuCrankUserDataMgr::OUTPUT_USER_DATA_INFO*)				
+Movie	0084ff89	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcVsync()				
+Movie	0084ffca	virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*)				
+Movie	008505ec	virtual __int32_t McAvcEncVideoOuCrankStateEncReady::InitializeMovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*)				
+Movie	008521da	[%06x_%04x][%s][%d]%s() reviseMovieEncInfoTimeDone
+	000b2dfc	PARAM	FUN_000b2d00	000b2d00
+Movie	0085224b	void McAvCtrlCore::ReviseMovieEncInfoTimeForSuperSandQ()	000b2048	DATA	FUN_000b1ff8	000b1ff8
+Movie	008525bc	[AVCTRL    ]Err!!! in Thumbnail creation[Auto Edit Movie], File->%s Function->%s() Line[%d]
+	000b3884	PARAM		
+Movie	008525bc	[AVCTRL    ]Err!!! in Thumbnail creation[Auto Edit Movie], File->%s Function->%s() Line[%d]
+	000b38ee	PARAM		
+Movie	00858cc4	[CdcCtrlEnc][ERR]ACT_ENC PARAM ERR hsMovieRec               : 0x%x
+	000c1a62	PARAM	FUN_000c17b4	000c17b4
+Movie	0085c48e	hsMovieRec                  = %#x
+	000ccc58	PARAM		
+Movie	0085fdca	hsMovieRec                 :%#x
+				
+Movie	008620e5	(hsMovieRec=%#x, stillPic=%#x) is NG.
+				
+Movie	008712bf	[MCMSGCORE ]Digest Auto Edit Movie AvcResponse do not RID_AVIF_MPRNTFY_BGM_STREAM_END
+	000f2f38	PARAM	FUN_000f2e94	000f2e94
+Movie	00871316	[MCMSGCORE ]Digest Auto Edit Movie AvcResponse send RID_AVIF_MPRNTFY_BGM_STREAM_END
+	000f2f4c	PARAM	FUN_000f2e94	000f2e94
+Movie	008718a3	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/include/simple_queue.h	000ffb84	PARAM	FUN_000ffb70	000ffb70
+Movie	00871e4d	/home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/include/mcAlign.h	000f4260	PARAM	FUN_000f422c	000f422c
+Movie	008736ff	[AUDPINEDTR][INFO] Scene Type is set to Movie
+	000f74fc	PARAM	FUN_000f74c4	000f74c4
+Movie	008777ee	bool McAvcEncAvSyncIf::McAvcEncAvSync::CalcStartAddressAutoEditMovie(McAvcAudioData*)	000ff428	DATA	FUN_000ff360	000ff360
+Movie	008777ee	bool McAvcEncAvSyncIf::McAvcEncAvSync::CalcStartAddressAutoEditMovie(McAvcAudioData*)	000ff448	DATA	FUN_000ff360	000ff360
+Movie	0087c440	McDataTrans::err_t McDataTransCtrlDecIf::ProcMsgFromMovieCodec(const DefMcDataTransCtrlDecMsg::msg_common_t*, OSAL_ID, OSAL_ID)	0010a422	DATA	FUN_0010aeb8	0010aeb8
+Movie	0087c440	McDataTrans::err_t McDataTransCtrlDecIf::ProcMsgFromMovieCodec(const DefMcDataTransCtrlDecMsg::msg_common_t*, OSAL_ID, OSAL_ID)	0010a3e2	DATA	FUN_0010aeb8	0010aeb8
+Movie	0087d59a	McDataTrans::err_t McDataTransCtrlLoopbackIf::ProcMsgFromMovieCodec(const DefMcDataTransCtrlLoopbackMsg::msg_common_t*, OSAL_ID, OSAL_ID)	0010be38	DATA	FUN_0010be6c	0010be6c
+Movie	0087d59a	McDataTrans::err_t McDataTransCtrlLoopbackIf::ProcMsgFromMovieCodec(const DefMcDataTransCtrlLoopbackMsg::msg_common_t*, OSAL_ID, OSAL_ID)	0010bdfa	DATA	FUN_0010be6c	0010be6c
+Movie	00880dbb	hsMovieRec                    %d
+				
+Movie	00897de4	bool VDF::IsMoviePlay(__int32_t, VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*)				
+Movie	0089b2d6	bool IsMoviePlay(VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*)				
+RAW	0089c3a0	[VDF]VDF_SET_EVF_PARALLAX_DRAW NG(0x%x)
+				
+RAW	0089c7c5	virtual VDF::VDF_ERR VDF::VdfSrvcDrawOsdManager::ExecGuard(VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*, VDF::VDF_PRM_SRVC_DRAW_FOCUS_LOCK_FRAME*)				
+Movie	0089da00	bool IsMoviePlay(__int32_t, VDF::SubsystemAccessorIf*, VDF::MsgAccessorIf*)				
+Movie	0089daaf	bool IsMoviePlay(__uint32_t, VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*)				
+RAW	008a4fb4	encType must be ENC4 when RAW is precompressed in the imager.				
+RAW	008a50d6	Cannot read with skipping when 4bit RAW.	001cccc4	PARAM	FUN_001ccba4	001ccba4
+Movie	008abb46	MovieAdj_SpreadDefectsOverSharedPixels: work0 is shortage. req%dpt, act%dpt				
+Movie	008abb92	MovieAdj_SpreadDefectsOverSharedPixels: work1 is shortage. req%dpt, act%dpt	001f0d68	PARAM		
+Movie	008af5dc	b1_Movie_Rec				
+Movie	008b2ad9	LiroSequencerMovieFileFormat : %d	0025e7cc	PARAM	FUN_0025e58c	0025e58c
+RAW	008b6292	RESOURCE_IMAGER0_STORE_RAW				
+RAW	008b62ad	RESOURCE_IMAGER0_TRANS_RAW				
+RAW	008b62d9	RESOURCE_IMAGER1_TRANS_RAW				
+Movie	008b7254	ModeChangeable[%d] IsMovieFormatComp[%d]				
+Movie	008b83ad	MovieFileFormatTmp : %d	0027e010	PARAM	FUN_0069e772	0069e772
+DualRec	008b8a0a	CapMgr) Error! UseRaw_DualRec was called too many.				
+DualRec	008b8a3d	CapMgr) Error! FreeRaw_DualRec was called too many.				
+DualRec	008b8ebf	!!! Can't send DualRec cmd				
+RAW	008ba74e	Load_RawFile) ARW's RAW Size Over!!				
+DualRec	008baa2e	DualRecParamErr: RawHsize %d				
+DualRec	008baa4b	DualRecParamErr: RawHofs %d				
+DualRec	008baa67	DualRecParamErr: YcArea_H %d				
+DualRec	008baa84	DualRecParamErr: YcHsize %d				
+DualRec	008baaa0	DualRecParamErr: YcHofs %d				
+DualRec	008baabb	DualRecParamErr: YcHsize %d, YcArea_H %d, YcHofs %d				
+DualRec	008baaef	DualRecParamErr: YcVsize %d, YcArea_V %d, YcVofs %d				
+DualRec	008bac37	Stage_DualRec.cpp				
+Bayer	008bad2d	StartSA_Bayer				
+Stage_DfeRawTrans	008badde	Stage_DfeRawTransSnrBranch				
+Stage_DfeRawTrans	008bb42c	Stage_DfeRawTrans				
+DualRec	008bbc78	Stage_RchRcv_ResizeTrim_ValidShift_DualRec				
+RAW	008bc541	MemAreaMSDebug_RAW Error : Captuer_MemOpen %d	0029762a	PARAM	FUN_002975e0	002975e0
+RAW	008bc56f	MemAreaMSDebug_RAW Error : Decomp area Mem_Alloc %d	002976a6	PARAM	FUN_002975e0	002975e0
+RAW	008bc5a3	MemAreaMSDebug_RAW: CamCore Start Error!: %02x	00297738	PARAM	FUN_002975e0	002975e0
+RAW	008bc5d2	MemAreaMSDebug_RAW: CamCore Release Error!: %02x	00297756	PARAM	FUN_002975e0	002975e0
+RAW	008bc603	[MemAreaMSDebug_RAW]Raw decomp inputImage: id[0x%02x], encType[%d] addr[0x%08x] size[0x%08x]	00297768	PARAM	FUN_002975e0	002975e0
+RAW	008bc660	[MemAreaMSDebug_RAW]IMAGE_SIZE_INFO: id[0x%02x], canvasSize[%d,%d], validOffset[%d,%d], validSize[%d,%d]	002977ec	PARAM	FUN_002975e0	002975e0
+RAW	008bc731	[MemAreaMSDebug_MiniRAW]IMAGE_SIZE_INFO: id[0x%02x], Size[%d,%d]				
+DualRec	008bcd3d	GetImageSizeFromBackup_DualRec	0029919e	PARAM	FUN_00299180	00299180
+DualRec	008bcd3d	GetImageSizeFromBackup_DualRec	002991b8	PARAM	FUN_00299180	00299180
+DualRec	008bced3	DualRecJpegTarget	00299f2c	PARAM	FUN_00299d94	00299d94
+DualRec	008bd079	ReadBackup_DualRecJpegTargetSize	00299ef0	PARAM	FUN_00299d94	00299d94
+DualRec	008bd079	ReadBackup_DualRecJpegTargetSize	00299f72	PARAM	FUN_00299d94	00299d94
+DualRec	008bd079	ReadBackup_DualRecJpegTargetSize	00299ed4	PARAM	FUN_00299d94	00299d94
+RAW	008bf8ef	%s: Develop(RAW->YC) fail.				
+RAW	008bfa78	%s: No RAW_FULL handle				
+DualRec	008bfcd6	DualRec DFE Release err: %d	002a697a	PARAM	FUN_002a6958	002a6958
+DualRec	008bfd12	DualRecResManager.cpp	002a6a2a	PARAM	FUN_002a69ec	002a69ec
+DualRec	008bfd12	DualRecResManager.cpp	002a6bf4	PARAM	FUN_002a6b74	002a6b74
+DualRec	008bfd12	DualRecResManager.cpp	002a6bde	PARAM	FUN_002a6b74	002a6b74
+DualRec	008bfd12	DualRecResManager.cpp	002a6f2c	PARAM	FUN_002a6dec	002a6dec
+RAW	008c0105	4KSuperSlowMotion[Buffering] error: SYNC_RAW_OUTPUT_SIZE=%d (enum)				
+RAW	008c0189	4KSuperSlowMotion[Transfer] error: SYNC_RAW_OUTPUT_SIZE=%d (enum)				
+DualRec	008c07a8	DualRec start CamCore				
+DualRec	008c07be	DualRec start DFE				
+Movie	008c09e2	Sequence_HfrMovieSplit.cpp	002b0c3a	PARAM	FUN_002b04a8	002b04a8
+Movie	008c1a45	Sequence_Movie.cpp				
+DualRec	008c1a58	(DualRec) Can't Get CAM_REG_DRECSTL ...				
+Movie	008c1a80	Sequence_Movie: RC_ERR:0x%02x rcct_SetAicParam RCV error!				
+Movie	008c1aba	Sequence_Movie: SRC->VFX Strip Process Size Err. (width=%d)				
+Movie	008c1af6	Sequence_MovieSplit.cpp				
+Movie	008c1b0e	Sequence_MovieSplit: RC_ERR:0x%02x rcct_SetAicParam RCV error!				
+Movie	008c1b4d	Sequence_MovieSplit: SRC->VFX Strip Process Size Err. (width=%d)				
+Movie	008c1bb8	Sequence_ShsMovie.cpp				
+Movie	008c1ee6	Sequence_Movie: APL_ERR:0x%02x apl_mov_set_dma_addr error!				
+Movie	008c1f21	Sequence_Movie: APL_ERR:0x%02x apl_mov_start error!				
+Movie	008c21b3	Sequence_Movie: SPC_ERR:0x%02x SpicaApiSetTaneKeisuu error!				
+Movie	008c21ef	Sequence_Movie: SPC_ERR:0x%02x SpicaApiExpandParam error!				
+Movie	008c2229	Sequence_Movie: SPC_ERR:0x%02x SpicaApiExecute error!				
+Movie	008c225f	Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferChangeSync error!	002bd086	PARAM	FUN_002bd030	002bd030
+Movie	008c225f	Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferChangeSync error!	002bd176	PARAM	FUN_002bd030	002bd030
+Movie	008c22a5	Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferStart error!	002bd260	PARAM	FUN_002bd030	002bd030
+RAW	008c4735	Error : ExtractRAWPDI skip_start(0x%x) >= in_img.height(0x%x)				
+RAW	008c4773	Error : ExtractRAWPDI out_height(0x%x) > out_height_max(0x%x)				
+DualRec	008c5427	Stage_Decomp4SA_ForDualRec				
+SetSyncParamRawBuffering	008c7476	SHS DFE::SetSyncParamRawBuffering[%#x]				
+DualRec	008c9702	api_YC_CaptureDevDevelopResizeDualRec				
+Bayer	008ccd5e	ITP:	job_YC_RawDevMakerNote_Itp_ZZ_Bayer_init, RawDev MAKERNOTE ERROR	00309d9c	PARAM	FUN_00309d88	00309d88
+Bayer	008cce20	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_init, RawDev MAKERNOTE ERROR	0030a048	PARAM	FUN_0030a034	0030a034
+Bayer	008cce63	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_stl, RawDev MAKERNOTE ERROR	0030a0e4	PARAM	FUN_0030a0d0	0030a0d0
+Bayer	008ccee4	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_common, RawDev MAKERNOTE ERROR	0030a33c	PARAM	FUN_0030a328	0030a328
+Bayer	008ccfad	ITP:	job_YC_RawDevMakerNote_Itp_ZZ_Bayer_init_wr, RawDev MAKERNOTE ERROR	0030a5b8	PARAM	FUN_0030a5a4	0030a5a4
+Bayer	008cd078	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_init_wr, RawDev MAKERNOTE ERROR	0030a778	PARAM	FUN_0030a764	0030a764
+Bayer	008cd0be	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_stl_wr, RawDev MAKERNOTE ERROR	0030a7e4	PARAM	FUN_0030a7d0	0030a7d0
+Bayer	008cd145	ITP:	job_YC_RawDevMakerNote_Itp_Bayer_common_wr, RawDev MAKERNOTE ERROR	0030a960	PARAM	FUN_0030a94c	0030a94c
+DualRec	008d001f	NR DualRec :: every pixel read parameter undefined: 0x%x	0031d170	PARAM	FUN_0031cf78	0031cf78
+DualRec	008d0058	NR DualRec :: add pixel read parameter undefined: 0x%x	0031d1e8	PARAM	FUN_0031cf78	0031cf78
+DualRec	008d3aa3	YAP(DualRec): SPICA on. X_DZM=0x%x apgain_RCZOOM=0x%x				
+Movie	008dc97b	29AvcEncVideoStateEncMovieFlush				
+Movie	008dc99b	24AvcEncVideoStateEncMovie				
+Movie	008dcb54	Int32 AvcEncVideoStateIdle::SetInitializeMovieParam(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE*, MojitoConfig*)				
+Movie	008ddae1	virtual Int32 AvcEncVideoStateIdle::InitializeMovie(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE*, UInt32, UInt32)				
+Movie	008ddc9d	26AvcEncVideoStateMovieReady				
+Movie	008ef4de	[SFRS] ScalarInfraPathCmdSetPath::TransPathSuperStableMovie() msg->GetStatus()=0x%08x	003f6156	PARAM		
+Movie	008ef582	[SFRS] ScalarInfraPathCmdSetPath::TransPathEffectMovieRec() msg->GetStatus()=0x%08x				
+Movie	008f075f	N15NS_SCALAR_INFRA33ScalarInfraEffectMovieRecExecuterE				
+Movie	008f0796	N15NS_SCALAR_INFRA41ScalarInfraEffectMovieRecExecuterSequenceE				
+Movie	008f0983	N15NS_SCALAR_INFRA54ScalarInfraEffectMovieRecExecuterSequenceStageExecPostE				
+Movie	008f09cf	N15NS_SCALAR_INFRA52ScalarInfraEffectMovieRecExecuterSequenceStageExecSAE				
+Movie	008f0a19	N15NS_SCALAR_INFRA53ScalarInfraEffectMovieRecExecuterSequenceStageExecVFXE				
+Movie	008f0d56	N15NS_SCALAR_INFRA32ScalarInfraEffectMovieRecManagerE				
+Movie	008f0d8c	N15NS_SCALAR_INFRA33ScalarInfraEffectMovieRecSequenceE				
+Movie	008f0dc3	N15NS_SCALAR_INFRA49ScalarInfraEffectMovieRecSequenceStageExecPinSendE				
+Movie	008f0f34	N15NS_SCALAR_INFRA45ScalarInfraEffectMovieRecSequenceStageExecSRCE				
+Movie	008f1c19	ScalarInfraSuperStableMovieManager.cpp	003fafb2	PARAM		
+Movie	008f1e5c	N15NS_SCALAR_INFRA34ScalarInfraSuperStableMovieManagerE				
+Movie	008f1e94	N15NS_SCALAR_INFRA35ScalarInfraSuperStableMovieSequenceE				
+Movie	008f1ecd	N15NS_SCALAR_INFRA46ScalarInfraSuperStableMovieSequenceStageExecSAE				
+Movie	008f1f11	N15NS_SCALAR_INFRA67ScalarInfraSuperStableMovieSequenceStageExecTC_CECIL_OUT_SRC_RC_VFXE				
+Movie	008f1f6a	N15NS_SCALAR_INFRA50ScalarInfraSuperStableMovieSequenceStageWaitSACompE				
+Movie	008f2472	N15NS_SCALAR_INFRA55ScalarInfraSuperStableMovieSequenceStageExecTC_CECIL_INE				
+Movie	008f307e	[SFRS][DEBUG]YCPin Free! Received EE Pin of unsupported image size in SuperStableMovie!: file=%s line=%d				
+Movie	008f3eb4	34C_DataflowInfra_Entry_MovieEncInfo				
+Movie	008f3ed9	38C_DataflowInfra_Entry_MovieQualityInfo				
+DualRec	008f4451	SetDualRecParam()          [CapMode:%d] [ExposureID:%d] [ContID:%d] [BDROSeq:%d] [BDRObase:%d] [FrameID:%d]	0041dc3a	PARAM	FUN_0041dc10	0041dc10
+RAW	008f56d7	CC::WriteMakerNotePlayRaw [err %d] [CcTagDaraSize %d] [CC_PLAYRAW_MAKERNOTE SIZE %d] 	00433a32	PARAM	FUN_004339c4	004339c4
+RAW	008f572d	CC::SetExtOutputMakerNotePlayRaw [err %d] [CcTagDaraSize %d] [CC_PLAYRAW_MAKERNOTE SIZE %d] 	00433a96	PARAM	FUN_00433a40	00433a40
+Movie	008fb6d0	[IDT]:  IDT_OPD_AFMAP_StealDepthMovie NoBank
+	0045ccea	PARAM	FUN_0045cb54	0045cb54
+RAW	008fb8dc	[IDT]: RDRAW writeByte Error outW:%d outH:%d	0045d3ae	PARAM	FUN_0045d34c	0045d34c
+RAW	008fba69	[IDT]: miniRAW Addr  : %08x				
+Movie	008fcbc8	[IDT]: Split Movie Cannot use AIF! %d	0046b964	PARAM	FUN_0046b734	0046b734
+Movie	008fcbee	[IDT]: Split Movie Cannot use Insel! %d	0046b976	PARAM	FUN_0046b734	0046b734
+Movie	008fcc4a	[IDT]: Split Movie Cannot use AIF!!! %d	0046ba78	PARAM	FUN_0046b734	0046b734
+Movie	008fccb3	[IDT]: Split Movie Cannot use Insel!!! %d	0046bb00	PARAM	FUN_0046b734	0046b734
+RAW	008fcf48	[IDT]: AF or RDRAW can't work 8pix/clk %d	0046cb46	PARAM	FUN_0046cb38	0046cb38
+RAW	008fcf48	[IDT]: AF or RDRAW can't work 8pix/clk %d	0046cc32	PARAM	FUN_0046cc24	0046cc24
+RAW	008fcfbb	[IDT]: RDRAW can't work 8pix/clk %d	0046ccc4	PARAM	FUN_0046ccb8	0046ccb8
+RAW	008fcfdf	[IDT]: RDRAW_param not correct! %d %d	0046cd36	PARAM	FUN_0046ccb8	0046ccb8
+RAW	008fd203	[IDT]: Can't Get miniRAW Mem	0046de26	PARAM	FUN_0046ddd4	0046ddd4
+RAW	008fddff	[IDT]: VATR RAW size error: %d %d	00472fa8	PARAM	FUN_00472d0c	00472d0c
+DualRec	008ff82c	Unexpected to become Split while SA DualRec. %s:%d				
+Movie	008fffe5	%s:%d: Iso Speed Rate Value for YcPin is 0 when Movie Iso Mode On.	004a17f8	PARAM		
+Movie	009021cf	CheckSetMovieAutoSlowShutMode	004ff526	PARAM		
+Movie	00906601	LiroSeq ParamCheckErr@%s[MovieAutoSlowshutMode] cur:%d req:%d	004ff524	PARAM		
+Movie	00907afb	CheckSetMovieAFSensibility				
+RAW	00907c02	CheckSetRAWExternalOutput				
+Movie	00907cf8	CheckSetSteadyShotAdvancedMovie				
+Movie	00907d72	CheckSetTcOnMovie				
+Movie	00907e72	CheckSetMovieAfDriveSpeed				
+Movie	0090820b	CheckSetMovieRecMode				
+Movie	009084d2	CheckSetMovieColorSpace				
+Movie	00908695	CheckSetMovieFormat				
+Movie	00908c22	MovieAFSesibility[%d]				
+RAW	00908e28	SET_RAW_EXTERNAL_OUTPUT_COMP[0x%x]	005016f0	PARAM		
+Movie	009092e1	SetMovieAutoSlowShutMode[%d]				
+RAW	0090a24b	SET_RAW_EXTERNAL_OUTPUT[%d] [%d] [0x%x]	00505100	PARAM	FUN_005050c4	005050c4
+Movie	0090aabb	MovieStart mode:%x	00015a92	PARAM	FUN_00015a70	00015a70
+Movie	0090ab0d	MovieEnd mode:%x	00509bb2	PARAM	FUN_00509b98	00509b98
+Movie	0090ae16	LC_MovieAF Sta				
+Movie	0090ae25	LC_MovieAF End				
+Movie	00834d84	MovieCodecYcPinSetting() void cdTestAvc_MovieCodecSetWorkArea() void cdTestAvc_MovieCodecReleaseWorkArea() void cdTestAvc_MovieCodecSetMemEsAugi() UINT32 cdTestAvc_MovieCodecSendDfmsAvbbc(UINT32) UINT				
+Movie	00834dac	MovieCodecSetWorkArea() void cdTestAvc_MovieCodecReleaseWorkArea() void cdTestAvc_MovieCodecSetMemEsAugi() UINT32 cdTestAvc_MovieCodecSendDfmsAvbbc(UINT32) UINT32 cdTestAvc_sendYcMemOutAddress(UINT32)				
+Movie	00834dd3	MovieCodecReleaseWorkArea() void cdTestAvc_MovieCodecSetMemEsAugi() UINT32 cdTestAvc_MovieCodecSendDfmsAvbbc(UINT32) UINT32 cdTestAvc_sendYcMemOutAddress(UINT32) [CodecSeq][TD] ENC_OPEN ACK : %x
+ [CDi				
+Movie	00834dfe	MovieCodecSetMemEsAugi() UINT32 cdTestAvc_MovieCodecSendDfmsAvbbc(UINT32) UINT32 cdTestAvc_sendYcMemOutAddress(UINT32) [CodecSeq][TD] ENC_OPEN ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_OPEN ACK : %x
+ [C				
+Movie	00834e28	MovieCodecSendDfmsAvbbc(UINT32) UINT32 cdTestAvc_sendYcMemOutAddress(UINT32) [CodecSeq][TD] ENC_OPEN ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_OPEN ACK : %x
+ [CodecSeq][TD] ENC_OPEN COMP : %x
+ [CDiag td				
+Movie	00834ea0	MovieCodecDebug ]ENC_OPEN ACK : %x
+ [CodecSeq][TD] ENC_OPEN COMP : %x
+ [CDiag tdMovieCodecDebug ]ENC_OPEN COMP : %x
+ [CodecSeq][TD] ENC_START ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_START ACK : %x
+ [C				
+Movie	00834ef0	MovieCodecDebug ]ENC_OPEN COMP : %x
+ [CodecSeq][TD] ENC_START ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_START ACK : %x
+ [CodecSeq][TD] ENC_START COMP : %x
+ [CDiag tdMovieCodecDebug ]ENC_START COMP : %x
+				
+Movie	00834f41	MovieCodecDebug ]ENC_START ACK : %x
+ [CodecSeq][TD] ENC_START COMP : %x
+ [CDiag tdMovieCodecDebug ]ENC_START COMP : %x
+ [CodecSeq][TD] ENC_NEXTFRM ACK : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC_NEXTFRM 				
+Movie	00834f93	MovieCodecDebug ]ENC_START COMP : %x
+ [CodecSeq][TD] ENC_NEXTFRM ACK : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC_NEXTFRM ACK : %x
+ [CodecSeq][TD] ENC_NEXTFRM COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC				
+Movie	00834fe7	MovieCodecDebug ][TD] ENC_NEXTFRM ACK : %x
+ [CodecSeq][TD] ENC_NEXTFRM COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC_NEXTFRM COMP : %x
+ [CodecSeq][TD] ENC_STOP ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_				
+Movie	00835042	MovieCodecDebug ][TD] ENC_NEXTFRM COMP : %x
+ [CodecSeq][TD] ENC_STOP ACK : %x
+ [CDiag tdMovieCodecDebug ]ENC_STOP ACK : %x
+ [CodecSeq][TD] ENC_STOP COMP : %x
+ [CDiag tdMovieCodecDebug ] ENC_STOP COMP 				
+Movie	0083509a	MovieCodecDebug ]ENC_STOP ACK : %x
+ [CodecSeq][TD] ENC_STOP COMP : %x
+ [CDiag tdMovieCodecDebug ] ENC_STOP COMP : %x
+ [CodecSeq][TD] ENC_CLOSE ACK : %x
+ [CDiag tdMovieCodecDebug ] ENC_CLOSE ACK : %x
+ 				
+Movie	008350ea	MovieCodecDebug ] ENC_STOP COMP : %x
+ [CodecSeq][TD] ENC_CLOSE ACK : %x
+ [CDiag tdMovieCodecDebug ] ENC_CLOSE ACK : %x
+ [CodecSeq][TD] ENC_CLOSE COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC_CLOSE COM				
+Movie	0083513c	MovieCodecDebug ] ENC_CLOSE ACK : %x
+ [CodecSeq][TD] ENC_CLOSE COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] ENC_CLOSE COMP : %x
+ [CodecSeq][TD] ENC_UNIT_ENC(%ld) : %x
+ [CDiag tdMovieCodecDebug ]ENC_UNIT_				
+Movie	0083518f	MovieCodecDebug ][TD] ENC_CLOSE COMP : %x
+ [CodecSeq][TD] ENC_UNIT_ENC(%ld) : %x
+ [CDiag tdMovieCodecDebug ]ENC_UNIT_ENC(%ld) : %x
+ [CodecSeq][TD] ENC_ERROR : %x
+ [CDiag tdMovieCodecDebug] [ERR]ENC_ER				
+Movie	008351ea	MovieCodecDebug ]ENC_UNIT_ENC(%ld) : %x
+ [CodecSeq][TD] ENC_ERROR : %x
+ [CDiag tdMovieCodecDebug] [ERR]ENC_ERROR : %x
+ [CodecSeq][TD] DEC_OPEN ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_OPEN ACK : %x
+ [C				
+Movie	0083523b	MovieCodecDebug] [ERR]ENC_ERROR : %x
+ [CodecSeq][TD] DEC_OPEN ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_OPEN ACK : %x
+ [CodecSeq][TD] DEC_OPEN COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_OPEN COMP : %x
+ [C				
+Movie	0083528c	MovieCodecDebug ]DEC_OPEN ACK : %x
+ [CodecSeq][TD] DEC_OPEN COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_OPEN COMP : %x
+ [CodecSeq][TD] DEC_START ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_START ACK : %x
+ [C				
+Movie	008352dc	MovieCodecDebug ]DEC_OPEN COMP : %x
+ [CodecSeq][TD] DEC_START ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_START ACK : %x
+ [CodecSeq][TD] DEC_START COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_START COMP : %x
+				
+Movie	0083532d	MovieCodecDebug ]DEC_START ACK : %x
+ [CodecSeq][TD] DEC_START COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_START COMP : %x
+ [CodecSeq][TD] DEC_Frame display : %x
+ [CDiag tdMovieCodecDebug ]DEC_Frame displ				
+Movie	0083537f	MovieCodecDebug ]DEC_START COMP : %x
+ [CodecSeq][TD] DEC_Frame display : %x
+ [CDiag tdMovieCodecDebug ]DEC_Frame display : %x
+ [CodecSeq][TD] DEC_Frame hide : %x
+ [CDiag tdMovieCodecDebug ]DEC_Frame h				
+Movie	008353d5	MovieCodecDebug ]DEC_Frame display : %x
+ [CodecSeq][TD] DEC_Frame hide : %x
+ [CDiag tdMovieCodecDebug ]DEC_Frame hide : %x
+ [CodecSeq][TD] DEC_CHANGESPEED ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_CHANG				
+Movie	0083542b	MovieCodecDebug ]DEC_Frame hide : %x
+ [CodecSeq][TD] DEC_CHANGESPEED ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_CHANGESPEED ACK : %x
+ [CodecSeq][TD] DEC_CHANGESPEED COMP : %x
+ [CDiag tdMovieCodecDebug ]D				
+Movie	00835483	MovieCodecDebug ]DEC_CHANGESPEED ACK : %x
+ [CodecSeq][TD] DEC_CHANGESPEED COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_CHANGESPEED COMP : %x
+ [CodecSeq][TD] DEC_NEXFRM ACK : %x
+ [CDiag tdMovieCodecDebug ]				
+Movie	008354e1	MovieCodecDebug ]DEC_CHANGESPEED COMP : %x
+ [CodecSeq][TD] DEC_NEXFRM ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_NEXFRM ACK : %x
+ [CodecSeq][TD] DEC_NEXFRM COMP : %x
+ [CDiag tdMovieCodecDebug ][DEC_NEXFR				
+Movie	0083553a	MovieCodecDebug ]DEC_NEXFRM ACK : %x
+ [CodecSeq][TD] DEC_NEXFRM COMP : %x
+ [CDiag tdMovieCodecDebug ][DEC_NEXFRM COMP : %x
+ [CodecSeq][TD] DEC_STOP ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_STOP ACK : %				
+Movie	0083558e	MovieCodecDebug ][DEC_NEXFRM COMP : %x
+ [CodecSeq][TD] DEC_STOP ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_STOP ACK : %x
+ [CodecSeq][TD] DEC_STOP COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_STOP COMP : %x
+ 				
+Movie	008355e1	MovieCodecDebug ]DEC_STOP ACK : %x
+ [CodecSeq][TD] DEC_STOP COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_STOP COMP : %x
+ [CodecSeq][TD] DEC_CLOSE ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_CLOSE ACK : %x
+ [C				
+Movie	00835631	MovieCodecDebug ]DEC_STOP COMP : %x
+ [CodecSeq][TD] DEC_CLOSE ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_CLOSE ACK : %x
+ [CodecSeq][TD] DEC_CLOSE COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_CLOSE COMP : %x
+				
+Movie	00835682	MovieCodecDebug ]DEC_CLOSE ACK : %x
+ [CodecSeq][TD] DEC_CLOSE COMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_CLOSE COMP : %x
+ [CodecSeq][TD] VideoIP Play END(0x1A) : %x
+ [CDiag tdMovieCodecDebug ][TD] Video				
+Movie	008356d4	MovieCodecDebug ]DEC_CLOSE COMP : %x
+ [CodecSeq][TD] VideoIP Play END(0x1A) : %x
+ [CDiag tdMovieCodecDebug ][TD] VideoIP Play END(0x1A) : %x
+ [CodecSeq][TD] VideoIP Play END(0x1B) : %x
+ [CDiag tdMovie				
+Movie	0083572f	MovieCodecDebug ][TD] VideoIP Play END(0x1A) : %x
+ [CodecSeq][TD] VideoIP Play END(0x1B) : %x
+ [CDiag tdMovieCodecDebug ][VideoIP Play END(0x1B) : %x
+ [CodecSeq][TD] DEC STREAM END : %x
+ [CDiag tdMovi				
+Movie	00835797	MovieCodecDebug ][VideoIP Play END(0x1B) : %x
+ [CodecSeq][TD] DEC STREAM END : %x
+ [CDiag tdMovieCodecDebug ]DEC STREAM END : %x
+ [CodecSeq][TD] DEC_ERROR : %x
+ [CDiag tdMovieCodecDebug] [ERR]DEC_ERRO				
+Movie	008357f3	MovieCodecDebug ]DEC STREAM END : %x
+ [CodecSeq][TD] DEC_ERROR : %x
+ [CDiag tdMovieCodecDebug] [ERR]DEC_ERROR : %x
+ [CodecSeq][TD] ENC_STOP_BY_INTERNAL_CMP : %x
+ [CDiag tdMovieCodecDebug ]ENC_STOP_BY_				
+Movie	00835841	MovieCodecDebug] [ERR]DEC_ERROR : %x
+ [CodecSeq][TD] ENC_STOP_BY_INTERNAL_CMP : %x
+ [CDiag tdMovieCodecDebug ]ENC_STOP_BY_INTERNAL_CMP : %x
+ [CodecSeq][TD] DEC_NEXTTHM ACK : %x
+ [CDiag tdMovieCodecDeb				
+Movie	0083589e	MovieCodecDebug ]ENC_STOP_BY_INTERNAL_CMP : %x
+ [CodecSeq][TD] DEC_NEXTTHM ACK : %x
+ [CDiag tdMovieCodecDebug ]DEC_NEXTTHM ACK : %x
+ [CodecSeq][TD] DEC_NEXTTHM CPMP : %x
+ [CDiag tdMovieCodecDebug ]DEC				
+Movie	008358fc	MovieCodecDebug ]DEC_NEXTTHM ACK : %x
+ [CodecSeq][TD] DEC_NEXTTHM CPMP : %x
+ [CDiag tdMovieCodecDebug ]DEC_NEXTTHM CPMP : %x
+ [CodecSeq][TD] MSG RECEIVE?? id [%x] : %x
+ [CDiag tdMovieCodecDebug] [ERR]				
+Movie	00835952	MovieCodecDebug ]DEC_NEXTTHM CPMP : %x
+ [CodecSeq][TD] MSG RECEIVE?? id [%x] : %x
+ [CDiag tdMovieCodecDebug] [ERR]MSG RECEIVE?? id [%x] : %x
+ [CodecSeq][TD] SET_MODE COMP : %x
+ [CDiag tdMovieCodecDebu				
+Movie	008359ae	MovieCodecDebug] [ERR]MSG RECEIVE?? id [%x] : %x
+ [CodecSeq][TD] SET_MODE COMP : %x
+ [CDiag tdMovieCodecDebug ]SET_MODE COMP : %x
+ [CodecSeq][TD] PREPROC COMP : %x
+ [CDiag tdMovieCodecDebug ]PREPROC C				
+Movie	00835a0c	MovieCodecDebug ]SET_MODE COMP : %x
+ [CodecSeq][TD] PREPROC COMP : %x
+ [CDiag tdMovieCodecDebug ]PREPROC COMP : %x
+ [CodecSeq][TD] POSTPROC COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] POSTPROC COMP : %x				
+Movie	00835a5c	MovieCodecDebug ]PREPROC COMP : %x
+ [CodecSeq][TD] POSTPROC COMP : %x
+ [CDiag tdMovieCodecDebug ][TD] POSTPROC COMP : %x
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT YC
+ [CDiag tdMovieCodecDebug ]MSGID_P				
+Movie	00835aac	MovieCodecDebug ][TD] POSTPROC COMP : %x
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT YC
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT YC
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT AUDIO
+ [CDiag td				
+Movie	00835b0c	MovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT YC
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT AUDIO
+ [CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT AUDIO
+ [CodecSeq][TD] MSGID_PIN_CONNECT YC
+ [CDi				
+Movie	00835b74	MovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT AUDIO
+ [CodecSeq][TD] MSGID_PIN_CONNECT YC
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT YC
+ [CodecSeq][TD] MSGID_PIN_CONNECT AUDIO
+ [CDiag tdMovieCodecD				
+Movie	00835bd9	MovieCodecDebug ]MSGID_PIN_CONNECT YC
+ [CodecSeq][TD] MSGID_PIN_CONNECT AUDIO
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT AUDIO
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT_COMP YC : %x 
+ [CDiag tdMovie				
+Movie	00835c31	MovieCodecDebug ]MSGID_PIN_CONNECT AUDIO
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT_COMP YC : %x 
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT_COMP YC : %x 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CO				
+Movie	00835c9c	MovieCodecDebug ]MSGID_PIN_REQUEST_CONNECT_COMP YC : %x 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_CONNECT_COMP AUDIO : %x 
+ [CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT_COMP AUDIO : %x 
+ [CodecSe				
+Movie	00835d1a	MovieCodecDebug ][TD] MSGID_PIN_REQUEST_CONNECT_COMP AUDIO : %x 
+ [CodecSeq][TD] MSGID_PIN_CONNECT_COMP YC : %x 
+ [CDiag tdMovieCodecDebug ] MSGID_PIN_CONNECT_COMP YC : %x 
+ [CodecSeq][TD] MSGID_PIN_C				
+Movie	00835d95	MovieCodecDebug ] MSGID_PIN_CONNECT_COMP YC : %x 
+ [CodecSeq][TD] MSGID_PIN_CONNECT_COMP AUDIO : %x 
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_CONNECT_COMP AUDIO : %x 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_DIS				
+Movie	00835e04	MovieCodecDebug ]MSGID_PIN_CONNECT_COMP AUDIO : %x 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_DISCONNECT YC 
+ [CDiag tdMovieCodecDebug ][TD] MSGID_PIN_REQUEST_DISCONNECT YC 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_				
+Movie	00835e73	MovieCodecDebug ][TD] MSGID_PIN_REQUEST_DISCONNECT YC 
+ [CodecSeq][TD] MSGID_PIN_REQUEST_DISCONNECT AUDIO 
+ [CDiag tdMovieCodecDebug ]MSGID_PIN_REQUEST_DISCONNECT AUDIO 
+ [CodecSeq][TD] PIN_DISCONNECT				
+Movie	00835ee8	MovieCodecDebug ]MSGID_PIN_REQUEST_DISCONNECT AUDIO 
+ [CodecSeq][TD] PIN_DISCONNECT YC 
+ [CDiag tdMovieCodecDebug ]PIN_DISCONNECT YC 
+ [CodecSeq][TD] PIN_DISCONNECT AUDIO 
+ [CDiag tdMovieCodecDebug ]P				
+Movie	00835f4a	MovieCodecDebug ]PIN_DISCONNECT YC 
+ [CodecSeq][TD] PIN_DISCONNECT AUDIO 
+ [CDiag tdMovieCodecDebug ]PIN_DISCONNECT AUDIO 
+ [CDiag tdMovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP YC : %x
+ [CodecSeq][TD				
+Movie	00835f9e	MovieCodecDebug ]PIN_DISCONNECT AUDIO 
+ [CDiag tdMovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP YC : %x
+ [CodecSeq][TD] PIN_REQUEST_DISCONNECT_COMP YC : %x
+ [CodecSeq][TD] PIN_REQUEST_DISCONNECT_COMP AU				
+Movie	00835fcf	MovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP YC : %x
+ [CodecSeq][TD] PIN_REQUEST_DISCONNECT_COMP YC : %x
+ [CodecSeq][TD] PIN_REQUEST_DISCONNECT_COMP AUDIO: %x
+ [CDiag tdMovieCodecDebug ]PIN_REQUEST_DI				
+Movie	00836078	MovieCodecDebug ]PIN_REQUEST_DISCONNECT_COMP AUDIO: %x
+ [CodecSeq][TD] PIN_DISCONNECT_COMP YC : %x 
+ [CDiag tdMovieCodecDebug ][TD] PIN_DISCONNECT_COMP YC : %x 
+ [CodecSeq][TD] PIN_DISCONNECT_COMP AUD				
+Movie	008360e6	MovieCodecDebug ][TD] PIN_DISCONNECT_COMP YC : %x 
+ [CodecSeq][TD] PIN_DISCONNECT_COMP AUDIO : %x 
+ [CDiag tdMovieCodecDebug ]PIN_DISCONNECT_COMP AUDIO : %x 
+ [CodecSeq]Work Close Error[%d] :%x,%x
+ [C				
+Movie	00836153	MovieCodecDebug ]PIN_DISCONNECT_COMP AUDIO : %x 
+ [CodecSeq]Work Close Error[%d] :%x,%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]Work Close Error[%d] :%x,%x
+ [CodecSeq]Work Close OK[%d] :%x,%x
+ [CDiag				
+Movie	008361b5	MovieCodecDebug] [ERR][%s],[%d]Work Close Error[%d] :%x,%x
+ [CodecSeq]Work Close OK[%d] :%x,%x
+ [CDiag tdMovieCodecDebug ][%s],[%d]Work Close OK[%d] :%x,%x
+ [CodecSeq]Work Area is not open? : NG[%d] :				
+Movie	0083621e	MovieCodecDebug ][%s],[%d]Work Close OK[%d] :%x,%x
+ [CodecSeq]Work Area is not open? : NG[%d] :0x%x 
+ [CDiag tdMovieCodecDebug ][%s],[%d]Work Area is not open? : NG[%d] :0x%x 
+ [CodecSeq]Work Open Err				
+Movie	0083628d	MovieCodecDebug ][%s],[%d]Work Area is not open? : NG[%d] :0x%x 
+ [CodecSeq]Work Open Error[%d] :%x,%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]Work Open Error[%d] :%x,%x
+ [CodecSeq]Work Open OK[%d] :				
+Movie	008362fe	MovieCodecDebug] [ERR][%s],[%d]Work Open Error[%d] :%x,%x
+ [CodecSeq]Work Open OK[%d] :%x,%x
+ [CDiag tdMovieCodecDebug ]Work Open OK[%d] :%x,%x
+ [CodecSeq]ENC AudioLpcm OPEN Error :%x
+ [CDiag tdMovieC				
+Movie	00836365	MovieCodecDebug ]Work Open OK[%d] :%x,%x
+ [CodecSeq]ENC AudioLpcm OPEN Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm OPEN Error :%x
+ [CodecSeq]ENC AudioLpcm OPEN OK :%x
+ [CDiag tdMo				
+Movie	008363c0	MovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm OPEN Error :%x
+ [CodecSeq]ENC AudioLpcm OPEN OK :%x
+ [CDiag tdMovieCodecDebug ]ENC AudioLpcm OPEN OK :%x
+ [CodecSeq]ENC AudioLpcm CLOSE Error :%x
+ [CDiag t				
+Movie	0083642b	MovieCodecDebug ]ENC AudioLpcm OPEN OK :%x
+ [CodecSeq]ENC AudioLpcm CLOSE Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm CLOSE Error :%x
+ [CodecSeq]ENC AudioLpcm CLOSE OK :%x
+ [CDiag				
+Movie	00836489	MovieCodecDebug] [ERR][%s],[%d]ENC AudioLpcm CLOSE Error :%x
+ [CodecSeq]ENC AudioLpcm CLOSE OK :%x
+ [CDiag tdMovieCodecDebug ]ENC AudioLpcm CLOSE OK :%x
+ [CodecSeq]ENC VideoEs OPEN Error :%x
+ [CDiag t				
+Movie	008364f6	MovieCodecDebug ]ENC AudioLpcm CLOSE OK :%x
+ [CodecSeq]ENC VideoEs OPEN Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC VideoEs OPEN Error :%x
+ [CodecSeq]ENC VideoEs OPEN OK :%x
+ [CDiag tdMovie				
+Movie	00836552	MovieCodecDebug] [ERR][%s],[%d]ENC VideoEs OPEN Error :%x
+ [CodecSeq]ENC VideoEs OPEN OK :%x
+ [CDiag tdMovieCodecDebug ]ENC VideoEs OPEN OK :%x
+ [CodecSeq]ENC AudioEs OPEN Error :%x
+ [CDiag tdMovieCod				
+Movie	008365b9	MovieCodecDebug ]ENC VideoEs OPEN OK :%x
+ [CodecSeq]ENC AudioEs OPEN Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioEs OPEN Error :%x
+ [CodecSeq]ENC AudioEs OPEN OK :%x
+ [CDiag tdMovieCod				
+Movie	00836612	MovieCodecDebug] [ERR][%s],[%d]ENC AudioEs OPEN Error :%x
+ [CodecSeq]ENC AudioEs OPEN OK :%x
+ [CDiag tdMovieCodecDebug ]ENC AudioEs OPEN OK :%x
+ [CodecSeq]ENC VideoEs CLOSE Error :%x
+ [CDiag tdMovieCo				
+Movie	00836679	MovieCodecDebug ]ENC AudioEs OPEN OK :%x
+ [CodecSeq]ENC VideoEs CLOSE Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC VideoEs CLOSE Error :%x
+ [CodecSeq]ENC VideoEs CLOSE OK :%x
+ [CDiag tdMovie				
+Movie	008366d3	MovieCodecDebug] [ERR][%s],[%d]ENC VideoEs CLOSE Error :%x
+ [CodecSeq]ENC VideoEs CLOSE OK :%x
+ [CDiag tdMovieCodecDebug ]ENC VideoEs CLOSE OK :%x
+ [CodecSeq]ENC AudioEs CLOSE Error :%x
+ [CDiag tdMovi				
+Movie	0083673c	MovieCodecDebug ]ENC VideoEs CLOSE OK :%x
+ [CodecSeq]ENC AudioEs CLOSE Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ENC AudioEs CLOSE Error :%x
+ [CodecSeq]ENC AudioEs CLOSE OK :%x
+ [CDiag tdMovi				
+Movie	00836797	MovieCodecDebug] [ERR][%s],[%d]ENC AudioEs CLOSE Error :%x
+ [CodecSeq]ENC AudioEs CLOSE OK :%x
+ [CDiag tdMovieCodecDebug ]ENC AudioEs CLOSE OK :%x
+ [CodecSeq]DEC VideoEs Open Error :%x
+ [CDiag tdMovie				
+Movie	00836800	MovieCodecDebug ]ENC AudioEs CLOSE OK :%x
+ [CodecSeq]DEC VideoEs Open Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Open Error :%x
+ [CodecSeq]DEC VideoEs Open OK :%x
+ [CDiag tdMovieCo				
+Movie	0083685a	MovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Open Error :%x
+ [CodecSeq]DEC VideoEs Open OK :%x
+ [CDiag tdMovieCodecDebug ]DEC VideoEs Open OK :%x
+ [CodecSeq]DEC AudioEs Open Error :%x
+ [CDiag tdMovieCod				
+Movie	008368c1	MovieCodecDebug ]DEC VideoEs Open OK :%x
+ [CodecSeq]DEC AudioEs Open Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Open Error :%x
+ [CodecSeq]DEC AudioEs Open OK :%x
+ [CDiag tdMovieCod				
+Movie	0083691a	MovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Open Error :%x
+ [CodecSeq]DEC AudioEs Open OK :%x
+ [CDiag tdMovieCodecDebug ]DEC AudioEs Open OK :%x
+ [CodecSeq]DEC VideoEs Close Error :%x
+ [CDiag tdMovieCo				
+Movie	00836981	MovieCodecDebug ]DEC AudioEs Open OK :%x
+ [CodecSeq]DEC VideoEs Close Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Close Error :%x
+ [CodecSeq]DEC VideoEs Close OK :%x
+ [CDiag tdMovie				
+Movie	008369db	MovieCodecDebug] [ERR][%s],[%d]DEC VideoEs Close Error :%x
+ [CodecSeq]DEC VideoEs Close OK :%x
+ [CDiag tdMovieCodecDebug ]DEC VideoEs Close OK :%x
+ [CodecSeq]DEC AudioEs Close Error :%x
+ [CDiag tdMovi				
+Movie	00836a44	MovieCodecDebug ]DEC VideoEs Close OK :%x
+ [CodecSeq]DEC AudioEs Close Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Close Error :%x
+ [CodecSeq]DEC AudioEs Close OK :%x
+ [CDiag tdMovi				
+Movie	00836a9f	MovieCodecDebug] [ERR][%s],[%d]DEC AudioEs Close Error :%x
+ [CodecSeq]DEC AudioEs Close OK :%x
+ [CDiag tdMovieCodecDebug ]DEC AudioEs Close OK :%x
+ [CodecSeq]memAlloc Error :%x
+ [CDiag tdMovieCodecDeb				
+Movie	00836b08	MovieCodecDebug ]DEC AudioEs Close OK :%x
+ [CodecSeq]memAlloc Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]memAlloc Error :%x
+ [CodecSeq][TD] SetMode ENC Send
+ [CodecSeq][TD] SetMode IDLE Send
+ 				
+Movie	00836b5a	MovieCodecDebug] [ERR][%s],[%d]memAlloc Error :%x
+ [CodecSeq][TD] SetMode ENC Send
+ [CodecSeq][TD] SetMode IDLE Send
+ [CodecSeq][TD] SetMode DEC Send
+ [CodecSeq][TD] SetMode ENC_DEC Send
+ [CodecSeq]AU				
+Movie	00836c47	MovieCodecDebug] [ERR][%s],[%d]AUDIO PIN memAlloc Error :%x
+ [CodecSeq]AUDIO PIN Share Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]AUDIO PIN Share Error :%x
+ [CodecSeq]AUDIO Lpcm Share Error :%				
+Movie	00836cb2	MovieCodecDebug] [ERR][%s],[%d]AUDIO PIN Share Error :%x
+ [CodecSeq]AUDIO Lpcm Share Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]AUDIO Lpcm Share Error :%x
+ [CodecSeq][TD] YcPinConectEnc Send
+ 				
+Movie	00836d1b	MovieCodecDebug] [ERR][%s],[%d]AUDIO Lpcm Share Error :%x
+ [CodecSeq][TD] YcPinConectEnc Send
+ [CodecSeq][TD] YcPinDisConectEnc Send
+ [CodecSeq][TD] YcPinRequestDisConectEnc Send
+ [CodecSeq][TD] Audio				
+Movie	00836f29	MovieCodecDebug] [ERR][%s],[%d]Error cdTestAvc_sendYcMemOutAddress = %d
+ [CodecSeq]v_cnt %ld,%ld [CodecSeq][TD] EncOpenParam 
+ [CDiag tdMovieCodecDebug ]EncOpenParam 
+ [CodecSeq]  Video ES Buffer topA				
+Movie	00836fb1	MovieCodecDebug ]EncOpenParam 
+ [CodecSeq]  Video ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+ [CDiag tdMovieCodecDebug ]  Video ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx				
+Movie	0083702b	MovieCodecDebug ]  Video ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+ [CodecSeq]  Audio ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+ [CDiag tdMovieCodecDebug ]  Aud				
+Movie	008370dd	MovieCodecDebug ]  Audio ES Buffer topAddress 0x%08lx(0x%08lx), size = 0x%08lx (%8ld) 
+ [CodecSeq]  Video Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+ [CDiag tdMovieCodecDebug ]  				
+Movie	00837192	MovieCodecDebug ]  Video Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+ [CodecSeq]  Audio Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+ [CDiag tdMovieCodecDebug 				
+Movie	0083724a	MovieCodecDebug ]  Audio Info Table topAddress 0x%08lx(0x%08lx), indexNum = 0x%04x (%4d) 
+ [CodecSeq]  Host Status Table topAddress 0x%08lx 
+ [CDiag tdMovieCodecDebug ]  Host Status Table topAddress 0				
+Movie	008372e1	MovieCodecDebug ]  Host Status Table topAddress 0x%08lx 
+ [CodecSeq]  Avco Status Table topAddress 0x%08lx 
+ [CDiag tdMovieCodecDebug ]  Avco Status Table topAddress 0x%08lx 
+ [CodecSeq][TD] SEND MSG 				
+Movie	00837357	MovieCodecDebug ]  Avco Status Table topAddress 0x%08lx 
+ [CodecSeq][TD] SEND MSG : ENC_OPEN 
+ [CDiag tdMovieCodecDebug ]SEND MSG : ENC_OPEN 
+ [CodecSeq][TD] SEND MSG : ENC_START 
+ [CDiag tdMovieCodec				
+Movie	008373bf	MovieCodecDebug ]SEND MSG : ENC_OPEN 
+ [CodecSeq][TD] SEND MSG : ENC_START 
+ [CDiag tdMovieCodecDebug ]SEND MSG : ENC_START 
+ [CodecSeq][TD] SEND MSG : ENC_STOP 
+ [CDiag tdMovieCodecDebug ]SEND MSG : 				
+Movie	00837415	MovieCodecDebug ]SEND MSG : ENC_START 
+ [CodecSeq][TD] SEND MSG : ENC_STOP 
+ [CDiag tdMovieCodecDebug ]SEND MSG : ENC_STOP 
+ [CodecSeq][TD] SEND MSG : ENC_CLOSE 
+ [CDiag tdMovieCodecDebug ]SEND MSG : 				
+Movie	0083746b	MovieCodecDebug ]SEND MSG : ENC_STOP 
+ [CodecSeq][TD] SEND MSG : ENC_CLOSE 
+ [CDiag tdMovieCodecDebug ]SEND MSG : ENC_CLOSE 
+ [CodecSeq][DECOPEN PRM] VES address = %08x (nc:%08x) size = %08x 
+ [CDiag 				
+Movie	008374c1	MovieCodecDebug ]SEND MSG : ENC_CLOSE 
+ [CodecSeq][DECOPEN PRM] VES address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] VES address = %08x (nc:%08x) size = %08x 
+ [CodecSeq]				
+Movie	00837535	MovieCodecDebug ][DECOPEN PRM] VES address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] AES address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] AES address = %08x 				
+Movie	008375cb	MovieCodecDebug ][DECOPEN PRM] AES address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] VPI address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] VPI address = %08x 				
+Movie	00837661	MovieCodecDebug ][DECOPEN PRM] VPI address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] API address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] API address = %08x 				
+Movie	008376f7	MovieCodecDebug ][DECOPEN PRM] API address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] VInfo address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] VInfo address = %				
+Movie	0083778f	MovieCodecDebug ][DECOPEN PRM] VInfo address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] AInfo address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] AInfo address =				
+Movie	00837829	MovieCodecDebug ][DECOPEN PRM] AInfo address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] HostStatus address = %08x (nc:%08x) size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] HostStatus				
+Movie	008378c8	MovieCodecDebug ][DECOPEN PRM] HostStatus address = %08x (nc:%08x) size = %08x 
+ [CodecSeq][DECOPEN PRM] AvConStatus address = %08x size = %08x 
+ [CDiag tdMovieCodecDebug ][DECOPEN PRM] AvConStatus ad				
+Movie	00837963	MovieCodecDebug ][DECOPEN PRM] AvConStatus address = %08x size = %08x 
+ [CodecSeq][DEC OPEN] payload Addr = %08x 
+ [CodecSeq][Send] DEC OPEN prm=%08x
+ [CDiag tdMovieCodecDebug ][Send] DEC OPEN prm=%08				
+Movie	00837a03	MovieCodecDebug ][Send] DEC OPEN prm=%08x
+ [CodecSeq][DEC START] payload Addr = %08x
+ [CodecSeq][DECSTART PRM] address = %08x noncache=%08x
+ [CodecSeq][TD] SEND MSG : DEC_START 
+ [CDiag tdMovieCodecDe				
+Movie	00837abf	MovieCodecDebug ] SEND MSG : DEC_START 
+ [CodecSeq][TD] SEND MSG : DEC_CLOSE 
+ [CDiag tdMovieCodecDebug ]SEND MSG : DEC_CLOSE 
+ [CodecSeq][TD] SEND MSG : DEC_STOP 
+ [CDiag tdMovieCodecDebug ]SEND MSG 				
+Movie	00837b17	MovieCodecDebug ]SEND MSG : DEC_CLOSE 
+ [CodecSeq][TD] SEND MSG : DEC_STOP 
+ [CDiag tdMovieCodecDebug ]SEND MSG : DEC_STOP 
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ERR_PARAM_ERR
+ [CodecSeq]YC PIN mem				
+Movie	00837b6d	MovieCodecDebug ]SEND MSG : DEC_STOP 
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]ERR_PARAM_ERR
+ [CodecSeq]YC PIN memAlloc Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC PIN memAlloc Error :%x
+ [C				
+Movie	00837b9d	MovieCodecDebug] [ERR][%s],[%d]ERR_PARAM_ERR
+ [CodecSeq]YC PIN memAlloc Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC PIN memAlloc Error :%x
+ [CodecSeq]YC PIN Share Error :%x
+ [CDiag tdMovieCo				
+Movie	00837bf9	MovieCodecDebug] [ERR][%s],[%d]YC PIN memAlloc Error :%x
+ [CodecSeq]YC PIN Share Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC PIN Share Error :%x
+ [CodecSeq]YC Data RendezvousAloc Error :%x
+ 				
+Movie	00837c5e	MovieCodecDebug] [ERR][%s],[%d]YC PIN Share Error :%x
+ [CodecSeq]YC Data RendezvousAloc Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+ [CodecSeq]YC Data Share Err				
+Movie	00837cca	MovieCodecDebug] [ERR][%s],[%d]YC Data RendezvousAloc Error :%x
+ [CodecSeq]YC Data Share Error :%x
+ [CDiag tdMovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+ void cdTestAvc_MovieCodecAudioPinSe				
+Movie	00837d37	MovieCodecDebug] [ERR][%s],[%d]YC Data Share Error :%x
+ void cdTestAvc_MovieCodecAudioPinSetting() [ddl_jpeg_open][NG] mode : %d [ddl_jpeg_open][NG] err  : %d [ddl_jpeg_open][OK] mode : %d [ddl_jpeg_o				
+Movie	00837d7e	MovieCodecAudioPinSetting() [ddl_jpeg_open][NG] mode : %d [ddl_jpeg_open][NG] err  : %d [ddl_jpeg_open][OK] mode : %d [ddl_jpeg_open][NG] TIME OUT [ddl_jpeg_open][NG] HW TROUBLE [ddl_jpeg_close][NG] u				
+Movie	00839b12	MovieCodec_131H/src/include/mcConfig.h TskAvifEvent Unable send mbf TskAvifEvent->ID= Success send mbf TskAvifEvent->ID= Unable rcv mbf XX->TskAvifEvent. Success rcv mbf XX->TskAvifEvent. TskAvifTable				
+Movie	0083da49	MovieCodec_131H/src/mcAvsc/strmEng/strmEngEnc/StrmEngEncInfoHd.h /home/jp10239/git-work/build/161H/161H.DSLR.DMHH1.reco.LATEST.diadem.set/Avbb-MovieCodec_131H/src/mcAvsc/strmEng/strmEngEnc/StrmEngEncI				
+Movie	0083dad8	MovieCodec_131H/src/mcAvsc/strmEng/strmEngEnc/StrmEngEncInfoSd.h DC7303320222000 INVALID AUGI VPTABLE_NOBODY mcObjectCtrl.cpp mcUtil32BitCountMgrFactory.cpp [MCCOUNTMGR]File:%s, Func:%s() ,Line:%d 
+ m				
+Movie	0083dce9	Movie CLKTYPE error. clkNow=%d 
+ mcUtilPtm.cpp [MCUTILPTM ]SetPtmNormal %08x
+ [MC][WRN] [MCUTILPTM ]SetVpiLocalRp old=%08x,new=%08x
+ [MCUTILPTM ]ChgState STATE_WAIT_START_YC_PIN LastPtm = %d
+ [MC PTM]				
+Movie	0083eb23	Movie
+ [DECMODEMGR]CMD_ID_MUTE_AUDIO_DISP : Mute:%x Cur:%x TimInfo:%x
+ [DECMODEMGR]CMD_ID_INIT_ES_API_PARAM = %x 
+ [DECMODEMGR]CMD_ID_SET_DEC_WRITE_POINTER = %x 
+ [DECMODEMGR]ERR_MC_AVC_RES_CMD_CODE =				
+Movie	0083fe6e	Movie
+ [DECAUDPRM ][ERR]No Movie Duration Data!!! File:%s, Func:%s() ,Line:%d 
+ seqctrl/audio/mcAvcDecAudioParam.cpp AutoEditScene type %d, startPTM %d, endPTM %d, diff %d [DECAUDPRM ][ERR]movieDurati				
+Movie	0083fe89	Movie Duration Data!!! File:%s, Func:%s() ,Line:%d 
+ seqctrl/audio/mcAvcDecAudioParam.cpp AutoEditScene type %d, startPTM %d, endPTM %d, diff %d [DECAUDPRM ][ERR]movieDuration FULL!!! File:%s, Func:%s				
+Movie	0083ff7d	MovieDuration() __uint32_t McAvcDecAudioParam::GetMovieDuration(__uint32_t) [DECAUDSMPL][AUDIO INFO]Output Term = %x 
+ [DECAUDSMPL][AUDIO INFO]startSample = %x, sampleOffset = %x, remainSample = %x 
+ 				
+Movie	0083ffaf	MovieDuration(__uint32_t) [DECAUDSMPL][AUDIO INFO]Output Term = %x 
+ [DECAUDSMPL][AUDIO INFO]startSample = %x, sampleOffset = %x, remainSample = %x 
+ [DECAUDSEQ ]ProcMsg:MSGID_AVC_DEC_AUDIO_ALLOC_WORK				
+Movie	00840748	Movie
+ [DECAUDSEQ ]ExecuteCmd:CID_SETMUTE(%x) 
+ [DECAUDSEQ ]ExecuteCmd CID = %x,Err = %x,Status = %x 
+ 25McAvcDecAudioSeqStateMute [DECAUDMUTE]N:LPCM StopAdr = %x StopSample = %x ,
+ [DECAUDMUTE]WRN: M				
+Movie	00844f40	Movie 20McAvcEncModeEncStill 20McAvcEncModeInActive N34McAvcEncVideo60P50PSeqCtrlEncState8CallbackE N11McAvcEncVfm10CallbackIfE N34McAvcEncVideo60I50ISeqCtrlEncState8CallbackE N20McAvcEncModeInActive1				
+Movie	0084506a	Movie10callback_tE N18McAvcEncModeEncErr10callback_tE Int32 McAvcEncModeMgr::ProcVsyncPre() Int32 McAvcEncModeMgr::ProcVsyncPost() [ENCMODEMGR]SetState = %x 
+ [ENCMODEMGR]File:%s, Func:%s() ,Line:%d 
+				
+Movie	00849944	Movie::NotifyEncodeTcubInfo(const McAvcYcData*) __int32_t McAvcEncVideoBestEffortStateEncMovie::ProcEncodingState() virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::SetFaceInfoComp(const PARAM_				
+Movie	0084999d	Movie::ProcEncodingState() virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie				
+Movie	008499e9	Movie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_C				
+Movie	00849a60	Movie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*)				
+Movie	00849a6a	MovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*) virtual _				
+Movie	00849ae8	Movie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*) 36McAvcEncVideoBestEffort				
+Movie	00849b5a	Movie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*) 36McAvcEncVideoBestEffortStateEncMovie virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::ProcVsync() [BESTEFMOV ]BUG : File:%s, Func:				
+Movie	00849bb8	Movie virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::ProcVsync() [BESTEFMOV ]BUG : File:%s, Func:%s() ,Line:%d 
+ seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncMovie.cpp [BES				
+Movie	00849bef	Movie::ProcVsync() [BESTEFMOV ]BUG : File:%s, Func:%s() ,Line:%d 
+ seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncMovie.cpp [BESTEFMOV ][INFO]TerminateEncode (Cancel): m_totalPictureT				
+Movie	00849c72	Movie.cpp [BESTEFMOV ][INFO]TerminateEncode (Cancel): m_totalPictureToEncode = %d, m_encodePictureSum = %d
+ [BESTEFMOV ][INFO]TerminateEncode (Cancel): m_encodePictureSum = %d
+ [BESTEFMOV ]Fatal Error				
+Movie	0084a483	Movie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE_COMP*) __int32_t McAvcEncVideoBestEffortStateEncMovie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_Y				
+Movie	0084a4fa	Movie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_IMAGE_OUT_TIM_INFO*, __uint32_t*) virtual __int32_t McAvcEncVideoBestEf				
+Movie	0084a5ce	Movie::ReleaseEsComp(const PARAM_AVC_ENC_VIDEO_RELEASE_ES_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::EncPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_PICTURE_COMP*) __int32_t McAvcEncV				
+Movie	0084a640	Movie::EncPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_PICTURE_COMP*) __int32_t McAvcEncVideoBestEffortStateEncMovie::StockYcData() bool McAvcEncVideoBestEffortStateEncMovie::IsEncodeUserDataExist(__uint				
+Movie	0084a6ac	Movie::StockYcData() bool McAvcEncVideoBestEffortStateEncMovie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoBestEffortUserDataMgr::OUTPUT_USER_DATA_INFO*) __int32_t McAvcEncVideoBestEffortStateEncM				
+Movie	0084a6e5	Movie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoBestEffortUserDataMgr::OUTPUT_USER_DATA_INFO*) __int32_t McAvcEncVideoBestEffortStateEncMovie::ProcEncoding(bool, bool*, bool*) virtual __int32_t 				
+Movie	0084a773	Movie::ProcEncoding(bool, bool*, bool*) virtual __int32_t McAvcEncVideoBestEffortStateEncMovie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEnc				
+Movie	0084a7cc	Movie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*) virtual __int32_t McAvcEncVideoBestEffortStateEncReady::ProcVsync() virtual __int32_t McAvcEncVideoBestEffortStateEncReady::BeginEnccode(c				
+Movie	0084a942	MovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*) [BESTEFRDY ]BUG : File:%s, Func:%s() ,Line:%d 
+ seqCtrl/video/besteffort/support/mcAvcEncVideoBestEffortStateEncReady.cpp [BESTEFRDY ]WRN : 				
+Movie	0084c2b7	MovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*) virtual Int32 McAvcEncVideoSeqCtrlBaseNormal::ExecSeqApllyUserDataGop(const DefCodecIf2McAvcCmd::CMD_APPLY_USER_DATA_GOP*) virtual Int32 McA				
+Movie	0084cef9	MovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*) virtual Int32 McAvcEncVideoSeqCtrlBaseNormal::RecvAvcEncInitStillComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_STILL_COMP*) vir				
+Movie	0084d56a	MovieComp[%s][%d]
+ [EncStateBase]SetDataflowMsg[%s][%d]
+ virtual Int32 McAvcEncVideoSeqCtrlEncStateBase::ExecuteWaitingYC() virtual Int32 McAvcEncVideoSeqCtrlEncStateBase::ExeEncodePicture() 40McAvcEn				
+Movie	0084ebb6	Movie::SUB_STATE) __int32_t McAvcEncVideoOuCrankOverflowStateEncReady::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_IMAGE_O				
+Movie	0084ef07	Movie::ProcFindingStartPinState() 33McAvcEncVideoOuCrankStateEncMovie __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncoding(bool, bool*, bool*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie:				
+Movie	0084ef47	Movie __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncoding(bool, bool*, bool*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE				
+Movie	0084ef73	Movie::ProcEncoding(bool, bool*, bool*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE_COMP*) __int32_t McAvcEncVideoOuCrankStateE				
+Movie	0084efc9	Movie::EncFinalPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_FINAL_PICTURE_COMP*) __int32_t McAvcEncVideoOuCrankStateEncMovie::NotifyEncodeTcubInfo(const McAvcYcData*) __int32_t McAvcEncVideoOuCrankStateE				
+Movie	0084f03d	Movie::NotifyEncodeTcubInfo(const McAvcYcData*) __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcFindingEarlyStopPinState() virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::FinalizeComp(const PARA				
+Movie	0084f093	Movie::ProcFindingEarlyStopPinState() virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::R				
+Movie	0084f0e7	Movie::FinalizeComp(const PARAM_AVC_ENC_VIDEO_FINALIZE_COMP*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::ReleaseEsComp(const PARAM_AVC_ENC_VIDEO_RELEASE_ES_COMP*) __int32_t McAvcEncVideoOuCr				
+Movie	0084f153	Movie::ReleaseEsComp(const PARAM_AVC_ENC_VIDEO_RELEASE_ES_COMP*) __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcFindingStopPinState() __int32_t McAvcEncVideoOuCrankStateEncMovie::GetYcImageSizeOutTi				
+Movie	0084f1ba	Movie::ProcFindingStopPinState() __int32_t McAvcEncVideoOuCrankStateEncMovie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_				
+Movie	0084f201	Movie::GetYcImageSizeOutTimInfoAdr(const McAvcYcData*, DataflowInfra_StdYc::PIN_YC_IMAGE_SIZE_INFO*, DataflowInfra_StdYc::PIN_YC_IMAGE_OUT_TIM_INFO*, __uint32_t*) seqCtrl/video/oucrank/support/mcAvcEn				
+Movie	0084f2de	Movie.cpp [ENCOUCSTAT]ReleasePictureNotifyErr2: picIndex = %x, lastIndex = %x, SubState = %x 
+ [ENCOUCSTAT]ReleasePictureNotifyErr: picIndex = %x, lastIndex = %x, SubState = %x 
+ [ENCOUCSTAT]ChangeSta				
+Movie	0084fc5d	Movie::EncPictureComp(const PARAM_AVC_ENC_VIDEO_ENC_PICTURE_COMP*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*) __int32_t McAvcEn				
+Movie	0084fcce	Movie::SetFaceInfoComp(const PARAM_AVC_ENC_VIDEO_SET_FACE_INFO_COMP*) __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncodingState() virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::TerminateEnc				
+Movie	0084fd3a	Movie::ProcEncodingState() virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*) __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncodingEarly				
+Movie	0084fd83	Movie::TerminateEncode(const DefCodecIf2McAvcCmd::CMD_TERM_ENC*) __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcEncodingEarlyStop(bool, bool*, bool*, DataflowInfra_StdYc::PIN_YC_TCUB_TC_DATA*) virtu				
+Movie	0084fdea	Movie::ProcEncodingEarlyStop(bool, bool*, bool*, DataflowInfra_StdYc::PIN_YC_TCUB_TC_DATA*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_M				
+Movie	0084fe74	Movie::SetMovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*) __int32_t McAvcEncVideoOuCrankStateEncMovie::StockYcData() bool McAvcEncVideoOuCrankStateEncMovie::IsEncodeUserDa				
+Movie	0084fe7e	MovieQualityInfoComp(const PARAM_AVC_ENC_VIDEO_SET_MOVIE_QUALITY_INFO_COMP*) __int32_t McAvcEncVideoOuCrankStateEncMovie::StockYcData() bool McAvcEncVideoOuCrankStateEncMovie::IsEncodeUserDataExist(__				
+Movie	0084fef1	Movie::StockYcData() bool McAvcEncVideoOuCrankStateEncMovie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoOuCrankUserDataMgr::OUTPUT_USER_DATA_INFO*) virtual __int32_t McAvcEncVideoOuCrankStateEncMo				
+Movie	0084ff27	Movie::IsEncodeUserDataExist(__uint32_t, McAvcEncVideoOuCrankUserDataMgr::OUTPUT_USER_DATA_INFO*) virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::ProcVsync() virtual __int32_t McAvcEncVideoOuCran				
+Movie	0084ffb7	Movie::ProcVsync() virtual __int32_t McAvcEncVideoOuCrankStateEncMovie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*) virtual __int32_t McAvcEncVideoOuCrankStateEncReady::InavtiveChip(const De				
+Movie	0084fff8	Movie::GetEsNotify(const PARAM_AVC_ENC_VIDEO_GET_ES_NOTIFY*) virtual __int32_t McAvcEncVideoOuCrankStateEncReady::InavtiveChip(const DefCodecIf2McAvcCmd::CMD_INACT_CHIP*) virtual __int32_t McAvcEncVid				
+Movie	0085062b	MovieComp(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE_COMP*) __uint8_t McAvcEncVideoOuCrankStateInactive::ConvertStreamType(DefMcAvcCommon::MC_AVC_STREAM_TYPE) 33McAvcEncVideoOuCrankStateInactive __uin				
+Movie	008521f8	MovieEncInfoTimeDone
+ __uint32_t McAvCtrlCore::ConvertStopTimeForQuick(__uint32_t) void McAvCtrlCore::ReviseMovieEncInfoTimeForSuperSandQ() __uint32_t McAvCtrlCore::CalcSuperSandQRecTime(__uint32_t, D				
+Movie	00852264	MovieEncInfoTimeForSuperSandQ() __uint32_t McAvCtrlCore::CalcSuperSandQRecTime(__uint32_t, DefMcAvcCommon::MC_AVC_FRAMERATE, __uint32_t) McAvCtrlIf::RESULT McAvCtrlIf::SendYcPin(const McAvCtrlIf::PIN_				
+Movie	008525ef	Movie], File->%s Function->%s() Line[%d]
+ [AVCTRL    ]wai semaphore error, Err:%d, File:%s, Func:%s() ,Line:%d 
+ [AVCTRL    ]sig semaphore error, Err:%d, File:%s, Func:%s() ,Line:%d 
+ [AVCTRL    ][%d]				
+Movie	00858ce9	MovieRec               : 0x%x
+ [CdcCtrlEnc][ERR]ACT_ENC PARAM ERR audioMuteRec             : 0x%x
+ [%2x]CDC_MGR_OPEN
+ [%2x]CDC_MGR_NEXTFRAME_IPIC
+ [%2x]CDC_MGR_ESTOP
+ [%2x]CDC_MGR_ESTOP_IPIC
+ [%2x]eve				
+Movie	0085c490	MovieRec                  = %#x
+ audioMuteRec                = %#x
+ metaInfoStartIndexNum       = %#x
+ workArea1.topAddress        = %#x
+ workArea1.memorySize        = %#x
+ workArea2.topAddress       				
+Movie	0085fdcc	MovieRec                 :%#x
+ audioMuteRec               :%#x
+ metaInfoStartIndexNum      :%#x
+ 
+Now Open  cmdPrm[0~3]  dump
+ 
+Now Start  cmdPrm[0~3]  dump
+ 
+Now Open MemMap().nonCacheAdr()Uint8*)cmd				
+Movie	008620e8	MovieRec=%#x, stillPic=%#x) is NG.
+ bool CdcMgrEncSeqStart::ChkMainStat(UInt8, UInt16, CdcMgrEnc*) 21CdcMgrEncSeqStartProc cdcMgr/cdcMgrEnc/sequence/CdcMgrEncSeqStartProc.cpp virtual void CdcMgrEncSeq				
+Movie	008712dc	Movie AvcResponse do not RID_AVIF_MPRNTFY_BGM_STREAM_END
+ [MCMSGCORE ]Digest Auto Edit Movie AvcResponse send RID_AVIF_MPRNTFY_BGM_STREAM_END
+ void McMsgCore::ExecSetSaUsecaseComp(void*, OSAL_ID) void				
+Movie	00871333	Movie AvcResponse send RID_AVIF_MPRNTFY_BGM_STREAM_END
+ void McMsgCore::ExecSetSaUsecaseComp(void*, OSAL_ID) void McMsgCore::ExecSetScenario(void*, OSAL_ID) __int32_t McMsgCore::CheckCommandPrmSize(co				
+Movie	008718f1	MovieCodec_131H/src/include/simple_queue.h [MCMSGIF   ]Received Video Finalize and Audio Close comp.
+ [MCMSGIF   ]McMsgIf::SendRescheduledAvscCmdComp Begin Disp Not Received.
+ [MCMSGIF   ][AutoEdit]Se				
+Movie	00871e9b	MovieCodec_131H/src/include/mcAlign.h SetModeCmp err=%#x
+ SetSaUsecaseCmp err=%#x
+ EncLoadCmp err=%#x
+ EncUnloadCmp err=%#x
+ AVSC CMD Ack err=%#x
+ AVSC CMD Comp err=%#x
+ AVSC CMD Response cid=%#x err=				
+Movie	00873727	Movie
+ [AUDPINEDTR][INFO] Scene Type is set to Still
+ [AUDPINEDTR][ERR]error no scene type is set 
+ [AUDPINEDTR]Notify cancel request 
+ [AUDPINEDTR]Notify BGM cancel request 
+ [AUDPINEDTR]Initialize -				
+Movie	0087782d	Movie(McAvcAudioData*) Int32 McAvcEncAvSyncIf::McAvcEncAvSync::McAvcEncAvSyncWakeup() Int32 McAvcEncAvSyncIf::McAvcEncAvSync::McAvcEncAvSyncTermEnc(const McAvcEncAvSyncIf::PARAM_AVSYNC_TERMENC*) Int32				
+Movie	0087c474	MovieCodec(const DefMcDataTransCtrlDecMsg::msg_common_t*, OSAL_ID, OSAL_ID) void McDataTransMsgSender::SendDataFlowMsg(OSAL_ID, T&) [with T = DefMcDataTransCtrlDecMsg::msg_template_t<(DefMcDataTransCt				
+Movie	0087d5d3	MovieCodec(const DefMcDataTransCtrlLoopbackMsg::msg_common_t*, OSAL_ID, OSAL_ID) support/mcDataTransCtrlLoopback.cpp [McDatCtrlL]McDataTransCtrlLoopback::ProcVsync() : finish vout_initialize
+ [McDatCt				
+Movie	00880dbd	MovieRec                    %d
+ audioMuteRec                  %d
+ metaInfoStartIndexNum         %d
+ inDelay.reflectVfc            %d
+ inDelay.cmdDelay              %d
+ outDelay.reflectVfc           %d				
+Movie	00897df0	MoviePlay(__int32_t, VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*) void VDF::set_vph_yrange_colorspace_info(VPH_ENUM_INPUT_YC_TYPE*, VDF::PIN_YC_YC_STATE_INFO*) void VDF::set_vph_dcd_info(VPH_ENUM_O				
+Movie	0089b2dd	MoviePlay(VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*) N3VDF30VdfInputCmdSetBlackFrameNotifyE [VDF]Send DeepMuteComp %x [VDF]Rcv DeepMuteComp on/off = %x, sel = %x N3VDF22VdfInputCmdSetDeepMuteE N3				
+Movie	0089da07	MoviePlay(__int32_t, VDF::SubsystemAccessorIf*, VDF::MsgAccessorIf*) VDF::VDF_ERR PanelSysvPrmGen(DISP_CMD_PANEL_SYSV*, VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*) bool IsMoviePlay(__uint32_t, VDF				
+Movie	0089dab6	MoviePlay(__uint32_t, VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*) void out_pin0_send(VDF::SubsystemAccessorIf*, VDF::MsgAccessorIf*) SystemCmdSysv.cpp [VDF] IsClkChange() Clock Param Error %d [VDF				
+Movie	008af5df	Movie_Rec b1_s1_on b1_key_mf_data_req b16_Tc_Com b1_menu_onoff b1_menu_stillmode b4_menu_panorama b7_menu_selftimer b1_selftimer_count b4_menu_movie b4_menu_active b8_menu_convlens uc_IrisSpeed us_Iri				
+Movie	008b2ae6	MovieFileFormat : %d LiroSequencer Unknown Category : %d SetGainBI is failed : %d I don't know this FOCUS_SWITCH_MODE. Please check init_cam_SetCamParam.cpp %d !!!!!!! UNKNOWN DSC CATEGORY in SetCamPa				
+Movie	008b7269	MovieFormatComp[%d] %s[app] Size:%d Fr:%d Asp:%d SizeH:%d Proxy:%d ProxySize:%d ProxyFr:%d RawOut:%d IsRawOut:- RawSize:%d %s[app] ISMode:%d IsSuperStableMov:- ImgFr:%d ShsFr:- ShsTrig:%d ShsTerm:%d S				
+Movie	008c09ee	MovieSplit.cpp Can't request to close JPEG driver.   CB(%d) is the same as Req(%d).   CB(%d) is not the same as Req(%d).   Open type is ENC   Open type is DEC   Open type is NO_TYPE   Open type is ?  				
+Movie	008c1a4e	Movie.cpp (DualRec) Can't Get CAM_REG_DRECSTL ... Sequence_Movie: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_Movie: SRC->VFX Strip Process Size Err. (width=%d) Sequence_MovieSplit.cpp Sequence				
+Movie	008c1a89	Movie: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_Movie: SRC->VFX Strip Process Size Err. (width=%d) Sequence_MovieSplit.cpp Sequence_MovieSplit: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequ				
+Movie	008c1ac3	Movie: SRC->VFX Strip Process Size Err. (width=%d) Sequence_MovieSplit.cpp Sequence_MovieSplit: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_MovieSplit: SRC->VFX Strip Process Size Err. (width=%				
+Movie	008c1aff	MovieSplit.cpp Sequence_MovieSplit: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_MovieSplit: SRC->VFX Strip Process Size Err. (width=%d) SHS dummy1 pin SHS dummy2 pin: rec[%d-%d] Sequence_ShsMov				
+Movie	008c1b17	MovieSplit: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_MovieSplit: SRC->VFX Strip Process Size Err. (width=%d) SHS dummy1 pin SHS dummy2 pin: rec[%d-%d] Sequence_ShsMovie.cpp SHS REC pin Expos				
+Movie	008c1b56	MovieSplit: SRC->VFX Strip Process Size Err. (width=%d) SHS dummy1 pin SHS dummy2 pin: rec[%d-%d] Sequence_ShsMovie.cpp SHS REC pin Expose:%d, transStart:%d SHS play_time:%d.%03d SHS buf_time:%d.%03d 				
+Movie	008c1bc4	Movie.cpp SHS REC pin Expose:%d, transStart:%d SHS play_time:%d.%03d SHS buf_time:%d.%03d N6Camera20SuperSlowManagerBaseE SuperSlowManagerBase.cpp SHS prepareRec buf_time:%d.%03d count:%d, req:%d.%03d				
+Movie	008c1eef	Movie: APL_ERR:0x%02x apl_mov_set_dma_addr error! Sequence_Movie: APL_ERR:0x%02x apl_mov_start error! Apl Kick APL_ERR:0x%02x apl_mov_set_aic R0 error! APL_ERR:0x%02x apl_mov_set_aic R1 error! APL_ERR				
+Movie	008c1f2a	Movie: APL_ERR:0x%02x apl_mov_start error! Apl Kick APL_ERR:0x%02x apl_mov_set_aic R0 error! APL_ERR:0x%02x apl_mov_set_aic R1 error! APL_ERR:0x%02x apl_mov_set_aic R2(eSRAM) error! APL_ERR:0x%02x apl				
+Movie	008c21bc	Movie: SPC_ERR:0x%02x SpicaApiSetTaneKeisuu error! Sequence_Movie: SPC_ERR:0x%02x SpicaApiExpandParam error! Sequence_Movie: SPC_ERR:0x%02x SpicaApiExecute error! Sequence_Movie: VFX_ERR:0x%02x ddl_Vf				
+Movie	008c21f8	Movie: SPC_ERR:0x%02x SpicaApiExpandParam error! Sequence_Movie: SPC_ERR:0x%02x SpicaApiExecute error! Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferChangeSync error! Sequence_Movie: VFX_ERR:0x%	003cb510	DATA		
+Movie	008c2232	Movie: SPC_ERR:0x%02x SpicaApiExecute error! Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferChangeSync error! Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferStart error! CS_ExifMakerNote.cpp	003cb500	DATA		
+Movie	008c2268	Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferChangeSync error! Sequence_Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferStart error! CS_ExifMakerNote.cpp s    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿs 				
+Movie	008c22ae	Movie: VFX_ERR:0x%02x ddl_VfxSimpleTransferStart error! CS_ExifMakerNote.cpp s    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿs    ÿÿÿÿAx    ÿÿÿÿBx    ÿÿÿÿCx    ÿÿÿÿDx    ÿÿÿÿEx				
+Movie	008dc990	MovieFlush 24AvcEncVideoStateEncMovie 29AvcEncVideoStateEncStillFlush 24AvcEncVideoStateEncStill [VIDENCSTAT]Err!!! File:%s, Func:%s() ,Line:%d, err 
+ video/enc/avcEncVideoStateEncStill.cpp Int32 AvcE				
+Movie	008dc9b0	Movie 29AvcEncVideoStateEncStillFlush 24AvcEncVideoStateEncStill [VIDENCSTAT]Err!!! File:%s, Func:%s() ,Line:%d, err 
+ video/enc/avcEncVideoStateEncStill.cpp Int32 AvcEncVideoStateEncStill::ProcVsyncS				
+Movie	008dcb7d	MovieParam(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE*, MojitoConfig*) Int32 AvcEncVideoStateIdle::SetInitializeStillParam(const PARAM_AVC_ENC_VIDEO_INITIALIZE_STILL*, MojitoConfig*) virtual Int32 Avc				
+Movie	008ddb0f	Movie(const PARAM_AVC_ENC_VIDEO_INITIALIZE_MOVIE*, UInt32, UInt32) Int32 AvcEncVideoStateIdle::GetPtsDtsOffset(UInt8, UInt32*, UInt32*) Int32 AvcEncVideoStateIdle::GetXavcsFrameRateConfigIndex(UInt8, 				
+Movie	008ddcaf	MovieReady Int32 AvcEncVideoStateNonActive::SetOpenParam(const PARAM_AVC_ENC_VIDEO_OPEN*, MojitoConfig*) virtual Int32 AvcEncVideoStateNonActive::Open(const PARAM_AVC_ENC_VIDEO_OPEN*, UInt32, UInt32) 				
+Movie	008ef514	Movie() msg->GetStatus()=0x%08x [SFRS] ScalarInfraPathCmdSetPath::TransPathLiveView() msg->GetStatus()=0x%08x [SFRS] ScalarInfraPathCmdSetPath::TransPathEffectMovieRec() msg->GetStatus()=0x%08x [SFRS]				
+Movie	008ef5b3	MovieRec() msg->GetStatus()=0x%08x [SFRS] ScalarInfraPathCmdSetPath::SendComp() err=0x%08x [SFRS][CMP] ***SET_PATH_CMP(0x%02x)*** [SFRS][CMD] ***SET_PATH(0x%02x)*** [SFRS] PATH_STATUS_ERR [SFRS][ERR] 				
+Movie	008f0784	MovieRecExecuterE N15NS_SCALAR_INFRA41ScalarInfraEffectMovieRecExecuterSequenceE [SFRS] ***EFFECTMOVIEREC_EXECUTER_EXEC_POST nowVfc:0x%x transTime 0x%x configNum:0x%x [SFRS] ***EFFECTMOVIEREC_EXECUTER				
+Movie	008f07bb	MovieRecExecuterSequenceE [SFRS] ***EFFECTMOVIEREC_EXECUTER_EXEC_POST nowVfc:0x%x transTime 0x%x configNum:0x%x [SFRS] ***EFFECTMOVIEREC_EXECUTER_EXEC_SA nowVfc:0x%x transTime 0x%x configNum:0x%x [SFR				
+Movie	008f09a8	MovieRecExecuterSequenceStageExecPostE N15NS_SCALAR_INFRA52ScalarInfraEffectMovieRecExecuterSequenceStageExecSAE N15NS_SCALAR_INFRA53ScalarInfraEffectMovieRecExecuterSequenceStageExecVFXE [SFRS][ERR] 	0023e71c	DATA		
+Movie	008f09f4	MovieRecExecuterSequenceStageExecSAE N15NS_SCALAR_INFRA53ScalarInfraEffectMovieRecExecuterSequenceStageExecVFXE [SFRS][ERR] ***CONFIG_FULL! [SFRS] ***SET_PATH_EFFECTMOVIEREC_MANAGER_SRC_ACQUIRE_DONE [				
+Movie	008f0a3e	MovieRecExecuterSequenceStageExecVFXE [SFRS][ERR] ***CONFIG_FULL! [SFRS] ***SET_PATH_EFFECTMOVIEREC_MANAGER_SRC_ACQUIRE_DONE [SFRS][ERR] ***EFFECTMOVIEREC_MANAGER_VFX_ACQUIRE_FAILED [SFRS] ***SET_PATH				
+Movie	008f0d7b	MovieRecManagerE N15NS_SCALAR_INFRA33ScalarInfraEffectMovieRecSequenceE N15NS_SCALAR_INFRA49ScalarInfraEffectMovieRecSequenceStageExecPinSendE [SFRS][INFO] ***SEND_MSG_TO_EXECUTER, cateID:0x%x msgID:0				
+Movie	008f0db1	MovieRecSequenceE N15NS_SCALAR_INFRA49ScalarInfraEffectMovieRecSequenceStageExecPinSendE [SFRS][INFO] ***SEND_MSG_TO_EXECUTER, cateID:0x%x msgID:0x%x err:0x%x [SFRS]ExecSRC canvas:0x%x, time:0x%x, now				
+Movie	008f0de8	MovieRecSequenceStageExecPinSendE [SFRS][INFO] ***SEND_MSG_TO_EXECUTER, cateID:0x%x msgID:0x%x err:0x%x [SFRS]ExecSRC canvas:0x%x, time:0x%x, nowVfc:0x%x configNum:0x%x [SFRS][ERR] ***EFFECTMOVIEREC_O				
+Movie	008f0f59	MovieRecSequenceStageExecSRCE N15NS_SCALAR_INFRA33ScalarInfraMotionShotVideoManagerE [SFRS][ERR] ***SET_PATH_MOTIONSHOTVIDEO_WORKBUFFER_ALLOC_FAILED [SFRS][ERR] ***MOTIONSHOTVIDEO_WORKBUFFER_ALLOC_FAI				
+Movie	008f1c2f	MovieManager.cpp [SFRS] ***SET_PATH_SUPERSTABLEMOVIE::Finalize_SetMailBox [SFRS] ***SET_PATH_SUPERSTABLEMOVIE::Finalize_SaClose [SFRS][ERR] ***SUPERSTABLEMOVIE SRC/RC Release Failed: 0x%x [SFRS][ERR] 				
+Movie	008f1e86	MovieManagerE N15NS_SCALAR_INFRA35ScalarInfraSuperStableMovieSequenceE N15NS_SCALAR_INFRA46ScalarInfraSuperStableMovieSequenceStageExecSAE N15NS_SCALAR_INFRA67ScalarInfraSuperStableMovieSequenceStageE				
+Movie	008f1ebe	MovieSequenceE N15NS_SCALAR_INFRA46ScalarInfraSuperStableMovieSequenceStageExecSAE N15NS_SCALAR_INFRA67ScalarInfraSuperStableMovieSequenceStageExecTC_CECIL_OUT_SRC_RC_VFXE N15NS_SCALAR_INFRA50ScalarIn				
+Movie	008f1ef7	MovieSequenceStageExecSAE N15NS_SCALAR_INFRA67ScalarInfraSuperStableMovieSequenceStageExecTC_CECIL_OUT_SRC_RC_VFXE N15NS_SCALAR_INFRA50ScalarInfraSuperStableMovieSequenceStageWaitSACompE SA_RESULT_ERR				
+Movie	008f1f3b	MovieSequenceStageExecTC_CECIL_OUT_SRC_RC_VFXE N15NS_SCALAR_INFRA50ScalarInfraSuperStableMovieSequenceStageWaitSACompE SA_RESULT_ERR: MBOX_PARAM_ERR=%d MBOX_INTERNAL_STATE=%d Warning: SA_CECIL_EXPORT_				
+Movie	008f1f94	MovieSequenceStageWaitSACompE SA_RESULT_ERR: MBOX_PARAM_ERR=%d MBOX_INTERNAL_STATE=%d Warning: SA_CECIL_EXPORT_ERR_CODE=%d APL VECTOR MEMORY CLOSE FIELD! err=0x%08x APL HANDLE OPEN FIELD! err=0x%08x S				
+Movie	008f249c	MovieSequenceStageExecTC_CECIL_INE N15NS_SCALAR_INFRA8CmdEventE N15NS_SCALAR_INFRA7CmdSyncE 0123456789ABCDEFDATE Setting UTC DATE NOTIME/UNSETTIME err %x DATE err %x N15NS_SCALAR_INFRA22ScalarInfraDat				
+Movie	008f30cf	Movie!: file=%s line=%d [SFRS][PINSEND] kari review free: file=%s line=%d [SFRS][PINSEND] kari review thru: file=%s line=%d [SFRS][PINSEND] shutter mute thru: file=%s line=%d [SFRS][PINSEND]  YC FREE 				
+Movie	008f3ecc	MovieEncInfo 38C_DataflowInfra_Entry_MovieQualityInfo 46C_DataflowInfra_Entry_MultipleSegmentImageInfo 29C_DataflowInfra_Entry_RawInfo 30C_DataflowInfra_Entry_TcubInfo 35C_DataflowInfra_Entry_TimeStam				
+Movie	008f3ef1	MovieQualityInfo 46C_DataflowInfra_Entry_MultipleSegmentImageInfo 29C_DataflowInfra_Entry_RawInfo 30C_DataflowInfra_Entry_TcubInfo 35C_DataflowInfra_Entry_TimeStampInfo 29C_DataflowInfra_StdData_AUDIO				
+Movie	008fb6f0	Movie NoBank
+ [IDT]:  IDT_OPD_AFMAP_FreeAfmap_lower memory_flag = false [IDT]:  IDT_OPD_AFMAP_InitAfmap_lower memory_flag = false [IDT]:  Can't Get AFmap Debug RawWork Mem err:%x [IDT]:  Get debug mem				
+Movie	008fcbd5	Movie Cannot use AIF! %d [IDT]: Split Movie Cannot use Insel! %d [IDT]: AF AE1 %d %d %d %d [IDT]: AF AE2 %d %d %x %d [IDT]: Split Movie Cannot use AIF!!! %d [IDT]: PBL SET_FUNC_ERROR R0 only [IDT]: PB				
+Movie	008fcbfb	Movie Cannot use Insel! %d [IDT]: AF AE1 %d %d %d %d [IDT]: AF AE2 %d %d %x %d [IDT]: Split Movie Cannot use AIF!!! %d [IDT]: PBL SET_FUNC_ERROR R0 only [IDT]: PBL START_ERROR R0 only [IDT]: Split Mov				
+Movie	008fcc57	Movie Cannot use AIF!!! %d [IDT]: PBL SET_FUNC_ERROR R0 only [IDT]: PBL START_ERROR R0 only [IDT]: Split Movie Cannot use Insel!!! %d [IDT]: IDTdriver overflow:%d [IDT]: FRM mode translation error %d 				
+Movie	008fccc0	Movie Cannot use Insel!!! %d [IDT]: IDTdriver overflow:%d [IDT]: FRM mode translation error %d %d [IDT]: SetF mode err %d %d [IDT]: Kick IDT skipped [IDT]: Out of Spec:sync FRM_mode: %d %d [IDT]: sync				
+Movie	00900015	Movie Iso Mode On. %s:%d: Iso Speed Rate Value for YcPin is 0 when Gamma is S-Log2/3.     FK/FK_Det.cpp    2<2 Gamma/EC_Gamma.cpp  %s : Unexpected Gamma Selectio				
+Movie	009021d7	MovieAutoSlowShutMode CheckSetPowerStatus CheckSetPushAutoFocusMode CheckSetHotshoeLancStrobe CheckSetExtVideoLightStatus CheckSetS1AELock CheckSetOpticalPreview CheckSetCaExtStrobe CheckSetSuperResol				
+Movie	0090661a	MovieAutoSlowshutMode] cur:%d req:%d LiroSeq ParamCheckErr@%s[uc_zoom_drive_asign] cur:%d req:%d LiroSeq ParamCheckErr@%s[uc_zoom_speed_type] cur:%d req:%d LiroSeq ParamCheckErr@%s[ul_zoom_fixed_speed				
+Movie	00907b03	MovieAFSensibility CheckSetBracketMode CheckSetAFRangeLimitDrive CheckSetDispResolution CheckSetTcType CheckSetAfRequest CheckSetCWBSettingDisplay CheckSetHSmovieRecTime CheckSetAfLight CheckSetZoomDr				
+Movie	00907d12	Movie CheckSetFocusZoomCautionReq CheckSetTouchSpotMeter CheckSetShutDriveMode CheckSetHdrLevel CheckSetTcOnMovie CheckSetStrobeControlMode CheckSetETelecon CheckSetStandardExposureSetting CheckSetSte				
+Movie	00907d7e	Movie CheckSetStrobeControlMode CheckSetETelecon CheckSetStandardExposureSetting CheckSetStepZoomMode CheckSetColorDepth CheckSetRingFocusDirection CheckSetLongExpNR CheckSetShadingCorrection CheckSet				
+Movie	00907e7a	MovieAfDriveSpeed CheckSetSTFMode CheckSetEeFrameRateMode_HDMI CheckSetFocusDrive CheckSetLiveviewDisplay CheckSetManualExposureMode CheckSetShotTransitionStore CheckSetEyeStartAF CheckSetDriveMode Ch				
+Movie	00908213	MovieRecMode CheckSetAPSCMode CheckSetSyncMShiftDrive CheckSetOUCrankMode CheckSetZoomSpeedSetting CheckSetDateRecMode CheckSetAutoAdvanceImageExtract CheckSetStillFormat CheckSetIsoSpeedRate CheckSet				
+Movie	009084da	MovieColorSpace CheckSetMotionShotMode CheckSetMfAssistMode CheckSetViewAngleType CheckSetExtVideoLightMode CheckSetStrobeMode CheckSetReqCustomWBData CheckSetTeleMacro CheckSetExGammaTableControl Che				
+Movie	0090869d	MovieFormat CheckSetAfArea CheckSetColorCorrect CheckSetFocusContDrive CheckSetHotshoeStrobe CheckSetRingZoomDirection CheckSetStillDateStampStyle CheckSetRedEyeReductionMode CheckSetStillDateStampMod				
+Movie	009092e4	MovieAutoSlowShutMode[%d] SET_S1AELock[%d] SET_S1AF[%d] SET_EXP_COMP[%d] SET_PRIORITY_SETUP[%d:%d] SET_PICTUREPROFILE[%d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d: %d				
+Movie	0090ae19	MovieAF Sta LC_MovieAF End LcAgsC S LcAgsC E @HD@HD@HD @H fc_depth >> 1:%d, afspd_unit:%d, fno:%d aui_fc_pos_set:%d,  agui_fc_pre_pos[0]:%d Calibration start                     				
+Movie	0090ae28	MovieAF End LcAgsC S LcAgsC E @HD@HD@HD @H fc_depth >> 1:%d, afspd_unit:%d, fno:%d aui_fc_pos_set:%d,  agui_fc_pre_pos[0]:%d Calibration start                                  				
+DualRec	008b8a20	DualRec was called too many. CapMgr) Error! FreeRaw_DualRec was called too many. CaptureManager_FunctionIF.cpp CapMgr_FuncIF) SetMode Received in CAP_READY_ACT seq_id %x capmode %x    				
+DualRec	008b8a54	DualRec was called too many. CaptureManager_FunctionIF.cpp CapMgr_FuncIF) SetMode Received in CAP_READY_ACT seq_id %x capmode %x       CaptureManager_ModeInfo.cpp %s: warnin				
+DualRec	008b8ece	DualRec cmd !!! Can't send Panorama cmd CaptureManager_ReleaseIF.cpp CapMgr) osal_stat_sem: CAPTURE_INTERVAL err %d CapMgr) osal_sig_sem: CAPTURE_INTERVAL err %d CapMgr) FreeCaptureIntervalResource():				
+DualRec	008bac3d	DualRec.cpp Error! sa_func_DUALREC_BAYER_start %d %08X %s: DUALREC_BAYER_start_mbx.cha_mbx0 = 0x%x %s: DUALREC_BAYER_start_mbx.cha_mbx1 = 0x%x %s: DUALREC_BAYER_start_mbx.cha_mbx2 = 0x%08x %s: DUALREC				
+DualRec	008bbc9b	DualRec Stage_RchRcv_ResizeNormTrim DrvRcV_Base Err: Func Err[0x%08x] DrvRcHV_Base: Capture_MemOpen inputHandle Error DrvRcHV_Base: Capture_MemOpen outputHandle Error ResizeHV_RC 1st error:0x%02x %s: 				
+DualRec	008bcd54	DualRec GetImageAspectFromBackup ConvertQualityForBKID ReadBackup_ScnJpegTargetSize ReadBackup_MainJpegTargetSize ReadBackup_GolfShotJpegStreamSize %s Invalid Jpeg Quality PanoramaJpegStream   directi				
+DualRec	008bd084	DualRecJpegTargetSize ReadBackup_PanoramaScnJpegTargetSize CaptureUtilityModuleAPI.cpp %s YC::api_YC_SetSaCamDsp err ModuleAPI_SA_Develop CaptureUtilityPreReview.cpp GetDistCorrectionParam error:0x%02				
+DualRec	008c1a59	DualRec) Can't Get CAM_REG_DRECSTL ... Sequence_Movie: RC_ERR:0x%02x rcct_SetAicParam RCV error! Sequence_Movie: SRC->VFX Strip Process Size Err. (width=%d) Sequence_MovieSplit.cpp Sequence_MovieSplit				
+DualRec	008c543a	DualRec %s: Deconv PSF AllocNewWait error %s: Deconv PSF Table AllocNewWait error PSF ODL_GetBinaryData Error %s: PreDCV acquire error
+ %s: sa_func_PreDCV_start error PreDCV: intfct = 0x%x PreDCV: Pre				
+DualRec	008c9720	DualRec api_YC_CaptureDevDevelopResize_BigImage api_YC_InitCap: job_YC_GetTagPointer error: 0x%x api_YC_SetCapTbox: 0x%x api_YC_SetSaCamDsp: Open error: 0x%x api_YC_SetSaCamDsp: Close error: 0x%x api_				
+DualRec	008d0022	DualRec :: every pixel read parameter undefined: 0x%x NR DualRec :: add pixel read parameter undefined: 0x%x NR::GetBaseData (ASYNC) GetNr error NR::GetBaseData: api_idx: 0x%x NR::job_YC_SetParam (CAP				
+DualRec	008d005b	DualRec :: add pixel read parameter undefined: 0x%x NR::GetBaseData (ASYNC) GetNr error NR::GetBaseData: api_idx: 0x%x NR::job_YC_SetParam (CAP): GetNrXXX error: 0x%p, 0x%p NR::SetRawDevMakerNoteNr: j				
+DualRec	008d3aa7	DualRec): SPICA on. X_DZM=0x%x apgain_RCZOOM=0x%x void Camera::YC::job_apc_gain_stl(short unsigned int, short unsigned int, short unsigned int, unsigned char, unsigned char, signed char, unsigned char				
+DualRec	008f4454	DualRecParam()          [CapMode:%d] [ExposureID:%d] [ContID:%d] [BDROSeq:%d] [BDRObase:%d] [FrameID:%d] SetDAEParam()              [CapMode:%d] [ExposureID:%d] [ContID:%d] [BDROSeq:%d] [BDRObase:%d] 				
+DualRec	008ff850	DualRec. %s:%d EC_CaptureDev.cpp EC_ASSERT %s:%d SbProcTime %d DevLaterData is NULL! DevLaterData is Error! [%d != %d] DevDev is Error! [%d] %s:%d: pt_ECShare is NULL at api_EC_CaptureDevCalcBeforeNR(				
+Bayer	008bad35	Bayer Stage_Branch_LoadLongExpDefCorData Stage_DfeNRTransBranch HAPI_SmoothBulb_SplitExposureSetting Stage_ReadExecute_AsyncLv Stage_ExposureInit Stage_BolTDReadExecute Stage_DfeRawTransSnrBranch %s: 				
+Bayer	008ccd81	Bayer_init, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_ZZ_G, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_ZZ_stl, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Bayer_ini				
+Bayer	008cce40	Bayer_init, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Bayer_stl, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_common, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Baye				
+Bayer	008cce83	Bayer_stl, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_common, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Bayer_common, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Ar				
+Bayer	008ccf04	Bayer_common, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Ar, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_ZZ_Clear_init_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp				
+Bayer	008ccfd0	Bayer_init_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_ZZ_G_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_ZZ_stl_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_				
+Bayer	008cd098	Bayer_init_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Bayer_stl_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_common_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote				
+Bayer	008cd0de	Bayer_stl_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_common_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Bayer_common_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNo				
+Bayer	008cd165	Bayer_common_wr, RawDev MAKERNOTE ERROR ITP:	job_YC_RawDevMakerNote_Itp_Ar_wr, RawDev MAKERNOTE ERROR YAP:	job_YC_RawDevMakerNote_Yap_apc_init, RawDev MAKERNOTE ERROR YAP:	job_YC_RawDevMakerNote_Yap_a				
+RAW	0082ab11	RAW_LPCM WP %x
+ [ADF]Dummy Class
+ 21AdfSoundAnalyzerDummy [ADF]Can't use this Execute() Func
+ [ADF]SAN NOTIFY Regist OK ch %x bAdr %x bSize %x
+ [ADF]SAN NOTIFY Regist Err %x
+ [ADF]SAN NOTIFY Unregist 				
+RAW	0089c3bb	RAW NG(0x%x)
+ [VDF] send  EvfTempInfoEvent osalId = %x, brightness = %x, disp_info = %x, temp_info = %x, device_err = %x [VDF] setEvfTempInfoEvent osalId = %x, temp_onoff = %x, device_onoff = %x N3VDF				
+RAW	0089c843	RAW_FOCUS_LOCK_FRAME*) virtual VDF::VDF_ERR VDF::VdfSrvcDrawOsdManager::ExecuteWaitEnd(VDF::MsgAccessorIf*, VDF::SubsystemAccessorIf*) VdfSrvcDrawOsdManager.cpp virtual VDF::VDF_ERR VDF::VdfSrvcDrawOs				
+RAW	008a4fce	RAW is precompressed in the imager. typeof(rawOut) must be RdcImage. width[%d] % 48 != 0 in spite of imager-precompressed data. SetAicSpModeForRawRead NG. Imager in is available. SetAicSpModeForRawRea				
+RAW	008a50fa	RAW. N6Camera7CamCore17DevelopControllerE N6Camera7CamCore12EEController15PfrImageForSyncE N6Camera7CamCore12EEControllerE [Error] Memory for PFR couldn't be freed. : unit_handle = %x [Error] Memory f				
+RAW	008b1744	RAW                                              OPD                                              POST                             Timing          mastercounter                                   				
+RAW	008b62a9	RAW RESOURCE_IMAGER0_TRANS_RAW RESOURCE_IMAGER1 RESOURCE_IMAGER1_TRANS_RAW RESOURCE_SGC1 RESOURCE_RCHV_0 RESOURCE_RCH_0 RESOURCE_RCV_0 RESOURCE_RCHV_1 RESOURCE_RCH_1 RESOURCE_RCV_1 RESOURCE_RCHV_2 RES				
+RAW	008b62c4	RAW RESOURCE_IMAGER1 RESOURCE_IMAGER1_TRANS_RAW RESOURCE_SGC1 RESOURCE_RCHV_0 RESOURCE_RCH_0 RESOURCE_RCV_0 RESOURCE_RCHV_1 RESOURCE_RCH_1 RESOURCE_RCV_1 RESOURCE_RCHV_2 RESOURCE_RCH_2 RESOURCE_RCV_2 				
+RAW	008b62f0	RAW RESOURCE_SGC1 RESOURCE_RCHV_0 RESOURCE_RCH_0 RESOURCE_RCV_0 RESOURCE_RCHV_1 RESOURCE_RCH_1 RESOURCE_RCV_1 RESOURCE_RCHV_2 RESOURCE_RCH_2 RESOURCE_RCV_2 RESOURCE_VFX_0 RESOURCE_VFX_1 RESOURCE_APL_0				
+RAW	008ba762	RAW Size Over!! Stage_Rcv_DistResize_MotionShotMiniYc DrvRcV_Base Stage_Rcv_DistResizeTrim_SameArea DrvRcV_Base Err: Func[0x%08x] DrvRcV_Base: Capture_MemOpen inputHandle Error DrvRcV_Base: Capture_Me				
+RAW	008bc550	RAW Error : Captuer_MemOpen %d MemAreaMSDebug_RAW Error : Decomp area Mem_Alloc %d MemAreaMSDebug_RAW: CamCore Start Error!: %02x MemAreaMSDebug_RAW: CamCore Release Error!: %02x [MemAreaMSDebug_RAW]R				
+RAW	008bc57e	RAW Error : Decomp area Mem_Alloc %d MemAreaMSDebug_RAW: CamCore Start Error!: %02x MemAreaMSDebug_RAW: CamCore Release Error!: %02x [MemAreaMSDebug_RAW]Raw decomp inputImage: id[0x%02x], encType[%d] 				
+RAW	008bc5b2	RAW: CamCore Start Error!: %02x MemAreaMSDebug_RAW: CamCore Release Error!: %02x [MemAreaMSDebug_RAW]Raw decomp inputImage: id[0x%02x], encType[%d] addr[0x%08x] size[0x%08x] [MemAreaMSDebug_RAW]IMAGE_				
+RAW	008bc5e1	RAW: CamCore Release Error!: %02x [MemAreaMSDebug_RAW]Raw decomp inputImage: id[0x%02x], encType[%d] addr[0x%08x] size[0x%08x] [MemAreaMSDebug_RAW]IMAGE_SIZE_INFO: id[0x%02x], canvasSize[%d,%d], valid				
+RAW	008bc613	RAW]Raw decomp inputImage: id[0x%02x], encType[%d] addr[0x%08x] size[0x%08x] [MemAreaMSDebug_RAW]IMAGE_SIZE_INFO: id[0x%02x], canvasSize[%d,%d], validOffset[%d,%d], validSize[%d,%d] [MemAreaMSDebug_YC				
+RAW	008bc670	RAW]IMAGE_SIZE_INFO: id[0x%02x], canvasSize[%d,%d], validOffset[%d,%d], validSize[%d,%d] [MemAreaMSDebug_YC]IMAGE_SIZE_INFO: id[0x%02x], canvasSize[%d,%d], validOffset[%d,%d], validSize[%d,%d] [MemAre				
+RAW	008bc745	RAW]IMAGE_SIZE_INFO: id[0x%02x], Size[%d,%d] MemAreaMSDebug_Base CaptureUtilityExifMkNote.cpp Share ExifArea: %x CannotGetMemory MpoInfo: %x CannotShareMemory MpfInfo: %x Share MpoArea Err: %x Share M				
+RAW	008bf8fb	RAW->YC) fail. %s: input image unsupported format. %s: invalid parameter on simple develop. %s: YC(develop) DMM allocation error[%d]. Start_Develop %s: SdsYc error Start_FaceNr Start_SoftFocus Start_M				
+RAW	008bfa7f	RAW_FULL handle %s: dmm_handle[%d] error %s: ShareCheck error %s: p_newparam error %s: dmm_handle[%d] Share error %s: Share error %s: outImage error %s: clone error Start_Extract ConvertAspectForStill				
+RAW	008c012e	RAW_OUTPUT_SIZE=%d (enum) DFE SuperSlowMotion[Buffering] error: IMAGE_FRAME_RATE=%d (enum) 4KSuperSlowMotion[Transfer] error: SYNC_RAW_OUTPUT_SIZE=%d (enum) DFE SuperSlowMotion[Transfer] error: IMAGE_				
+RAW	008c01b1	RAW_OUTPUT_SIZE=%d (enum) DFE SuperSlowMotion[Transfer] error: IMAGE_FRAME_RATE=%d (enum) Esram RCVmem Get NG Face Memory Alloc Error :%d Sequence Stage Error! ## Error : MemMgrWrapper::AllocShare() E				
+RAW	008c4744	RAWPDI skip_start(0x%x) >= in_img.height(0x%x) Error : ExtractRAWPDI out_height(0x%x) > out_height_max(0x%x) XDMAC Error: err[%d] YC sum Err: err[%d] ApolloNrBase err:0x%x  ImageParam_Capture::Create 				
+RAW	008c4782	RAWPDI out_height(0x%x) > out_height_max(0x%x) XDMAC Error: err[%d] YC sum Err: err[%d] ApolloNrBase err:0x%x  ImageParam_Capture::Create Error! Stage_Apollo.cpp ResizeRotate_Base SendMsg ## Error : S				
+RAW	008f5715	RAW_MAKERNOTE SIZE %d]  CC::SetExtOutputMakerNotePlayRaw [err %d] [CcTagDaraSize %d] [CC_PLAYRAW_MAKERNOTE SIZE %d]    	    				
+
+
+
+
+				
+RAW	008f5772	RAW_MAKERNOTE SIZE %d]    	    				
+
+
+
+
+				
+RAW	008fb8e5	RAW writeByte Error outW:%d outH:%d [IDT]:  MiniRaw width:%d heignt:%d addr:%08x size:%08x [IDT]:  Rdraw.Target.Offset.X:%d diff%d [IDT]:  Rdraw.Target.Offset.Y:%d diff:%d [IDT]: gamma th0:%d th1:%d t				
+RAW	008fba74	RAW Addr  : %08x [IDT]: width : %d   [IDT]: height: %d   [IDT]: DebugGetInfo extraction failed!! [IDT]: CC EC Result Addr  : %08x [IDT]: size: %d   [IDT]: addres: %x size: %d [IDT]: DebugInfo extracti				
+RAW	008fcf57	RAW can't work 8pix/clk %d [IDT]: AF_param is not correct! %d %d [IDT]: AF_param not correct! %d %d [IDT]: RDRAW can't work 8pix/clk %d [IDT]: RDRAW_param not correct! %d %d [IDT]: AF_forced_param is 				
+RAW	008fcfc4	RAW can't work 8pix/clk %d [IDT]: RDRAW_param not correct! %d %d [IDT]: AF_forced_param is not correct! %d %d [IDT]: AF_param is not correct async! %d %d [IDT]: 4cmap:%X [IDT]: hmap:%X [IDT]: smap:%X 				
+RAW	008fcfe8	RAW_param not correct! %d %d [IDT]: AF_forced_param is not correct! %d %d [IDT]: AF_param is not correct async! %d %d [IDT]: 4cmap:%X [IDT]: hmap:%X [IDT]: smap:%X [IDT]: ccout:%X [IDT]: ecout:%X [IDT				
+RAW	008fd218	RAW Mem [IDT]: VATR Mem Get: FW param is NULL! [IDT]: VATR Mem OK %x [IDT]: VATR Mem NG %d [IDT]: VATR Mem Release OK [IDT]: VATR Mem Release NG %d [IDT]: VATR IsAlloc: FW param is NULL! [IDT]: IDT EC				
+RAW	008fde0b	RAW size error: %d %d [IDT]:  InitSaManager free sem Error [IDT]: IDT : TOP STATE ERROR, state = %d, command = %d  [IDT]: IDT : TOP Not Sig Sem, state = %d command = %d sem_error = %d  [IDT]: IDT : In				
+RAW	00907c0a	RAWExternalOutput CheckSetSelfTimer CheckSetWBShift CheckSetStillHiSpeedEeFrameRateMode CheckSetContrast CheckSetCinematoneMode CheckSetEnterKeyOn CheckSetChromaAberrCorrection CheckSetZone CheckSetCo				
+RAW	00908e2c	RAW_EXTERNAL_OUTPUT_COMP[0x%x] SET_THROUGH_MIRROR_MODE[%d] SET_FACE_PRIORITY_TRACKING_MODE[%d] SET_AUTO_FRAMING_MODE[%d] SET_FALL_DETECTION_MODE[%d] SET_ENTER_KEYON[%d] SET_S1_KEYON[%d] SET_AUTO_REVIE				
+RAW	0090a24f	RAW_EXTERNAL_OUTPUT[%d] [%d] [0x%x] CNT[%d] SetImagerFrameSize[%d] SetAPSCMode[%d] SET_CAP_MODE[0x%x: %d: %d: %d: %d] SetCapMode:Invalid CapMode[0x%x: %d: %d: %d: %d] BRACKET_STATE_CLEAR[] SET_SETTING				
+SetSyncParamRawBuffering	008c747f	SetSyncParamRawBuffering[%#x] SHS prepareBuf addr:%08x, 1frame:%d, max:%d, rate:%d time:%d.%03d [%d] No Read. cause:waiting for DFE DDR power supply N6Camera19SuperSlowManagerDfeE CS_ExifMakerNote_dsl				

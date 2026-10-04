@@ -1,0 +1,78 @@
+ADDRESS 00020e54
+FUNCTION GetDualRecStillMode entry=00020e54 body=[[00020e54, 00020e5f]]
+CALLERS
+  From: 00023cda To: 00020e54 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00020e54  adr r12,0x20e5c
+00020e58  add r12,r12,#0x31000
+00020e5c  ldr pc,[r12,#0x6b4]!
+DECOMPILED
+
+void MprCtrlStillMgr::GetDualRecStillMode(void)
+
+{
+  (*(code *)PTR_GetDualRecStillMode_00052510)();
+  return;
+}
+
+
+
+ADDRESS 00020f14
+FUNCTION IsDualRecOver18Mbps entry=00020f14 body=[[00020f14, 00020f1f]]
+CALLERS
+  From: 000279a6 To: 00020f14 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00020f14  adr r12,0x20f1c
+00020f18  add r12,r12,#0x31000
+00020f1c  ldr pc,[r12,#0x630]!
+DECOMPILED
+
+void MprCtrl::IsDualRecOver18Mbps(void)
+
+{
+  (*(code *)PTR_IsDualRecOver18Mbps_0005254c)();
+  return;
+}
+
+
+
+ADDRESS 000218b8
+FUNCTION GetDualRecType entry=000218b8 body=[[000218b8, 000218c3]]
+CALLERS
+  From: 000236b6 To: 000218b8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 00027974 To: 000218b8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+000218b8  adr r12,0x218c0
+000218bc  add r12,r12,#0x30000
+000218c0  ldr pc,[r12,#0xf9c]!
+DECOMPILED
+
+void MprCtrl::GetDualRecType(void)
+
+{
+  (*(code *)PTR_GetDualRecType_0005285c)();
+  return;
+}
+
+
+
+ADDRESS 00021b48
+FUNCTION GetDualRecCaptureCount entry=00021b48 body=[[00021b48, 00021b53]]
+CALLERS
+  From: 00023ce0 To: 00021b48 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 00027994 To: 00021b48 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00021b48  adr r12,0x21b50
+00021b4c  add r12,r12,#0x30000
+00021b50  ldr pc,[r12,#0xde0]!
+DECOMPILED
+
+void MprCtrl::GetDualRecCaptureCount(void)
+
+{
+  (*(code *)PTR_GetDualRecCaptureCount_00052930)();
+  return;
+}
+
+
+

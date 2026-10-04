@@ -1,0 +1,41 @@
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7b281: static void OBJEFFECT::ObjEffectSequenceBasePin::GetAndSaveParameterMovieFormatInfo(MWF::ObjMsg*, GlobalAccessor*, DefCommon::MOVIE_FORMAT_INFO*)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7b313: static bool OBJEFFECT::ObjEffectSequenceBasePin::IsSameParameterMovieFormatInfo(MWF::ObjMsg*, GlobalAccessor*)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7df66: N9OBJEFFECT33SequencePinOpenMovieFormatInfoRaw13ActionPinOpenE
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7dfa5: N9OBJEFFECT33SequencePinOpenMovieFormatInfoRawE
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7dfd5: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7e042: SequencePinOpenMovieFormatInfoRaw.cpp
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7e068: [ObjEffect]SequencePinOpenMovieFormatInfoRaw End [%x]
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7e0a7: [ObjEffect]NEW SequencePinOpenMovieFormatInfoRaw
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7e0d8: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f2f9: N9OBJEFFECT35SequencePinNotifyMovieFormatInfoRaw15ActionPinNotifyE
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f33c: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f3ab: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f413: N9OBJEFFECT35SequencePinNotifyMovieFormatInfoRawE
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f445: SequencePinNotifyMovieFormatInfoRaw.cpp
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc7f546: [ObjEffect]NEW SequencePinNotifyMovieFormatInfoRaw
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe3bf:  N9OBJSCALAR29SequenceSequenceRawCaptureEvtE
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe3ec: [ObjScalar]SequenceSequenceRawCaptureEvt SeqFin seqId:0x%x err:0x%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe430: [ObjScalar]SequenceSequenceRawCaptureEvt SetParam seqId:0x%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe46d: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureMode=%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe4bd: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureStatus=%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe50f: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureTime=%d
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe55f: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter eventId=0x%x(%d)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe5ab: [ObjScalar]SequenceSequenceRawCaptureEvt Response ticket:%d
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe5e7: [ObjScalar]SequenceSequenceRawCaptureEvt dataType is NOT CAMRAW: 0x%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xcfe65c: [ObjScalar]SequenceSequenceRawCaptureEvt Begin seqId:0x%x
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd37c45: pvt_SetParamSuperResolutionDualRec
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd49d37: SuperResolutionDualRec Set changed:(new)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd49d60: SuperResolutionDualRec Act changed:(new)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd540a0: pvt_ActionSetSuperResolutionDualRecCmp
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd540c7: ActionNotifySuperResolutionDualRecEvt
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd582bb: pvt_ActionSetSuperResolutionDualRec
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd582df: Err (pvt_ActionSetSuperResolutionDualRec)
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe3e33c: [ObjMovieRecorder] Proxy YcPin.Send :NOTIFY MovieFormatInfo => failed
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe3e55c: [ObjMovieRecorder] YcPin.Send :NOTIFY MovieFormatInfo => failed
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe73030: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_MOVIE_SIZE_ACT(size) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe73092: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_FRAME_RATE_ACT(rate) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe730f4: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_FRAME_RATE_ACT(aspect) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe73158: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_RAW_OUTPUT_MODE(aspect) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe731bd: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_MOVIE_SIZE_RAW(aspect) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xe73221: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_CCM_IMAGE_FRAME_RATE_ACT(rate) UNKNOWN[0x%02x] #########
+firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so: ... truncated

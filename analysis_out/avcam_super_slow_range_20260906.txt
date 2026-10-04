@@ -1,0 +1,16 @@
+RANGE 007cc300-007cc800
+DATA 007cc450  addr 00c500ce
+DATA 007cc454  addr 00b500bd
+DATA 007cc458  addr 00a500ad
+DATA 007cc45c  addr 0098009e
+DATA 007cc4c6  undefined2 64B5h
+DATA 007cc4c8  undefined2 64BFh
+DATA 007cc4ce  unicode u"F,-=/60;C"
+DATA 007cc60a  undefined2 0100h
+DATA 007cc614  addr 00c600cf
+DATA 007cc618  addr 00b600be
+DATA 007cc61c  addr 00a600ae
+DATA 007cc620  addr 0099009f
+DATA 007cc624  addr 008c0092
+DATA 007cc698  undefined2 34BCh
+DATA 007cc6a2  undefined2 4650h

@@ -1,0 +1,29 @@
+# Vendored third-party tools (ghidra, jdk, downloaded repos)
+tools/vendor/
+
+# Firmware binaries and unpacked trees - never commit these
+firmware/raw/
+firmware/unpacked/
+firmware/a6300-raw/
+firmware/a6300-unpacked/
+firmware/ghidra_projects/
+firmware/ghidra_*.log
+
+# Runtime capture data (binary dumps)
+experiments/data/
+experiments/**/*.BIN
+experiments/**/*.bin
+experiments/emulated/a6500-kernel/
+experiments/emulated/*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Tooling downloads
+*.zip
+*.exe
+
+# OS noise
+Thumbs.db
+.DS_Store

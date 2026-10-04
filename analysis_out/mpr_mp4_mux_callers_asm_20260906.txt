@@ -1,0 +1,210 @@
+=== RANGE 0x00366e00-0x00367000 ===
+00366e00 movs     r3, #1
+00366e02 bl       #0x368178
+00366e06 bl       #0x365360
+00366e0a ldr      r0, [r6]
+00366e0c movs     r1, #1
+00366e0e blx      #0x17078c
+00366e12 mov      sb, r0
+00366e14 b        #0x366ee6
+00366e16 add.w    r1, r7, #0x1740
+00366e1a ldr.w    r0, [sl]
+00366e1e adds     r1, #8
+00366e20 blx      #0x170aa8
+00366e24 add.w    r2, r7, #0x1740
+00366e28 ldr      r1, [pc, #0x14c]
+00366e2a adds     r2, #8
+00366e2c mov      sb, r0
+00366e2e add.w    r0, r7, #0x1780
+00366e32 adds     r0, #0x1c
+00366e34 bl       #0x36671c
+00366e38 ldr      r3, [pc, #0x140]
+00366e3a add.w    r1, r7, #0x1780
+00366e3e adds     r1, #0x1c
+00366e40 ldr      r0, [r3]
+00366e42 blx      #0x171d1c
+00366e46 cmp.w    sb, #0
+00366e4a bne      #0x366ee2
+00366e4c ldr      r4, [pc, #0x130]
+00366e4e mov      r2, r5
+00366e50 ldr.w    r0, [r8]
+00366e54 ldr      r1, [pc, #0x12c]
+00366e56 bl       #0x36803c
+00366e5a ldr      r6, [r4]
+00366e5c mov      r0, r6
+00366e5e bl       #0x365280
+00366e62 cmp      r0, #1
+00366e64 bne      #0x366eac
+00366e66 ldr      r6, [pc, #0x120]
+00366e68 mov      r1, sb
+00366e6a ldr      r0, [r6]
+00366e6c ldr      r3, [r0]
+00366e6e ldr      r3, [r3, #0xc]
+00366e70 blx      r3
+00366e72 movs     r1, #0x20
+00366e74 mov      r2, r1
+00366e76 mov      r0, r7
+00366e78 bl       #0x35650c
+00366e7c add.w    r2, r7, #0x1740
+00366e80 mov      r0, r7
+00366e82 ldr      r1, [pc, #0xf4]
+00366e84 adds     r2, #8
+00366e86 bl       #0x366d2c
+00366e8a ldr      r0, [r6]
+00366e8c mov      r1, r7
+00366e8e ldr      r3, [r0]
+00366e90 ldr      r3, [r3, #0x14]
+00366e92 blx      r3
+00366e94 mov      sb, r0
+00366e96 cbnz     r0, #0x366ea4
+00366e98 ldr      r0, [r4]
+00366e9a ldr      r3, [r0]
+00366e9c ldr.w    r3, [r3, #0xec]
+00366ea0 blx      r3
+00366ea2 mov      sb, r0
+00366ea4 mov      r0, r7
+00366ea6 bl       #0x3361e0
+00366eaa b        #0x366eb8
+00366eac ldr      r3, [r6]
+00366eae mov      r0, r6
+00366eb0 ldr.w    r3, [r3, #0xf0]
+00366eb4 blx      r3
+00366eb6 mov      sb, r0
+00366eb8 cmp.w    sb, #0
+00366ebc bne      #0x366ee2
+00366ebe ldr      r3, [pc, #0xcc]
+00366ec0 ldr      r0, [r4]
+00366ec2 ldr      r2, [r3]
+00366ec4 adds     r2, #1
+00366ec6 str      r2, [r3]
+00366ec8 ldr      r3, [r0]
+00366eca ldr.w    r3, [r3, #0xfc]
+00366ece blx      r3
+00366ed0 mov      sb, r0
+00366ed2 cbnz     r0, #0x366ee2
+00366ed4 ldr      r3, [pc, #0xa8]
+00366ed6 ldr      r0, [r3]
+00366ed8 ldr      r3, [r0]
+00366eda ldr.w    r3, [r3, #0x100]
+00366ede blx      r3
+00366ee0 mov      sb, r0
+00366ee2 adds     r5, #1
+00366ee4 uxtb     r5, r5
+00366ee6 ldr      r3, [pc, #0xa8]
+00366ee8 ldrb     r3, [r3]
+00366eea cmp      r3, r5
+00366eec bls      #0x366ef6
+00366eee cmp.w    sb, #0
+00366ef2 beq      #0x366e16
+00366ef4 b        #0x366f4e
+00366ef6 cmp.w    sb, #0
+00366efa bne      #0x366f4e
+00366efc ldr      r3, [pc, #0x94]
+00366efe ldr.w    r0, [r8]
+00366f02 ldr      r1, [pc, #0x94]
+00366f04 ldr      r2, [r3]
+00366f06 adds     r2, #1
+00366f08 str      r2, [r3]
+00366f0a bl       #0x36803c
+00366f0e add.w    r2, r7, #0x17c0
+00366f12 adds     r2, #0x30
+00366f14 ldr      r0, [pc, #0x84]
+00366f16 movs     r1, #1
+00366f18 strb     sb, [r2, #-0x1]!
+00366f1c bl       #0x3221a0
+00366f20 add.w    r2, r7, #0x17c0
+00366f24 adds     r2, #0x2f
+00366f26 ldrb     r3, [r2]
+00366f28 cbnz     r3, #0x366f2e
+00366f2a adds     r3, #0x30
+00366f2c strb     r3, [r2]
+00366f2e ldr      r4, [pc, #0x5c]
+00366f30 add.w    r2, r7, #0x17c0
+00366f34 adds     r2, #0x2f
+00366f36 ldrb     r3, [r2]
+00366f38 ldr      r2, [r4]
+00366f3a cmp      r2, r3
+00366f3c blo      #0x366f4a
+00366f3e bl       #0x365b90
+00366f42 mov      sb, r0
+00366f44 cbnz     r0, #0x366f4e
+00366f46 str      r0, [r4]
+00366f48 b        #0x366f4e
+00366f4a mov.w    sb, #0
+00366f4e mov      r0, sb
+00366f50 add.w    r7, r7, #0x7f0
+00366f54 add.w    r7, r7, #0x1000
+00366f58 mov      sp, r7
+00366f5a pop.w    {r4, r5, r6, r7, r8, sb, sl, pc}
+00366f5e mov      r0, r7
+00366f60 bl       #0x3361e0
+00366f64 blx      #0x1719fc
+00366f68 movs     r1, #0xb0
+00366f6a lsls     r5, r6, #2
+00366f6c asrs     r4, r7, #0x10
+00366f6e lsls     r5, r7, #2
+00366f70 asrs     r4, r0, #0x12
+00366f72 lsls     r5, r7, #2
+00366f74 movs     r2, #0x8c
+00366f76 lsls     r5, r6, #2
+00366f78 asrs     r4, r4, #0x12
+00366f7a lsls     r5, r7, #2
+00366f7c asrs     r0, r4, #0x11
+00366f7e lsls     r5, r7, #2
+00366f80 asrs     r0, r4, #0x12
+00366f82 lsls     r5, r7, #2
+00366f84 rors     r4, r4
+00366f86 lsls     r2, r2, #2
+00366f88 asrs     r0, r7, #0x11
+00366f8a lsls     r5, r7, #2
+00366f8c asrs     r4, r2, #0x13
+00366f8e lsls     r5, r7, #2
+00366f90 movs     r0, #0xec
+00366f92 lsls     r5, r6, #2
+00366f94 asrs     r0, r3, #0x13
+00366f96 lsls     r5, r7, #2
+00366f98 rors     r2, r7
+00366f9a lsls     r2, r2, #2
+00366f9c lsls     r3, r0, #3
+00366f9e movs     r4, r7
+00366fa0 push.w   {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+00366fa4 sub.w    sp, sp, #0x1800
+00366fa8 sub      sp, #4
+00366faa mov      sb, r1
+00366fac add      r7, sp, #0
+00366fae ldr      r4, [pc, #0x1b0]
+00366fb0 mov      r5, r0
+00366fb2 str      r3, [r7, #4]
+00366fb4 mov      sl, r2
+00366fb6 ldr      r3, [pc, #0x1ac]
+00366fb8 ldr      r6, [pc, #0x1ac]
+00366fba ldr      r0, [r4]
+00366fbc ldr      r1, [r3]
+00366fbe mov      fp, r6
+00366fc0 ldr      r3, [pc, #0x1a8]
+00366fc2 ldr      r2, [r3]
+00366fc4 movs     r3, #1
+00366fc6 bl       #0x368178
+00366fca mov      r0, r5
+00366fcc mov      r1, sb
+00366fce mov      r2, sl
+00366fd0 bl       #0x36538e
+00366fd4 mov      r1, r5
+00366fd6 ldr      r0, [r6]
+00366fd8 movs     r5, #0
+00366fda blx      #0x17078c
+00366fde mov      r8, r0
+00366fe0 b        #0x367084
+00366fe2 ldr      r3, [pc, #0x17c]
+00366fe4 mov      r2, r5
+00366fe6 ldr      r4, [pc, #0x188]
+00366fe8 ldr      r1, [pc, #0x188]
+00366fea ldr      r0, [r3]
+00366fec bl       #0x36803c
+00366ff0 ldr      r6, [r4]
+00366ff2 mov      r0, r6
+00366ff4 bl       #0x365280
+00366ff8 cmp      r0, #1
+00366ffa bne      #0x36704a
+00366ffc ldr      r6, [pc, #0x178]
+00366ffe mov      r1, r8

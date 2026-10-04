@@ -1,0 +1,344 @@
+ADDRESS 000236a0
+FUNCTION GetDualRecCaptureCount entry=000236a0 body=[[000236a0, 000236db]]
+CALLERS
+  From: Entry Point To: 000236a0 Type: EXTERNAL Op: -1 DEFAULT
+  From: 00052930 To: 000236a0 Type: DATA Op: 0 DEFAULT
+  From: 00021b50 To: 000236a0 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+000236a0  push {r3,r4,r7,lr}
+000236a2  add r7,sp,#0x0
+000236a4  ldr r3,[0x000236dc]
+000236a6  ldr r2,[0x000236e0]
+000236a8  add r3,pc
+000236aa  ldr r1,[0x000236e4]
+000236ac  ldr r4,[r3,r2]
+000236ae  add r1,pc
+000236b0  ldr r0,[r4,#0x0]
+000236b2  blx 0x00021a20
+000236b6  blx 0x000218b8
+000236ba  mov r2,r4
+000236bc  cmp r0,#0x1
+000236be  bhi 0x000236ca
+000236c0  ldr r3,[0x000236e8]
+000236c2  add r3,pc
+000236c4  ldr.w r4,[r3,r0,lsl #0x2]
+000236c8  b 0x000236cc
+000236ca  movs r4,#0xa
+000236cc  ldr r1,[0x000236ec]
+000236ce  ldr r0,[r2,#0x0]
+000236d0  mov r2,r4
+000236d2  add r1,pc
+000236d4  blx 0x00021a20
+000236d8  mov r0,r4
+000236da  pop {r3,r4,r7,pc}
+DECOMPILED
+
+/* MprCtrl::GetDualRecCaptureCount() */
+
+undefined4 MprCtrl::GetDualRecCaptureCount(void)
+
+{
+  uint uVar1;
+  undefined4 *puVar2;
+  undefined4 uVar3;
+  
+  puVar2 = *(undefined4 **)(DAT_000236dc + 0x236ac + DAT_000236e0);
+  MonCtrl::ConPrintfMessage((char *)*puVar2,DAT_000236e4 + 0x236b2);
+  uVar1 = GetDualRecType();
+  if (uVar1 < 2) {
+    uVar3 = *(undefined4 *)(DAT_000236e8 + 0x236c6 + uVar1 * 4);
+  }
+  else {
+    uVar3 = 10;
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar2,DAT_000236ec + 0x236d6,uVar3);
+  return uVar3;
+}
+
+
+
+ADDRESS 000244e8
+FUNCTION IsDualRecOver18Mbps entry=000244e8 body=[[000244e8, 00024537]]
+CALLERS
+  From: Entry Point To: 000244e8 Type: EXTERNAL Op: -1 DEFAULT
+  From: 0005254c To: 000244e8 Type: DATA Op: 0 DEFAULT
+  From: 00020f1c To: 000244e8 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+000244e8  push {r4,r5,r6,r7,lr}
+000244ea  sub sp,#0xc
+000244ec  add r7,sp,#0x0
+000244ee  add.w r2,r7,#0x8
+000244f2  movs r5,#0x0
+000244f4  movs r1,#0x1
+000244f6  ldr r0,[0x00024538]
+000244f8  strb.w r5,[r2,#-0x1]!
+000244fc  blx 0x00021114
+00024500  ldr r4,[0x0002453c]
+00024502  add r4,pc
+00024504  subs r6,r0,#0x0
+00024506  bge 0x00024522
+00024508  movs r0,#0x1
+0002450a  blx 0x00021c38
+0002450e  ldr r3,[0x00024540]
+00024510  ldr r1,[0x00024544]
+00024512  mov r2,r6
+00024514  ldr r3,[r4,r3]
+00024516  add r1,pc
+00024518  ldr r0,[r3,#0x0]
+0002451a  blx 0x00021a20
+0002451e  mov r0,r5
+00024520  b 0x00024530
+00024522  ldrb r0,[r7,#0x7]
+00024524  sub.w r12,r0,#0x1
+00024528  rsbs.w r0,r12,#0x0
+0002452c  adc.w r0,r0,r12
+00024530  add.w r7,r7,#0xc
+00024534  mov sp,r7
+00024536  pop {r4,r5,r6,r7,pc}
+DECOMPILED
+
+/* MprCtrl::IsDualRecOver18Mbps() */
+
+bool MprCtrl::IsDualRecOver18Mbps(void)
+
+{
+  char cVar1;
+  int iVar2;
+  int iVar3;
+  char local_19 [5];
+  
+  local_19[0] = '\0';
+  iVar2 = BackupLib::GetEepData(DAT_00024538,'\x01',local_19);
+  cVar1 = local_19[0];
+  iVar3 = DAT_0002453c + 0x24506;
+  if (-1 >= iVar2) {
+    SetSelfCheckLog(true);
+    MonCtrl::ConPrintfMessage
+              ((char *)**(undefined4 **)(iVar3 + DAT_00024540),DAT_00024544 + 0x2451a,iVar2);
+  }
+  return -1 < iVar2 && cVar1 == '\x01';
+}
+
+
+
+ADDRESS 00024814
+FUNCTION GetDualRecType entry=00024814 body=[[00024814, 0002487d]]
+CALLERS
+  From: Entry Point To: 00024814 Type: EXTERNAL Op: -1 DEFAULT
+  From: 0005285c To: 00024814 Type: DATA Op: 0 DEFAULT
+  From: 000218c0 To: 00024814 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+00024814  push {r4,r5,r6,r7,lr}
+00024816  sub sp,#0xc
+00024818  add r7,sp,#0x0
+0002481a  add.w r6,r7,#0x8
+0002481e  ldr r4,[0x00024884]
+00024820  movs r3,#0x0
+00024822  ldr r1,[0x00024888]
+00024824  strb.w r3,[r6,#-0x1]!
+00024828  add r4,pc
+0002482a  ldr r3,[0x0002488c]
+0002482c  add r1,pc
+0002482e  ldr r5,[r4,r3]
+00024830  ldr r0,[r5,#0x0]
+00024832  blx 0x00021a20
+00024836  movs r1,#0x1
+00024838  mov r2,r6
+0002483a  ldr r0,[0x00024880]
+0002483c  blx 0x00021114
+00024840  subs r6,r0,#0x0
+00024842  bge 0x0002485e
+00024844  movs r0,#0x1
+00024846  blx 0x00021c38
+0002484a  ldr r3,[0x00024890]
+0002484c  ldr r1,[0x00024894]
+0002484e  mov r2,r6
+00024850  ldr r3,[r4,r3]
+00024852  add r1,pc
+00024854  movs r4,#0x1
+00024856  ldr r0,[r3,#0x0]
+00024858  blx 0x00021a20
+0002485c  b 0x00024868
+0002485e  ldrb r4,[r7,#0x7]
+00024860  cmp r4,#0x0
+00024862  ite ne
+00024864  mov.ne r4,#0x1
+00024866  mov.eq r4,#0x0
+00024868  ldr r1,[0x00024898]
+0002486a  mov r2,r4
+0002486c  ldr r0,[r5,#0x0]
+0002486e  add r1,pc
+00024870  blx 0x00021a20
+00024874  mov r0,r4
+00024876  add.w r7,r7,#0xc
+0002487a  mov sp,r7
+0002487c  pop {r4,r5,r6,r7,pc}
+DECOMPILED
+
+/* MprCtrl::GetDualRecType() */
+
+undefined4 MprCtrl::GetDualRecType(void)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 uVar3;
+  undefined4 *puVar4;
+  char local_19 [5];
+  
+  local_19[0] = '\0';
+  iVar2 = DAT_00024884 + 0x2482c;
+  puVar4 = *(undefined4 **)(iVar2 + DAT_0002488c);
+  MonCtrl::ConPrintfMessage((char *)*puVar4,DAT_00024888 + 0x24830);
+  iVar1 = BackupLib::GetEepData(DAT_00024880,'\x01',local_19);
+  if (iVar1 < 0) {
+    SetSelfCheckLog(true);
+    uVar3 = 1;
+    MonCtrl::ConPrintfMessage
+              ((char *)**(undefined4 **)(iVar2 + DAT_00024890),DAT_00024894 + 0x24856,iVar1);
+  }
+  else if (local_19[0] == '\0') {
+    uVar3 = 0;
+  }
+  else {
+    uVar3 = 1;
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar4,DAT_00024898 + 0x24872,uVar3);
+  return uVar3;
+}
+
+
+
+ADDRESS 00024ec4
+FUNCTION GetDualRecMovieMaxBitrate entry=00024ec4 body=[[00024ec4, 00024f1f]]
+CALLERS
+  From: Entry Point To: 00024ec4 Type: EXTERNAL Op: -1 DEFAULT
+LISTING
+00024ec4  push {r4,r5,r6,r7,lr}
+00024ec6  sub sp,#0xc
+00024ec8  add r7,sp,#0x0
+00024eca  add.w r6,r7,#0x8
+00024ece  ldr r4,[0x00024f24]
+00024ed0  movs r3,#0x0
+00024ed2  ldr r1,[0x00024f28]
+00024ed4  strb.w r3,[r6,#-0x1]!
+00024ed8  add r4,pc
+00024eda  ldr r3,[0x00024f2c]
+00024edc  add r1,pc
+00024ede  ldr r5,[r4,r3]
+00024ee0  ldr r0,[r5,#0x0]
+00024ee2  blx 0x00021a20
+00024ee6  movs r1,#0x1
+00024ee8  mov r2,r6
+00024eea  ldr r0,[0x00024f20]
+00024eec  blx 0x00021114
+00024ef0  subs r6,r0,#0x0
+00024ef2  bge 0x00024f0a
+00024ef4  movs r0,#0x1
+00024ef6  blx 0x00021c38
+00024efa  ldr r3,[0x00024f30]
+00024efc  ldr r1,[0x00024f34]
+00024efe  mov r2,r6
+00024f00  ldr r3,[r4,r3]
+00024f02  add r1,pc
+00024f04  ldr r0,[r3,#0x0]
+00024f06  blx 0x00021a20
+00024f0a  ldr r1,[0x00024f38]
+00024f0c  ldr r0,[r5,#0x0]
+00024f0e  add r1,pc
+00024f10  ldrb r2,[r7,#0x7]
+00024f12  blx 0x00021a20
+00024f16  ldrb r0,[r7,#0x7]
+00024f18  add.w r7,r7,#0xc
+00024f1c  mov sp,r7
+00024f1e  pop {r4,r5,r6,r7,pc}
+DECOMPILED
+
+/* MprCtrl::GetDualRecMovieMaxBitrate() */
+
+byte MprCtrl::GetDualRecMovieMaxBitrate(void)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 *puVar3;
+  byte local_19 [5];
+  
+  local_19[0] = 0;
+  iVar2 = DAT_00024f24 + 0x24edc;
+  puVar3 = *(undefined4 **)(iVar2 + DAT_00024f2c);
+  MonCtrl::ConPrintfMessage((char *)*puVar3,DAT_00024f28 + 0x24ee0);
+  iVar1 = BackupLib::GetEepData(DAT_00024f20,'\x01',local_19);
+  if (iVar1 < 0) {
+    SetSelfCheckLog(true);
+    MonCtrl::ConPrintfMessage
+              ((char *)**(undefined4 **)(iVar2 + DAT_00024f30),DAT_00024f34 + 0x24f06,iVar1);
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar3,DAT_00024f38 + 0x24f12,(uint)local_19[0]);
+  return local_19[0];
+}
+
+
+
+ADDRESS 00024f9c
+FUNCTION IsDfeSupportDualRec entry=00024f9c body=[[00024f9c, 00024fe9]]
+CALLERS
+  From: Entry Point To: 00024f9c Type: EXTERNAL Op: -1 DEFAULT
+LISTING
+00024f9c  push {r4,r5,r6,r7,lr}
+00024f9e  sub sp,#0xc
+00024fa0  add r7,sp,#0x0
+00024fa2  add.w r2,r7,#0x8
+00024fa6  movs r5,#0x0
+00024fa8  movs r1,#0x1
+00024faa  ldr r0,[0x00024fec]
+00024fac  strb.w r5,[r2,#-0x1]!
+00024fb0  blx 0x00021114
+00024fb4  ldr r4,[0x00024ff0]
+00024fb6  add r4,pc
+00024fb8  subs r6,r0,#0x0
+00024fba  bge 0x00024fd6
+00024fbc  movs r0,#0x1
+00024fbe  blx 0x00021c38
+00024fc2  ldr r3,[0x00024ff4]
+00024fc4  ldr r1,[0x00024ff8]
+00024fc6  mov r2,r6
+00024fc8  ldr r3,[r4,r3]
+00024fca  add r1,pc
+00024fcc  ldr r0,[r3,#0x0]
+00024fce  blx 0x00021a20
+00024fd2  mov r0,r5
+00024fd4  b 0x00024fe2
+00024fd6  ldrb r0,[r7,#0x7]
+00024fd8  sub.w r3,r0,#0x1
+00024fdc  rsbs r0,r3
+00024fde  adc.w r0,r0,r3
+00024fe2  add.w r7,r7,#0xc
+00024fe6  mov sp,r7
+00024fe8  pop {r4,r5,r6,r7,pc}
+DECOMPILED
+
+/* MprCtrl::IsDfeSupportDualRec() */
+
+bool MprCtrl::IsDfeSupportDualRec(void)
+
+{
+  char cVar1;
+  int iVar2;
+  int iVar3;
+  char local_19 [5];
+  
+  local_19[0] = '\0';
+  iVar2 = BackupLib::GetEepData(DAT_00024fec,'\x01',local_19);
+  cVar1 = local_19[0];
+  iVar3 = DAT_00024ff0 + 0x24fba;
+  if (-1 >= iVar2) {
+    SetSelfCheckLog(true);
+    MonCtrl::ConPrintfMessage
+              ((char *)**(undefined4 **)(iVar3 + DAT_00024ff4),DAT_00024ff8 + 0x24fce,iVar2);
+  }
+  return -1 < iVar2 && cVar1 == '\x01';
+}
+
+
+

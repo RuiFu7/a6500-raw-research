@@ -1,0 +1,187 @@
+ADDRESS 005c1f10
+FUNCTION FUN_005c1f10 entry=005c1f10 body=[[005c1f10, 005c1f29]]
+CALLERS
+  From: 00718656 To: 005c1f10 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005c1f10  push {r3,lr}
+005c1f12  ldr r3,[0x005c1f2c]
+005c1f14  ldr r2,[0x005c1f30]
+005c1f16  add r3,pc
+005c1f18  ldr r3,[r3,r2]
+005c1f1a  ldrb r3,[r3,#0xa]
+005c1f1c  tst r3,#0x1
+005c1f20  bne 0x005c1f26
+005c1f22  bl 0x0068d384
+005c1f26  movs r0,#0x0
+005c1f28  pop {r3,pc}
+DECOMPILED
+
+undefined4 FUN_005c1f10(void)
+
+{
+  if ((*(byte *)(*(int *)(DAT_005c1f2c + 0x5c1f1a + DAT_005c1f30) + 10) & 1) == 0) {
+    FUN_0068d384();
+  }
+  return 0;
+}
+
+
+
+ADDRESS 005c1f34
+FUNCTION FUN_005c1f34 entry=005c1f34 body=[[005c1f34, 005c1f4d]]
+CALLERS
+  From: 0071866a To: 005c1f34 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005c1f34  push {r3,lr}
+005c1f36  ldr r3,[0x005c1f50]
+005c1f38  ldr r2,[0x005c1f54]
+005c1f3a  add r3,pc
+005c1f3c  ldr r3,[r3,r2]
+005c1f3e  ldrb r3,[r3,#0xa]
+005c1f40  tst r3,#0x2
+005c1f44  bne 0x005c1f4a
+005c1f46  bl 0x001d7d6c
+005c1f4a  movs r0,#0x0
+005c1f4c  pop {r3,pc}
+DECOMPILED
+
+undefined4 FUN_005c1f34(void)
+
+{
+  if ((*(byte *)(*(int *)(DAT_005c1f50 + 0x5c1f3e + DAT_005c1f54) + 10) & 2) == 0) {
+    FUN_001d7d6c();
+  }
+  return 0;
+}
+
+
+
+ADDRESS 00471be8
+FUNCTION FUN_00471be8 entry=00471be8 body=[[00471be8, 00471bf1]]
+CALLERS
+  From: 0071865a To: 00471be8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0071866e To: 00471be8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 00718680 To: 00471be8 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00471be8  ldr r3,[0x00471bf4]
+00471bea  movs r0,#0x0
+00471bec  add r3,pc
+00471bee  strb r0,[r3,#0x0]
+00471bf0  bx lr
+DECOMPILED
+
+void FUN_00471be8(void)
+
+{
+  *(undefined1 *)(DAT_00471bf4 + 0x471bf0) = 0;
+  return;
+}
+
+
+
+ADDRESS 005c0170
+FUNCTION FUN_005c0170 entry=005c0170 body=[[005c0170, 005c017f]]
+CALLERS
+  From: 0046deca To: 005c0170 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0046df60 To: 005c0170 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005c0170  ldr r3,[0x005c0180]
+005c0172  add r3,pc
+005c0174  strb r0,[r3,#0x0]
+005c0176  movs r0,#0x0
+005c0178  ldr r3,[0x005c0184]
+005c017a  add r3,pc
+005c017c  str r1,[r3,#0x0]
+005c017e  bx lr
+DECOMPILED
+
+undefined4 FUN_005c0170(undefined1 param_1,undefined4 param_2)
+
+{
+  *(undefined1 *)(DAT_005c0180 + 0x5c0176) = param_1;
+  *(undefined4 *)(DAT_005c0184 + 0x5c017e) = param_2;
+  return 0;
+}
+
+
+
+ADDRESS 006bd21a
+FUNCTION FUN_006bd21a entry=006bd21a body=[[006bd21a, 006bd253]]
+CALLERS
+  From: 0027c632 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0027c668 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005a4a66 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0069fd68 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 006a58ca To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0044237e To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0046df2a To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0046e002 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0046e026 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0027cd96 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0027dbc4 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0027dbe0 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005a4b4a To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0045be4e To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0045d154 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005c4938 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005be32c To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005be342 To: 006bd21a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+006bd21a  push {r3,r4,r5,lr}
+006bd21c  mov r4,r0
+006bd21e  mov r5,r1
+006bd220  bl 0x0069fa7c
+006bd224  cbz r0,0x006bd24e
+006bd226  ldrb r3,[r4,#0x3]
+006bd228  cbz r3,0x006bd244
+006bd22a  mov r0,r4
+006bd22c  bl 0x006bd1cc
+006bd230  mov r2,r5
+006bd232  cmp r0,#0x0
+006bd234  ite ne
+006bd236  mov.ne r1,#0x2
+006bd238  mov.eq r1,#0x0
+006bd23a  ldrh r0,[r4,#0x0]
+006bd23c  bl 0x002e779c
+006bd240  mov r5,r0
+006bd242  b 0x006bd246
+006bd244  mov r5,r3
+006bd246  mov r0,r4
+006bd248  bl 0x0069fd90
+006bd24c  b 0x006bd250
+006bd24e  mov r5,r0
+006bd250  mov r0,r5
+006bd252  pop {r3,r4,r5,pc}
+DECOMPILED
+
+undefined4 FUN_006bd21a(undefined2 *param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  
+  iVar1 = FUN_0069fa7c();
+  if (iVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    if (*(char *)((int)param_1 + 3) == '\0') {
+      uVar2 = 0;
+    }
+    else {
+      iVar1 = FUN_006bd1cc(param_1);
+      if (iVar1 == 0) {
+        uVar2 = 0;
+      }
+      else {
+        uVar2 = 2;
+      }
+      uVar2 = FUN_002e779c(*param_1,uVar2,param_2);
+    }
+    FUN_0069fd90(param_1);
+  }
+  return uVar2;
+}
+
+
+

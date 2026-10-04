@@ -1,0 +1,213 @@
+ADDRESS 0027f5ec
+FUNCTION FUN_0027f5ec entry=0027f5ec body=[[0027f5ec, 0027f5f5] [0027f618, 0027f63b]]
+CALLERS
+  From: 00280af4 To: 0027f5ec Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0027f5ec  push {r3,r4,r5,lr}
+0027f5ee  cmp r0,#0x21
+0027f5f0  bhi 0x0027f626
+0027f5f2  tbb [pc,r0]
+0027f618  cmp r2,r3
+0027f61a  bls 0x0027f638
+0027f61c  cmp r1,#0x0
+0027f61e  ite ne
+0027f620  mov.ne r0,#0x2
+0027f622  mov.eq r0,#0x1
+0027f624  pop {r3,r4,r5,pc}
+0027f626  ldr r0,[0x0027f63c]
+0027f628  movs r2,#0xd9
+0027f62a  ldr r1,[0x0027f640]
+0027f62c  add r0,pc
+0027f62e  add r1,pc
+0027f630  bl 0x002e6f88
+0027f634  movs r0,#0x0
+0027f636  pop {r3,r4,r5,pc}
+0027f638  movs r0,#0x0
+0027f63a  pop {r3,r4,r5,pc}
+DECOMPILED
+
+undefined4 FUN_0027f5ec(undefined4 param_1,int param_2,uint param_3,uint param_4)
+
+{
+  undefined4 uVar1;
+  
+  switch(param_1) {
+  case 0:
+  case 1:
+  case 2:
+  case 3:
+  case 6:
+  case 0x12:
+  case 0x13:
+  case 0x15:
+  case 0x17:
+  case 0x18:
+  case 0x19:
+  case 0x1a:
+  case 0x1c:
+  case 0x1e:
+  case 0x1f:
+  case 0x20:
+  case 0x21:
+    return 0;
+  default:
+    FUN_002e6f88(DAT_0027f63c + 0x27f630,DAT_0027f640 + 0x27f632,0xd9,param_4,param_4);
+    return 0;
+  case 5:
+    if (param_3 <= param_4) {
+      return 0;
+    }
+switchD_0027f5f2_caseD_7:
+    if (param_2 == 0) {
+      uVar1 = 1;
+    }
+    else {
+      uVar1 = 2;
+    }
+    return uVar1;
+  case 7:
+  case 8:
+  case 9:
+  case 10:
+  case 0x14:
+  case 0x1b:
+    goto switchD_0027f5f2_caseD_7;
+  }
+}
+
+
+
+ADDRESS 0027f668
+FUNCTION FUN_0027f668 entry=0027f668 body=[[0027f668, 0027f67f]]
+CALLERS
+  From: 00280b92 To: 0027f668 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0027f668  sub.w r3,r0,#0x8
+0027f66c  cmp r3,#0x13
+0027f66e  bhi 0x0027f67c
+0027f670  ldr r3,[0x0027f680]
+0027f672  add r3,pc
+0027f674  adds r3,r3,r0
+0027f676  ldrb.w r0,[r3,#-0x8]
+0027f67a  bx lr
+0027f67c  movs r0,#0x0
+0027f67e  bx lr
+DECOMPILED
+
+undefined1 FUN_0027f668(int param_1)
+
+{
+  if (param_1 - 8U < 0x14) {
+    return *(undefined1 *)(DAT_0027f680 + param_1 + 0x27f66e);
+  }
+  return 0;
+}
+
+
+
+ADDRESS 0027f57c
+FUNCTION FUN_0027f57c entry=0027f57c body=[[0027f57c, 0027f58f]]
+CALLERS
+  From: 00280ada To: 0027f57c Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0027f57c  subs r0,#0x1
+0027f57e  cmp r0,#0x20
+0027f580  bhi 0x0027f58c
+0027f582  ldr r3,[0x0027f590]
+0027f584  add r3,pc
+0027f586  ldr.w r0,[r3,r0,lsl #0x2]
+0027f58a  bx lr
+0027f58c  movs r0,#0x0
+0027f58e  bx lr
+DECOMPILED
+
+undefined4 FUN_0027f57c(int param_1)
+
+{
+  if (param_1 - 1U < 0x21) {
+    return *(undefined4 *)(DAT_0027f590 + 0x27f588 + (param_1 - 1U) * 4);
+  }
+  return 0;
+}
+
+
+
+ADDRESS 0027f594
+FUNCTION FUN_0027f594 entry=0027f594 body=[[0027f594, 0027f59d] [0027f5c0, 0027f5e3]]
+CALLERS
+  From: 00280a92 To: 0027f594 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0027f594  push {r3,r4,r5,lr}
+0027f596  cmp r0,#0x21
+0027f598  bhi 0x0027f5ce
+0027f59a  tbb [pc,r0]
+0027f5c0  cmp r2,r3
+0027f5c2  bls 0x0027f5e0
+0027f5c4  cmp r1,#0x0
+0027f5c6  ite ne
+0027f5c8  mov.ne r0,#0x2
+0027f5ca  mov.eq r0,#0x1
+0027f5cc  pop {r3,r4,r5,pc}
+0027f5ce  ldr r0,[0x0027f5e4]
+0027f5d0  movs r2,#0x8d
+0027f5d2  ldr r1,[0x0027f5e8]
+0027f5d4  add r0,pc
+0027f5d6  add r1,pc
+0027f5d8  bl 0x002e6f88
+0027f5dc  movs r0,#0x0
+0027f5de  pop {r3,r4,r5,pc}
+0027f5e0  movs r0,#0x0
+0027f5e2  pop {r3,r4,r5,pc}
+DECOMPILED
+
+undefined4 FUN_0027f594(undefined4 param_1,int param_2,uint param_3,uint param_4)
+
+{
+  undefined4 uVar1;
+  
+  switch(param_1) {
+  case 0:
+  case 1:
+  case 2:
+  case 3:
+  case 6:
+  case 0x12:
+  case 0x13:
+  case 0x15:
+  case 0x17:
+  case 0x19:
+  case 0x1a:
+  case 0x1c:
+  case 0x1e:
+  case 0x1f:
+  case 0x20:
+  case 0x21:
+    return 0;
+  default:
+    FUN_002e6f88(DAT_0027f5e4 + 0x27f5d8,DAT_0027f5e8 + 0x27f5da,0x8d,param_4,param_4);
+    return 0;
+  case 5:
+    if (param_3 <= param_4) {
+      return 0;
+    }
+switchD_0027f59a_caseD_7:
+    if (param_2 == 0) {
+      uVar1 = 1;
+    }
+    else {
+      uVar1 = 2;
+    }
+    return uVar1;
+  case 7:
+  case 8:
+  case 9:
+  case 10:
+  case 0x14:
+  case 0x18:
+  case 0x1b:
+    goto switchD_0027f59a_caseD_7;
+  }
+}
+
+
+

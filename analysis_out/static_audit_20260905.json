@@ -1,0 +1,410 @@
+{
+  "schema": 1,
+  "root": "D:\\Desktop\\a6500",
+  "generated": "2026-09-05",
+  "artifacts": {
+    "avcam": {
+      "path": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin",
+      "size": 13890776,
+      "sha256": "c885310730c313e1ffb6a48ec74af1ff7c4f8246af8c7fc03eda83d7ea6cd497"
+    },
+    "libobj": {
+      "path": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so",
+      "size": 18359700,
+      "sha256": "5d1c2332d7aac07215fb92340b6a5bf294acf5c0d98142fdc8068fc530a58949"
+    },
+    "libmpr": {
+      "path": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmpr.so",
+      "size": 11897828,
+      "sha256": "b68534252159114643cfe4e3d1e3b145d688e416d3d33b60920c9cec301f5050"
+    },
+    "scenario": {
+      "path": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so",
+      "size": 7793,
+      "sha256": "4427b77d8120c27905df52e6e26b6512e0d8d05ac5b4ec9ba4659bf2731db88b"
+    },
+    "stream2": {
+      "path": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/kmod/stream2.ko",
+      "size": 4128,
+      "sha256": "c9c527da6d1a71f299d6f042a62eab2f2164a9620b4ef8261b9d524564f88aad"
+    }
+  },
+  "ghidra_exports": {
+    "raw_unit": {
+      "path": "firmware/manifests/ghidra_avcam_rawunit_func.txt",
+      "sha256": "90ab8ae6871115721f14849493dc85ec311b338c2d8482e1a48e6a41f6e6928a",
+      "size": 3287
+    },
+    "raw_mem": {
+      "path": "firmware/manifests/ghidra_avcam_rawmem_func.txt",
+      "sha256": "b826758e275cdc074d62c76776f7b8398599307a568dffa52a5ddf0841c819df",
+      "size": 4514
+    },
+    "dfe_alloc": {
+      "path": "firmware/manifests/ghidra_avcam_dfe_alloc_funcs.txt",
+      "sha256": "28c1cd55d710da8ad40684b4423a823b06f4ce1a07d86abc898944a7817afd0c",
+      "size": 8102
+    },
+    "dfe_resources": {
+      "path": "firmware/manifests/ghidra_avcam_dfe_res_alloc.txt",
+      "sha256": "b715b4ce4d2970eaa62f02e0b2397df9992b2a5c3b86baab9120693d018e7fe1",
+      "size": 10733
+    },
+    "dfe_raw_xrefs": {
+      "path": "firmware/manifests/ghidra_dfe_raw_xrefs.tsv",
+      "sha256": "3e53521876eda6b0e1a7c9ceb84bd29ef452a6e374d7435f7ddb57a206eab7a7",
+      "size": 1686
+    },
+    "stream2_funcs": {
+      "path": "firmware/manifests/ghidra_mpr_stream2_funcs.txt",
+      "sha256": "a9b4218f193dc33123d51f8a3ddc907941f69ac14d166536cf3671f0d20ee1af",
+      "size": 10410
+    }
+  },
+  "analysis_outputs": {
+    "stage_xrefs": {
+      "path": "analysis_out/ghidra_raw_stage_xrefs_20260905.tsv",
+      "sha256": "7cadab38c5aed21e473bf36e03d77a976ecdad7323ce2c6070ea60b2be0eabdf"
+    },
+    "stage_functions": {
+      "path": "analysis_out/ghidra_raw_stage_funcs_full_20260905.txt",
+      "sha256": "7877009100a9654c698d23cc0a73c5bda978b92c8f6e3f0b89d9aa57d6ce5e80"
+    },
+    "descriptor_helpers": {
+      "path": "analysis_out/avcam_descriptor_copy_setters_20260905.txt",
+      "sha256": "d9ada88dc6a9fea55ce93b0574e53ce7bdb9470408ffe75d6b40a43b2b0fb637"
+    }
+  },
+  "avcam_marker_counts": {
+    "AllocDfeMemForDfe2Pass": 1,
+    "SetSyncParamRawBuffering": 1,
+    "ringBufferWrapper": 2,
+    "RESOURCE_IMAGER0_STORE_RAW": 1,
+    "RESOURCE_IMAGER0_TRANS_RAW": 1,
+    "Stage_DfeRawTrans": 2,
+    "Stage_DfeRawTransSnrBranch": 1,
+    "p_raw_out_dmm_info": 1,
+    "dmm_info_raw": 1,
+    "sa_func_DUALREC_BAYER_start": 1,
+    "PARAMID_RAW_OUTPUT_MODE": 0,
+    "PARAMID_MOVIE_RAW_SIZE": 0
+  },
+  "libobj_marker_counts": {
+    "PARAMID_RAW_OUTPUT_MODE": 6,
+    "PARAMID_MOVIE_RAW_SIZE": 5,
+    "MSGID_SET_MOVIE_FORMAT": 6
+  },
+  "raw_unit_selector": {
+    "address": "002c1ab0",
+    "function": "FUN_002c1ab0",
+    "entry": "002c1ab0",
+    "callers": [
+      {
+        "from": "002c20ba",
+        "to": "002c1ab0",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      }
+    ],
+    "direct_call_targets": [
+      "002e6f88"
+    ]
+  },
+  "raw_memory_manager": {
+    "address": "002c2088",
+    "function": "FUN_002c2088",
+    "entry": "002c2088",
+    "callers": [
+      {
+        "from": "006b751c",
+        "to": "002c2088",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "006b6b86",
+        "to": "002c2088",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "002cfb22",
+        "to": "002c2088",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      }
+    ],
+    "direct_call_targets": [
+      "00282b54",
+      "002c1ab0",
+      "002e6f88",
+      "00683038",
+      "006a2052",
+      "006a7c84",
+      "006a7d6a",
+      "006ad920"
+    ]
+  },
+  "dfe_2pass_allocator": {
+    "address": "005a2618",
+    "function": "FUN_005a2618",
+    "entry": "005a2618",
+    "callers": [
+      {
+        "from": "002718ba",
+        "to": "005a2618",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "00271964",
+        "to": "005a2618",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "002a6d9a",
+        "to": "005a2618",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      }
+    ],
+    "direct_call_targets": [
+      "002e6f88",
+      "002e7300",
+      "00414274",
+      "005a38c4",
+      "00743c80",
+      "00743ef2"
+    ]
+  },
+  "dmm_request_builder": {
+    "address": "002e7300",
+    "function": "FUN_002e7300",
+    "entry": "002e7300",
+    "callers": [
+      {
+        "from": "002a65b0",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "002e7c76",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0045324a",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "00453f08",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "006a7df2",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0041bc3c",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "004515d0",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0073be5e",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "001cb20a",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "001cb25c",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "005a26aa",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0052de1a",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0052de30",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "00573a3c",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "00222f62",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0022300c",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "0054228c",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "005423a4",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "005423b6",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      },
+      {
+        "from": "002c37bc",
+        "to": "002e7300",
+        "type": "UNCONDITIONAL_CALL Op: 0 DEFAULT"
+      }
+    ],
+    "direct_call_targets": [
+      "0001cfe4",
+      "002e6f88",
+      "00413b90",
+      "00414274",
+      "0068d0c6"
+    ]
+  },
+  "ledger": [
+    {
+      "id": "raw-unit-selector",
+      "component": "RAW unit selector",
+      "statement": "FUN_002c1ab0 branches on param+0x1f0 and returns 0x236, 0x1df, 0x23e, or 0x2b3 under different states.",
+      "source": "firmware/manifests/ghidra_avcam_rawunit_func.txt:002c1ab0",
+      "evidence": "Thumb listing contains cmp #0xa/#0x1b/#0x9 and movw returns #0x236/#0x1df/#0x23e/#0x2b3.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "The function name and unit type do not identify pixel format or producer by themselves."
+    },
+    {
+      "id": "raw-memory-manager",
+      "component": "RAW memory manager",
+      "statement": "FUN_002c2088 calls the selector, then DMM allocation helpers 0x006a7d6a or 0x006a7c84, and stores a handle plus unit/extent metadata in the owning object.",
+      "source": "firmware/manifests/ghidra_avcam_rawmem_func.txt:002c2088",
+      "evidence": "Calls at 002c20ba, 002c2104/002c2118; stores at +0x5208, +0x5594, +0x5598, +0x559c, +0x55a0.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "The stored extent is not statically proven to be a sensor pixel plane."
+    },
+    {
+      "id": "raw-memory-callers",
+      "component": "RAW memory manager callers",
+      "statement": "The exported Ghidra call graph has three direct callers of FUN_002c2088: 0x006b751c, 0x006b6b86, and 0x002cfb22.",
+      "source": "firmware/manifests/ghidra_avcam_rawmem_func.txt:CALLERS",
+      "evidence": "006b751c -> 002c2088; 006b6b86 -> 002c2088; 002cfb22 -> 002c2088",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "Caller names and their complete mode semantics still require function-level exports."
+    },
+    {
+      "id": "dfe-2pass-request",
+      "component": "DFE 2-pass allocation",
+      "statement": "FUN_005a2618 conditionally sends a DMM request with literal unit value 0x324 and records a handle/state slot.",
+      "source": "firmware/manifests/ghidra_avcam_dfe_alloc_funcs.txt:005a2618",
+      "evidence": "005a269c movs r3,#5; 005a269e movs r1,#1; 005a26a0 stores 5; 005a26a2 mov.w r0,#0x324; 005a26aa bl 0x002e7300.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "0x324 is a DMM request value; its actual buffer contents and pixel role are not proven."
+    },
+    {
+      "id": "dfe-2pass-callers",
+      "component": "DFE 2-pass callers",
+      "statement": "FUN_005a2618 has direct callers at 0x002718ba, 0x00271964, and 0x002a6d9a.",
+      "source": "firmware/manifests/ghidra_avcam_dfe_alloc_funcs.txt:CALLERS",
+      "evidence": "002718ba -> 005a2618; 00271964 -> 005a2618; 002a6d9a -> 005a2618",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "The call sites show resource setup but do not prove continuous movie RAW output."
+    },
+    {
+      "id": "external-raw-delegation",
+      "component": "External RAW scenario",
+      "statement": "CAMERA_SCN_EXTERNAL_RAW_RECORD.so creates 0x14-byte OSAL messages and delegates output/acquire/release actions to the AV message system.",
+      "source": "scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so symbols and disassembly",
+      "evidence": "raw_output_on/off/device_acquire/device_release all tail-call raw_output_common; imports are OSAL message functions and memset, with no open/write/ioctl imports.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "Absence of direct file/device imports does not rule out a downstream AV task performing I/O."
+    },
+    {
+      "id": "stream2-map",
+      "component": "stream2 mapping",
+      "statement": "libmpr/stream2 contain a physical-range registration plus mmap path using ioctl 0xC0047805 and {phys,size} entries.",
+      "source": "firmware/manifests/ghidra_mpr_stream2_funcs.txt; ghidra_mpr_stream2_open.txt",
+      "evidence": "FUN_006c7424 calls ioctl then mmap; FUN_006c7e7c opens /dev/stream2; stream2.ko export maps registered extents.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "This is a generic mapping facility; no static proof links it to a RAW pixel producer."
+    },
+    {
+      "id": "runtime-1df-negative",
+      "component": "Runtime candidate 0x1df",
+      "statement": "The prior runtime captures establish allocation/readback of a transient 0x1df region but do not establish Bayer pixels; the control captures were fixed or highly patterned.",
+      "source": "docs/18_runtime_raw_1df.md; docs/19_runtime_raw_controls.md",
+      "evidence": "Multiple 16 MiB captures were byte-identical; another contained a strong 0x5555 pattern; no valid debayered scene was obtained.",
+      "level": "confirmed",
+      "reproducible": "partial",
+      "limits": "This rejects the tested capture interpretation, not every possible RAW buffer or offset."
+    },
+    {
+      "id": "dfe-stage-descriptor-flow",
+      "component": "DFE RAW transfer stage",
+      "statement": "FUN_0028d388 consumes the RAW manager context fields +0x5594/+0x5598/+0x559c/+0x55a0, packs them into DAT_000020f0..DAT_000020fc, and calls FUN_006859ec.",
+      "source": "analysis_out/ghidra_raw_stage_funcs_full_20260905.txt:0028d388",
+      "evidence": "Decompilation shows the four context-field loads and four stores before FUN_006859ec; direct callers are 0x006a43d8 and 0x006a4502.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "The field semantics and final DMA/consumer are not identified by this function alone."
+    },
+    {
+      "id": "artifact-avcam",
+      "component": "alpha6500 V1.06 artifact",
+      "statement": "alpha6500 av-cam.bin is present and hashed for this audit.",
+      "source": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin",
+      "evidence": "size=13890776; sha256=c885310730c313e1ffb6a48ec74af1ff7c4f8246af8c7fc03eda83d7ea6cd497",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "Hash proves identity, not behavior."
+    },
+    {
+      "id": "dfe-descriptor-helpers",
+      "component": "DFE RAW descriptor helpers",
+      "statement": "FUN_006859ec copies descriptor fields, while FUN_006a686a/FUN_006a687e set/get four fields used by the DFE transfer stage.",
+      "source": "analysis_out/avcam_descriptor_copy_setters_20260905.txt",
+      "evidence": "The copy function moves offsets +0x60/+0x68..+0x78; the setter writes object +0x250/+0x254/+0x258/+0x25c and the getter reads them back.",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "These are descriptor operations; no DMA kick or final consumer is identified."
+    },
+    {
+      "id": "artifact-scenario",
+      "component": "RAW scenario artifact",
+      "statement": "The external RAW scenario is an ARM ELF with named on/off/acquire/release functions.",
+      "source": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so",
+      "evidence": "size=7793; sha256=4427b77d8120c27905df52e6e26b6512e0d8d05ac5b4ec9ba4659bf2731db88b",
+      "level": "confirmed",
+      "reproducible": "yes",
+      "limits": "Named functions do not prove a usable movie RAW stream."
+    }
+  ]
+}

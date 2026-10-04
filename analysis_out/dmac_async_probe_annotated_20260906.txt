@@ -1,0 +1,227 @@
+== dmac_async_irq_handler @ 0xb04 (thumb=False)
+  0x00000b04: mov      ip, sp
+  0x00000b08: push     {r4, r5, r6, r7, fp, ip, lr, pc}
+  0x00000b0c: sub      fp, ip, #4
+  0x00000b10: subs     r4, r0, #0
+  0x00000b14: ldrne    r4, [r4, #4]
+  0x00000b18: bl       #0xb18 ; __migrate_disable
+  0x00000b1c: add      r5, r4, #8
+  0x00000b20: mov      r0, r5
+  0x00000b24: bl       #0xb24 ; rt_spin_lock
+  0x00000b28: ldr      r0, [r4, #0x38]
+  0x00000b2c: ldr      r6, [r4, #4]
+  0x00000b30: bl       #0xb30 ; boss_hw_dmac_get_transfer_result
+  0x00000b34: mov      r3, #0
+  0x00000b38: str      r3, [r4, #4]
+  0x00000b3c: mov      r7, r0
+  0x00000b40: mov      r0, r5
+  0x00000b44: bl       #0xb44 ; rt_spin_unlock
+  0x00000b48: bl       #0xb48 ; __migrate_enable
+  0x00000b4c: cmp      r6, #0
+  0x00000b50: beq      #0xb64
+  0x00000b54: ldr      r3, [r6, #8]
+  0x00000b58: mov      r0, r7
+  0x00000b5c: ldr      r1, [r6, #0xc]
+  0x00000b60: blx      r3
+  0x00000b64: bl       #0xb64 ; __migrate_disable
+  0x00000b68: mov      r0, r5
+  0x00000b6c: bl       #0xb6c ; rt_spin_lock
+  0x00000b70: mov      r0, r4
+  0x00000b74: bl       #0x968
+  0x00000b78: mov      r0, r5
+  0x00000b7c: bl       #0xb7c ; rt_spin_unlock
+  0x00000b80: bl       #0xb80 ; __migrate_enable
+  0x00000b84: mov      r0, #0
+  0x00000b88: ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+== dmac_async_init @ 0xb8c (thumb=False)
+  0x00000b8c: mov      ip, sp
+  0x00000b90: push     {r4, r5, r6, r7, r8, sl, fp, ip, lr, pc}
+  0x00000b94: sub      fp, ip, #4
+  0x00000b98: ldr      r4, [pc, #0x8c]
+  0x00000b9c: mov      r6, #0
+  0x00000ba0: b        #0xc1c
+  0x00000ba4: mov      r1, #0x3c
+  0x00000ba8: ldr      r7, [pc, #0x7c]
+  0x00000bac: mov      r5, #0
+  0x00000bb0: mul      r8, r1, r6
+  0x00000bb4: add      r6, r6, #1
+  0x00000bb8: add      sl, r7, r8
+  0x00000bbc: mov      r0, sl
+  0x00000bc0: bl       #0xbc0 ; __memzero
+  0x00000bc4: add      r3, sl, #8
+  0x00000bc8: strb     r5, [r4, #-0x3c]
+  0x00000bcc: str      r5, [r4, #-0x38]
+  0x00000bd0: str      r5, [sl, #8]
+  0x00000bd4: add      sl, r8, #8
+  0x00000bd8: add      sl, r7, sl
+  0x00000bdc: str      r5, [r3, #4]
+  0x00000be0: mov      r0, sl
+  0x00000be4: ldr      r1, [pc, #0x44]
+  0x00000be8: bl       #0xbe8 ; __rt_mutex_init
+  0x00000bec: add      r2, r7, #0x1e0
+  0x00000bf0: mov      r0, sl
+  0x00000bf4: ldr      r1, [pc, #0x38]
+  0x00000bf8: add      r7, r7, r8
+  0x00000bfc: bl       #0xbfc ; __rt_spin_lock_init
+  0x00000c00: add      r7, r7, #0x24
+  0x00000c04: str      r5, [r4, #-0x10]
+  0x00000c08: str      r7, [r4, #-0x18]
+  0x00000c0c: str      r7, [r4, #-0x14]
+  0x00000c10: str      r5, [r4, #-0xc]
+  0x00000c14: str      r5, [r4, #-8]
+  0x00000c18: str      r5, [r4, #-4]
+  0x00000c1c: cmp      r6, #8
+  0x00000c20: add      r4, r4, #0x3c
+  0x00000c24: bne      #0xba4
+  0x00000c28: ldm      sp, {r4, r5, r6, r7, r8, sl, fp, sp, pc}
+  0x00000c2c: andeq    r0, r0, r8
+  0x00000c30: andeq    r0, r0, fp, lsl #7
+  0x00000c34: strheq   r0, [r0], -ip
+== dmac_async_probe @ 0xc38 (thumb=False)
+  0x00000c38: mov      ip, sp
+  0x00000c3c: push     {fp, ip, lr, pc}
+  0x00000c40: sub      fp, ip, #4
+  0x00000c44: ldr      r2, [pc, #0x14]
+  0x00000c48: mov      ip, #0x3c
+  0x00000c4c: mla      r2, ip, r1, r2
+  0x00000c50: str      r1, [r2, #0x30]
+  0x00000c54: str      r0, [r2, #0x34]
+  0x00000c58: str      r3, [r2, #0x38]
+  0x00000c5c: ldm      sp, {fp, sp, pc}
+  0x00000c60: andeq    r0, r0, r8
+== dmac_async_suspend @ 0xc64 (thumb=False)
+  0x00000c64: mov      ip, sp
+  0x00000c68: push     {r4, r5, r6, r7, fp, ip, lr, pc}
+  0x00000c6c: sub      fp, ip, #4
+  0x00000c70: mov      r4, #0x3c
+  0x00000c74: mov      r7, r1
+  0x00000c78: ldr      r5, [pc, #0x80]
+  0x00000c7c: bl       #0xc7c ; __migrate_disable
+  0x00000c80: mul      r4, r4, r7
+  0x00000c84: add      r6, r4, #8
+  0x00000c88: add      r6, r5, r6
+  0x00000c8c: mov      r0, r6
+  0x00000c90: bl       #0xc90 ; rt_spin_lock
+  0x00000c94: add      r3, r5, r4
+  0x00000c98: ldr      r2, [r3, #4]
+  0x00000c9c: cmp      r2, #0
+  0x00000ca0: bne      #0xcb8
+  0x00000ca4: adds     r4, r3, #0x24
+  0x00000ca8: beq      #0xcf0
+  0x00000cac: ldr      r3, [r3, #0x24]
+  0x00000cb0: cmp      r3, r4
+  0x00000cb4: beq      #0xcf0
+  0x00000cb8: ldr      r0, [pc, #0x44]
+  0x00000cbc: bl       #0xcbc ; printk
+  0x00000cc0: mov      r3, #0x3c
+  0x00000cc4: ldr      r1, [pc, #0x34]
+  0x00000cc8: mov      r2, #0
+  0x00000ccc: mul      r7, r3, r7
+  0x00000cd0: add      r3, r1, r7
+  0x00000cd4: add      r7, r3, #0x24
+  0x00000cd8: str      r2, [r3, #4]
+  0x00000cdc: str      r7, [r3, #0x24]
+  0x00000ce0: str      r7, [r3, #0x28]
+  0x00000ce4: str      r2, [r3, #0x2c]
+  0x00000ce8: ldr      r0, [r3, #0x38]
+  0x00000cec: bl       #0xcec ; boss_hw_dmac_shutdown
+  0x00000cf0: mov      r0, r6
+  0x00000cf4: bl       #0xcf4 ; rt_spin_unlock
+  0x00000cf8: bl       #0xcf8 ; __migrate_enable
+  0x00000cfc: ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+  0x00000d00: andeq    r0, r0, r8
+  0x00000d04: andeq    r0, r0, r4, ror #7
+== dmac_async_proc_setbuf @ 0xd2c (thumb=False)
+  0x00000d2c: mov      ip, sp
+  0x00000d30: push     {r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr, pc}
+  0x00000d34: sub      fp, ip, #4
+  0x00000d38: ldr      r3, [pc, #0x14c]
+  0x00000d3c: mov      r5, r2
+  0x00000d40: mov      r2, #0x3c
+  0x00000d44: mov      r4, r0
+  0x00000d48: mov      sl, r1
+  0x00000d4c: mla      r3, r2, r5, r3
+  0x00000d50: ldr      sb, [r3, #4]
+  0x00000d54: cmp      sb, #0
+  0x00000d58: ldrne    sb, [sb, #4]
+  0x00000d5c: cmp      r0, #0
+  0x00000d60: moveq    r0, r0
+  0x00000d64: beq      #0xd94
+  0x00000d68: ldr      r1, [r4, #4]
+  0x00000d6c: cmp      r1, sl
+  0x00000d70: movls    r0, #0
+  0x00000d74: bls      #0xd94
+  0x00000d78: ldr      r0, [r4]
+  0x00000d7c: adds     r0, r0, sl
+  0x00000d80: beq      #0xd94
+  0x00000d84: rsb      r1, sl, r1
+  0x00000d88: ldr      r2, [pc, #0x100]
+  0x00000d8c: mov      r3, r5
+  0x00000d90: bl       #0xd90 ; scnprintf
+  0x00000d94: cmp      r4, #0
+  0x00000d98: add      r8, r0, sl
+  0x00000d9c: moveq    r0, r4
+  0x00000da0: beq      #0xddc
+  0x00000da4: ldr      r1, [r4, #4]
+  0x00000da8: cmp      r1, r8
+  0x00000dac: movls    r0, #0
+  0x00000db0: bls      #0xddc
+  0x00000db4: ldr      r0, [r4]
+  0x00000db8: adds     r0, r0, r8
+  0x00000dbc: beq      #0xddc
+  0x00000dc0: ldr      r3, [pc, #0xc4]
+  0x00000dc4: mov      r2, #0x3c
+  0x00000dc8: rsb      r1, r8, r1
+  0x00000dcc: mla      r3, r2, r5, r3
+  0x00000dd0: ldr      r2, [pc, #0xbc]
+  0x00000dd4: ldr      r3, [r3, #4]
+  0x00000dd8: bl       #0xdd8 ; scnprintf
+  0x00000ddc: cmp      r4, #0
+  0x00000de0: add      r7, r0, r8
+  0x00000de4: moveq    r0, r4
+  0x00000de8: beq      #0xe18
+  0x00000dec: ldr      r1, [r4, #4]
+  0x00000df0: cmp      r1, r7
+  0x00000df4: movls    r0, #0
+  0x00000df8: bls      #0xe18
+  0x00000dfc: ldr      r0, [r4]
+  0x00000e00: adds     r0, r0, r7
+  0x00000e04: beq      #0xe18
+  0x00000e08: rsb      r1, r7, r1
+  0x00000e0c: ldr      r2, [pc, #0x84]
+  0x00000e10: mov      r3, sb
+  0x00000e14: bl       #0xe14 ; scnprintf
+  0x00000e18: cmp      r4, #0
+  0x00000e1c: add      r6, r0, r7
+  0x00000e20: moveq    r0, r4
+  0x00000e24: beq      #0xe60
+  0x00000e28: ldr      r1, [r4, #4]
+  0x00000e2c: cmp      r1, r6
+  0x00000e30: movls    r0, #0
+  0x00000e34: bls      #0xe60
+  0x00000e38: ldr      r0, [r4]
+  0x00000e3c: adds     r0, r0, r6
+  0x00000e40: beq      #0xe60
+  0x00000e44: ldr      r3, [pc, #0x40]
+  0x00000e48: mov      r2, #0x3c
+  0x00000e4c: rsb      r1, r6, r1
+  0x00000e50: mla      r3, r2, r5, r3
+  0x00000e54: ldr      r2, [pc, #0x40]
+  0x00000e58: ldr      r3, [r3, #0x2c]
+  0x00000e5c: bl       #0xe5c ; scnprintf
+  0x00000e60: ldr      r3, [pc, #0x24]
+  0x00000e64: mov      r2, #0x3c
+  0x00000e68: add      r6, r0, r6
+  0x00000e6c: mov      r0, r4
+  0x00000e70: mov      r1, r6
+  0x00000e74: mla      r5, r2, r5, r3
+  0x00000e78: ldr      r2, [r5, #0x38]
+  0x00000e7c: bl       #0xe7c ; boss_hw_dmac_proc_setbuf_reg_ch
+  0x00000e80: rsb      r0, sl, r0
+  0x00000e84: add      r0, r0, r6
+  0x00000e88: ldm      sp, {r3, r4, r5, r6, r7, r8, sb, sl, fp, sp, pc}
+  0x00000e8c: andeq    r0, r0, r8
+  0x00000e90: andeq    r0, r0, r3, lsr #8
+  0x00000e94: andeq    r0, r0, r3, lsr r4
+  0x00000e98: andeq    r0, r0, sp, asr #8
+  0x00000e9c: andeq    r0, r0, r7, ror #8

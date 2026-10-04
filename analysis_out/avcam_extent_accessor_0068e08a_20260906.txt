@@ -1,0 +1,51 @@
+ADDRESS 0068e08a
+FUNCTION FUN_0068e08a entry=0068e08a body=[[0068e08a, 0068e093] [0068e09c, 0068e0b7]]
+CALLERS
+  From: 001da5fa To: 0068e08a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0068e0fa To: 0068e08a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0068e104 To: 0068e08a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0068e10e To: 0068e08a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 0068e0cc To: 0068e08a Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0068e08a  push {r3,lr}
+0068e08c  cmp r0,#0x6
+0068e08e  bhi 0x0068e0b4
+0068e090  tbb [pc,r0]
+0068e09c  lsls r1,r1,#0x1
+0068e09e  b 0x0068e0b4
+0068e0a0  adds r1,#0x1
+0068e0a2  lsrs r1,r1,#0x1
+0068e0a4  b 0x0068e0b4
+0068e0a6  mov r0,r1
+0068e0a8  movs r1,#0x10
+0068e0aa  bl 0x00683038
+0068e0ae  add.w r0,r0,r0, lsl #0x1
+0068e0b2  lsrs r1,r0,#0x1
+0068e0b4  mov r0,r1
+0068e0b6  pop {r3,pc}
+DECOMPILED
+
+uint FUN_0068e08a(undefined4 param_1,uint param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  int iVar1;
+  
+  switch(param_1) {
+  case 0:
+    param_2 = param_2 << 1;
+    break;
+  case 1:
+  case 4:
+  case 5:
+  case 6:
+    param_2 = param_2 + 1 >> 1;
+    break;
+  case 3:
+    iVar1 = FUN_00683038(param_2,0x10,param_3,param_4,param_4);
+    param_2 = (uint)(iVar1 * 3) >> 1;
+  }
+  return param_2;
+}
+
+
+

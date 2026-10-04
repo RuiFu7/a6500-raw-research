@@ -1,0 +1,22 @@
+ADDRESS 0028c514
+FUNCTION FUN_0028c514 entry=0028c514 body=[[0028c514, 0028c514]]
+CALLERS
+LISTING
+DECOMPILED
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void FUN_0028c514(void)
+
+{
+  bool in_NG;
+  
+  if (in_NG) {
+    software_interrupt(0xf0e92d);
+  }
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}
+
+
+

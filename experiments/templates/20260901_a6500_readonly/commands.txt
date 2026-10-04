@@ -1,0 +1,3 @@
+# 仅记录实际执行过的电脑侧命令。
+# 第一条建议命令：
+# powershell -ExecutionPolicy Bypass -File scripts/capture_readonly_probe.ps1

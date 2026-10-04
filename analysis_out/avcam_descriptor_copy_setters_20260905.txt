@@ -1,0 +1,49 @@
+=== RANGE 0x006859ec-0x00685a40 ===
+006859ec push     {r3, r4, r5, lr}
+006859ee mov      r5, r1
+006859f0 mov      r4, r0
+006859f2 bl       #0x6845e6
+006859f6 ldr      r3, [r5, #0x60]
+006859f8 mov      r0, r4
+006859fa str      r3, [r4, #0x60]
+006859fc ldrd     r2, r3, [r5, #0x68]
+00685a00 strd     r2, r3, [r4, #0x68]
+00685a04 ldrd     r2, r3, [r5, #0x70]
+00685a08 strd     r2, r3, [r4, #0x70]
+00685a0c ldr      r3, [r5, #0x78]
+00685a0e str      r3, [r4, #0x78]
+00685a10 pop      {r3, r4, r5, pc}
+00685a12 push     {r4, lr}
+00685a14 mov      r4, r0
+00685a16 ldr      r0, [r0, #0x2c]
+00685a18 cbz      r0, #0x685a40
+00685a1a ldr.w    r3, [r4, #0xa0]
+00685a1e cbz      r3, #0x685a3e
+00685a20 ldr      r3, [r0]
+00685a22 ldr      r3, [r3, #0x18]
+00685a24 blx      r3
+00685a26 cbz      r0, #0x685a40
+00685a28 ldr      r0, [r4, #0x2c]
+00685a2a bl       #0x685dce
+00685a2e ldr.w    r3, [r4, #0x9c]
+00685a32 ldr.w    r1, [r4, #0xa0]
+00685a36 subs     r0, r0, r3
+00685a38 bl       #0x13f50
+00685a3c pop      {r4, pc}
+00685a3e mov      r0, r3
+=== RANGE 0x006a686a-0x006a6898 ===
+006a686a str.w    r3, [r0, #0x25c]
+006a686e ldr      r3, [sp]
+006a6870 str.w    r1, [r0, #0x250]
+006a6874 str.w    r2, [r0, #0x254]
+006a6878 str.w    r3, [r0, #0x258]
+006a687c bx       lr
+006a687e ldr.w    r3, [r0, #0x250]
+006a6882 str      r3, [r1]
+006a6884 ldr.w    r3, [r0, #0x254]
+006a6888 str      r3, [r1, #4]
+006a688a ldr.w    r3, [r0, #0x25c]
+006a688e str      r3, [r1, #0xc]
+006a6890 ldr.w    r3, [r0, #0x258]
+006a6894 str      r3, [r1, #8]
+006a6896 bx       lr

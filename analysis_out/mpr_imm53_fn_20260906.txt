@@ -1,0 +1,61 @@
+ADDRESS 006c16ac
+FUNCTION FUN_006c16ac entry=006c16ac body=[[006c16ac, 006c16e1]]
+CALLERS
+  From: 006c226a To: 006c16ac Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+006c16ac  ldrb r0,[r1,#0x0]
+006c16ae  push {r7,lr}
+006c16b0  cmp r0,#0x4e
+006c16b2  add r7,sp,#0x0
+006c16b4  bne 0x006c16be
+006c16b6  movs r3,#0x0
+006c16b8  subs r0,#0x4d
+006c16ba  str r3,[r2,#0x0]
+006c16bc  pop {r7,pc}
+006c16be  cmp r0,#0x53
+006c16c0  bne 0x006c16c6
+006c16c2  subs r0,#0x52
+006c16c4  b 0x006c16da
+006c16c6  cbnz r0,0x006c16de
+006c16c8  ldrb r3,[r1,#0x1]
+006c16ca  cmp r3,#0x4e
+006c16cc  bne 0x006c16d4
+006c16ce  str r0,[r2,#0x0]
+006c16d0  adds r0,#0x1
+006c16d2  pop {r7,pc}
+006c16d4  cmp r3,#0x53
+006c16d6  bne 0x006c16e0
+006c16d8  movs r0,#0x1
+006c16da  str r0,[r2,#0x0]
+006c16dc  pop {r7,pc}
+006c16de  movs r0,#0x0
+006c16e0  pop {r7,pc}
+DECOMPILED
+
+undefined4 FUN_006c16ac(undefined4 param_1,char *param_2,undefined4 *param_3)
+
+{
+  char cVar1;
+  
+  cVar1 = *param_2;
+  if (cVar1 == 'N') {
+    *param_3 = 0;
+    return 1;
+  }
+  if (cVar1 != 'S') {
+    if (cVar1 == '\0') {
+      if (param_2[1] == 'N') {
+        *param_3 = 0;
+        return 1;
+      }
+      if (param_2[1] == 'S') goto LAB_006c16da;
+    }
+    return 0;
+  }
+LAB_006c16da:
+  *param_3 = 1;
+  return 1;
+}
+
+
+

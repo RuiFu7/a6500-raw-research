@@ -1,0 +1,94 @@
+ADDRESS 00743b52
+FUNCTION FUN_00743b52 entry=00743b52 body=[[00743b52, 00743b6b]]
+CALLERS
+  From: 00298d98 To: 00743b52 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00743b52  push {r4,r5,r6,lr}
+00743b54  mov r5,r1
+00743b56  mov r4,r2
+00743b58  mov r6,r0
+00743b5a  bl 0x005a38c4
+00743b5e  mov r1,r6
+00743b60  mov r2,r5
+00743b62  mov r3,r4
+00743b64  pop.w {r4,r5,r6,lr}
+00743b68  b.w 0x00743f54
+DECOMPILED
+
+void FUN_00743b52(undefined4 param_1,undefined4 param_2,undefined4 param_3)
+
+{
+  undefined4 uVar1;
+  
+  uVar1 = FUN_005a38c4();
+  FUN_00743f54(uVar1,param_1,param_2,param_3);
+  return;
+}
+
+
+
+ADDRESS 00743f54
+FUNCTION FUN_00743f54 entry=00743f54 body=[[00743f54, 00743f6b]]
+CALLERS
+  From: 005a2088 To: 00743f54 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 005a20bc To: 00743f54 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 00743b68 To: 00743f54 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00743f54  push {r4,r5,r6,r7,r8,lr}
+00743f58  sub sp,#0x38
+00743f5a  mov r4,r0
+00743f5c  mov r5,r2
+00743f5e  mov r6,r1
+00743f60  movs r2,#0x30
+00743f62  movs r1,#0x0
+00743f64  add r0,sp,#0x8
+00743f66  mov r7,r3
+00743f68  blx 0x00414274
+DECOMPILED
+
+void FUN_00743f54(void)
+
+{
+  undefined1 local_48 [48];
+  
+                    /* WARNING: Subroutine does not return */
+  FUN_00414274(local_48,0,0x30);
+}
+
+
+
+ADDRESS 00743b94
+FUNCTION FUN_00743b94 entry=00743b94 body=[[00743b94, 00743baf]]
+CALLERS
+  From: 0028d15c To: 00743b94 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00743b94  push {r0,r1,r2,r4,r5,r6,r7,lr}
+00743b96  mov r5,r1
+00743b98  mov r4,r2
+00743b9a  mov r6,r0
+00743b9c  mov r7,r3
+00743b9e  bl 0x005a38c4
+00743ba2  mov r1,r6
+00743ba4  mov r2,r5
+00743ba6  mov r3,r4
+00743ba8  str r7,[sp,#0x0]
+00743baa  bl 0x007440b0
+00743bae  pop {r1,r2,r3,r4,r5,r6,r7,pc}
+DECOMPILED
+
+void FUN_00743b94(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  
+  uVar2 = param_2;
+  uVar3 = param_3;
+  uVar1 = FUN_005a38c4();
+  FUN_007440b0(uVar1,param_1,param_2,param_3,param_4,uVar2,uVar3);
+  return;
+}
+
+
+

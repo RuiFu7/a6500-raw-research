@@ -1,0 +1,132 @@
+ADDRESS 00381bf4
+FUNCTION FUN_00381b60 entry=00381b60 body=[[00381b60, 00381c25]]
+CALLERS
+  From: 00381e2a To: 00381b60 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+00381b60  push {r4,r5,r7,r8,r9,lr}
+00381b64  mov r4,r0
+00381b66  sub sp,#0x30
+00381b68  add.w r5,r4,#0x4700
+00381b6c  ldr r0,[0x00381c30]
+00381b6e  add r7,sp,#0x0
+00381b70  bl 0x00381398
+00381b74  ldr.w r0,[r5,#0xf4]
+00381b78  cbz r0,0x00381bac
+00381b7a  add.w r3,r4,#0x4600
+00381b7e  ldr r2,[r4,#0x20]
+00381b80  ldr.w r3,[r3,#0x98]
+00381b84  cmp r2,r3
+00381b86  bne 0x00381b9a
+00381b88  ldr r0,[0x00381c34]
+00381b8a  bl 0x003813b8
+00381b8e  ldr r0,[0x00381c38]
+00381b90  bl 0x00381398
+00381b94  ldr.w r0,[r5,#0xf4]
+00381b98  b 0x00381c10
+00381b9a  ldr r3,[r0,#0x0]
+00381b9c  ldr r3,[r3,#0x4]
+00381b9e  blx r3
+00381ba0  movs r3,#0x0
+00381ba2  ldr r0,[0x00381c3c]
+00381ba4  str.w r3,[r5,#0xf4]
+00381ba8  bl 0x003813b8
+00381bac  ldr r0,[r4,#0x58]
+00381bae  bl 0x0037da88
+00381bb2  ldr.w r3,[r0,#0x108]
+00381bb6  str r3,[r7,#0x0]
+00381bb8  ldr.w r3,[r0,#0x110]
+00381bbc  str r3,[r7,#0x4]
+00381bbe  add.w r3,r0,#0x118
+00381bc2  ldrd r8,r9,[r3,#0x0]
+00381bc6  ldrd r2,r3,[r0,#0xd0]
+00381bca  strd r8,r9,[r7,#0x8]
+00381bce  ldrd r8,r9,[r0,#0x10]
+00381bd2  movw r0,#0x8d8
+00381bd6  strd r2,r3,[r7,#0x10]
+00381bda  movs r3,#0x80
+00381bdc  str r3,[r7,#0x20]
+00381bde  subs r3,#0x7f
+00381be0  strd r8,r9,[r7,#0x18]
+00381be4  str r3,[r7,#0x24]
+00381be6  adds r3,#0x1
+00381be8  str r3,[r7,#0x28]
+00381bea  blx 0x00181038
+00381bee  movs r1,#0x2b
+00381bf0  mov r2,r7
+00381bf2  mov r5,r0
+00381bf4  bl 0x0053bf3c
+00381bf8  add.w r4,r4,#0x4700
+00381bfc  ldr r0,[0x00381c40]
+00381bfe  str.w r5,[r4,#0xf4]
+00381c02  bl 0x003813b8
+00381c06  ldr r0,[0x00381c44]
+00381c08  bl 0x00381398
+00381c0c  ldr.w r0,[r4,#0xf4]
+00381c10  bl 0x00381318
+00381c14  ldr r0,[0x00381c48]
+00381c16  bl 0x0037caa4
+00381c1a  movs r0,#0x0
+00381c1c  add.w r7,r7,#0x30
+00381c20  mov sp,r7
+00381c22  pop.w {r4,r5,r7,r8,r9,pc}
+DECOMPILED
+
+undefined4 FUN_00381b60(int param_1)
+
+{
+  undefined *puVar1;
+  undefined4 uVar2;
+  int iVar3;
+  void *pvVar4;
+  undefined4 local_48;
+  undefined4 local_44;
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 local_30;
+  undefined4 uStack_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  
+  FUN_00381398(PTR_s_createHdAvcIndexDemuxFilter___00381c30);
+  if (*(int **)(param_1 + 0x47f4) != (int *)0x0) {
+    if (*(int *)(param_1 + 0x20) == *(int *)(param_1 + 0x4698)) {
+      FUN_003813b8(PTR_s_HD_AVC_INDEX_DEMUX_has_already_e_00381c34);
+      FUN_00381398(PTR_s___instance__mp_demux___0x_00381c38);
+      uVar2 = *(undefined4 *)(param_1 + 0x47f4);
+      goto LAB_00381c10;
+    }
+    (**(code **)(**(int **)(param_1 + 0x47f4) + 4))();
+    puVar1 = PTR_s_delete__DVD_INDEX_DEMUX__00381c3c;
+    *(undefined4 *)(param_1 + 0x47f4) = 0;
+    FUN_003813b8(puVar1);
+  }
+  iVar3 = FUN_0037da88(*(undefined4 *)(param_1 + 0x58));
+  local_48 = *(undefined4 *)(iVar3 + 0x108);
+  local_44 = *(undefined4 *)(iVar3 + 0x110);
+  local_40 = *(undefined4 *)(iVar3 + 0x118);
+  uStack_3c = *(undefined4 *)(iVar3 + 0x11c);
+  local_38 = *(undefined4 *)(iVar3 + 0xd0);
+  uStack_34 = *(undefined4 *)(iVar3 + 0xd4);
+  local_30 = *(undefined4 *)(iVar3 + 0x10);
+  uStack_2c = *(undefined4 *)(iVar3 + 0x14);
+  local_28 = 0x80;
+  local_24 = 1;
+  local_20 = 2;
+  pvVar4 = operator_new(0x8d8);
+  FUN_0053bf3c(pvVar4,0x2b,&local_48);
+  puVar1 = PTR_s_create__HD_AVC_INDEX_DEMUX__00381c40;
+  *(void **)(param_1 + 0x47f4) = pvVar4;
+  FUN_003813b8(puVar1);
+  FUN_00381398(PTR_s_HD_AVC_INDEX_DEMUX_instance__mp__00381c44);
+  uVar2 = *(undefined4 *)(param_1 + 0x47f4);
+LAB_00381c10:
+  FUN_00381318(uVar2);
+  FUN_0037caa4(PTR_s___009a7262_0x44_00381c48);
+  return 0;
+}
+
+
+

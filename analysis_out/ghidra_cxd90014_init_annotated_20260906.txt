@@ -1,0 +1,123 @@
+ADDRESS 403b2d9c
+FUNCTION FUN_403b2d9c entry=403b2d9c body=[[403b2d9c, 403b2ea7]]
+CALLERS
+  From: 40322498 To: 403b2d9c Type: DATA Op: 0 DEFAULT
+  From: 403cd640 To: 403b2d9c Type: DATA Op: 0 DEFAULT
+LISTING
+403b2d9c  cpy r12,sp
+403b2da0  stmdb sp!,{r4,r5,r11,r12,lr,pc}
+403b2da4  sub r11,r12,#0x4
+403b2da8  bl 0x4004ff84
+403b2dac  bl 0x403b2904
+403b2db0  ldr r3,[0x403b2ea8]
+403b2db4  ldr r3,[r3,#0x0]
+403b2db8  cmp r3,#0x0
+403b2dbc  bne 0x403b2e8c
+403b2dc0  b 0x403b2dd0
+403b2dc4  ldr r0,[0x403b2eac]
+403b2dc8  mov r1,#0x0
+403b2dcc  bl 0x402e7b90
+403b2dd0  mov r5,#0x0
+403b2dd4  cpy r4,r5
+403b2dd8  ldr r3,[0x403b2eb0]
+403b2ddc  mov r2,#0x1
+403b2de0  ldr r3,[r3,#0x0]
+403b2de4  ands r3,r3,r2, lsl r4
+403b2de8  beq 0x403b2e2c
+403b2dec  ldr r3,[0x403b2ea8]
+403b2df0  ldr r1,[0x403b2eb4]
+403b2df4  ldr r3,[r3,#0x0]
+403b2df8  mov r3,r3, asr r4
+403b2dfc  tst r3,#0x1
+403b2e00  ldrne r3,[0x403b2eb8]
+403b2e04  ldrne r2,[0x403b2ebc]
+403b2e08  strne r2,[r3,r5]
+403b2e0c  ldr r3,[0x403b2ec0]
+403b2e10  ldr r0,[r3,r4,lsl #0x2]
+403b2e14  bl 0x401b1df0
+403b2e18  cmp r0,#0x0
+403b2e1c  beq 0x403b2e2c
+403b2e20  ldr r0,[0x403b2ec4]
+403b2e24  cpy r1,r4
+403b2e28  bl 0x402e7b90
+403b2e2c  add r4,r4,#0x1
+403b2e30  add r5,r5,#0x24
+403b2e34  cmp r4,#0x3
+403b2e38  bne 0x403b2dd8
+403b2e3c  ldr r0,[0x403b2ec8]
+403b2e40  bl 0x401cdd1c
+403b2e44  ldr r0,[0x403b2ecc]
+403b2e48  cpy r1,r4
+403b2e4c  bl 0x401cdfdc
+403b2e50  cmp r0,#0x0
+403b2e54  beq 0x403b2e60
+403b2e58  ldr r0,[0x403b2ed0]
+403b2e5c  bl 0x402e7b90
+403b2e60  ldr r0,[0x403b2eb8]
+403b2e64  ldr r3,[r0,#0x1a8]
+403b2e68  cmp r3,#0x0
+403b2e6c  ldmiaeq sp,{r4,r5,r11,sp,pc}
+403b2e70  add r0,r0,#0x1b0
+403b2e74  bl 0x401cdd1c
+403b2e78  cmp r0,#0x0
+403b2e7c  ldmiaeq sp,{r4,r5,r11,sp,pc}
+403b2e80  ldr r0,[0x403b2ed4]
+403b2e84  bl 0x402e7b90
+403b2e88  ldmia sp,{r4,r5,r11,sp,pc}
+403b2e8c  ldr r3,[0x403b2ec0]
+403b2e90  ldr r1,[0x403b2eb4]
+403b2e94  ldr r0,[r3,#0x18]
+403b2e98  bl 0x401b1df0
+403b2e9c  cmp r0,#0x0
+403b2ea0  beq 0x403b2dd0
+403b2ea4  b 0x403b2dc4
+DECOMPILED
+
+void FUN_403b2d9c(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  uint uVar3;
+  int iVar4;
+  
+  FUN_4004ff84();
+  FUN_403b2904();
+  if ((*DAT_403b2ea8 != 0) &&
+     (iVar4 = FUN_401b1df0(*(undefined4 *)(DAT_403b2ec0 + 0x18),DAT_403b2eb4), iVar4 != 0)) {
+    FUN_402e7b90(DAT_403b2eac,0);
+  }
+  iVar4 = 0;
+  uVar3 = 0;
+  do {
+    uVar1 = DAT_403b2eb4;
+    if ((*DAT_403b2eb0 & 1 << (uVar3 & 0xff)) != 0) {
+      if ((*DAT_403b2ea8 >> (uVar3 & 0xff) & 1U) != 0) {
+        *(undefined4 *)(DAT_403b2eb8 + iVar4) = DAT_403b2ebc;
+      }
+      iVar2 = FUN_401b1df0(*(undefined4 *)(DAT_403b2ec0 + uVar3 * 4),uVar1);
+      if (iVar2 != 0) {
+        FUN_402e7b90(DAT_403b2ec4,uVar3);
+      }
+    }
+    uVar3 = uVar3 + 1;
+    iVar4 = iVar4 + 0x24;
+  } while (uVar3 != 3);
+  FUN_401cdd1c(DAT_403b2ec8);
+  iVar4 = FUN_401cdfdc(DAT_403b2ecc,3);
+  if (iVar4 != 0) {
+    FUN_402e7b90(DAT_403b2ed0);
+  }
+  if (*(int *)(DAT_403b2eb8 + 0x1a8) == 0) {
+    return;
+  }
+  iVar4 = FUN_401cdd1c(DAT_403b2eb8 + 0x1b0);
+  if (iVar4 == 0) {
+    return;
+  }
+  FUN_402e7b90(DAT_403b2ed4);
+  return;
+}
+
+
+

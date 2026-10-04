@@ -1,0 +1,910 @@
+ADDRESS 000279a6
+FUNCTION PrintInfo entry=000277e4 body=[[000277e4, 00027e03]]
+CALLERS
+  From: Entry Point To: 000277e4 Type: EXTERNAL Op: -1 DEFAULT
+  From: 000524d0 To: 000277e4 Type: DATA Op: 0 DEFAULT
+  From: 00020d98 To: 000277e4 Type: COMPUTED_CALL Op: 0 ANALYSIS
+LISTING
+000277e4  push {r4,r5,r6,r7,r8,r9,r10,r11,lr}
+000277e8  sub sp,#0xc
+000277ea  ldr.w r5,[0x00027e04]
+000277ee  ldr.w r3,[0x00027e08]
+000277f2  mov r6,r0
+000277f4  add r5,pc
+000277f6  ldr.w r1,[0x00027e0c]
+000277fa  add r7,sp,#0x0
+000277fc  ldr r4,[r5,r3]
+000277fe  add r1,pc
+00027800  ldr r0,[r4,#0x0]
+00027802  blx 0x00021a20
+00027806  tst r6,#0x1
+0002780a  beq.w 0x00027a68
+0002780e  ldr.w r1,[0x00027e10]
+00027812  ldr r0,[r4,#0x0]
+00027814  add r1,pc
+00027816  blx 0x00021a20
+0002781a  ldr.w r1,[0x00027e14]
+0002781e  ldr r0,[r4,#0x0]
+00027820  add r1,pc
+00027822  blx 0x00021a20
+00027826  ldr.w r3,[0x00027e18]
+0002782a  ldr.w r1,[0x00027e1c]
+0002782e  ldr r0,[r4,#0x0]
+00027830  ldr r3,[r5,r3]
+00027832  add r1,pc
+00027834  ldr r2,[r3,#0x0]
+00027836  blx 0x00021a20
+0002783a  ldr.w r1,[0x00027e20]
+0002783e  ldr r0,[r4,#0x0]
+00027840  add r1,pc
+00027842  blx 0x00021a20
+00027846  ldr.w r8,[r4,#0x0]
+0002784a  blx 0x00021930
+0002784e  blx 0x00020d0c
+00027852  ldr.w r1,[0x00027e24]
+00027856  add r1,pc
+00027858  mov r2,r0
+0002785a  mov r0,r8
+0002785c  blx 0x00021a20
+00027860  ldr r0,[r4,#0x0]
+00027862  blx 0x00021ef8
+00027866  ldr.w r1,[0x00027e28]
+0002786a  ldr r0,[r4,#0x0]
+0002786c  add r1,pc
+0002786e  blx 0x000211b8
+00027872  blx 0x00021678
+00027876  tst r0,#0x8
+0002787a  mov r8,r0
+0002787c  beq 0x0002788a
+0002787e  ldr.w r1,[0x00027e2c]
+00027882  ldr r0,[r4,#0x0]
+00027884  add r1,pc
+00027886  blx 0x000211b8
+0002788a  tst r8,#0x10
+0002788e  beq 0x0002789c
+00027890  ldr.w r1,[0x00027e30]
+00027894  ldr r0,[r4,#0x0]
+00027896  add r1,pc
+00027898  blx 0x000211b8
+0002789c  tst r8,#0x4
+000278a0  beq 0x000278ae
+000278a2  ldr.w r1,[0x00027e34]
+000278a6  ldr r0,[r4,#0x0]
+000278a8  add r1,pc
+000278aa  blx 0x000211b8
+000278ae  tst r8,#0x80
+000278b2  beq 0x000278c0
+000278b4  ldr.w r1,[0x00027e38]
+000278b8  ldr r0,[r4,#0x0]
+000278ba  add r1,pc
+000278bc  blx 0x000211b8
+000278c0  ldr.w r1,[0x00027e3c]
+000278c4  ldr r0,[r4,#0x0]
+000278c6  add r1,pc
+000278c8  blx 0x000211b8
+000278cc  ldr r0,[r4,#0x0]
+000278ce  blx 0x0002127c
+000278d2  ldr r0,[r4,#0x0]
+000278d4  blx 0x00021ef8
+000278d8  ldr.w r1,[0x00027e40]
+000278dc  ldr r0,[r4,#0x0]
+000278de  add r1,pc
+000278e0  blx 0x000211b8
+000278e4  blx 0x00021c08
+000278e8  tst r0,#0x2
+000278ec  mov r8,r0
+000278ee  beq 0x000278fc
+000278f0  ldr.w r1,[0x00027e44]
+000278f4  ldr r0,[r4,#0x0]
+000278f6  add r1,pc
+000278f8  blx 0x000211b8
+000278fc  tst r8,#0x8
+00027900  beq 0x0002790e
+00027902  ldr.w r1,[0x00027e48]
+00027906  ldr r0,[r4,#0x0]
+00027908  add r1,pc
+0002790a  blx 0x000211b8
+0002790e  ldr.w r1,[0x00027e4c]
+00027912  ldr r0,[r4,#0x0]
+00027914  add r1,pc
+00027916  blx 0x000211b8
+0002791a  ldr r0,[r4,#0x0]
+0002791c  blx 0x0002127c
+00027920  blx 0x00021808
+00027924  cbz r0,0x00027930
+00027926  ldr.w r1,[0x00027e50]
+0002792a  ldr r0,[r4,#0x0]
+0002792c  add r1,pc
+0002792e  b 0x00027938
+00027930  ldr.w r1,[0x00027e54]
+00027934  ldr r0,[r4,#0x0]
+00027936  add r1,pc
+00027938  blx 0x00021a20
+0002793c  blx 0x00021310
+00027940  cbz r0,0x0002794c
+00027942  ldr.w r1,[0x00027e58]
+00027946  ldr r0,[r4,#0x0]
+00027948  add r1,pc
+0002794a  b 0x00027954
+0002794c  ldr.w r1,[0x00027e5c]
+00027950  ldr r0,[r4,#0x0]
+00027952  add r1,pc
+00027954  blx 0x00021a20
+00027958  blx 0x00021b0c
+0002795c  cbz r0,0x00027968
+0002795e  ldr.w r1,[0x00027e60]
+00027962  ldr r0,[r4,#0x0]
+00027964  add r1,pc
+00027966  b 0x00027970
+00027968  ldr.w r1,[0x00027e64]
+0002796c  ldr r0,[r4,#0x0]
+0002796e  add r1,pc
+00027970  blx 0x00021a20
+00027974  blx 0x000218b8
+00027978  cbnz r0,0x00027984
+0002797a  ldr.w r1,[0x00027e68]
+0002797e  ldr r0,[r4,#0x0]
+00027980  add r1,pc
+00027982  b 0x0002798c
+00027984  ldr.w r1,[0x00027e6c]
+00027988  ldr r0,[r4,#0x0]
+0002798a  add r1,pc
+0002798c  blx 0x00021a20
+00027990  ldr.w r8,[r4,#0x0]
+00027994  blx 0x00021b48
+00027998  ldr.w r1,[0x00027e70]
+0002799c  add r1,pc
+0002799e  mov r2,r0
+000279a0  mov r0,r8
+000279a2  blx 0x00021a20
+000279a6  blx 0x00020f14
+000279aa  cbz r0,0x000279b6
+000279ac  ldr.w r1,[0x00027e74]
+000279b0  ldr r0,[r4,#0x0]
+000279b2  add r1,pc
+000279b4  b 0x000279be
+000279b6  ldr.w r1,[0x00027e78]
+000279ba  ldr r0,[r4,#0x0]
+000279bc  add r1,pc
+000279be  blx 0x00021a20
+000279c2  blx 0x00020e98
+000279c6  cbz r0,0x000279d2
+000279c8  ldr.w r1,[0x00027e7c]
+000279cc  ldr r0,[r4,#0x0]
+000279ce  add r1,pc
+000279d0  b 0x000279da
+000279d2  ldr.w r1,[0x00027e80]
+000279d6  ldr r0,[r4,#0x0]
+000279d8  add r1,pc
+000279da  blx 0x00021a20
+000279de  blx 0x00021f4c
+000279e2  cbz r0,0x000279ee
+000279e4  ldr.w r1,[0x00027e84]
+000279e8  ldr r0,[r4,#0x0]
+000279ea  add r1,pc
+000279ec  b 0x000279f6
+000279ee  ldr.w r1,[0x00027e88]
+000279f2  ldr r0,[r4,#0x0]
+000279f4  add r1,pc
+000279f6  blx 0x00021a20
+000279fa  blx 0x00021ddc
+000279fe  cbz r0,0x00027a0a
+00027a00  ldr.w r1,[0x00027e8c]
+00027a04  ldr r0,[r4,#0x0]
+00027a06  add r1,pc
+00027a08  b 0x00027a12
+00027a0a  ldr.w r1,[0x00027e90]
+00027a0e  ldr r0,[r4,#0x0]
+00027a10  add r1,pc
+00027a12  blx 0x00021a20
+00027a16  blx 0x00021f58
+00027a1a  cbz r0,0x00027a40
+00027a1c  ldr.w r1,[0x00027e94]
+00027a20  ldr r0,[r4,#0x0]
+00027a22  add r1,pc
+00027a24  blx 0x00021a20
+00027a28  ldr.w r8,[r4,#0x0]
+00027a2c  blx 0x000217b4
+00027a30  ldr.w r1,[0x00027e98]
+00027a34  add r1,pc
+00027a36  mov r2,r0
+00027a38  mov r0,r8
+00027a3a  blx 0x00021a20
+00027a3e  b 0x00027a4c
+00027a40  ldr.w r1,[0x00027e9c]
+00027a44  ldr r0,[r4,#0x0]
+00027a46  add r1,pc
+00027a48  blx 0x00021a20
+00027a4c  blx 0x000213e4
+00027a50  cbz r0,0x00027a5c
+00027a52  ldr.w r1,[0x00027ea0]
+00027a56  ldr r0,[r4,#0x0]
+00027a58  add r1,pc
+00027a5a  b 0x00027a64
+00027a5c  ldr.w r1,[0x00027ea4]
+00027a60  ldr r0,[r4,#0x0]
+00027a62  add r1,pc
+00027a64  blx 0x00021a20
+00027a68  tst r6,#0x2
+00027a6c  beq.w 0x00027ba0
+00027a70  ldr.w r1,[0x00027ea8]
+00027a74  mov.w r10,#0x0
+00027a78  ldr r0,[r4,#0x0]
+00027a7a  add r1,pc
+00027a7c  blx 0x00021a20
+00027a80  ldr.w r1,[0x00027eac]
+00027a84  ldr r0,[r4,#0x0]
+00027a86  add r1,pc
+00027a88  blx 0x00021a20
+00027a8c  ldr.w r1,[0x00027eb0]
+00027a90  mov r2,r10
+00027a92  ldr r0,[r4,#0x0]
+00027a94  add r1,pc
+00027a96  blx 0x00021a20
+00027a9a  ldr.w r3,[0x00027eb4]
+00027a9e  ldr.w r8,[r5,r3]
+00027aa2  lsl.w r3,r10,#0x4
+00027aa6  mov r9,r8
+00027aa8  ldr.w r2,[r8,#0x0]
+00027aac  ldrb r3,[r2,r3]
+00027aae  cbz r3,0x00027aba
+00027ab0  ldr.w r1,[0x00027eb8]
+00027ab4  ldr r0,[r4,#0x0]
+00027ab6  add r1,pc
+00027ab8  b 0x00027ac2
+00027aba  ldr.w r1,[0x00027ebc]
+00027abe  ldr r0,[r4,#0x0]
+00027ac0  add r1,pc
+00027ac2  blx 0x00021a20
+00027ac6  ldr.w r3,[r8,#0x0]
+00027aca  lsl.w r11,r10,#0x4
+00027ace  ldr r1,[0x00027ec0]
+00027ad0  add r3,r11
+00027ad2  ldr r0,[r4,#0x0]
+00027ad4  add r1,pc
+00027ad6  add.w r10,r10,#0x1
+00027ada  ldr r2,[r3,#0x4]
+00027adc  blx 0x00021a20
+00027ae0  ldr.w r3,[r8,#0x0]
+00027ae4  ldr r1,[0x00027ec4]
+00027ae6  add r3,r11
+00027ae8  ldr r0,[r4,#0x0]
+00027aea  add r1,pc
+00027aec  ldr r2,[r3,#0x8]
+00027aee  blx 0x00021a20
+00027af2  ldr.w r2,[r8,#0x0]
+00027af6  ldr r3,[r4,#0x0]
+00027af8  add r2,r11
+00027afa  ldr r0,[r2,#0xc]
+00027afc  str r3,[r7,#0x4]
+00027afe  blx 0x00021c44
+00027b02  ldr r3,[r7,#0x4]
+00027b04  ldr r1,[0x00027ec8]
+00027b06  add r1,pc
+00027b08  mov r2,r0
+00027b0a  mov r0,r3
+00027b0c  blx 0x00021a20
+00027b10  cmp.w r10,#0x5
+00027b14  bne 0x00027a8c
+00027b16  ldr r1,[0x00027ecc]
+00027b18  mov.w r8,#0x0
+00027b1c  ldr r0,[r4,#0x0]
+00027b1e  add r1,pc
+00027b20  blx 0x00021a20
+00027b24  ldr r1,[0x00027ed0]
+00027b26  mov r2,r8
+00027b28  ldr r0,[r4,#0x0]
+00027b2a  add r1,pc
+00027b2c  blx 0x00021a20
+00027b30  ldr.w r3,[r9,#0x0]
+00027b34  add.w r3,r3,r8, lsl #0x4
+00027b38  ldrb.w r3,[r3,#0x50]
+00027b3c  cbz r3,0x00027b46
+00027b3e  ldr r1,[0x00027ed4]
+00027b40  ldr r0,[r4,#0x0]
+00027b42  add r1,pc
+00027b44  b 0x00027b4c
+00027b46  ldr r1,[0x00027ed8]
+00027b48  ldr r0,[r4,#0x0]
+00027b4a  add r1,pc
+00027b4c  blx 0x00021a20
+00027b50  ldr.w r3,[r9,#0x0]
+00027b54  ldr r1,[0x00027edc]
+00027b56  lsl.w r10,r8,#0x4
+00027b5a  add.w r3,r3,r8, lsl #0x4
+00027b5e  ldr r0,[r4,#0x0]
+00027b60  add r1,pc
+00027b62  add.w r8,r8,#0x1
+00027b66  ldr r2,[r3,#0x54]
+00027b68  blx 0x00021a20
+00027b6c  ldr.w r3,[r9,#0x0]
+00027b70  ldr r1,[0x00027ee0]
+00027b72  add r3,r10
+00027b74  ldr r0,[r4,#0x0]
+00027b76  add r1,pc
+00027b78  ldr r2,[r3,#0x58]
+00027b7a  blx 0x00021a20
+00027b7e  ldr.w r3,[r9,#0x0]
+00027b82  ldr.w r11,[r4,#0x0]
+00027b86  add r3,r10
+00027b88  ldr r0,[r3,#0x5c]
+00027b8a  blx 0x00021c44
+00027b8e  ldr r1,[0x00027ee4]
+00027b90  add r1,pc
+00027b92  mov r2,r0
+00027b94  mov r0,r11
+00027b96  blx 0x00021a20
+00027b9a  cmp.w r8,#0x2
+00027b9e  bne 0x00027b24
+00027ba0  tst r6,#0x4
+00027ba4  beq 0x00027bb0
+00027ba6  ldr r3,[0x00027ee8]
+00027ba8  ldr r3,[r5,r3]
+00027baa  ldr r0,[r3,#0x0]
+00027bac  blx 0x00021170
+00027bb0  tst r6,#0x8
+00027bb4  beq 0x00027bc0
+00027bb6  ldr r3,[0x00027ee8]
+00027bb8  ldr r3,[r5,r3]
+00027bba  ldr r0,[r3,#0x0]
+00027bbc  blx 0x00020cb4
+00027bc0  tst r6,#0x10
+00027bc4  beq 0x00027bd0
+00027bc6  ldr r3,[0x00027ee8]
+00027bc8  ldr r3,[r5,r3]
+00027bca  ldr r0,[r3,#0x0]
+00027bcc  blx 0x00020f48
+00027bd0  tst r6,#0x20
+00027bd4  beq 0x00027c0e
+00027bd6  ldr r1,[0x00027eec]
+00027bd8  mov.w r8,#0x0
+00027bdc  ldr r0,[r4,#0x0]
+00027bde  add r1,pc
+00027be0  blx 0x00021a20
+00027be4  ldr r1,[0x00027ef0]
+00027be6  ldr r0,[r4,#0x0]
+00027be8  add r1,pc
+00027bea  blx 0x00021a20
+00027bee  ldr r3,[0x00027ef4]
+00027bf0  mov r2,r8
+00027bf2  ldr r1,[0x00027ef8]
+00027bf4  ldr r0,[r4,#0x0]
+00027bf6  ldr r3,[r5,r3]
+00027bf8  add r1,pc
+00027bfa  ldr r3,[r3,#0x0]
+00027bfc  ldr.w r3,[r3,r8,lsl #0x2]
+00027c00  add.w r8,r8,#0x1
+00027c04  blx 0x00021a20
+00027c08  cmp.w r8,#0x4
+00027c0c  bne 0x00027bee
+00027c0e  tst r6,#0x40
+00027c12  beq.w 0x00027dfa
+00027c16  ldr r1,[0x00027efc]
+00027c18  ldr r0,[r4,#0x0]
+00027c1a  add r1,pc
+00027c1c  blx 0x00021a20
+00027c20  ldr r1,[0x00027f00]
+00027c22  ldr r0,[r4,#0x0]
+00027c24  add r1,pc
+00027c26  blx 0x00021a20
+00027c2a  ldr r3,[0x00027f04]
+00027c2c  ldr r1,[0x00027f08]
+00027c2e  ldr r0,[r4,#0x0]
+00027c30  ldr r5,[r5,r3]
+00027c32  add r1,pc
+00027c34  ldr r3,[r5,#0x0]
+00027c36  ldr r3,[r3,#0x40]
+00027c38  ldr r2,[r3,#0x0]
+00027c3a  blx 0x00021a20
+00027c3e  ldr r3,[r5,#0x0]
+00027c40  ldr r1,[0x00027f0c]
+00027c42  ldr r0,[r4,#0x0]
+00027c44  ldr r3,[r3,#0x40]
+00027c46  add r1,pc
+00027c48  ldr r2,[r3,#0x4]
+00027c4a  blx 0x00021a20
+00027c4e  ldr r3,[r5,#0x0]
+00027c50  ldr r3,[r3,#0x40]
+00027c52  ldr r3,[r3,#0x4]
+00027c54  cbz r3,0x00027c60
+00027c56  ldr r1,[0x00027f10]
+00027c58  ldr r0,[r4,#0x0]
+00027c5a  add r1,pc
+00027c5c  blx 0x00021a20
+00027c60  mov.w r8,#0x0
+00027c64  b 0x00027cd8
+00027c66  movs r6,#0x1c
+00027c68  ldr r1,[0x00027f14]
+00027c6a  ldr r0,[r4,#0x0]
+00027c6c  mul r6,r6,r8
+00027c70  add r1,pc
+00027c72  add.w r8,r8,#0x1
+00027c76  adds r3,r3,r6
+00027c78  ldr r2,[r3,#0x10]
+00027c7a  blx 0x00021a20
+00027c7e  ldr r3,[r5,#0x0]
+00027c80  ldr r1,[0x00027f18]
+00027c82  ldr r0,[r4,#0x0]
+00027c84  ldr r3,[r3,#0x40]
+00027c86  add r1,pc
+00027c88  adds r3,r3,r6
+00027c8a  ldr r2,[r3,#0x8]
+00027c8c  blx 0x00021a20
+00027c90  ldr r3,[r5,#0x0]
+00027c92  ldr r1,[0x00027f1c]
+00027c94  ldr r0,[r4,#0x0]
+00027c96  ldr r3,[r3,#0x40]
+00027c98  add r1,pc
+00027c9a  adds r3,r3,r6
+00027c9c  ldr r2,[r3,#0xc]
+00027c9e  blx 0x00021a20
+00027ca2  ldr r3,[r5,#0x0]
+00027ca4  ldr r1,[0x00027f20]
+00027ca6  ldr r0,[r4,#0x0]
+00027ca8  ldr r3,[r3,#0x40]
+00027caa  add r1,pc
+00027cac  adds r3,r3,r6
+00027cae  ldrh r2,[r3,#0x18]
+00027cb0  blx 0x00021a20
+00027cb4  ldr r3,[r5,#0x0]
+00027cb6  ldr r1,[0x00027f24]
+00027cb8  ldr r0,[r4,#0x0]
+00027cba  ldr r3,[r3,#0x40]
+00027cbc  add r1,pc
+00027cbe  adds r3,r3,r6
+00027cc0  ldr r2,[r3,#0x14]
+00027cc2  blx 0x00021a20
+00027cc6  ldr r3,[r5,#0x0]
+00027cc8  ldr r1,[0x00027f28]
+00027cca  ldr r0,[r4,#0x0]
+00027ccc  ldr r3,[r3,#0x40]
+00027cce  add r1,pc
+00027cd0  adds r6,r3,r6
+00027cd2  ldr r2,[r6,#0x1c]
+00027cd4  blx 0x00021a20
+00027cd8  ldr r3,[r5,#0x0]
+00027cda  ldr r3,[r3,#0x40]
+00027cdc  ldr r2,[r3,#0x4]
+00027cde  cmp r8,r2
+00027ce0  bcc 0x00027c66
+00027ce2  ldr r1,[0x00027f2c]
+00027ce4  ldr r0,[r4,#0x0]
+00027ce6  add r1,pc
+00027ce8  blx 0x00021a20
+00027cec  ldr r3,[r5,#0x0]
+00027cee  ldr r1,[0x00027f30]
+00027cf0  ldr r0,[r4,#0x0]
+00027cf2  ldr r3,[r3,#0x40]
+00027cf4  add r1,pc
+00027cf6  ldr r2,[r3,#0x6c]
+00027cf8  blx 0x00021a20
+00027cfc  ldr r3,[r5,#0x0]
+00027cfe  ldr r1,[0x00027f34]
+00027d00  ldr r0,[r4,#0x0]
+00027d02  ldr r3,[r3,#0x40]
+00027d04  add r1,pc
+00027d06  ldr r2,[r3,#0x70]
+00027d08  blx 0x00021a20
+00027d0c  ldr r1,[0x00027f38]
+00027d0e  ldr r0,[r4,#0x0]
+00027d10  add r1,pc
+00027d12  blx 0x00021a20
+00027d16  ldr r3,[r5,#0x0]
+00027d18  ldr r1,[0x00027f3c]
+00027d1a  ldr r0,[r4,#0x0]
+00027d1c  ldr r3,[r3,#0x40]
+00027d1e  add r1,pc
+00027d20  ldr r2,[r3,#0x68]
+00027d22  blx 0x00021a20
+00027d26  ldr r3,[r5,#0x0]
+00027d28  ldr r1,[0x00027f40]
+00027d2a  ldr r0,[r4,#0x0]
+00027d2c  ldr r3,[r3,#0x40]
+00027d2e  add r1,pc
+00027d30  ldr r2,[r3,#0x60]
+00027d32  blx 0x00021a20
+00027d36  ldr r3,[r5,#0x0]
+00027d38  ldr r1,[0x00027f44]
+00027d3a  ldr r0,[r4,#0x0]
+00027d3c  ldr r2,[r3,#0x4]
+00027d3e  add r1,pc
+00027d40  blx 0x00021a20
+00027d44  ldr r3,[r5,#0x0]
+00027d46  ldr r3,[r3,#0x4]
+00027d48  cbnz r3,0x00027d56
+00027d4a  ldr r1,[0x00027f48]
+00027d4c  ldr r0,[r4,#0x0]
+00027d4e  add r1,pc
+00027d50  blx 0x00021a20
+00027d54  b 0x00027dae
+00027d56  ldr r0,[r4,#0x0]
+00027d58  blx 0x00021ef8
+00027d5c  ldr r1,[0x00027f4c]
+00027d5e  ldr r0,[r4,#0x0]
+00027d60  add r1,pc
+00027d62  blx 0x00020d24
+00027d66  ldr r3,[r5,#0x0]
+00027d68  ldr r3,[r3,#0x4]
+00027d6a  tst r3,#0x2
+00027d6e  beq 0x00027d78
+00027d70  ldr r1,[0x00027f50]
+00027d72  ldr r0,[r4,#0x0]
+00027d74  add r1,pc
+00027d76  b 0x00027d7e
+00027d78  ldr r1,[0x00027f54]
+00027d7a  ldr r0,[r4,#0x0]
+00027d7c  add r1,pc
+00027d7e  blx 0x00020d24
+00027d82  ldr r0,[r4,#0x0]
+00027d84  blx 0x00021ef8
+00027d88  ldr r1,[0x00027f58]
+00027d8a  ldr r0,[r4,#0x0]
+00027d8c  add r1,pc
+00027d8e  blx 0x00020d24
+00027d92  ldr r3,[r5,#0x0]
+00027d94  ldr r3,[r3,#0x4]
+00027d96  tst r3,#0x1
+00027d9a  beq 0x00027da4
+00027d9c  ldr r1,[0x00027f5c]
+00027d9e  ldr r0,[r4,#0x0]
+00027da0  add r1,pc
+00027da2  b 0x00027daa
+00027da4  ldr r1,[0x00027f60]
+00027da6  ldr r0,[r4,#0x0]
+00027da8  add r1,pc
+00027daa  blx 0x00020d24
+00027dae  ldr r3,[r5,#0x0]
+00027db0  ldr r1,[0x00027f64]
+00027db2  ldr r0,[r4,#0x0]
+00027db4  ldr r2,[r3,#0x24]
+00027db6  add r1,pc
+00027db8  blx 0x00021a20
+00027dbc  ldr r3,[r5,#0x0]
+00027dbe  ldr r1,[0x00027f68]
+00027dc0  ldr r0,[r4,#0x0]
+00027dc2  ldr r2,[r3,#0x20]
+00027dc4  add r1,pc
+00027dc6  blx 0x00021a20
+00027dca  ldr r1,[0x00027f6c]
+00027dcc  ldr r0,[r4,#0x0]
+00027dce  add r1,pc
+00027dd0  blx 0x00021a20
+00027dd4  ldr r3,[r5,#0x0]
+00027dd6  ldr r1,[0x00027f70]
+00027dd8  ldr r0,[r4,#0x0]
+00027dda  ldr r2,[r3,#0x1c]
+00027ddc  add r1,pc
+00027dde  blx 0x00021a20
+00027de2  ldr r3,[r5,#0x0]
+00027de4  ldr r1,[0x00027f74]
+00027de6  ldr r0,[r4,#0x0]
+00027de8  add r1,pc
+00027dea  ldr r2,[r3,#0x18]
+00027dec  add.w r7,r7,#0xc
+00027df0  mov sp,r7
+00027df2  pop.w {r4,r5,r6,r7,r8,r9,r10,r11,lr}
+00027df6  b.w 0x00021a1c
+00027dfa  add.w r7,r7,#0xc
+00027dfe  mov sp,r7
+00027e00  pop.w {r4,r5,r6,r7,r8,r9,r10,r11,pc}
+DECOMPILED
+
+/* MprCtrl::PrintInfo(unsigned int) */
+
+void MprCtrl::PrintInfo(uint param_1)
+
+{
+  undefined4 uVar1;
+  uint uVar2;
+  int iVar3;
+  int iVar4;
+  undefined4 *puVar5;
+  int iVar6;
+  char *pcVar7;
+  int *piVar8;
+  int iVar9;
+  
+  iVar6 = DAT_00027e04 + 0x277f8;
+  puVar5 = *(undefined4 **)(iVar6 + DAT_00027e08);
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e0c + 0x27802);
+  if ((param_1 & 1) != 0) {
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e10 + 0x27818);
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e14 + 0x27824);
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027e1c + 0x27836,**(undefined4 **)(iVar6 + DAT_00027e18));
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e20 + 0x27844);
+    pcVar7 = (char *)*puVar5;
+    GetTvSystem();
+    uVar1 = CnvTvSystem();
+    MonCtrl::ConPrintfMessage(pcVar7,DAT_00027e24 + 0x2785a,uVar1);
+    MonCtrl::ConPutMessageHeader();
+    MonCtrl::ConPutStr((char *)*puVar5);
+    uVar2 = GetSupportContentTypes();
+    if ((uVar2 & 8) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    if ((uVar2 & 0x10) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    if ((uVar2 & 4) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    if ((uVar2 & 0x80) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    MonCtrl::ConPutStr((char *)*puVar5);
+    MonCtrl::ConPutCRLF();
+    MonCtrl::ConPutMessageHeader();
+    MonCtrl::ConPutStr((char *)*puVar5);
+    uVar2 = GetSupportMedia();
+    if ((uVar2 & 2) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    if ((uVar2 & 8) != 0) {
+      MonCtrl::ConPutStr((char *)*puVar5);
+    }
+    MonCtrl::ConPutStr((char *)*puVar5);
+    MonCtrl::ConPutCRLF();
+    iVar3 = IsGpsSupport();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e54 + 0x2793a;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e50 + 0x27930;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsMultiRecSupport();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e5c + 0x27956;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e58 + 0x2794c;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsCaptureIdTable();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e64 + 0x27972;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e60 + 0x27968;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = GetDualRecType();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e68 + 0x27984;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e6c + 0x2798e;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    pcVar7 = (char *)*puVar5;
+    uVar1 = GetDualRecCaptureCount();
+    MonCtrl::ConPrintfMessage(pcVar7,DAT_00027e70 + 0x279a0,uVar1);
+    iVar3 = IsDualRecOver18Mbps();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e78 + 0x279c0;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e74 + 0x279b6;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsDpofSupport();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e80 + 0x279dc;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e7c + 0x279d2;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsTcUbSupport();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e88 + 0x279f8;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e84 + 0x279ee;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsInternalFlashAviSupport();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e90 + 0x27a14;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027e8c + 0x27a0a;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+    iVar3 = IsSerialNumberRecSupport();
+    if (iVar3 == 0) {
+      MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e9c + 0x27a4a);
+    }
+    else {
+      MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027e94 + 0x27a26);
+      pcVar7 = (char *)*puVar5;
+      uVar1 = GetSerialNumber();
+      MonCtrl::ConPrintfMessage(pcVar7,DAT_00027e98 + 0x27a38,uVar1);
+    }
+    iVar3 = IsDvMode();
+    if (iVar3 == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027ea4 + 0x27a66;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar3 = DAT_00027ea0 + 0x27a5c;
+    }
+    MonCtrl::ConPrintfMessage(pcVar7,iVar3);
+  }
+  if ((param_1 & 2) != 0) {
+    iVar3 = 0;
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027ea8 + 0x27a7e);
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027eac + 0x27a8a);
+    do {
+      MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027eb0 + 0x27a98,iVar3);
+      piVar8 = *(int **)(iVar6 + DAT_00027eb4);
+      if (*(char *)(*piVar8 + iVar3 * 0x10) == '\0') {
+        pcVar7 = (char *)*puVar5;
+        iVar4 = DAT_00027ebc + 0x27ac4;
+      }
+      else {
+        pcVar7 = (char *)*puVar5;
+        iVar4 = DAT_00027eb8 + 0x27aba;
+      }
+      MonCtrl::ConPrintfMessage(pcVar7,iVar4);
+      iVar4 = iVar3 * 0x10;
+      iVar3 = iVar3 + 1;
+      MonCtrl::ConPrintfMessage
+                ((char *)*puVar5,DAT_00027ec0 + 0x27ad8,*(undefined4 *)(*piVar8 + iVar4 + 4));
+      MonCtrl::ConPrintfMessage
+                ((char *)*puVar5,DAT_00027ec4 + 0x27aee,*(undefined4 *)(*piVar8 + iVar4 + 8));
+      pcVar7 = (char *)*puVar5;
+      uVar1 = CnvDeviceType(*(undefined4 *)(*piVar8 + iVar4 + 0xc));
+      MonCtrl::ConPrintfMessage(pcVar7,DAT_00027ec8 + 0x27b0a,uVar1);
+    } while (iVar3 != 5);
+    iVar3 = 0;
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027ecc + 0x27b22);
+    do {
+      MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027ed0 + 0x27b2e,iVar3);
+      if (*(char *)(*piVar8 + iVar3 * 0x10 + 0x50) == '\0') {
+        pcVar7 = (char *)*puVar5;
+        iVar4 = DAT_00027ed8 + 0x27b4e;
+      }
+      else {
+        pcVar7 = (char *)*puVar5;
+        iVar4 = DAT_00027ed4 + 0x27b46;
+      }
+      MonCtrl::ConPrintfMessage(pcVar7,iVar4);
+      iVar9 = iVar3 * 0x10;
+      iVar4 = iVar3 * 0x10;
+      iVar3 = iVar3 + 1;
+      MonCtrl::ConPrintfMessage
+                ((char *)*puVar5,DAT_00027edc + 0x27b64,*(undefined4 *)(*piVar8 + iVar4 + 0x54));
+      MonCtrl::ConPrintfMessage
+                ((char *)*puVar5,DAT_00027ee0 + 0x27b7a,*(undefined4 *)(*piVar8 + iVar9 + 0x58));
+      pcVar7 = (char *)*puVar5;
+      uVar1 = CnvDeviceType(*(undefined4 *)(*piVar8 + iVar9 + 0x5c));
+      MonCtrl::ConPrintfMessage(pcVar7,DAT_00027ee4 + 0x27b94,uVar1);
+    } while (iVar3 != 2);
+  }
+  if ((param_1 & 4) != 0) {
+    MprCtrlStillMgr::PrintStillSize();
+  }
+  if ((param_1 & 8) != 0) {
+    MprCtrlStillMgr::PrintStillData((MprCtrlStillMgr *)**(undefined4 **)(iVar6 + DAT_00027ee8));
+  }
+  if ((param_1 & 0x10) != 0) {
+    MprCtrlStillMgr::PrintStillBackup((MprCtrlStillMgr *)**(undefined4 **)(iVar6 + DAT_00027ee8));
+  }
+  if ((param_1 & 0x20) != 0) {
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027eec + 0x27be2);
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027ef0 + 0x27bec);
+    iVar3 = 0;
+    do {
+      iVar4 = iVar3 + 1;
+      MonCtrl::ConPrintfMessage
+                ((char *)*puVar5,DAT_00027ef8 + 0x27bfc,iVar3,
+                 *(undefined4 *)(**(int **)(iVar6 + DAT_00027ef4) + iVar3 * 4));
+      iVar3 = iVar4;
+    } while (iVar4 != 4);
+  }
+  if ((param_1 & 0x40) == 0) {
+    return;
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027efc + 0x27c1e);
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f00 + 0x27c28);
+  piVar8 = *(int **)(iVar6 + DAT_00027f04);
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f08 + 0x27c36,**(undefined4 **)(*piVar8 + 0x40));
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f0c + 0x27c4a,*(undefined4 *)(*(int *)(*piVar8 + 0x40) + 4));
+  if (*(int *)(*(int *)(*piVar8 + 0x40) + 4) != 0) {
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f10 + 0x27c5e);
+  }
+  for (uVar2 = 0; uVar2 < *(uint *)(*(int *)(*piVar8 + 0x40) + 4); uVar2 = uVar2 + 1) {
+    iVar6 = uVar2 * 0x1c;
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f14 + 0x27c74,
+               *(undefined4 *)(*(int *)(*piVar8 + 0x40) + iVar6 + 0x10));
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f18 + 0x27c8a,
+               *(undefined4 *)(*(int *)(*piVar8 + 0x40) + iVar6 + 8));
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f1c + 0x27c9c,
+               *(undefined4 *)(*(int *)(*piVar8 + 0x40) + iVar6 + 0xc));
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f20 + 0x27cae,
+               (uint)*(ushort *)(*(int *)(*piVar8 + 0x40) + iVar6 + 0x18));
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f24 + 0x27cc0,
+               *(undefined4 *)(*(int *)(*piVar8 + 0x40) + iVar6 + 0x14));
+    MonCtrl::ConPrintfMessage
+              ((char *)*puVar5,DAT_00027f28 + 0x27cd2,
+               *(undefined4 *)(*(int *)(*piVar8 + 0x40) + iVar6 + 0x1c));
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f2c + 0x27cea);
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f30 + 0x27cf8,*(undefined4 *)(*(int *)(*piVar8 + 0x40) + 0x6c)
+            );
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f34 + 0x27d08,*(undefined4 *)(*(int *)(*piVar8 + 0x40) + 0x70)
+            );
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f38 + 0x27d14);
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f3c + 0x27d22,*(undefined4 *)(*(int *)(*piVar8 + 0x40) + 0x68)
+            );
+  MonCtrl::ConPrintfMessage
+            ((char *)*puVar5,DAT_00027f40 + 0x27d32,*(undefined4 *)(*(int *)(*piVar8 + 0x40) + 0x60)
+            );
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f44 + 0x27d42,*(undefined4 *)(*piVar8 + 4));
+  if (*(int *)(*piVar8 + 4) == 0) {
+    MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f48 + 0x27d52);
+  }
+  else {
+    MonCtrl::ConPutMessageHeader();
+    MonCtrl::ConPrintf((char *)*puVar5,DAT_00027f4c + 0x27d64);
+    if ((*(uint *)(*piVar8 + 4) & 2) == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar6 = DAT_00027f54 + 0x27d80;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar6 = DAT_00027f50 + 0x27d78;
+    }
+    MonCtrl::ConPrintf(pcVar7,iVar6);
+    MonCtrl::ConPutMessageHeader();
+    MonCtrl::ConPrintf((char *)*puVar5,DAT_00027f58 + 0x27d90);
+    if ((*(uint *)(*piVar8 + 4) & 1) == 0) {
+      pcVar7 = (char *)*puVar5;
+      iVar6 = DAT_00027f60 + 0x27dac;
+    }
+    else {
+      pcVar7 = (char *)*puVar5;
+      iVar6 = DAT_00027f5c + 0x27da4;
+    }
+    MonCtrl::ConPrintf(pcVar7,iVar6);
+  }
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f64 + 0x27dba,*(undefined4 *)(*piVar8 + 0x24));
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f68 + 0x27dc8,*(undefined4 *)(*piVar8 + 0x20));
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f6c + 0x27dd2);
+  MonCtrl::ConPrintfMessage((char *)*puVar5,DAT_00027f70 + 0x27de0,*(undefined4 *)(*piVar8 + 0x1c));
+  (*(code *)PTR_ConPrintfMessage_000528d0)
+            (*puVar5,DAT_00027f74 + 0x27dec,*(undefined4 *)(*piVar8 + 0x18));
+  return;
+}
+
+
+

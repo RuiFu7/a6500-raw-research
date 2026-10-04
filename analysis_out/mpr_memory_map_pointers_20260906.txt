@@ -1,0 +1,20 @@
+RANGE 006c4ff0-006c5030
+DATA 006c5000  addr 00a31c19
+DATA 006c5004  addr 00c28f50
+DATA 006c5008  addr 00a8f9d5
+DATA 006c500c  addr 00a31c3e
+DATA 006c5010  addr 00b6e8bc
+DATA 006c5014  addr 00a31c4d
+DATA 006c5018  addr 00b6e684
+DATA 006c501c  addr 00c28ff8
+DATA 006c5020  addr 00a31c5c
+DATA 006c5024  addr 00a31c79
+DATA 006c5028  addr 00a31c8c
+DATA 006c502c  addr 00a31c9b
+006c4ff0  ldr r1,[0x006c502c]
+006c4ff2  bl 0x007686b0
+006c4ff6  ldr r0,[0x006c5004]
+006c4ff8  bl 0x0076858c
+006c4ffc  movs r0,#0x1
+006c4ffe  pop {r3,r4,r7,pc}
+006c5030  push {r7,lr}

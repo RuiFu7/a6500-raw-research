@@ -1,0 +1,540 @@
+STORE 000215c8 str.w r3,[r0,#0x1f0] function=FUN_00021594
+  PREV cmp.w r2,#0x1e0
+  PREV str r3,[r1,#0x4]
+  PREV str r3,[r1,#0x8]
+  PREV str r3,[r1,#0xc]
+  PREV bne 0x000215aa
+  PREV str.w r3,[r0,#0x1e4]
+  PREV str.w r3,[r0,#0x1e8]
+  PREV str.w r3,[r0,#0x1ec]
+
+STORE 0007c04c str.w r3,[r4,#0x1f0] function=FUN_0007c030
+  PREV ldr r0,[0x0007c064]
+  PREV add r5,pc
+  PREV ldr r0,[r5,r0]
+  PREV str.w r3,[r4,#0x1ec]
+  PREV ldr r3,[sp,#0x10]
+  PREV adds r0,#0x8
+  PREV stm r4,{r0,r1,r2}
+  PREV add.w r0,r4,#0xc
+
+STORE 0007ec66 str.w r5,[r4,#0x1f0] function=FUN_0007eb04
+  PREV movs r2,#0x28
+  PREV blx 0x00414274
+  PREV str.w r5,[r4,#0x1dc]
+  PREV str.w r5,[r4,#0x1e0]
+  PREV mov r0,r4
+  PREV str.w r5,[r4,#0x1e4]
+  PREV str.w r5,[r4,#0x1e8]
+  PREV str.w r5,[r4,#0x1ec]
+
+STORE 0008d27c strh.w r3,[sp,#0x1f0] function=FUN_0008d1f8
+  PREV bl 0x00071ae4
+  PREV cmp r0,#0x0
+  PREV bne 0x0008d2f0
+  PREV mov r0,sp
+  PREV add r1,sp,#0x110
+  PREV movs r2,#0x70
+  PREV bl 0x00071074
+  PREV ldrh.w r3,[sp,#0x110]
+
+STORE 0014abb2 str.w lr,[r4,#0x1f0] function=FUN_0014aae0
+  PREV ldr.w r12,[r4,#0x1cc]
+  PREV adds r3,r3,r1
+  PREV str.w r2,[r4,#0x1d4]
+  PREV add.w r3,r3,#0x1000
+  PREV str.w lr,[r4,#0x1d8]
+  PREV str.w r1,[r4,#0x1e4]
+  PREV str.w r12,[r4,#0x1e8]
+  PREV str.w r2,[r4,#0x1ec]
+
+STORE 0014c16a str.w r10,[r4,#0x1f0] function=FUN_0014c068
+  PREV ldrh.w r8,[r4,#0x21a]
+  PREV ldrh.w r12,[r4,#0x21c]
+  PREV ldrh.w lr,[r4,#0x21e]
+  PREV ldrh.w r7,[r4,#0x220]
+  PREV ldrh.w r6,[r4,#0x222]
+  PREV ldrh.w r0,[r4,#0x224]
+  PREV ldrh.w r1,[r4,#0x226]
+  PREV ldrb.w r2,[r4,#0x228]
+
+STORE 001fa4f8 strb.w r3,[r0,#0x1f0] function=FUN_001fa444
+  PREV ldr r3,[0x001fa534]
+  PREV add r3,pc
+  PREV ldrb r3,[r3,#0x0]
+  PREV strb.w r3,[r0,#0x1ee]
+  PREV bl 0x001f626c
+  PREV ldr r3,[0x001fa538]
+  PREV add r3,pc
+  PREV ldrb r3,[r3,#0x0]
+
+STORE 001fa6da strb.w r3,[r0,#0x1f0] function=FUN_001fa630
+  PREV ldr r3,[0x001fa71c]
+  PREV add r3,pc
+  PREV ldrb r3,[r3,#0x0]
+  PREV strb.w r3,[r0,#0x1ee]
+  PREV bl 0x001f626c
+  PREV ldr r3,[0x001fa720]
+  PREV add r3,pc
+  PREV ldrb r3,[r3,#0x0]
+
+STORE 00219310 str.w r3,[r0,#0x1f0] function=FUN_002191bc
+  PREV ldr.w r2,[r11,#0x0]
+  PREV str.w r2,[r0,#0x1f4]
+  PREV bl 0x0024f534
+  PREV ldr r2,[r7,#0x0]
+  PREV str.w r2,[r0,#0x1fc]
+  PREV bl 0x0024f534
+  PREV ldr r3,[sp,#0x0]
+  PREV ldr r3,[r3,#0x4]
+
+STORE 00280958 str.w r2,[r4,#0x1f0] function=FUN_002808e0
+  PREV strb.w r1,[r4,#0x804]
+  PREV ldrb.w r1,[r5,#0x6f5]
+  PREV add r3,pc
+  PREV ldr r0,[r3,#0x24]
+  PREV strb.w r1,[r4,#0x805]
+  PREV ldr r1,[r3,#0x20]
+  PREV ldr r2,[r3,#0x4]
+  PREV cmp r0,r1
+
+STORE 0030a182 strb.w r2,[r3,#0x1f0] function=FUN_0030a0d0
+  PREV strb.w r2,[r3,#0x1ec]
+  PREV strb.w r1,[r3,#0x1ed]
+  PREV lsrs r2,r2,#0x18
+  PREV movs r1,#0x0
+  PREV strb.w r2,[r3,#0x1ef]
+  PREV strb.w r1,[r3,#0x1ee]
+  PREV ldrh r2,[r4,#0xc]
+  PREV lsrs r1,r2,#0x8
+
+STORE 00364716 str.w r3,[r6,#0x1f0] function=FUN_003646a4
+  PREV adds r2,#0x78
+  PREV ldr.w r3,[r6,r3,lsl #0x2]
+  PREV str.w r3,[r6,r2,lsl #0x2]
+  PREV add r2,sp,#0x8
+  PREV ldr r3,[r4,#0x34]
+  PREV str.w r3,[r6,#0x1dc]
+  PREV str.w r3,[r6,#0x1d8]
+  PREV str.w r3,[r6,#0x1f4]
+
+STORE 003959f2 str.w r8,[r4,#0x1f0] function=FUN_00395964
+  PREV ldr r3,[0x00395a94]
+  PREV ldrh r2,[r5,#0x2]
+  PREV ldr r3,[r7,r3]
+  PREV mla r12,r12,r2,r3
+  PREV ldm.w r12!,{r0,r1,r2,r3}
+  PREV stm.w lr!,{r0,r1,r2,r3}
+  PREV movs r3,#0x3
+  PREV ldm.w r12,{r0,r1,r2}
+
+STORE 00395b2c str.w r8,[r4,#0x1f0] function=FUN_00395aa0
+  PREV ldr r3,[0x00395bd4]
+  PREV ldrh r2,[r5,#0x2]
+  PREV ldr r3,[r7,r3]
+  PREV mla r12,r12,r2,r3
+  PREV ldm.w r12!,{r0,r1,r2,r3}
+  PREV stm.w lr!,{r0,r1,r2,r3}
+  PREV movs r3,#0x2
+  PREV ldm.w r12,{r0,r1,r2}
+
+STORE 00395e74 str.w r9,[r4,#0x1f0] function=FUN_00395d84
+  PREV ldr r2,[0x00395f24]
+  PREV ldr r3,[r5,#0x5c]
+  PREV cmp r3,r2
+  PREV beq 0x00395e7a
+  PREV cmp.w r3,#0x20002
+  PREV beq 0x00395e7a
+  PREV cmp.w r3,#0x20000
+  PREV bne 0x00395e7e
+
+STORE 00395e7a str.w r12,[r4,#0x1f0] function=FUN_00395d84
+  PREV cmp r3,r2
+  PREV beq 0x00395e7a
+  PREV cmp.w r3,#0x20002
+  PREV beq 0x00395e7a
+  PREV cmp.w r3,#0x20000
+  PREV bne 0x00395e7e
+  PREV str.w r9,[r4,#0x1f0]
+  PREV b 0x00395e7e
+
+STORE 004224b4 str.w r5,[r3,#0x1f0] function=FUN_0042236c
+  PREV add r3,sp,#0x8
+  PREV strh.w r10,[sp,#0xc]
+  PREV strh.w r9,[sp,#0xe]
+  PREV str r7,[sp,#0x10]
+  PREV ldmia r3,{r1,r2,r3}
+  PREV bl 0x004221dc
+  PREV mov r5,r0
+  PREV ldr r3,[r4,#0x8]
+
+STORE 004225a2 str.w r0,[r3,#0x1f0] function=FUN_004224d4
+  PREV uxth r1,r0
+  PREV b 0x00422592
+  PREV movw r1,#0xffff
+  PREV strh.w r1,[sp,#0x10]
+  PREV strh.w r5,[sp,#0x12]
+  PREV ldr r0,[sp,#0x10]
+  PREV bl 0x000148f8
+  PREV ldr r3,[r4,#0x8]
+
+STORE 0043132a strb.w r3,[r4,#0x1f0] function=FUN_00431174
+  PREV add.w r3,r3,#0x1780
+  PREV ldrb.w r3,[r3,#0x28]
+  PREV strb.w r3,[r4,#0x1ec]
+  PREV ldr r3,[r5,#0xc]
+  PREV add.w r3,r3,#0x1780
+  PREV ldrh r0,[r3,#0x2a]
+  PREV strh.w r0,[r4,#0x1ee]
+  PREV ldrb.w r3,[r3,#0x2c]
+
+STORE 00434720 strh.w r0,[r5,#0x1f0] function=
+  PREV ldrh.w r8,[r4,#0x10a]
+  PREV ldrh.w r3,[r4,#0x10e]
+  PREV mov r0,r7
+  PREV mov r2,r8
+  PREV ldrh.w r1,[r4,#0x10c]
+  PREV bl 0x00434698
+  PREV mov r1,r8
+  PREV mov r2,r0
+
+STORE 0045d784 str.w r2,[r0,#0x1f0] function=FUN_0045d6b4
+  PREV str.w r2,[r0,#0x1e0]
+  PREV ldr r2,[r3,#0x78]
+  PREV str.w r2,[r0,#0x1e4]
+  PREV ldr r2,[r3,#0x7c]
+  PREV str.w r2,[r0,#0x1e8]
+  PREV ldr.w r2,[r3,#0x80]
+  PREV str.w r2,[r0,#0x1ec]
+  PREV ldr.w r2,[r3,#0x84]
+
+STORE 0048eb88 strb.w r3,[r4,#0x1f0] function=FUN_0048e1e8
+  PREV strb.w r3,[r4,#0x1ec]
+  PREV ldrb.w r3,[r1,#0x2e]
+  PREV strb.w r3,[r4,#0x1ed]
+  PREV ldrb.w r3,[r1,#0x2f]
+  PREV strb.w r3,[r4,#0x1ee]
+  PREV ldrb r3,[r1,#0xc]
+  PREV strb.w r3,[r4,#0x1ef]
+  PREV ldrb r3,[r1,#0xd]
+
+STORE 00490ede str.w r3,[r4,#0x1f0] function=FUN_00490b58
+  PREV mov r0,r9
+  PREV str r3,[sp,#0x0]
+  PREV mov r3,r11
+  PREV bl 0x007225f6
+  PREV ldr.w r3,[r4,#0x1e4]
+  PREV uxtb r0,r0
+  PREV muls r3,r0
+  PREV lsrs r3,r3,#0x8
+
+STORE 004a891e strh.w r3,[r5,#0x1f0] function=FUN_004a87ec
+  PREV cmp r2,#0x1
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x1a
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x21
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x13
+  PREV bne 0x004a8924
+
+STORE 004a8924 strh.w r1,[r5,#0x1f0] function=FUN_004a87ec
+  PREV cmp r2,#0x1a
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x21
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x13
+  PREV bne 0x004a8924
+  PREV strh.w r3,[r5,#0x1f0]
+  PREV b 0x004a8928
+
+STORE 004a892c strh.w r2,[r5,#0x1f0] function=FUN_004a87ec
+  PREV beq 0x004a891e
+  PREV cmp r2,#0x13
+  PREV bne 0x004a8924
+  PREV strh.w r3,[r5,#0x1f0]
+  PREV b 0x004a8928
+  PREV strh.w r1,[r5,#0x1f0]
+  PREV mov r2,r3
+  PREV b 0x004a8930
+
+STORE 004a8948 strh.w r3,[r5,#0x1f0] function=FUN_004a87ec
+  PREV strh r3,[r1,#0x0]
+  PREV ldr r1,[sp,#0x14]
+  PREV cmp r1,#0x1
+  PREV bne 0x004a894e
+  PREV ldrb.w r3,[r7,#0x9f]
+  PREV tst r3,#0x4
+  PREV beq 0x004a894e
+  PREV movs r3,#0x0
+
+STORE 004a895c strh.w r1,[r5,#0x1f0] function=FUN_004a87ec
+  PREV strh.w r3,[r5,#0x1f0]
+  PREV b 0x004a8960
+  PREV ldr r0,[sp,#0xc]
+  PREV ldr.w r3,[r0,#0x2f8]
+  PREV subs r3,#0x1
+  PREV cmp r3,#0x2
+  PREV bhi 0x004a8960
+  PREV movs r1,#0x0
+
+STORE 004a896c strh.w r3,[r5,#0x1f0] function=FUN_004a87ec
+  PREV cmp r3,#0x2
+  PREV bhi 0x004a8960
+  PREV movs r1,#0x0
+  PREV strh.w r1,[r5,#0x1f0]
+  PREV ldrsh.w r3,[r5,#0x1f0]
+  PREV cmp.w r3,#0xffffffff
+  PREV bne 0x004a8970
+  PREV movs r3,#0x0
+
+STORE 004a897e strh.w r0,[r5,#0x1f0] function=FUN_004a87ec
+  PREV bne 0x004a8970
+  PREV movs r3,#0x0
+  PREV strh.w r3,[r5,#0x1f0]
+  PREV ldr r3,[0x004a89f4]
+  PREV ldr.w r3,[r8,r3]
+  PREV ldrb.w r3,[r3,#0xf5]
+  PREV cbz r3,0x004a8982
+  PREV movs r0,#0x0
+
+STORE 004b50b2 strb.w r0,[r4,#0x1f0] function=FUN_004b4d20
+  PREV mov.w r10,#0x0
+  PREV ldrb.w r1,[r4,#0x1cc]
+  PREV strb.w r10,[r4,#0x156]
+  PREV strb.w r10,[r4,#0x157]
+  PREV strb.w r10,[r4,#0x158]
+  PREV strb.w r10,[r4,#0x159]
+  PREV strh.w r10,[r4,#0x15a]
+  PREV strh.w r10,[r4,#0x18a]
+
+STORE 004dcc64 strb.w r7,[r4,#0x1f0] function=FUN_004dcad4
+  PREV mov r2,r1
+  PREV strb r2,[r4,#0x0]
+  PREV ldr r1,[sp,#0x1c]
+  PREV cmp r2,r1
+  PREV bcc 0x004dcc64
+  PREV movs r2,#0x0
+  PREV strb r2,[r4,#0x0]
+  PREV ldr r7,[sp,#0x20]
+
+STORE 004de94e strh.w r3,[r4,#0x1f0] function=FUN_004dd888
+  PREV movs r3,#0x0
+  PREV strb.w r3,[r2,#0x3f]
+  PREV ldr.w r1,[r6,#0x3f4]
+  PREV cbz r1,0x004de960
+  PREV strh.w r3,[r4,#0x1e2]
+  PREV strh.w r3,[r4,#0x1e4]
+  PREV strh.w r3,[r4,#0x1ea]
+  PREV strh.w r3,[r4,#0x1ec]
+
+STORE 004de97e strh.w r3,[r4,#0x1f0] function=FUN_004dd888
+  PREV cmp r3,#0x2
+  PREV bne 0x004de98a
+  PREV ldrb.w r3,[r6,#0x5e2]
+  PREV cbnz r3,0x004de98a
+  PREV strh.w r3,[r4,#0x1e2]
+  PREV strh.w r3,[r4,#0x1e4]
+  PREV strh.w r3,[r4,#0x1ea]
+  PREV strh.w r3,[r4,#0x1ec]
+
+STORE 004de9d8 strh.w r0,[r4,#0x1f0] function=FUN_004dd888
+  PREV cmp r2,#0x1
+  PREV bne 0x004de9ee
+  PREV movs r0,#0x0
+  PREV strh.w r0,[r4,#0x1e2]
+  PREV strh.w r0,[r4,#0x1e4]
+  PREV strh.w r0,[r4,#0x1ea]
+  PREV strh.w r0,[r4,#0x1ec]
+  PREV strh.w r0,[r4,#0x1ee]
+
+STORE 0050527c str.w r5,[r4,#0x1f0] function=FUN_00505144
+  PREV strb.w r5,[r4,#0x1d6]
+  PREV str.w r5,[r4,#0x1d8]
+  PREV strb.w r5,[r4,#0x1e0]
+  PREV strb.w r5,[r4,#0x1e1]
+  PREV strb.w r5,[r4,#0x1e2]
+  PREV str.w r5,[r4,#0x1e4]
+  PREV str.w r5,[r4,#0x1e8]
+  PREV str.w r5,[r4,#0x1ec]
+
+STORE 0051c564 strh.w r0,[r5,#0x1f0] function=FUN_0051c0f8
+  PREV movs r2,#0x3
+  PREV strh.w r1,[r5,#0x208]
+  PREV strh.w r3,[r5,#0x206]
+  PREV strh.w r2,[r5,#0x1ec]
+  PREV strb.w r0,[r5,#0x1eb]
+  PREV bl 0x00228d6c
+  PREV strh.w r0,[r5,#0x1ee]
+  PREV bl 0x00228d7c
+
+STORE 0051c5ac strh.w r1,[r5,#0x1f0] function=FUN_0051c0f8
+  PREV bl 0x00228d4c
+  PREV strb.w r0,[r5,#0x1ea]
+  PREV bl 0x00228d5c
+  PREV ldrb.w r3,[r5,#0x1ea]
+  PREV movs r1,#0x0
+  PREV strh.w r1,[r5,#0x1ec]
+  PREV strh.w r1,[r5,#0x1ee]
+  PREV strh.w r3,[r5,#0x206]
+
+STORE 0056a904 strh.w r4,[r5,#0x1f0] function=FUN_0056a830
+  PREV movw r3,#0xffff
+  PREV cmp r2,r3
+  PREV bne 0x0056a976
+  PREV ldrh.w r3,[r0,#0x160]
+  PREV cmp r3,r4
+  PREV bne 0x0056a92e
+  PREV bl 0x00461c00
+  PREV ldr r3,[r0,#0x10]
+
+STORE 0056a938 strh.w r4,[r0,#0x1f0] function=FUN_0056a830
+  PREV bl 0x0056bf60
+  PREV mov r0,r4
+  PREV pop.w {r4,r5,r6,r7,r8,lr}
+  PREV b.w 0x0056be24
+  PREV subs r6,#0x1
+  PREV cmp r6,r7
+  PREV bge 0x0056a8e0
+  PREV pop.w {r4,r5,r6,r7,r8,pc}
+
+STORE 0056b944 strh.w r0,[r4,#0x1f0] function=FUN_0056b2e4
+  PREV strh.w r1,[r10,#0x1a0]
+  PREV add.w r10,r10,#0x2
+  PREV cmp r11,r9
+  PREV blt 0x0056b87e
+  PREV ldr r4,[sp,#0x0]
+  PREV movs r5,#0x0
+  PREV mov.w r0,#0xffffffff
+  PREV str.w r5,[r4,#0x1ec]
+
+STORE 005ce6f8 strb.w r3,[r4,#0x1f0] function=FUN_005ce6ac
+  PREV ldr.w r3,[r5,#0x98]
+  PREV cbz r3,0x005ce6f6
+  PREV mov r0,r4
+  PREV ldr r1,[r5,#0x34]
+  PREV add.w r2,r4,#0xfc
+  PREV bl 0x005ce652
+  PREV b 0x005ce6fc
+  PREV movs r3,#0x0
+
+STORE 005f89e6 str.w r3,[r8,#0x1f0] function=FUN_005f8934
+  PREV movw r3,#0x2a30
+  PREV blx r7
+  PREV mov r0,r5
+  PREV mov r1,r4
+  PREV movw r2,#0x701
+  PREV bl 0x005f7338
+  PREV movs r3,#0x1
+  PREV mov r0,r9
+
+STORE 0060def0 strb.w r3,[r2,#0x1f0] function=
+  PREV ldrb r3,[r1,#0x0]
+  PREV orr.w r3,r3,r4, lsl #0x8
+  PREV ldrb r4,[r1,#0x2]
+  PREV orr.w r3,r3,r4, lsl #0x10
+  PREV ldrb r4,[r1,#0x3]
+  PREV orr.w r3,r3,r4, lsl #0x18
+  PREV str.w r3,[r2,#0x1f4]
+  PREV movs r3,#0x1
+
+STORE 0062868a str.w r5,[r4,#0x1f0] function=FUN_00628656
+  PREV add.w r7,r4,#0x1f8
+  PREV movs r1,#0x0
+  PREV mov.w r2,#0x160
+  PREV add.w r0,r4,#0x90
+  PREV blx 0x00414274
+  PREV add.w r8,r4,#0x204
+  PREV movs r2,#0xc
+  PREV mov r1,r5
+
+STORE 00681c44 str r3,[sp,#0x1f0] function=FUN_00681a22
+  PREV str r3,[sp,#0x1e0]
+  PREV ldrh.w r3,[r0,#0xa6]
+  PREV str r3,[sp,#0x1e4]
+  PREV ldrh.w r3,[r0,#0xa8]
+  PREV str r3,[sp,#0x1e8]
+  PREV ldrh.w r3,[r0,#0xaa]
+  PREV str r3,[sp,#0x1ec]
+  PREV ldrh.w r3,[r0,#0xac]
+
+STORE 006a0cf8 strh.w r3,[r4,#0x1f0] function=FUN_006a0684
+  PREV strb.w r3,[r4,#0x1ea]
+  PREV ldrb.w r3,[r5,#0x1eb]
+  PREV strb.w r3,[r4,#0x1eb]
+  PREV ldrh.w r3,[r5,#0x1ec]
+  PREV strh.w r3,[r4,#0x1ec]
+  PREV ldrh.w r3,[r5,#0x1ee]
+  PREV strh.w r3,[r4,#0x1ee]
+  PREV ldrh.w r3,[r5,#0x1f0]
+
+STORE 006c04a8 str r4,[sp,#0x1f0] function=FUN_006c046a
+  PREV ldr r3,[r1,#0x54]
+  PREV add.w r10,sp,#0x220
+  PREV str r4,[sp,#0x1e4]
+  PREV str r4,[sp,#0x1e8]
+  PREV str r3,[sp,#0x1d8]
+  PREV add.w r3,r1,#0x16c0
+  PREV str r4,[sp,#0x1ec]
+  PREV ldrh r3,[r3,#0x10]
+
+STORE 006cb822 str.w r3,[r4,#0x1f0] function=FUN_006cb7b6
+  PREV mov r0,r5
+  PREV bl 0x006cb7a8
+  PREV add.w r3,r5,#0xc800
+  PREV add.w r5,r5,#0x1280
+  PREV ldr.w r3,[r3,#0xb4]
+  PREV ldr.w r3,[r3,#0x8c]
+  PREV strb.w r3,[r4,#0x3f]
+  PREV ldr r3,[r5,#0x4]
+
+STORE 00725160 str.w r3,[r0,#0x1f0] function=FUN_00725156
+  PREV str r5,[r0,#0x40]
+  PREV str r4,[r0,#0x44]
+  PREV str r2,[r0,#0x48]
+  PREV pop {r4,r5,r6,pc}
+  PREV push {r4,r5,r6,lr}
+  PREV cbnz r2,0x0072516c
+  PREV ldr.w r3,[r0,#0x270]
+  PREV adds r2,#0x1
+
+STORE 00725186 str.w r5,[r0,#0x1f0] function=FUN_00725156
+  PREV movs r4,#0x0
+  PREV b 0x007251d6
+  PREV mov r1,r0
+  PREV mov r4,r0
+  PREV movs r3,#0x0
+  PREV b 0x0072518a
+  PREV ldr.w r5,[r4,#0x26c]
+  PREV adds r3,#0x1
+
+STORE 007251a8 str.w r3,[r1,#0x1f0] function=FUN_00725156
+  PREV add.w r5,r2,#0x9c
+  PREV movs r4,#0x1
+  PREV add.w r5,r0,r5, lsl #0x2
+  PREV b 0x007251ac
+  PREV ldr.w r6,[r1,#0x1f0]
+  PREV adds r4,#0x1
+  PREV ldr.w r3,[r5,#0x4]!
+  PREV adds r3,r6,r3
+
+STORE 007251ec str.w r5,[r4,#0x1f0] function=FUN_00725156
+  PREV cmp r4,r2
+  PREV mov r1,r2
+  PREV blt 0x007251ce
+  PREV b 0x007251f0
+  PREV ldr.w r5,[r3,#0x270]
+  PREV add.w r4,r3,r2, lsl #0x2
+  PREV adds r1,#0x1
+  PREV adds r3,#0x4
+
+STORE 0074c7aa str.w r0,[r4,#0x1f0] function=FUN_0074c68a
+  PREV str.w r0,[r4,#0x18c]
+  PREV bl 0x005c6cb8
+  PREV str.w r0,[r4,#0x19c]
+  PREV bl 0x005c6cc4
+  PREV str.w r0,[r4,#0x1a0]
+  PREV bl 0x005c6cd0
+  PREV str.w r0,[r4,#0x1f4]
+  PREV bl 0x005c6cdc
+

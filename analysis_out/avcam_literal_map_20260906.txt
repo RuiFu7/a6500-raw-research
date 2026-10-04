@@ -1,0 +1,60 @@
+=== 0x1dce70 0x1dcf70 ===
+001dce7c ldr r4, [pc, #0xc]                 PC_LIT=0x001dce8c val=0x00b58056
+001dce86 ldr r3, [pc, #8]                   PC_LIT=0x001dce90 val=0x00006728
+001dce94 ldr r2, [pc, #0x14]                PC_LIT=0x001dceac val=0x005b2d6c
+001dcf14 ldr r0, [pc, #0x4c]                PC_LIT=0x001dcf64 val=0x00946182
+001dcf1a ldr r0, [pc, #0x4c]                PC_LIT=0x001dcf68 val=0x00946064
+001dcf20 ldr r0, [pc, #0x48]                PC_LIT=0x001dcf6c val=0x00946192
+001dcf26 ldr r0, [pc, #0x48]                PC_LIT=0x001dcf70 val=0x009460e4
+001dcf2c ldr r0, [pc, #0x44]                PC_LIT=0x001dcf74 val=0x009460a6
+001dcf32 ldr r0, [pc, #0x44]                PC_LIT=0x001dcf78 val=0x009460f4
+001dcf38 ldr r0, [pc, #0x40]                PC_LIT=0x001dcf7c val=0x0094610a
+001dcf3e ldr r0, [pc, #0x40]                PC_LIT=0x001dcf80 val=0x00946078
+001dcf44 ldr r0, [pc, #0x3c]                PC_LIT=0x001dcf84 val=0x009460aa
+001dcf4a ldr r0, [pc, #0x3c]                PC_LIT=0x001dcf88 val=0x00946184
+001dcf50 ldr r0, [pc, #0x38]                PC_LIT=0x001dcf8c val=0x0094612a
+001dcf56 ldr r0, [pc, #0x38]                PC_LIT=0x001dcf90 val=0x00946108
+001dcf5c ldr r0, [pc, #0x34]                PC_LIT=0x001dcf94 val=0x0094603e
+=== 0x1dd460 0x1dd680 ===
+001dd47a ldr.w r8, [pc, #0x1e8]               PC_LIT=0x001dd664 val=0x00b57a56
+001dd484 ldr r0, [pc, #0x1e0]               PC_LIT=0x001dd668 val=0x006c9e84
+001dd512 ldr r2, [pc, #0x158]               PC_LIT=0x001dd66c val=0x00008818
+001dd570 ldr r3, [pc, #0xfc]                PC_LIT=0x001dd670 val=0x00004598
+001dd596 ldr r3, [pc, #0xdc]                PC_LIT=0x001dd674 val=0x00009298
+=== 0x1dd204 0x1dd238 ===
+001dd206 ldr r4, [pc, #0x28]                PC_LIT=0x001dd230 val=0x00b57cc8
+001dd210 ldr r1, [pc, #0x20]                PC_LIT=0x001dd234 val=0x00006728
+=== 0x1deb5c 0x1dee00 ===
+001deb66 ldr r4, [pc, #0x284]               PC_LIT=0x001dedec val=0x00b56368
+001deb7e ldr r3, [pc, #0x270]               PC_LIT=0x001dedf0 val=0x000007a0
+001debcc ldr r3, [pc, #0x224]               PC_LIT=0x001dedf4 val=0x000095c4
+001debe0 ldr r3, [pc, #0x214]               PC_LIT=0x001dedf8 val=0x0000945c
+001debfe ldr r3, [pc, #0x1fc]               PC_LIT=0x001dedfc val=0x00004fdc
+001dec00 ldr r2, [pc, #0x1fc]               PC_LIT=0x001dee00 val=0x000074c0
+001dec16 ldr r3, [pc, #0x1e4]               PC_LIT=0x001dedfc val=0x00004fdc
+001dec18 ldr r2, [pc, #0x1e8]               PC_LIT=0x001dee04 val=0x0000a034
+001dec2e ldr r3, [pc, #0x1cc]               PC_LIT=0x001dedfc val=0x00004fdc
+001dec30 ldr r2, [pc, #0x1d4]               PC_LIT=0x001dee08 val=0x0000430c
+001dec46 ldr r3, [pc, #0x1b4]               PC_LIT=0x001dedfc val=0x00004fdc
+001dec48 ldr r2, [pc, #0x1c0]               PC_LIT=0x001dee0c val=0x00004ef4
+001dec54 ldr r3, [pc, #0x1b8]               PC_LIT=0x001dee10 val=0x0000542c
+001dec66 ldr r3, [pc, #0x1ac]               PC_LIT=0x001dee14 val=0x00004d54
+001dec68 ldr r2, [pc, #0x194]               PC_LIT=0x001dee00 val=0x000074c0
+001dec7e ldr r3, [pc, #0x194]               PC_LIT=0x001dee14 val=0x00004d54
+001dec80 ldr r2, [pc, #0x180]               PC_LIT=0x001dee04 val=0x0000a034
+001dec96 ldr r3, [pc, #0x180]               PC_LIT=0x001dee18 val=0x00006fe0
+001decae ldr r3, [pc, #0x16c]               PC_LIT=0x001dee1c val=0x00007350
+001decc6 ldr r3, [pc, #0x158]               PC_LIT=0x001dee20 val=0x000087f0
+001decde ldr r3, [pc, #0x144]               PC_LIT=0x001dee24 val=0x00009e40
+001decf6 ldr r3, [pc, #0x108]               PC_LIT=0x001dee00 val=0x000074c0
+001ded04 ldr r3, [pc, #0xfc]                PC_LIT=0x001dee04 val=0x0000a034
+001ded1e ldr r3, [pc, #0x108]               PC_LIT=0x001dee28 val=0x00004598
+001ded48 ldr r3, [pc, #0xb4]                PC_LIT=0x001dee00 val=0x000074c0
+001ded5c ldr r3, [pc, #0xa4]                PC_LIT=0x001dee04 val=0x0000a034
+001deda8 ldr r3, [pc, #0x80]                PC_LIT=0x001dee2c val=0x0000593c
+001dedbc ldr r3, [pc, #0x70]                PC_LIT=0x001dee30 val=0x000079e0
+001dedd0 ldr r3, [pc, #0x60]                PC_LIT=0x001dee34 val=0x000030b8
+001dedfc ldr r7, [pc, #0x370]               PC_LIT=0x001df170 val=0x0f00f1b8
+=== 0x1df4f4 0x1df520 ===
+001df4f8 ldr r6, [pc, #0x24]                PC_LIT=0x001df520 val=0x00b559d8
+001df4fe ldr r3, [pc, #0x24]                PC_LIT=0x001df524 val=0x000040c8

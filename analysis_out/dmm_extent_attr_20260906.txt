@@ -1,0 +1,7 @@
+== dmm_extent_ctrl_GetExtentAttribute @ 0xccc8 (thumb=False)
+  0xccc8: mov	ip, sp 
+  0xcccc: push	{fp, ip, lr, pc} 
+  0xccd0: sub	fp, ip, #4 
+  0xccd4: cmp	r0, #0 
+  0xccd8: ldrne	r0, [r0, #0x10] 
+  0xccdc: ldm	sp, {fp, sp, pc} 

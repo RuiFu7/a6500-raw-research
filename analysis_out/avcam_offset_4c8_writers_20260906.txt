@@ -1,0 +1,1393 @@
+ADDRESS 001d2598
+FUNCTION FUN_001d2598 entry=001d2598 body=[[001d2214, 001d24db] [001d24e4, 001d2593] [001d2598, 001d25d7] [0068b828, 0068b9fb]]
+CALLERS
+  From: 002bd8e4 To: 001d2598 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+  From: 002bd8f4 To: 001d2598 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+001d2214  push {r4,r5,r6,r7,r8,lr}
+001d2218  mov r4,r0
+001d221a  mov r5,r1
+001d221c  add.w r0,r0,#0x318
+001d2220  sub.w r1,r1,#0x3200
+001d2224  add.w r7,r5,#0x34c
+001d2228  bl 0x00685a94
+001d222c  sub.w r1,r5,#0x3200
+001d2230  movs r3,#0x5c
+001d2232  str.w r5,[r4,#0x4bc]
+001d2236  str.w r3,[r4,#0x4c4]
+001d223a  add.w r0,r4,#0x2d0
+001d223e  subs r1,#0x24
+001d2240  adds r6,r5,r3
+001d2242  bl 0x00685a94
+001d2246  sub.w r1,r5,#0x3800
+001d224a  movs r3,#0x4c
+001d224c  str.w r6,[r4,#0x4c8]
+001d2250  str.w r3,[r4,#0x4d0]
+001d2254  add.w r0,r4,#0x3a8
+001d2258  subs r1,#0x58
+001d225a  add.w r6,r5,#0xa8
+001d225e  bl 0x00685a94
+001d2262  sub.w r1,r5,#0x12c00
+001d2266  str.w r6,[r4,#0x4d4]
+001d226a  mov.w r3,#0x2a4
+001d226e  add.w r0,r4,#0x108
+001d2272  str.w r3,[r4,#0x4dc]
+001d2276  subs r1,#0xb4
+001d2278  bl 0x00685a94
+001d227c  sub.w r1,r5,#0x13c00
+001d2280  movs r3,#0x84
+001d2282  str.w r7,[r4,#0x4e0]
+001d2286  str.w r3,[r4,#0x4e8]
+001d228a  add.w r0,r4,#0x90
+001d228e  sub.w r1,r1,#0x330
+001d2292  adds r6,r7,r3
+001d2294  bl 0x00685a94
+001d2298  sub.w r1,r7,#0x14000
+001d229c  movs r3,#0xcc
+001d229e  str.w r6,[r4,#0x4ec]
+001d22a2  str.w r3,[r4,#0x4f4]
+001d22a6  add.w r0,r4,#0x438
+001d22aa  sub.w r1,r1,#0x3b0
+001d22ae  adds r5,r6,r3
+001d22b0  bl 0x00685a94
+001d22b4  sub.w r1,r6,#0x14400
+001d22b8  movs r3,#0x70
+001d22ba  str.w r5,[r4,#0x4f8]
+001d22be  str.w r3,[r4,#0x500]
+001d22c2  add.w r0,r4,#0x420
+001d22c6  sub.w r1,r1,#0x1d0
+001d22ca  adds r7,r5,r3
+001d22cc  bl 0x00685a94
+001d22d0  str.w r7,[r4,#0x504]
+001d22d4  sub.w r1,r6,#0x15000
+001d22d8  sub.w r7,r6,#0x15000
+001d22dc  movs r3,#0x8c
+001d22de  add.w r0,r4,#0x168
+001d22e2  str.w r3,[r4,#0x50c]
+001d22e6  sub.w r7,r7,#0x27c
+001d22ea  sub.w r1,r1,#0x138
+001d22ee  adds r5,#0xfc
+001d22f0  bl 0x00685a94
+001d22f4  mov.w r3,#0x1bc
+001d22f8  str.w r5,[r4,#0x510]
+001d22fc  add.w r0,r4,#0x288
+001d2300  str.w r3,[r4,#0x518]
+001d2304  mov r1,r7
+001d2306  bl 0x00685a94
+001d230a  add.w r0,r4,#0x150
+001d230e  mov r1,r7
+001d2310  add.w r5,r6,#0x384
+001d2314  bl 0x00685a94
+001d2318  sub.w r1,r6,#0x15400
+001d231c  movs r3,#0xd4
+001d231e  str.w r5,[r4,#0x51c]
+001d2322  str.w r3,[r4,#0x524]
+001d2326  add.w r0,r4,#0x120
+001d232a  subs r1,#0xa8
+001d232c  adds r7,r5,r3
+001d232e  bl 0x00685a94
+001d2332  sub.w r1,r5,#0x15800
+001d2336  movs r3,#0x58
+001d2338  str.w r7,[r4,#0x528]
+001d233c  str.w r3,[r4,#0x530]
+001d2340  add.w r0,r4,#0x258
+001d2344  subs r1,#0xd4
+001d2346  adds r7,r7,r3
+001d2348  bl 0x00685a94
+001d234c  mov.w r3,#0x1e0
+001d2350  str.w r3,[r4,#0x53c]
+001d2354  sub.w r1,r5,#0x15800
+001d2358  ldr r3,[0x001d24dc]
+001d235a  movs r2,#0x4
+001d235c  add.w r0,r4,#0x270
+001d2360  str.w r2,[r4,#0x548]
+001d2364  add r3,pc
+001d2366  str.w r3,[r4,#0x540]
+001d236a  ldr r3,[0x001d24e0]
+001d236c  subs r1,#0xf4
+001d236e  str.w r2,[r4,#0x554]
+001d2372  add.w r6,r5,#0x30c
+001d2376  add r3,pc
+001d2378  str.w r7,[r4,#0x534]
+001d237c  str.w r3,[r4,#0x54c]
+001d2380  add.w r5,r4,#0x330
+001d2384  bl 0x00685a94
+001d2388  movs r3,#0xe0
+001d238a  add.w r0,r4,#0x2e8
+001d238e  str.w r3,[r4,#0x560]
+001d2392  movs r1,#0x0
+001d2394  str.w r6,[r4,#0x558]
+001d2398  bl 0x00685a94
+001d239c  add.w r0,r4,#0x300
+001d23a0  movs r1,#0x0
+001d23a2  bl 0x00685a94
+001d23a6  mov r0,r5
+001d23a8  movs r1,#0x0
+001d23aa  bl 0x00685a94
+001d23ae  movs r1,#0x0
+001d23b0  mov r2,r1
+001d23b2  mov r0,r5
+001d23b4  bl 0x0068b1ee
+001d23b8  add.w r0,r4,#0x360
+001d23bc  movs r1,#0x0
+001d23be  bl 0x00685a94
+001d23c2  add.w r0,r4,#0x378
+001d23c6  movs r1,#0x0
+001d23c8  bl 0x00685a94
+001d23cc  add.w r0,r4,#0x390
+001d23d0  movs r1,#0x0
+001d23d2  bl 0x00685a94
+001d23d6  add.w r0,r4,#0x3c0
+001d23da  movs r1,#0x0
+001d23dc  bl 0x00685a94
+001d23e0  add.w r0,r4,#0x3d8
+001d23e4  movs r1,#0x0
+001d23e6  bl 0x00685a94
+001d23ea  add.w r0,r4,#0x3f0
+001d23ee  movs r1,#0x0
+001d23f0  bl 0x00685a94
+001d23f4  mov r0,r4
+001d23f6  movs r1,#0x0
+001d23f8  bl 0x00685a94
+001d23fc  add.w r0,r4,#0x18
+001d2400  movs r1,#0x0
+001d2402  bl 0x00685a94
+001d2406  add.w r0,r4,#0x30
+001d240a  movs r1,#0x0
+001d240c  bl 0x00685a94
+001d2410  add.w r0,r4,#0x48
+001d2414  movs r1,#0x0
+001d2416  bl 0x00685a94
+001d241a  add.w r0,r4,#0x60
+001d241e  movs r1,#0x0
+001d2420  bl 0x00685a94
+001d2424  add.w r0,r4,#0x78
+001d2428  movs r1,#0x0
+001d242a  bl 0x00685a94
+001d242e  add.w r0,r4,#0xa8
+001d2432  movs r1,#0x0
+001d2434  bl 0x00685a94
+001d2438  add.w r0,r4,#0xc0
+001d243c  movs r1,#0x0
+001d243e  bl 0x00685a94
+001d2442  movs r1,#0x0
+001d2444  add.w r0,r4,#0xd8
+001d2448  bl 0x00685a94
+001d244c  add.w r0,r4,#0xf0
+001d2450  movs r1,#0x0
+001d2452  bl 0x00685a94
+001d2456  add.w r0,r4,#0x408
+001d245a  movs r1,#0x0
+001d245c  bl 0x00685a94
+001d2460  add.w r0,r4,#0x450
+001d2464  movs r1,#0x0
+001d2466  bl 0x00685a94
+001d246a  add.w r0,r4,#0x468
+001d246e  movs r1,#0x0
+001d2470  bl 0x00685a94
+001d2474  add.w r0,r4,#0x138
+001d2478  movs r1,#0x0
+001d247a  bl 0x00685a94
+001d247e  add.w r0,r4,#0x180
+001d2482  movs r1,#0x0
+001d2484  bl 0x00685a94
+001d2488  add.w r0,r4,#0x198
+001d248c  movs r1,#0x0
+001d248e  bl 0x00685a94
+001d2492  add.w r0,r4,#0x1b0
+001d2496  movs r1,#0x0
+001d2498  bl 0x00685a94
+001d249c  add.w r0,r4,#0x2a0
+001d24a0  movs r1,#0x0
+001d24a2  bl 0x00685a94
+001d24a6  add.w r0,r4,#0x2b8
+001d24aa  movs r1,#0x0
+001d24ac  bl 0x00685a94
+001d24b0  add.w r0,r4,#0x480
+001d24b4  movs r1,#0x0
+001d24b6  bl 0x00685a94
+001d24ba  add.w r0,r4,#0x488
+001d24be  movs r1,#0x0
+001d24c0  bl 0x00685a94
+001d24c4  add.w r0,r4,#0x490
+001d24c8  movs r1,#0x0
+001d24ca  bl 0x00685a94
+001d24ce  add.w r0,r4,#0x498
+001d24d2  movs r1,#0x0
+001d24d4  pop.w {r4,r5,r6,r7,r8,lr}
+001d24d8  b.w 0x00685a94
+001d24e4  push {r4,r5,r6,lr}
+001d24e6  mov r5,r0
+001d24e8  ldr r4,[0x001d2594]
+001d24ea  add.w r0,r0,#0x108
+001d24ee  add r4,pc
+001d24f0  ldr r4,[r4,#0x0]
+001d24f2  subs r4,r1,r4
+001d24f4  mov r1,r4
+001d24f6  bl 0x00685a94
+001d24fa  add.w r0,r5,#0x90
+001d24fe  mov r1,r4
+001d2500  bl 0x00685a94
+001d2504  add.w r0,r5,#0xa8
+001d2508  mov r1,r4
+001d250a  bl 0x00685a94
+001d250e  add.w r0,r5,#0x438
+001d2512  mov r1,r4
+001d2514  bl 0x00685a94
+001d2518  add.w r0,r5,#0x420
+001d251c  mov r1,r4
+001d251e  bl 0x00685a94
+001d2522  add.w r0,r5,#0x408
+001d2526  mov r1,r4
+001d2528  bl 0x00685a94
+001d252c  add.w r0,r5,#0x468
+001d2530  mov r1,r4
+001d2532  bl 0x00685a94
+001d2536  add.w r0,r5,#0x1b0
+001d253a  mov r1,r4
+001d253c  bl 0x00685a94
+001d2540  add.w r0,r5,#0x138
+001d2544  mov r1,r4
+001d2546  bl 0x00685a94
+001d254a  add.w r0,r5,#0x168
+001d254e  mov r1,r4
+001d2550  bl 0x00685a94
+001d2554  add.w r0,r5,#0x180
+001d2558  mov r1,r4
+001d255a  bl 0x00685a94
+001d255e  add.w r0,r5,#0x288
+001d2562  mov r1,r4
+001d2564  bl 0x00685a94
+001d2568  add.w r0,r5,#0x120
+001d256c  mov r1,r4
+001d256e  bl 0x00685a94
+001d2572  add.w r0,r5,#0x258
+001d2576  mov r1,r4
+001d2578  bl 0x00685a94
+001d257c  add.w r0,r5,#0x270
+001d2580  mov r1,r4
+001d2582  bl 0x00685a94
+001d2586  add.w r0,r5,#0x198
+001d258a  mov r1,r4
+001d258c  pop.w {r4,r5,r6,lr}
+001d2590  b.w 0x00685a94
+001d2598  mov r3,r1
+001d259a  mov r1,r2
+001d259c  cmp r3,#0x2
+001d259e  push {r4,lr}
+001d25a0  mov r4,r0
+001d25a2  beq 0x001d25b6
+001d25a4  cmp r3,#0x3
+001d25a6  beq 0x001d25d0
+001d25a8  cmp r3,#0x1
+001d25aa  it ne
+001d25ac  ldr.ne r1,[0x001d25d8]
+001d25ae  pop.w {r4,lr}
+001d25b2  b.w 0x0068b828
+001d25b6  cbnz r2,0x001d25c6
+001d25b8  ldr r0,[0x001d25dc]
+001d25ba  adds r1,#0x12
+001d25bc  movs r2,#0x3
+001d25be  add r0,pc
+001d25c0  bl 0x005c9f90
+001d25c4  mov r1,r0
+001d25c6  mov r0,r4
+001d25c8  pop.w {r4,lr}
+001d25cc  b.w 0x001d2214
+001d25d0  pop.w {r4,lr}
+001d25d4  b.w 0x001d24e4
+0068b828  push {r4,r5,r6,lr}
+0068b82a  mov r4,r0
+0068b82c  mov r5,r1
+0068b82e  add.w r0,r0,#0x2d0
+0068b832  bl 0x00685a94
+0068b836  add.w r0,r4,#0x2e8
+0068b83a  mov r1,r5
+0068b83c  add.w r6,r4,#0x330
+0068b840  bl 0x00685a94
+0068b844  add.w r0,r4,#0x300
+0068b848  mov r1,r5
+0068b84a  bl 0x00685a94
+0068b84e  add.w r0,r4,#0x318
+0068b852  mov r1,r5
+0068b854  bl 0x00685a94
+0068b858  mov r0,r6
+0068b85a  mov r1,r5
+0068b85c  bl 0x00685a94
+0068b860  movs r1,#0x0
+0068b862  mov r2,r1
+0068b864  mov r0,r6
+0068b866  bl 0x0068b1ee
+0068b86a  add.w r0,r4,#0x360
+0068b86e  mov r1,r5
+0068b870  bl 0x00685a94
+0068b874  add.w r0,r4,#0x378
+0068b878  mov r1,r5
+0068b87a  bl 0x00685a94
+0068b87e  add.w r0,r4,#0x390
+0068b882  mov r1,r5
+0068b884  bl 0x00685a94
+0068b888  add.w r0,r4,#0x3a8
+0068b88c  mov r1,r5
+0068b88e  bl 0x00685a94
+0068b892  add.w r0,r4,#0x3c0
+0068b896  mov r1,r5
+0068b898  bl 0x00685a94
+0068b89c  add.w r0,r4,#0x3d8
+0068b8a0  mov r1,r5
+0068b8a2  bl 0x00685a94
+0068b8a6  add.w r0,r4,#0x3f0
+0068b8aa  mov r1,r5
+0068b8ac  bl 0x00685a94
+0068b8b0  mov r0,r4
+0068b8b2  mov r1,r5
+0068b8b4  bl 0x00685a94
+0068b8b8  add.w r0,r4,#0x18
+0068b8bc  mov r1,r5
+0068b8be  bl 0x00685a94
+0068b8c2  add.w r0,r4,#0x30
+0068b8c6  mov r1,r5
+0068b8c8  bl 0x00685a94
+0068b8cc  add.w r0,r4,#0x48
+0068b8d0  mov r1,r5
+0068b8d2  bl 0x00685a94
+0068b8d6  add.w r0,r4,#0x60
+0068b8da  mov r1,r5
+0068b8dc  bl 0x00685a94
+0068b8e0  add.w r0,r4,#0x108
+0068b8e4  mov r1,r5
+0068b8e6  bl 0x00685a94
+0068b8ea  add.w r0,r4,#0x78
+0068b8ee  mov r1,r5
+0068b8f0  bl 0x00685a94
+0068b8f4  add.w r0,r4,#0x90
+0068b8f8  mov r1,r5
+0068b8fa  bl 0x00685a94
+0068b8fe  add.w r0,r4,#0xa8
+0068b902  mov r1,r5
+0068b904  bl 0x00685a94
+0068b908  add.w r0,r4,#0xc0
+0068b90c  mov r1,r5
+0068b90e  bl 0x00685a94
+0068b912  add.w r0,r4,#0xd8
+0068b916  mov r1,r5
+0068b918  bl 0x00685a94
+0068b91c  add.w r0,r4,#0xf0
+0068b920  mov r1,r5
+0068b922  bl 0x00685a94
+0068b926  add.w r0,r4,#0x408
+0068b92a  mov r1,r5
+0068b92c  bl 0x00685a94
+0068b930  add.w r0,r4,#0x420
+0068b934  mov r1,r5
+0068b936  bl 0x00685a94
+0068b93a  add.w r0,r4,#0x438
+0068b93e  mov r1,r5
+0068b940  bl 0x00685a94
+0068b944  add.w r0,r4,#0x450
+0068b948  mov r1,r5
+0068b94a  bl 0x00685a94
+0068b94e  add.w r0,r4,#0x468
+0068b952  mov r1,r5
+0068b954  bl 0x00685a94
+0068b958  add.w r0,r4,#0x120
+0068b95c  mov r1,r5
+0068b95e  bl 0x00685a94
+0068b962  add.w r0,r4,#0x138
+0068b966  mov r1,r5
+0068b968  bl 0x00685a94
+0068b96c  add.w r0,r4,#0x150
+0068b970  mov r1,r5
+0068b972  bl 0x00685a94
+0068b976  add.w r0,r4,#0x168
+0068b97a  mov r1,r5
+0068b97c  bl 0x00685a94
+0068b980  add.w r0,r4,#0x180
+0068b984  mov r1,r5
+0068b986  bl 0x00685a94
+0068b98a  add.w r0,r4,#0x198
+0068b98e  mov r1,r5
+0068b990  bl 0x00685a94
+0068b994  add.w r0,r4,#0x1b0
+0068b998  mov r1,r5
+0068b99a  bl 0x00685a94
+0068b99e  add.w r0,r4,#0x258
+0068b9a2  mov r1,r5
+0068b9a4  bl 0x00685a94
+0068b9a8  add.w r0,r4,#0x270
+0068b9ac  mov r1,r5
+0068b9ae  bl 0x00685a94
+0068b9b2  add.w r0,r4,#0x288
+0068b9b6  mov r1,r5
+0068b9b8  bl 0x00685a94
+0068b9bc  add.w r0,r4,#0x2a0
+0068b9c0  mov r1,r5
+0068b9c2  bl 0x00685a94
+0068b9c6  add.w r0,r4,#0x2b8
+0068b9ca  mov r1,r5
+0068b9cc  bl 0x00685a94
+0068b9d0  add.w r0,r4,#0x480
+0068b9d4  movs r1,#0x0
+0068b9d6  bl 0x00685a94
+0068b9da  add.w r0,r4,#0x488
+0068b9de  movs r1,#0x0
+0068b9e0  bl 0x00685a94
+0068b9e4  add.w r0,r4,#0x490
+0068b9e8  movs r1,#0x0
+0068b9ea  bl 0x00685a94
+0068b9ee  add.w r0,r4,#0x498
+0068b9f2  movs r1,#0x0
+0068b9f4  pop.w {r4,r5,r6,lr}
+0068b9f8  b.w 0x00685a94
+DECOMPILED
+
+void FUN_001d2598(int param_1,int param_2,int param_3)
+
+{
+  int iVar1;
+  
+  if (param_2 == 2) {
+    if (param_3 == 0) {
+      param_3 = FUN_005c9f90(DAT_001d25dc + 0x1d25c2,0x12,3);
+    }
+    FUN_00685a94(param_1 + 0x318,param_3 + -0x3200);
+    *(int *)(param_1 + 0x4bc) = param_3;
+    *(undefined4 *)(param_1 + 0x4c4) = 0x5c;
+    FUN_00685a94(param_1 + 0x2d0,param_3 + -0x3224);
+    *(int *)(param_1 + 0x4c8) = param_3 + 0x5c;
+    *(undefined4 *)(param_1 + 0x4d0) = 0x4c;
+    FUN_00685a94(param_1 + 0x3a8,param_3 + -0x3858);
+    *(int *)(param_1 + 0x4d4) = param_3 + 0xa8;
+    *(undefined4 *)(param_1 + 0x4dc) = 0x2a4;
+    FUN_00685a94(param_1 + 0x108,param_3 + -0x12cb4);
+    *(int *)(param_1 + 0x4e0) = param_3 + 0x34c;
+    *(undefined4 *)(param_1 + 0x4e8) = 0x84;
+    FUN_00685a94(param_1 + 0x90,param_3 + -0x13f30);
+    *(int *)(param_1 + 0x4ec) = param_3 + 0x3d0;
+    *(undefined4 *)(param_1 + 0x4f4) = 0xcc;
+    FUN_00685a94(param_1 + 0x438,param_3 + -0x14064);
+    *(int *)(param_1 + 0x4f8) = param_3 + 0x49c;
+    *(undefined4 *)(param_1 + 0x500) = 0x70;
+    FUN_00685a94(param_1 + 0x420,param_3 + -0x14200);
+    *(int *)(param_1 + 0x504) = param_3 + 0x50c;
+    *(undefined4 *)(param_1 + 0x50c) = 0x8c;
+    FUN_00685a94(param_1 + 0x168,param_3 + -0x14d68);
+    *(int *)(param_1 + 0x510) = param_3 + 0x598;
+    *(undefined4 *)(param_1 + 0x518) = 0x1bc;
+    FUN_00685a94(param_1 + 0x288,param_3 + -0x14eac);
+    FUN_00685a94(param_1 + 0x150,param_3 + -0x14eac);
+    *(int *)(param_1 + 0x51c) = param_3 + 0x754;
+    *(undefined4 *)(param_1 + 0x524) = 0xd4;
+    FUN_00685a94(param_1 + 0x120,param_3 + -0x150d8);
+    *(int *)(param_1 + 0x528) = param_3 + 0x828;
+    *(undefined4 *)(param_1 + 0x530) = 0x58;
+    FUN_00685a94(param_1 + 600,param_3 + -0x15180);
+    *(undefined4 *)(param_1 + 0x53c) = 0x1e0;
+    iVar1 = DAT_001d24dc;
+    *(undefined4 *)(param_1 + 0x548) = 4;
+    *(int *)(param_1 + 0x540) = iVar1 + 0x1d2368;
+    iVar1 = DAT_001d24e0;
+    *(undefined4 *)(param_1 + 0x554) = 4;
+    *(int *)(param_1 + 0x534) = param_3 + 0x880;
+    *(int *)(param_1 + 0x54c) = iVar1 + 0x1d237a;
+    FUN_00685a94(param_1 + 0x270,param_3 + -0x151a0);
+    *(undefined4 *)(param_1 + 0x560) = 0xe0;
+    *(int *)(param_1 + 0x558) = param_3 + 0xa60;
+    FUN_00685a94(param_1 + 0x2e8,0);
+    FUN_00685a94(param_1 + 0x300,0);
+    FUN_00685a94(param_1 + 0x330,0);
+    FUN_0068b1ee(param_1 + 0x330,0,0);
+    FUN_00685a94(param_1 + 0x360,0);
+    FUN_00685a94(param_1 + 0x378,0);
+    FUN_00685a94(param_1 + 0x390,0);
+    FUN_00685a94(param_1 + 0x3c0,0);
+    FUN_00685a94(param_1 + 0x3d8,0);
+    FUN_00685a94(param_1 + 0x3f0,0);
+    FUN_00685a94(param_1,0);
+    FUN_00685a94(param_1 + 0x18,0);
+    FUN_00685a94(param_1 + 0x30,0);
+    FUN_00685a94(param_1 + 0x48,0);
+    FUN_00685a94(param_1 + 0x60,0);
+    FUN_00685a94(param_1 + 0x78,0);
+    FUN_00685a94(param_1 + 0xa8,0);
+    FUN_00685a94(param_1 + 0xc0,0);
+    FUN_00685a94(param_1 + 0xd8,0);
+    FUN_00685a94(param_1 + 0xf0,0);
+    FUN_00685a94(param_1 + 0x408,0);
+    FUN_00685a94(param_1 + 0x450,0);
+    FUN_00685a94(param_1 + 0x468,0);
+    FUN_00685a94(param_1 + 0x138,0);
+    FUN_00685a94(param_1 + 0x180,0);
+    FUN_00685a94(param_1 + 0x198,0);
+    FUN_00685a94(param_1 + 0x1b0,0);
+    FUN_00685a94(param_1 + 0x2a0,0);
+    FUN_00685a94(param_1 + 0x2b8,0);
+    FUN_00685a94(param_1 + 0x480,0);
+    FUN_00685a94(param_1 + 0x488,0);
+    FUN_00685a94(param_1 + 0x490,0);
+    FUN_00685a94(param_1 + 0x498,0);
+    return;
+  }
+  if (param_2 != 3) {
+    if (param_2 != 1) {
+      param_3 = DAT_001d25d8;
+    }
+    FUN_00685a94(param_1 + 0x2d0,param_3);
+    FUN_00685a94(param_1 + 0x2e8,param_3);
+    FUN_00685a94(param_1 + 0x300,param_3);
+    FUN_00685a94(param_1 + 0x318,param_3);
+    FUN_00685a94(param_1 + 0x330,param_3);
+    FUN_0068b1ee(param_1 + 0x330,0,0);
+    FUN_00685a94(param_1 + 0x360,param_3);
+    FUN_00685a94(param_1 + 0x378,param_3);
+    FUN_00685a94(param_1 + 0x390,param_3);
+    FUN_00685a94(param_1 + 0x3a8,param_3);
+    FUN_00685a94(param_1 + 0x3c0,param_3);
+    FUN_00685a94(param_1 + 0x3d8,param_3);
+    FUN_00685a94(param_1 + 0x3f0,param_3);
+    FUN_00685a94(param_1,param_3);
+    FUN_00685a94(param_1 + 0x18,param_3);
+    FUN_00685a94(param_1 + 0x30,param_3);
+    FUN_00685a94(param_1 + 0x48,param_3);
+    FUN_00685a94(param_1 + 0x60,param_3);
+    FUN_00685a94(param_1 + 0x108,param_3);
+    FUN_00685a94(param_1 + 0x78,param_3);
+    FUN_00685a94(param_1 + 0x90,param_3);
+    FUN_00685a94(param_1 + 0xa8,param_3);
+    FUN_00685a94(param_1 + 0xc0,param_3);
+    FUN_00685a94(param_1 + 0xd8,param_3);
+    FUN_00685a94(param_1 + 0xf0,param_3);
+    FUN_00685a94(param_1 + 0x408,param_3);
+    FUN_00685a94(param_1 + 0x420,param_3);
+    FUN_00685a94(param_1 + 0x438,param_3);
+    FUN_00685a94(param_1 + 0x450,param_3);
+    FUN_00685a94(param_1 + 0x468,param_3);
+    FUN_00685a94(param_1 + 0x120,param_3);
+    FUN_00685a94(param_1 + 0x138,param_3);
+    FUN_00685a94(param_1 + 0x150,param_3);
+    FUN_00685a94(param_1 + 0x168,param_3);
+    FUN_00685a94(param_1 + 0x180,param_3);
+    FUN_00685a94(param_1 + 0x198,param_3);
+    FUN_00685a94(param_1 + 0x1b0,param_3);
+    FUN_00685a94(param_1 + 600,param_3);
+    FUN_00685a94(param_1 + 0x270,param_3);
+    FUN_00685a94(param_1 + 0x288,param_3);
+    FUN_00685a94(param_1 + 0x2a0,param_3);
+    FUN_00685a94(param_1 + 0x2b8,param_3);
+    FUN_00685a94(param_1 + 0x480,0);
+    FUN_00685a94(param_1 + 0x488,0);
+    FUN_00685a94(param_1 + 0x490,0);
+    FUN_00685a94(param_1 + 0x498,0);
+    return;
+  }
+  param_3 = param_3 - *(int *)(DAT_001d2594 + 0x1d24f2);
+  FUN_00685a94(param_1 + 0x108,param_3);
+  FUN_00685a94(param_1 + 0x90,param_3);
+  FUN_00685a94(param_1 + 0xa8,param_3);
+  FUN_00685a94(param_1 + 0x438,param_3);
+  FUN_00685a94(param_1 + 0x420,param_3);
+  FUN_00685a94(param_1 + 0x408,param_3);
+  FUN_00685a94(param_1 + 0x468,param_3);
+  FUN_00685a94(param_1 + 0x1b0,param_3);
+  FUN_00685a94(param_1 + 0x138,param_3);
+  FUN_00685a94(param_1 + 0x168,param_3);
+  FUN_00685a94(param_1 + 0x180,param_3);
+  FUN_00685a94(param_1 + 0x288,param_3);
+  FUN_00685a94(param_1 + 0x120,param_3);
+  FUN_00685a94(param_1 + 600,param_3);
+  FUN_00685a94(param_1 + 0x270,param_3);
+  FUN_00685a94(param_1 + 0x198,param_3);
+  return;
+}
+
+
+
+ADDRESS 0064b55c
+FUNCTION FUN_0064b55c entry=0064b55c body=[[0064b55c, 0064b675]]
+CALLERS
+  From: 00648f84 To: 0064b55c Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0064b55c  push {r3,r4,r5,r6,r7,lr}
+0064b55e  mov r4,r0
+0064b560  add.w r6,r4,#0x390
+0064b564  mov r7,r1
+0064b566  movs r2,#0x44
+0064b568  add.w r1,r4,#0x38
+0064b56c  add.w r0,r0,#0x3b8
+0064b570  add.w r5,r4,#0x3fc
+0064b574  blx 0x00413b90
+0064b578  ldmia r6!,{r0,r1,r2,r3}
+0064b57a  stmia r5!,{r0,r1,r2,r3}
+0064b57c  add.w r2,r4,#0x3a8
+0064b580  ldm.w r6,{r0,r1}
+0064b584  add.w r3,r4,#0x410
+0064b588  adds r3,#0x4
+0064b58a  add.w r6,r4,#0x114
+0064b58e  stm r5,{r0,r1}
+0064b592  add.w r5,r4,#0x480
+0064b596  ldm.w r2,{r0,r1}
+0064b59a  movs r2,#0x44
+0064b59c  stm r3,{r0,r1}
+0064b5a0  add.w r0,r4,#0x430
+0064b5a4  ldr.w r3,[r4,#0x9c]
+0064b5a8  adds r0,#0xc
+0064b5aa  ldr r1,[r7,#0x4]
+0064b5ac  str.w r3,[r4,#0x424]
+0064b5b0  ldr.w r3,[r4,#0x94]
+0064b5b4  str.w r3,[r4,#0x41c]
+0064b5b8  ldr.w r3,[r4,#0x98]
+0064b5bc  str.w r3,[r4,#0x420]
+0064b5c0  ldr.w r3,[r4,#0xa0]
+0064b5c4  str.w r3,[r4,#0x428]
+0064b5c8  ldr.w r3,[r4,#0xa4]
+0064b5cc  str.w r3,[r4,#0x42c]
+0064b5d0  ldr.w r3,[r4,#0xa8]
+0064b5d4  str.w r3,[r4,#0x430]
+0064b5d8  ldr.w r3,[r4,#0xac]
+0064b5dc  str.w r3,[r4,#0x434]
+0064b5e0  ldr.w r3,[r4,#0xb0]
+0064b5e4  str.w r3,[r4,#0x438]
+0064b5e8  blx 0x00413b90
+0064b5ec  ldmia r6!,{r0,r1,r2,r3}
+0064b5ee  stmia r5!,{r0,r1,r2,r3}
+0064b5f0  ldr r3,[r7,#0x4]
+0064b5f2  ldm.w r6,{r0,r1}
+0064b5f6  ldr r2,[r3,#0x5c]
+0064b5f8  stm r5,{r0,r1}
+0064b5fc  mov.w r0,#0x0
+0064b600  str.w r2,[r4,#0x498]
+0064b604  ldr r2,[r3,#0x60]
+0064b606  str.w r2,[r4,#0x49c]
+0064b60a  ldr r2,[r3,#0x64]
+0064b60c  str.w r2,[r4,#0x4a0]
+0064b610  ldr r2,[r3,#0x68]
+0064b612  str.w r2,[r4,#0x4a4]
+0064b616  ldr r2,[r3,#0x6c]
+0064b618  str.w r2,[r4,#0x4a8]
+0064b61c  ldr r2,[r3,#0x70]
+0064b61e  str.w r2,[r4,#0x4ac]
+0064b622  ldr r2,[r3,#0x74]
+0064b624  ldr r3,[r3,#0x78]
+0064b626  str.w r2,[r4,#0x4b0]
+0064b62a  str.w r3,[r4,#0x4b4]
+0064b62e  ldr r3,[r7,#0x10]
+0064b630  cmp r3,#0x2
+0064b632  bne 0x0064b63c
+0064b634  adds r3,#0x1
+0064b636  str.w r3,[r4,#0x4b8]
+0064b63a  b 0x0064b640
+0064b63c  str.w r0,[r4,#0x4b8]
+0064b640  strb.w r0,[r4,#0x4c4]
+0064b644  strb.w r0,[r4,#0x4c5]
+0064b648  strb.w r0,[r4,#0x4c6]
+0064b64c  ldr r3,[r4,#0x30]
+0064b64e  ldrh r7,[r7,#0x24]
+0064b650  str.w r0,[r4,#0x4bc]
+0064b654  str.w r0,[r4,#0x4c0]
+0064b658  strh.w r7,[r4,#0x4d8]
+0064b65c  str.w r3,[r4,#0x4dc]
+0064b660  str.w r0,[r4,#0x4c8]
+0064b664  strh.w r0,[r4,#0x4cc]
+0064b668  strh.w r0,[r4,#0x4ce]
+0064b66c  strh.w r0,[r4,#0x4d0]
+0064b670  strh.w r0,[r4,#0x4d2]
+0064b674  pop {r3,r4,r5,r6,r7,pc}
+DECOMPILED
+
+void FUN_0064b55c(int param_1,int param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  undefined2 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  
+  FUN_00413b90(param_1 + 0x3b8,param_1 + 0x38,0x44,param_4,param_4);
+  *(undefined4 *)(param_1 + 0x3fc) = *(undefined4 *)(param_1 + 0x390);
+  *(undefined4 *)(param_1 + 0x400) = *(undefined4 *)(param_1 + 0x394);
+  *(undefined4 *)(param_1 + 0x404) = *(undefined4 *)(param_1 + 0x398);
+  *(undefined4 *)(param_1 + 0x408) = *(undefined4 *)(param_1 + 0x39c);
+  *(undefined4 *)(param_1 + 0x40c) = *(undefined4 *)(param_1 + 0x3a0);
+  *(undefined4 *)(param_1 + 0x410) = *(undefined4 *)(param_1 + 0x3a4);
+  *(undefined4 *)(param_1 + 0x414) = *(undefined4 *)(param_1 + 0x3a8);
+  *(undefined4 *)(param_1 + 0x418) = *(undefined4 *)(param_1 + 0x3ac);
+  uVar2 = *(undefined4 *)(param_2 + 4);
+  *(undefined4 *)(param_1 + 0x424) = *(undefined4 *)(param_1 + 0x9c);
+  *(undefined4 *)(param_1 + 0x41c) = *(undefined4 *)(param_1 + 0x94);
+  *(undefined4 *)(param_1 + 0x420) = *(undefined4 *)(param_1 + 0x98);
+  *(undefined4 *)(param_1 + 0x428) = *(undefined4 *)(param_1 + 0xa0);
+  *(undefined4 *)(param_1 + 0x42c) = *(undefined4 *)(param_1 + 0xa4);
+  *(undefined4 *)(param_1 + 0x430) = *(undefined4 *)(param_1 + 0xa8);
+  *(undefined4 *)(param_1 + 0x434) = *(undefined4 *)(param_1 + 0xac);
+  *(undefined4 *)(param_1 + 0x438) = *(undefined4 *)(param_1 + 0xb0);
+  FUN_00413b90(param_1 + 0x43c,uVar2,0x44);
+  *(undefined4 *)(param_1 + 0x480) = *(undefined4 *)(param_1 + 0x114);
+  *(undefined4 *)(param_1 + 0x484) = *(undefined4 *)(param_1 + 0x118);
+  *(undefined4 *)(param_1 + 0x488) = *(undefined4 *)(param_1 + 0x11c);
+  *(undefined4 *)(param_1 + 0x48c) = *(undefined4 *)(param_1 + 0x120);
+  iVar3 = *(int *)(param_2 + 4);
+  uVar2 = *(undefined4 *)(iVar3 + 0x5c);
+  *(undefined4 *)(param_1 + 0x490) = *(undefined4 *)(param_1 + 0x124);
+  *(undefined4 *)(param_1 + 0x494) = *(undefined4 *)(param_1 + 0x128);
+  *(undefined4 *)(param_1 + 0x498) = uVar2;
+  *(undefined4 *)(param_1 + 0x49c) = *(undefined4 *)(iVar3 + 0x60);
+  *(undefined4 *)(param_1 + 0x4a0) = *(undefined4 *)(iVar3 + 100);
+  *(undefined4 *)(param_1 + 0x4a4) = *(undefined4 *)(iVar3 + 0x68);
+  *(undefined4 *)(param_1 + 0x4a8) = *(undefined4 *)(iVar3 + 0x6c);
+  *(undefined4 *)(param_1 + 0x4ac) = *(undefined4 *)(iVar3 + 0x70);
+  uVar2 = *(undefined4 *)(iVar3 + 0x78);
+  *(undefined4 *)(param_1 + 0x4b0) = *(undefined4 *)(iVar3 + 0x74);
+  *(undefined4 *)(param_1 + 0x4b4) = uVar2;
+  if (*(int *)(param_2 + 0x10) == 2) {
+    *(undefined4 *)(param_1 + 0x4b8) = 3;
+  }
+  else {
+    *(undefined4 *)(param_1 + 0x4b8) = 0;
+  }
+  *(undefined1 *)(param_1 + 0x4c4) = 0;
+  *(undefined1 *)(param_1 + 0x4c5) = 0;
+  *(undefined1 *)(param_1 + 0x4c6) = 0;
+  uVar1 = *(undefined2 *)(param_2 + 0x24);
+  *(undefined4 *)(param_1 + 0x4bc) = 0;
+  *(undefined4 *)(param_1 + 0x4c0) = 0;
+  *(undefined2 *)(param_1 + 0x4d8) = uVar1;
+  *(undefined4 *)(param_1 + 0x4dc) = *(undefined4 *)(param_1 + 0x30);
+  *(undefined4 *)(param_1 + 0x4c8) = 0;
+  *(undefined2 *)(param_1 + 0x4cc) = 0;
+  *(undefined2 *)(param_1 + 0x4ce) = 0;
+  *(undefined2 *)(param_1 + 0x4d0) = 0;
+  *(undefined2 *)(param_1 + 0x4d2) = 0;
+  return;
+}
+
+
+
+ADDRESS 0072e878
+FUNCTION FUN_0072e878 entry=0072e878 body=[[0072e878, 0072e9c1]]
+CALLERS
+LISTING
+0072e878  push {r4,r5,r6,lr}
+0072e87a  sub sp,#0x28
+0072e87c  mov r4,r0
+0072e87e  bl 0x0050aee8
+0072e882  add.w r3,r4,#0x5100
+0072e886  mov r5,r0
+0072e888  cbz r0,0x0072e8a6
+0072e88a  ldr r0,[r3,#0x70]
+0072e88c  movw r1,#0x940e
+0072e890  add r2,sp,#0x1c
+0072e892  bl 0x007439fc
+0072e896  cmp r0,#0x0
+0072e898  bne.w 0x0072e9be
+0072e89c  ldr r3,[sp,#0x24]
+0072e89e  movs r2,#0x3
+0072e8a0  strb r5,[r3,#0x2]
+0072e8a2  strb r2,[r3,#0x1]
+0072e8a4  b 0x0072e9be
+0072e8a6  ldr r0,[r3,#0x70]
+0072e8a8  movw r1,#0x940e
+0072e8ac  add r2,sp,#0x1c
+0072e8ae  bl 0x007439fc
+0072e8b2  cmp r0,#0x0
+0072e8b4  bne.w 0x0072e9be
+0072e8b8  ldr r5,[sp,#0x24]
+0072e8ba  bl 0x00529ae0
+0072e8be  mov r6,r0
+0072e8c0  cmp r0,#0x0
+0072e8c2  beq 0x0072e9be
+0072e8c4  mov r1,r5
+0072e8c6  bl 0x0072e4b8
+0072e8ca  ldrb r3,[r6,#0x1]
+0072e8cc  cbz r3,0x0072e8d4
+0072e8ce  cmp r3,#0x2
+0072e8d0  bne 0x0072e8e4
+0072e8d2  b 0x0072e9b2
+0072e8d4  add.w r2,r4,#0x3d80
+0072e8d8  mov r0,r6
+0072e8da  adds r1,r5,#0x4
+0072e8dc  adds r2,#0x16
+0072e8de  bl 0x0072e4de
+0072e8e2  b 0x0072e9be
+0072e8e4  add.w r3,r4,#0x3980
+0072e8e8  mov r0,sp
+0072e8ea  add.w r4,r4,#0x1840
+0072e8ee  ldrb.w r3,[r3,#0x52]
+0072e8f2  strb.w r3,[r5,#0x4b7]
+0072e8f6  bl 0x0055fa9c
+0072e8fa  ldr r3,[sp,#0x0]
+0072e8fc  add.w r0,r5,#0x12a0
+0072e900  add.w r1,r6,#0x12a0
+0072e904  mov.w r2,#0x1d60
+0072e908  strb.w r3,[r5,#0x4b8]
+0072e90c  ldr r3,[sp,#0x4]
+0072e90e  strb.w r3,[r5,#0x4b9]
+0072e912  ldrb.w r3,[sp,#0x8]
+0072e916  strb.w r3,[r5,#0x4ba]
+0072e91a  ldrb.w r3,[sp,#0x9]
+0072e91e  strb.w r3,[r5,#0x4bb]
+0072e922  ldrb.w r3,[sp,#0xa]
+0072e926  strb.w r3,[r5,#0x4bc]
+0072e92a  ldrb.w r3,[sp,#0xb]
+0072e92e  strb.w r3,[r5,#0x4bd]
+0072e932  ldrb.w r3,[sp,#0xc]
+0072e936  strb.w r3,[r5,#0x4be]
+0072e93a  ldrb.w r3,[sp,#0xd]
+0072e93e  strb.w r3,[r5,#0x4bf]
+0072e942  ldrb.w r3,[sp,#0xe]
+0072e946  strb.w r3,[r5,#0x4c0]
+0072e94a  ldrb.w r3,[sp,#0xf]
+0072e94e  strb.w r3,[r5,#0x4c1]
+0072e952  ldrb.w r3,[sp,#0x10]
+0072e956  strb.w r3,[r5,#0x4c2]
+0072e95a  ldrb.w r3,[sp,#0x11]
+0072e95e  strb.w r3,[r5,#0x4c3]
+0072e962  ldrb.w r3,[sp,#0x12]
+0072e966  strb.w r3,[r5,#0x4c4]
+0072e96a  ldrb.w r3,[sp,#0x13]
+0072e96e  strb.w r3,[r5,#0x4c5]
+0072e972  ldrb.w r3,[sp,#0x14]
+0072e976  strb.w r3,[r5,#0x4c6]
+0072e97a  ldrb.w r3,[sp,#0x15]
+0072e97e  strb.w r3,[r5,#0x4c7]
+0072e982  ldrb.w r3,[sp,#0x16]
+0072e986  strb.w r3,[r5,#0x4c8]
+0072e98a  ldrb.w r3,[sp,#0x17]
+0072e98e  strb.w r3,[r5,#0x4c9]
+0072e992  ldrb.w r3,[sp,#0x18]
+0072e996  strb.w r3,[r5,#0x4ca]
+0072e99a  ldrb.w r3,[sp,#0x19]
+0072e99e  strb.w r3,[r5,#0x4cb]
+0072e9a2  ldrb.w r3,[sp,#0x1a]
+0072e9a6  strb.w r3,[r5,#0x4cc]
+0072e9aa  ldrb r3,[r4,#0x9]
+0072e9ac  strb.w r3,[r5,#0x4cd]
+0072e9b0  b 0x0072e9ba
+0072e9b2  adds r0,r5,#0x4
+0072e9b4  adds r1,r6,#0x4
+0072e9b6  movw r2,#0x19fc
+0072e9ba  blx 0x00413b90
+0072e9be  add sp,#0x28
+0072e9c0  pop {r4,r5,r6,pc}
+DECOMPILED
+
+void FUN_0072e878(int param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined *puVar3;
+  undefined1 local_38 [4];
+  undefined1 local_34;
+  undefined1 local_30;
+  undefined1 local_2f;
+  undefined1 local_2e;
+  undefined1 local_2d;
+  undefined1 local_2c;
+  undefined1 local_2b;
+  undefined1 local_2a;
+  undefined1 local_29;
+  undefined1 local_28;
+  undefined1 local_27;
+  undefined1 local_26;
+  undefined1 local_25;
+  undefined1 local_24;
+  undefined1 local_23;
+  undefined1 local_22;
+  undefined1 local_21;
+  undefined1 local_20;
+  undefined1 local_1f;
+  undefined1 local_1e;
+  undefined1 auStack_1c [8];
+  int local_14;
+  
+  iVar1 = FUN_0050aee8();
+  if (iVar1 == 0) {
+    iVar1 = FUN_007439fc(*(undefined4 *)((int)&UINT_00005170 + param_1),0x940e,auStack_1c);
+    if (iVar1 == 0) {
+      iVar1 = FUN_00529ae0();
+      if (iVar1 != 0) {
+        FUN_0072e4b8(iVar1,local_14);
+        if (*(char *)(iVar1 + 1) == '\0') {
+          FUN_0072e4de(iVar1,local_14 + 4,param_1 + 0x3d96);
+        }
+        else {
+          if (*(char *)(iVar1 + 1) == '\x02') {
+            iVar2 = local_14 + 4;
+            iVar1 = iVar1 + 4;
+            puVar3 = &DAT_000019fc;
+          }
+          else {
+            *(undefined1 *)(local_14 + 0x4b7) = *(undefined1 *)((int)&DAT_000039d0 + param_1 + 2);
+            FUN_0055fa9c(local_38);
+            iVar2 = local_14 + 0x12a0;
+            iVar1 = iVar1 + 0x12a0;
+            puVar3 = &DAT_00001d60;
+            *(undefined1 *)(local_14 + 0x4b8) = local_38[0];
+            *(undefined1 *)(local_14 + 0x4b9) = local_34;
+            *(undefined1 *)(local_14 + 0x4ba) = local_30;
+            *(undefined1 *)(local_14 + 0x4bb) = local_2f;
+            *(undefined1 *)(local_14 + 0x4bc) = local_2e;
+            *(undefined1 *)(local_14 + 0x4bd) = local_2d;
+            *(undefined1 *)(local_14 + 0x4be) = local_2c;
+            *(undefined1 *)(local_14 + 0x4bf) = local_2b;
+            *(undefined1 *)(local_14 + 0x4c0) = local_2a;
+            *(undefined1 *)(local_14 + 0x4c1) = local_29;
+            *(undefined1 *)(local_14 + 0x4c2) = local_28;
+            *(undefined1 *)(local_14 + 0x4c3) = local_27;
+            *(undefined1 *)(local_14 + 0x4c4) = local_26;
+            *(undefined1 *)(local_14 + 0x4c5) = local_25;
+            *(undefined1 *)(local_14 + 0x4c6) = local_24;
+            *(undefined1 *)(local_14 + 0x4c7) = local_23;
+            *(undefined1 *)(local_14 + 0x4c8) = local_22;
+            *(undefined1 *)(local_14 + 0x4c9) = local_21;
+            *(undefined1 *)(local_14 + 0x4ca) = local_20;
+            *(undefined1 *)(local_14 + 0x4cb) = local_1f;
+            *(undefined1 *)(local_14 + 0x4cc) = local_1e;
+            *(undefined *)(local_14 + 0x4cd) = (&DAT_00001849)[param_1];
+          }
+          FUN_00413b90(iVar2,iVar1,puVar3);
+        }
+      }
+    }
+  }
+  else {
+    iVar2 = FUN_007439fc(*(undefined4 *)((int)&UINT_00005170 + param_1),0x940e,auStack_1c);
+    if (iVar2 == 0) {
+      *(char *)(local_14 + 2) = (char)iVar1;
+      *(undefined1 *)(local_14 + 1) = 3;
+    }
+  }
+  return;
+}
+
+
+
+ADDRESS 0068c022
+FUNCTION FUN_0068c022 entry=0068c022 body=[[0068c022, 0068c33f]]
+CALLERS
+  From: 0068c344 To: 0068c022 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+0068c022  push {r3,r4,r5,r6,r7,r8,r9,lr}
+0068c026  mov r4,r0
+0068c028  mov r0,r1
+0068c02a  mov r5,r1
+0068c02c  mov r7,r2
+0068c02e  bl 0x0068275e
+0068c032  mov r6,r0
+0068c034  cmp r0,#0x0
+0068c036  beq 0x0068c0de
+0068c038  add.w r8,r7,#0x63
+0068c03c  add.w r8,r4,r8, lsl #0x3
+0068c040  mov r0,r8
+0068c042  bl 0x0068b1e4
+0068c046  cbz r0,0x0068c06a
+0068c048  adds r0,r6,#0x4
+0068c04a  movs r6,#0x1
+0068c04c  bl 0x00685a90
+0068c050  add.w r3,r4,#0x4b0
+0068c054  adds r3,#0xc
+0068c056  str.w r3,[r4,#0x564]
+0068c05a  add.w r0,r0,#0x3200
+0068c05e  str.w r0,[r4,#0x4c0]
+0068c062  mov r0,r8
+0068c064  bl 0x0068b1e8
+0068c068  b 0x0068c06c
+0068c06a  mov r6,r0
+0068c06c  add.w r8,r7,#0x5a
+0068c070  add.w r8,r4,r8, lsl #0x3
+0068c074  mov r0,r8
+0068c076  bl 0x0068b1e4
+0068c07a  cbz r0,0x0068c0a4
+0068c07c  mov r0,r5
+0068c07e  bl 0x0068275e
+0068c082  adds r0,#0x4
+0068c084  bl 0x00685a90
+0068c088  add.w r3,r4,r6, lsl #0x2
+0068c08c  add.w r2,r4,#0x4c8
+0068c090  adds r6,#0x1
+0068c092  add.w r0,r0,#0x3280
+0068c096  str.w r0,[r4,#0x4cc]
+0068c09a  str.w r2,[r3,#0x564]
+0068c09e  mov r0,r8
+0068c0a0  bl 0x0068b1e8
+0068c0a4  add.w r8,r7,#0x75
+0068c0a8  add.w r8,r4,r8, lsl #0x3
+0068c0ac  mov r0,r8
+0068c0ae  bl 0x0068b1e4
+0068c0b2  cbz r0,0x0068c0de
+0068c0b4  mov r0,r5
+0068c0b6  bl 0x0068275e
+0068c0ba  adds r0,#0x4
+0068c0bc  bl 0x00685a90
+0068c0c0  add.w r2,r4,r6, lsl #0x2
+0068c0c4  add.w r3,r4,#0x4d0
+0068c0c8  adds r6,#0x1
+0068c0ca  adds r3,#0x4
+0068c0cc  add.w r0,r0,#0x3900
+0068c0d0  str.w r0,[r4,#0x4d8]
+0068c0d4  str.w r3,[r2,#0x564]
+0068c0d8  mov r0,r8
+0068c0da  bl 0x0068b1e8
+0068c0de  mov r0,r5
+0068c0e0  bl 0x006854cc
+0068c0e4  mov r8,r0
+0068c0e6  cbz r0,0x0068c120
+0068c0e8  add.w r0,r7,#0x21
+0068c0ec  add.w r0,r4,r0, lsl #0x3
+0068c0f0  bl 0x0068b1e4
+0068c0f4  cbz r0,0x0068c120
+0068c0f6  add.w r0,r8,#0x4
+0068c0fa  bl 0x00685a90
+0068c0fe  add.w r3,r4,r6, lsl #0x2
+0068c102  add.w r2,r4,#0x4e0
+0068c106  adds r6,#0x1
+0068c108  add.w r0,r0,#0x13000
+0068c10c  str.w r0,[r4,#0x4e4]
+0068c110  add.w r0,r7,#0x75
+0068c114  str.w r2,[r3,#0x564]
+0068c118  add.w r0,r4,r0, lsl #0x3
+0068c11c  bl 0x0068b1e8
+0068c120  mov r0,r5
+0068c122  bl 0x00682766
+0068c126  mov r9,r0
+0068c128  cbz r0,0x0068c164
+0068c12a  add.w r8,r7,#0x12
+0068c12e  add.w r8,r4,r8, lsl #0x3
+0068c132  mov r0,r8
+0068c134  bl 0x0068b1e4
+0068c138  cbz r0,0x0068c164
+0068c13a  add.w r0,r9,#0x4
+0068c13e  bl 0x00685a90
+0068c142  add.w r2,r4,r6, lsl #0x2
+0068c146  add.w r3,r4,#0x4e0
+0068c14a  adds r6,#0x1
+0068c14c  adds r3,#0xc
+0068c14e  add.w r0,r0,#0x14000
+0068c152  add.w r0,r0,#0x300
+0068c156  str.w r0,[r4,#0x4f0]
+0068c15a  str.w r3,[r2,#0x564]
+0068c15e  mov r0,r8
+0068c160  bl 0x0068b1e8
+0068c164  mov r0,r5
+0068c166  bl 0x006854d0
+0068c16a  mov r9,r0
+0068c16c  cbz r0,0x0068c1e4
+0068c16e  add.w r8,r7,#0x87
+0068c172  add.w r8,r4,r8, lsl #0x3
+0068c176  mov r0,r8
+0068c178  bl 0x0068b1e4
+0068c17c  cbz r0,0x0068c1a6
+0068c17e  add.w r0,r9,#0x4
+0068c182  bl 0x00685a90
+0068c186  add.w r3,r4,r6, lsl #0x2
+0068c18a  add.w r2,r4,#0x4f8
+0068c18e  adds r6,#0x1
+0068c190  add.w r0,r0,#0x14400
+0068c194  add.w r0,r0,#0x100
+0068c198  str.w r0,[r4,#0x4fc]
+0068c19c  str.w r2,[r3,#0x564]
+0068c1a0  mov r0,r8
+0068c1a2  bl 0x0068b1e8
+0068c1a6  add.w r8,r7,#0x84
+0068c1aa  add.w r8,r4,r8, lsl #0x3
+0068c1ae  mov r0,r8
+0068c1b0  bl 0x0068b1e4
+0068c1b4  cbz r0,0x0068c1e4
+0068c1b6  mov r0,r5
+0068c1b8  bl 0x006854d0
+0068c1bc  adds r0,#0x4
+0068c1be  bl 0x00685a90
+0068c1c2  add.w r2,r4,r6, lsl #0x2
+0068c1c6  add.w r3,r4,#0x500
+0068c1ca  adds r6,#0x1
+0068c1cc  adds r3,#0x4
+0068c1ce  add.w r0,r0,#0x14400
+0068c1d2  add.w r0,r0,#0x30c
+0068c1d6  str.w r0,[r4,#0x508]
+0068c1da  str.w r3,[r2,#0x564]
+0068c1de  mov r0,r8
+0068c1e0  bl 0x0068b1e8
+0068c1e4  mov r0,r5
+0068c1e6  bl 0x006854d4
+0068c1ea  mov r9,r0
+0068c1ec  cmp r0,#0x0
+0068c1ee  beq.w 0x0068c33a
+0068c1f2  add.w r8,r7,#0x51
+0068c1f6  add.w r8,r4,r8, lsl #0x3
+0068c1fa  mov r0,r8
+0068c1fc  bl 0x0068b1e4
+0068c200  cbnz r0,0x0068c210
+0068c202  add.w r0,r7,#0x2a
+0068c206  add.w r0,r4,r0, lsl #0x3
+0068c20a  bl 0x0068b1e4
+0068c20e  cbz r0,0x0068c242
+0068c210  add.w r0,r9,#0x4
+0068c214  bl 0x00685a90
+0068c218  add.w r2,r4,r6, lsl #0x2
+0068c21c  add.w r3,r4,#0x510
+0068c220  adds r6,#0x1
+0068c222  adds r3,#0xc
+0068c224  add.w r0,r0,#0x15600
+0068c228  str.w r0,[r4,#0x520]
+0068c22c  str.w r3,[r2,#0x564]
+0068c230  mov r0,r8
+0068c232  bl 0x0068b1e8
+0068c236  add.w r0,r7,#0x2a
+0068c23a  add.w r0,r4,r0, lsl #0x3
+0068c23e  bl 0x0068b1e8
+0068c242  add.w r8,r7,#0x24
+0068c246  add.w r8,r4,r8, lsl #0x3
+0068c24a  mov r0,r8
+0068c24c  bl 0x0068b1e4
+0068c250  cbz r0,0x0068c27e
+0068c252  mov r0,r5
+0068c254  bl 0x006854d4
+0068c258  adds r0,#0x4
+0068c25a  bl 0x00685a90
+0068c25e  add.w r3,r4,r6, lsl #0x2
+0068c262  add.w r2,r4,#0x528
+0068c266  adds r6,#0x1
+0068c268  add.w r0,r0,#0x15800
+0068c26c  add.w r0,r0,#0x100
+0068c270  str.w r0,[r4,#0x52c]
+0068c274  str.w r2,[r3,#0x564]
+0068c278  mov r0,r8
+0068c27a  bl 0x0068b1e8
+0068c27e  add.w r8,r7,#0x4b
+0068c282  add.w r8,r4,r8, lsl #0x3
+0068c286  mov r0,r8
+0068c288  bl 0x0068b1e4
+0068c28c  cbz r0,0x0068c304
+0068c28e  movs r1,#0x0
+0068c290  ldr.w r0,[r4,#0x534]
+0068c294  bl 0x0068b21e
+0068c298  mov r0,r5
+0068c29a  bl 0x006854d4
+0068c29e  add.w r9,r6,#0x158
+0068c2a2  adds r0,#0x4
+0068c2a4  bl 0x00685a90
+0068c2a8  add.w r2,r4,r9, lsl #0x2
+0068c2ac  add.w r3,r4,#0x530
+0068c2b0  adds r3,#0x4
+0068c2b2  add.w r0,r0,#0x15a00
+0068c2b6  str.w r0,[r4,#0x538]
+0068c2ba  str r3,[r2,#0x4]
+0068c2bc  mov r0,r5
+0068c2be  bl 0x006854d4
+0068c2c2  adds r0,#0x4
+0068c2c4  bl 0x00685a90
+0068c2c8  add.w r3,r4,r9, lsl #0x2
+0068c2cc  add.w r9,r4,#0x540
+0068c2d0  add.w r0,r0,#0x15a00
+0068c2d4  str.w r0,[r4,#0x544]
+0068c2d8  str.w r9,[r3,#0x8]
+0068c2dc  mov r0,r5
+0068c2de  bl 0x006854d4
+0068c2e2  adds r0,#0x4
+0068c2e4  bl 0x00685a90
+0068c2e8  add.w r3,r4,r6, lsl #0x2
+0068c2ec  add.w r2,r9,#0xc
+0068c2f0  adds r6,#0x3
+0068c2f2  add.w r0,r0,#0x15a00
+0068c2f6  str.w r0,[r4,#0x550]
+0068c2fa  str.w r2,[r3,#0x56c]
+0068c2fe  mov r0,r8
+0068c300  bl 0x0068b1e8
+0068c304  adds r7,#0x4e
+0068c306  add.w r7,r4,r7, lsl #0x3
+0068c30a  mov r0,r7
+0068c30c  bl 0x0068b1e4
+0068c310  cbz r0,0x0068c33a
+0068c312  mov r0,r5
+0068c314  bl 0x006854d4
+0068c318  adds r0,#0x4
+0068c31a  bl 0x00685a90
+0068c31e  add.w r3,r4,r6, lsl #0x2
+0068c322  adds r6,#0x1
+0068c324  add.w r0,r0,#0x15c00
+0068c328  str.w r0,[r4,#0x55c]
+0068c32c  add.w r4,r4,#0x558
+0068c330  mov r0,r7
+0068c332  str.w r4,[r3,#0x564]
+0068c336  bl 0x0068b1e8
+0068c33a  mov r0,r6
+0068c33c  pop.w {r3,r4,r5,r6,r7,r8,r9,pc}
+DECOMPILED
+
+uint FUN_0068c022(int param_1,undefined4 param_2,int param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  uint uVar3;
+  int iVar4;
+  
+  iVar1 = FUN_0068275e(param_2);
+  uVar3 = 0;
+  if (iVar1 != 0) {
+    iVar4 = param_1 + (param_3 + 99) * 8;
+    iVar2 = FUN_0068b1e4(iVar4);
+    if (iVar2 != 0) {
+      iVar1 = FUN_00685a90(iVar1 + 4);
+      *(int *)(param_1 + 0x564) = param_1 + 0x4bc;
+      *(int *)(param_1 + 0x4c0) = iVar1 + 0x3200;
+      FUN_0068b1e8(iVar4);
+    }
+    uVar3 = (uint)(iVar2 != 0);
+    iVar2 = param_1 + (param_3 + 0x5a) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      iVar1 = FUN_0068275e(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(int *)(param_1 + 0x4cc) = iVar4 + 0x3280;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x4c8;
+      FUN_0068b1e8(iVar2);
+    }
+    iVar2 = param_1 + (param_3 + 0x75) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      iVar1 = FUN_0068275e(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(int *)(param_1 + 0x4d8) = (int)&DAT_00003900 + iVar4;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x4d4;
+      FUN_0068b1e8(iVar2);
+    }
+  }
+  iVar1 = FUN_006854cc(param_2);
+  if ((iVar1 != 0) && (iVar2 = FUN_0068b1e4(param_1 + (param_3 + 0x21) * 8), iVar2 != 0)) {
+    iVar2 = FUN_00685a90(iVar1 + 4);
+    iVar1 = uVar3 * 4;
+    uVar3 = uVar3 + 1;
+    *(int *)(param_1 + 0x4e4) = iVar2 + 0x13000;
+    *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x4e0;
+    FUN_0068b1e8(param_1 + (param_3 + 0x75) * 8);
+  }
+  iVar1 = FUN_00682766(param_2);
+  if (iVar1 != 0) {
+    iVar4 = param_1 + (param_3 + 0x12) * 8;
+    iVar2 = FUN_0068b1e4(iVar4);
+    if (iVar2 != 0) {
+      iVar2 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(undefined **)(param_1 + 0x4f0) = &DAT_00014300 + iVar2;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x4ec;
+      FUN_0068b1e8(iVar4);
+    }
+  }
+  iVar1 = FUN_006854d0(param_2);
+  if (iVar1 != 0) {
+    iVar4 = param_1 + (param_3 + 0x87) * 8;
+    iVar2 = FUN_0068b1e4(iVar4);
+    if (iVar2 != 0) {
+      iVar2 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(undefined **)(param_1 + 0x4fc) = &DAT_00014500 + iVar2;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x4f8;
+      FUN_0068b1e8(iVar4);
+    }
+    iVar2 = param_1 + (param_3 + 0x84) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      iVar1 = FUN_006854d0(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(undefined **)(param_1 + 0x508) = &DAT_0001470c + iVar4;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x504;
+      FUN_0068b1e8(iVar2);
+    }
+  }
+  iVar1 = FUN_006854d4(param_2);
+  if (iVar1 != 0) {
+    iVar4 = param_1 + (param_3 + 0x51) * 8;
+    iVar2 = FUN_0068b1e4(iVar4);
+    if ((iVar2 != 0) || (iVar2 = FUN_0068b1e4(param_1 + (param_3 + 0x2a) * 8), iVar2 != 0)) {
+      iVar2 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(int *)(param_1 + 0x520) = iVar2 + 0x15600;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x51c;
+      FUN_0068b1e8(iVar4);
+      FUN_0068b1e8(param_1 + (param_3 + 0x2a) * 8);
+    }
+    iVar2 = param_1 + (param_3 + 0x24) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      iVar1 = FUN_006854d4(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(int *)(param_1 + 0x52c) = iVar4 + 0x15900;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x528;
+      FUN_0068b1e8(iVar2);
+    }
+    iVar2 = param_1 + (param_3 + 0x4b) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      FUN_0068b21e(*(undefined4 *)(param_1 + 0x534),0);
+      iVar1 = FUN_006854d4(param_2);
+      iVar1 = FUN_00685a90(iVar1 + 4);
+      *(int *)(param_1 + 0x538) = (int)&DAT_00015a00 + iVar1;
+      *(int *)(param_1 + (uVar3 + 0x158) * 4 + 4) = param_1 + 0x534;
+      iVar1 = FUN_006854d4(param_2);
+      iVar1 = FUN_00685a90(iVar1 + 4);
+      *(int *)(param_1 + 0x544) = (int)&DAT_00015a00 + iVar1;
+      *(int *)(param_1 + (uVar3 + 0x158) * 4 + 8) = param_1 + 0x540;
+      iVar1 = FUN_006854d4(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 3;
+      *(int *)(param_1 + 0x550) = (int)&DAT_00015a00 + iVar4;
+      *(int *)(param_1 + iVar1 + 0x56c) = param_1 + 0x54c;
+      FUN_0068b1e8(iVar2);
+    }
+    iVar2 = param_1 + (param_3 + 0x4e) * 8;
+    iVar1 = FUN_0068b1e4(iVar2);
+    if (iVar1 != 0) {
+      iVar1 = FUN_006854d4(param_2);
+      iVar4 = FUN_00685a90(iVar1 + 4);
+      iVar1 = uVar3 * 4;
+      uVar3 = uVar3 + 1;
+      *(int *)(param_1 + 0x55c) = iVar4 + 0x15c00;
+      *(int *)(param_1 + iVar1 + 0x564) = param_1 + 0x558;
+      FUN_0068b1e8(iVar2);
+    }
+  }
+  return uVar3;
+}
+
+
+
+ADDRESS 005f2948
+FUNCTION FUN_005f2948 entry=005f2948 body=[[005f2948, 005f2963]]
+CALLERS
+  From: 005f2964 To: 005f2948 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+LISTING
+005f2948  push {r4,lr}
+005f294a  mov r4,r0
+005f294c  add.w r4,r4,#0x2100
+005f2950  movs r3,#0x0
+005f2952  str.w r3,[r0,#0x49c]
+005f2956  add.w r0,r0,#0x4c8
+005f295a  bl 0x005f2af6
+005f295e  movs r3,#0x1
+005f2960  strh r3,[r4,#0x0]
+005f2962  pop {r4,pc}
+DECOMPILED
+
+void FUN_005f2948(int param_1)
+
+{
+  *(undefined4 *)(param_1 + 0x49c) = 0;
+  FUN_005f2af6(param_1 + 0x4c8);
+  *(undefined2 *)(&DAT_00002100 + param_1) = 1;
+  return;
+}
+
+
+

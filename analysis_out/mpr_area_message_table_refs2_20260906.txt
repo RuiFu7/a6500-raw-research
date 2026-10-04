@@ -1,0 +1,9 @@
+ADDRESS 00b695f0
+TO 00b695f0
+  Entry Point -> 00b695f0 type=EXTERNAL op=-1 fn=
+  006c65fc -> 00b695f0 type=DATA op=0 fn=
+  006c6ab4 -> 00b695f0 type=DATA op=0 fn=
+  006c6592 -> 00b695f0 type=PARAM op=0 fn=
+  006c687e -> 00b695f0 type=PARAM op=0 fn=FUN_006c6604:006c6604
+FROM 00b695f0
+

@@ -1,0 +1,16 @@
+=== raw_unit_grep_units ===
+（命中为 extent 后缀列，unit type 均为 00121e00，非 RAW 类型）
+0e6c 00121e00 ... b8072000 000098800 0236 < 0010
+0e78 00121e00 ... b80be000 000098800 023e < 0010
+
+=== raw_unit_grep_extents ===
+0069 0011 01000001 000002b3 00000000 00000000 ffffffff 0000006c bde76000 (b8c00000+05276000) 0000c000
+0236 0010 01000001 000000ca ... b8072000 (b8000000+00072000) 00009800
+023e 0010 01000001 000000ca ... b80be000 (b8000000+000be000) 00009800
+
+=== dmm_reserve ===
+No reserve information.
+
+=== dmm_rule ===
+Information on AllocRule.
+ [0000] < ffff < ffff < ffff < ffff < ffff < ffff < ffff

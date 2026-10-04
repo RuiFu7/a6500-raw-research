@@ -1,0 +1,5 @@
+target	string_address	string	from	ref_type	function	function_addr
+udif_platform_register	4036a1f5	udif_platform_register	403b2d40	PARAM		
+udif_devices	40398d9a	udif_devices	4031e388	DATA		
+__udif_devnodes	40398da7	__udif_devnodes	4031e38c	DATA		
+udif_driver_register	403a5014	udif_driver_register	40320f74	DATA		

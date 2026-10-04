@@ -1,0 +1,181 @@
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x867090: api_YC_CaptureDevDevelopResizeDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86806f: MemAreaMSDebug_RAW: CamCore Start Error!: %02x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86809e: MemAreaMSDebug_RAW: CamCore Release Error!: %02x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86a49d: SetAutoDualrecMode[%d], SetAutoDualrecFrequency[%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86a910: SET_RAW_EXTERNAL_OUTPUT_COMP[0x%x]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86b717: SET_MOVIE_FORMAT_COMP[0x%x]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86ba63: SET_MOVIE_FORMAT[size:%d fr:%d asp:%d sizeh:%d proxy:%d proxysize:%d proxyfr:%d raw:%d rawsize:%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86bac6: SET_MOVIE_FORMAT Invalid params[size:%d fr:%d asp:%d sizeh:%d proxy:%d proxysize:%d proxyfr:%d raw:%d rawsize:%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86bcad: SET_RAW_EXTERNAL_OUTPUT[%d] [%d] [0x%x]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86bcdd: SetImagerFrameSize[%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86bcf4: SetAPSCMode[%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86f52f: DualRec DFE Release err: %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86f54b: dualrec camhead release err: %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x86f56b: Resource/DualRecResManager.cpp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x870583: SetDualRecParam()          [CapMode:%d] [ExposureID:%d] [ContID:%d] [BDROSeq:%d] [BDRObase:%d] [FrameID:%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x875284: /usr/sabin/dcv_psf_table_dualrec.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8756f7: DCV::GetBaseData: DCV_DUALREC_param_mode = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87a55a: NR DualRec :: every pixel read parameter undefined: 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87a593: NR DualRec :: add pixel read parameter undefined: 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d76d: /usr/sabin/spica_musashi_dualrec_4k_c_tap_step1.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d7cd: /usr/sabin/spica_musashi_dualrec_4k_y_tap_step1.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d862: SPICA:DUALREC tap_step1 Select NG!! zoom:%f, zoom_th:%f
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d89a: SPICA:DUALREC tap_step2 Select NG!! zoom:%f, zoom_th:%f
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d90b: /usr/sabin/spica_musashi_dualrec_y_tap_step1.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d96b: /usr/sabin/spica_musashi_dualrec_c_tap_step1.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87d9cb: /usr/sabin/spica_musashi_dualrec_4k_c_tap_step2.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87da2b: /usr/sabin/spica_musashi_dualrec_y_tap_step2.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87da8b: /usr/sabin/spica_musashi_dualrec_4k_y_tap_step2.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87daeb: /usr/sabin/spica_musashi_dualrec_c_tap_step2.bin
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87de92: YAP(DualRec): SPICA on. X_DZM=0x%x apgain_RCZOOM=0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87f499: CapMgr) Error! UseRaw_DualRec was called too many.
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87f4cc: CapMgr) Error! FreeRaw_DualRec was called too many.
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x87f984: !!! Can't send DualRec cmd
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8818d3: Error! sa_func_DUALREC_CLEARVID_acquire %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8818fe: DualRecParamErr: RawHsize %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x88191b: DualRecParamErr: RawHofs %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881937: DualRecParamErr: YcArea_H %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881954: DualRecParamErr: YcHsize %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881970: DualRecParamErr: YcHofs %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x88198b: DualRecParamErr: YcHsize %d, YcArea_H %d, YcHofs %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8819bf: DualRecParamErr: YcVsize %d, YcArea_V %d, YcVofs %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8819f3: Error! sa_func_DUALREC_CLEARVID_start %d %08X
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881a35: %s: DUALREC_CLEARVID_start_mbx.cha_mbx0 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881a64: %s: DUALREC_CLEARVID_start_mbx.cha_mbx1 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881a93: %s: DUALREC_CLEARVID_start_mbx.cha_mbx2 = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881ac4: %s: DUALREC_CLEARVID_start_mbx.cha_mbx3 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881af3: Error! sa_func_DUALREC_BAYER_acquire %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881b1b: Stage_DualRec.cpp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881b2d: Error! sa_func_DUALREC_BAYER_start %d %08X
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881b58: %s: DUALREC_BAYER_start_mbx.cha_mbx0 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881b84: %s: DUALREC_BAYER_start_mbx.cha_mbx1 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881bb0: %s: DUALREC_BAYER_start_mbx.cha_mbx2 = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881bde: %s: DUALREC_BAYER_start_mbx.cha_mbx3 = 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x881e32: %s DualRec DfeRawTrans must have CamCore controller
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x882158: Stage_DfeRawTrans
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8821bb: Stage_DfeRawTransSnrBranch
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x88291e: Stage_RchRcv_ResizeTrim_ValidShift_DualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8838e6: GetImageSizeFromBackup_DualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x883a36: ReadBackup_DualRecJpegTargetSize
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin:0x8840bb: cmpCateID[%d] cmpMsgId[%x] replyOsalId[%x] Raw[%x] RawMakerNote[%x] RawSrcData[%x] RawOffset[%x] RawSize[%x] YcData[%x] StdYcData[%x]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin: ... truncated
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0x3136c: _ZN7MprCtrl19IsDualRecOver18MbpsEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0x3138f: _ZN7MprCtrl19IsDfeSupportDualRecEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0x313b2: _ZN7MprCtrl22GetDualRecCaptureCountEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0x313f5: _ZN7MprCtrl25GetDualRecMovieMaxBitrateEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xba77c0: [ObjEffect][MLM]: FRAME PRE DRAW: %s
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9a05: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9b08: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdad6c: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdaddb: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a3ab: [ObjScalar]SequenceSequenceRawCaptureEvt dataType is NOT CAMRAW: 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc8eb39: pvt_ProcessApsCModeCmpEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc92e56: pvt_ProcessSuperResplutionDualRecCmpEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc92e7e: SuperResolutionDualRec Set changed:(new)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc92ea7: SuperResolutionDualRec Act changed:(new)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc949e5: pvt_ProcessAutoDualRecCmpEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94a02: AutoDualRecModePrmErr
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94a18: Invalid Parameter: PARAMID_AUTO_DUALREC_MODE_SET
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94a49: AutoDualRecModeCnvErr
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94a5f: Invalid Value (PARAMID_AUTO_DUALREC_MODE_SET)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94ab2: AutoDualRecFrequencyPrmErr
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94acd: Invalid Parameter: PARAMID_AUTO_DUALREC_SHOOTING_FREQUENCY_SET
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94b0c: AutoDualRecFrequencyCnvErr
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94b27: Invalid Value (PARAMID_AUTO_DUALREC_SHOOTING_FREQUENCY_SET)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94b8d: Invalid Parameter: PARAMID_AUTO_DUALREC_MODE_ACT
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94bbe: Invalid Value (PARAMID_AUTO_DUALREC_MODE_ACT)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94c11: Invalid Parameter: PARAMID_AUTO_DUALREC_SHOOTING_FREQUENCY_ACT
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc94c50: Invalid Value (PARAMID_AUTO_DUALREC_SHOOTING_FREQUENCY_ACT)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc97eda: pvt_ActionSetSuperResolutionDualRecCmp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc97f01: ActionNotifySuperResolutionDualRecEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc986bc: pvt_ActionSetApsCModeCmp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc986d5: pvt_ActionNotifyApsCModeEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9a83d: pvt_ActionSetAutoDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9a856: Err (pvt_SetParamAutoDualRec)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9a874: Failed ObjCamera::MSGID_SET_AUTO_DUALREC_CMD (err)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9a8a7: Issued ObjCamera::MSGID_SET_AUTO_DUALREC_CMD (relay)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9b019: pvt_ActionSetApsCMode
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9b02f: Err (pvt_ActionSetApsCMode)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c019: pvt_ActionSetSuperResolutionDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c03d: Err (pvt_ActionSetSuperResolutionDualRec)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c067: Failed ObjCamera::MSGID_SET_DUALREC_CAPTURE_EXPAND_MODE_CMD (err)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c0a9: Issued ObjCamera::MSGID_SET_DUALREC_CAPTURE_EXPAND_MODE_CMD (relay)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca033e: pvt_ActionSetAutoDualRecCmp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca035a: pvt_ActionNotifyAutoDualRecEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca1492: SUPER_RESOLUTION_DUALREC
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca1986: AUTO_DUALREC_FREQUENCY
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca313b: pvt_SetParamApsCMode
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca39ee: pvt_SetParamSuperResolutionDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca3a11: PARAMID Not Found (PARAMID_DATA_SUPER_RESOLUTION_DUALREC)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca5f97: pvt_SetParamAutoDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca5faf: AutoDualRecMode
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca5fbf: PARAMID Not Found (PARAMID_DATA_AUTO_DUALREC_MODE)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca5ff2: PARAMID_AUTO_DUALREC_MODE is err:
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca6014: AutoDualRecFrequency
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca6029: PARAMID Not Found (PARAMID_DATA_AUTO_DUALREC_FREQUENCY)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca6061: PARAMID_AUTO_DUALREC_SHOOTING_FREQUENCY is err:
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca8130: pvt_ChangeApsCModeParamApp2Obj
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca814f: pvt_ChangeApsCModeParamObj2App
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca8cfa: pvt_ChangeAutoDualRecModeParamApp2Obj
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca8d20: pvt_ChangeAutoDualRecModeParamObj2App
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca8d46: pvt_ChangeAutoDualRecFrequencyParamApp2Obj
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so: ... truncated
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x5a34: _ZN7MprCtrl14mp_dualRecInfoE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x5ea0: _ZN7MprCtrl22GetDualRecCaptureCountEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x5ec6: _ZN7MprCtrl14GetDualRecTypeEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x65bc: _ZN15MprCtrlStillMgr19GetDualRecStillModeEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x65e8: _ZN5MprIf31SetCreateParam_dualRecStillInfoEN3MPR12StillRecTypeEPNS0_11DualRecInfoE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x6905: _ZN7MprCtrl19IsDualRecOver18MbpsEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x6b5d: _ZN7MprCtrl25GetDualRecMovieMaxBitrateEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x6b9d: _ZN7MprCtrl19IsDfeSupportDualRecEv
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0xc037: _ZN13UtilStillSize14CnvDualRecSizeEi
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x25dcc: [GetDualRecCaptureCount] Call
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x25dea:  GetDualRecCaptureCount() : count = 0d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x26494: [GetDualRecType] Call
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x264aa:  GetDualRecType(): bkupErr = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x264ce:  GetDualRecType() : type = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x26863: [GetDualRecMovieMaxBitrate] Call
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x26884:  GetDualRecMovieMaxBitrate(): bkupErr = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x268b3:  GetDualRecMovieMaxBitrate() : type = 0x%08x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x282bf:     +- DualRecType       : [DELAY]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x282e2:     +- DualRecType       : [IMMEDIATE]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x28309:     +- DualRecCapture    : [%d]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x28329:     +- DualRecOver18Mbps : [SUPPORT]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2834e:     +- DualRecOver18Mbps : [NOT]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2b1b0:  BKID_IMAGING_PXSZ_DUALREC_XXX[0x%x] bkupErr = %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2b1e2:  BKID_IMAGING_PXSZ_APSC_DUALREC_XXX[0x%x] bkupErr = %d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2b39e: [GetDualRecStillMode] Call
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2b9dc:     +- [DualRec] ---------------------
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2ba03:     +- [DualRec(APSC)] ---------------
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2bc8d:  -- [JPEG DualRec] --------------------------------------
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x2bcc7:  -- [JPEG DualRec(APSC)] --------------------------------
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32bcc: BKID_IMAGING_PXSZ_DUALREC_L_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32bec: BKID_IMAGING_PXSZ_DUALREC_L_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32c0d: BKID_IMAGING_PXSZ_DUALREC_L_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32c2e: BKID_IMAGING_PXSZ_DUALREC_L_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32c4e: BKID_IMAGING_PXSZ_DUALREC_L_4_3
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32c6e: BKID_IMAGING_PXSZ_DUALREC_M_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32c8e: BKID_IMAGING_PXSZ_DUALREC_M_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32caf: BKID_IMAGING_PXSZ_DUALREC_M_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32cd0: BKID_IMAGING_PXSZ_DUALREC_M_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32cf0: BKID_IMAGING_PXSZ_DUALREC_M_4_3
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32d10: BKID_IMAGING_PXSZ_DUALREC_S_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32d30: BKID_IMAGING_PXSZ_DUALREC_S_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32d51: BKID_IMAGING_PXSZ_DUALREC_S_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32d72: BKID_IMAGING_PXSZ_DUALREC_S_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32d92: BKID_IMAGING_PXSZ_DUALREC_S_4_3
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32db2: BKID_IMAGING_PXSZ_APSC_DUALREC_L_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32dd7: BKID_IMAGING_PXSZ_APSC_DUALREC_L_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32dfd: BKID_IMAGING_PXSZ_APSC_DUALREC_L_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32e23: BKID_IMAGING_PXSZ_APSC_DUALREC_L_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32e48: BKID_IMAGING_PXSZ_APSC_DUALREC_L_4_3
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32e6d: BKID_IMAGING_PXSZ_APSC_DUALREC_M_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32e92: BKID_IMAGING_PXSZ_APSC_DUALREC_M_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32eb8: BKID_IMAGING_PXSZ_APSC_DUALREC_M_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32ede: BKID_IMAGING_PXSZ_APSC_DUALREC_M_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32f03: BKID_IMAGING_PXSZ_APSC_DUALREC_M_4_3
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32f28: BKID_IMAGING_PXSZ_APSC_DUALREC_S_1_1
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32f4d: BKID_IMAGING_PXSZ_APSC_DUALREC_S_16_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32f73: BKID_IMAGING_PXSZ_APSC_DUALREC_S_17_9
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32f99: BKID_IMAGING_PXSZ_APSC_DUALREC_S_3_2
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libmprctrl.so:0x32fbe: BKID_IMAGING_PXSZ_APSC_DUALREC_S_4_3

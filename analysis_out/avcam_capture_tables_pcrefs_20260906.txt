@@ -1,0 +1,3 @@
+0027f2be target=8b8a71 kind=ldr+add literal=27f2d8 function=FUN_0027f2a4
+0027f62e target=8b8af6 kind=ldr+add literal=27f640 function=FUN_0027f5ec
+0027f672 target=8b8bdb kind=ldr+add literal=27f680 function=FUN_0027f668

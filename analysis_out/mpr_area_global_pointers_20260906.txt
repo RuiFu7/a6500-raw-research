@@ -1,0 +1,32 @@
+RANGE 006c6a90-006c6b00
+DATA 006c6aa0  undefined4 00C28F50h
+DATA 006c6aa4  undefined4 00A33EACh
+DATA 006c6aa8  undefined4 00A33EE6h
+DATA 006c6aac  undefined4 009AC604h
+DATA 006c6ab0  addr 00a01da1
+DATA 006c6ab4  addr 00b695f0
+DATA 006c6ab8  addr 00a37986
+DATA 006c6abc  addr 00a33f40
+DATA 006c6ac0  addr 00a10dab
+DATA 006c6ac4  addr 00a37988
+DATA 006c6ac8  addr 00a8e708
+DATA 006c6acc  addr 00a10dac
+DATA 006c6ad0  addr 00a33f44
+DATA 006c6ad4  addr 00aace8d
+DATA 006c6ad8  addr 00b69738
+DATA 006c6adc  addr 00c28e40
+DATA 006c6ae0  addr 00a33f53
+DATA 006c6ae4  addr 00a33e44
+DATA 006c6ae8  addr 00929c84
+DATA 006c6aec  addr 00a33f7b
+DATA 006c6af0  addr 00c291f8
+006c6a92  b.w 0x0076858c
+006c6a96  add.w r7,r7,#0xc
+006c6a9a  mov sp,r7
+006c6a9c  pop.w {r4,r5,r6,r7,r8,r9,r10,r11,pc}
+006c6af4  cmp r0,#0x3
+006c6af6  push {r4,r5,r6,r7,r8,lr}
+006c6afa  mov r5,r0
+006c6afc  add r7,sp,#0x0
+006c6afe  mov r4,r1
+006c6b00  ble 0x006c6b40

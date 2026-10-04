@@ -1,0 +1,17 @@
+Notable /dev nodes from the emulated CXD90014 updater rootfs:
+
+stream   (char 249,7)
+stream2  (char 249,8)
+dmac     (char 251,205)
+ldec     (char 251,206)
+uipc     (char 251,207)
+mcmn     (char 249,1)
+ms / ms-char (249,0), ms1..ms9
+sio0..sio4 (251,200..204)
+hdmi (248,25), hdmi_external_tx (248,26), hdmi_input (248,30), cec (248,27), ca (248,28), dmpgles2 (248,29)
+mmca-char / mmcb-char / mmcc-char; mmca*, mmcb*, mmcc* block devices
+sata / sataa..satad
+fb0 / fb1
+bootimg (10,191), crash (10,190), backup (251,208), boss-t1..t3 (251,209..211)
+anflasha0..31, cnflasha0..31, nflasha0..31, dnflasha0..31, anflashb*, cnflashb*, nflashb*, dnflashb*
+mem, kmem, port, ram0..16, loop0..7, sda/sdb/sdc/sdd

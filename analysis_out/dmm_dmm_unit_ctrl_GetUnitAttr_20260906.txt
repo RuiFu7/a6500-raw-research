@@ -1,0 +1,25 @@
+== dmm_unit_ctrl_GetUnitAttr @ 0xa820 (thumb=False)
+  0xa820: mov	ip, sp 
+  0xa824: push	{r4, r5, fp, ip, lr, pc} 
+  0xa828: sub	fp, ip, #4 
+  0xa82c: mov	r4, r0 
+  0xa830: mov	r5, r1 
+  0xa834: bl	#0xa834 
+  0xa838: b	#0xa858 
+  0xa83c: cmp	r3, r4 
+  0xa840: bne	#0xa854 
+  0xa844: ldr	r3, [r0, #4] 
+  0xa848: cmp	r3, #0 
+  0xa84c: bne	#0xa86c 
+  0xa850: b	#0xa864 
+  0xa854: add	r0, r0, #8 
+  0xa858: ldr	r3, [r0] 
+  0xa85c: cmn	r3, #1 
+  0xa860: bne	#0xa83c 
+  0xa864: movw	r0, #0xfffd 
+  0xa868: b	#0xa878 
+  0xa86c: ldr	r0, [r3] 
+  0xa870: mov	r1, r5 
+  0xa874: bl	#0xa874 
+  0xa878: sxth	r0, r0 
+  0xa87c: ldm	sp, {r4, r5, fp, sp, pc} 

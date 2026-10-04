@@ -1,0 +1,84 @@
+== dmm_unit_ctrl_GetUnitInfo @ 0xa6d4 (thumb=False)
+  0xa6d4: mov	ip, sp 
+  0xa6d8: push	{r4, r5, r6, r7, fp, ip, lr, pc} 
+  0xa6dc: sub	fp, ip, #4 
+  0xa6e0: sub	sp, sp, #8 
+  0xa6e4: ldr	ip, [fp, #4] 
+  0xa6e8: uxth	r0, r0 
+  0xa6ec: mov	r5, #0 
+  0xa6f0: strh	r0, [fp, #-0x1e] 
+  0xa6f4: ldr	r0, [pc, #0x11c] 
+  0xa6f8: strh	r5, [ip] 
+  0xa6fc: ldrh	r4, [fp, #-0x1e] 
+  0xa700: str	r5, [r3] 
+  0xa704: ubfx	r4, r4, #0, #0xa 
+  0xa708: ldr	r0, [r0, #8] 
+  0xa70c: uxth	r4, r4 
+  0xa710: cmp	r4, r0 
+  0xa714: movwhi	r0, #0xfefb 
+  0xa718: bhi	#0xa80c 
+  0xa71c: ldrh	r7, [fp, #-0x1e] 
+  0xa720: mov	r4, #0x188 
+  0xa724: ldrh	r6, [fp, #-0x1e] 
+  0xa728: ldr	r0, [pc, #0xec] 
+  0xa72c: ubfx	r6, r6, #0, #0xa 
+  0xa730: uxth	r6, r6 
+  0xa734: mla	r6, r4, r6, r0 
+  0xa738: ldrb	r6, [r6, #0x623] 
+  0xa73c: cmp	r6, r7, lsr #10 
+  0xa740: movwne	r0, #0xfdfb 
+  0xa744: bne	#0xa80c 
+  0xa748: ldrh	r6, [fp, #-0x1e] 
+  0xa74c: ubfx	r6, r6, #0, #0xa 
+  0xa750: uxth	r6, r6 
+  0xa754: mla	r6, r4, r6, r0 
+  0xa758: add	r6, r6, #0x620 
+  0xa75c: ldrh	r6, [r6, #4] 
+  0xa760: sub	r6, r6, #1 
+  0xa764: cmp	r6, #6 
+  0xa768: movwhi	r0, #0xffff 
+  0xa76c: bhi	#0xa80c 
+  0xa770: ldrh	r6, [fp, #-0x1e] 
+  0xa774: ubfx	r6, r6, #0, #0xa 
+  0xa778: uxth	r6, r6 
+  0xa77c: mla	r6, r4, r6, r0 
+  0xa780: ldrb	r6, [r6, #0x620] 
+  0xa784: strh	r6, [r1] 
+  0xa788: ldrh	r1, [fp, #-0x1e] 
+  0xa78c: ubfx	r1, r1, #0, #0xa 
+  0xa790: uxth	r1, r1 
+  0xa794: mla	r1, r4, r1, r0 
+  0xa798: ldrb	r1, [r1, #0x621] 
+  0xa79c: strh	r1, [r2] 
+  0xa7a0: ldrh	r2, [fp, #-0x1e] 
+  0xa7a4: ubfx	r2, r2, #0, #0xa 
+  0xa7a8: uxth	r2, r2 
+  0xa7ac: mla	r0, r4, r2, r0 
+  0xa7b0: movw	r2, #0x628 
+  0xa7b4: ldrh	r0, [r0, r2] 
+  0xa7b8: mov	r2, r5 
+  0xa7bc: strh	r0, [ip] 
+  0xa7c0: b	#0xa7fc 
+  0xa7c4: ldrh	r1, [fp, #-0x1e] 
+  0xa7c8: mov	r0, #0x62 
+  0xa7cc: ubfx	r1, r1, #0, #0xa 
+  0xa7d0: uxth	r1, r1 
+  0xa7d4: mla	r1, r0, r1, r2 
+  0xa7d8: ldr	r0, [pc, #0x3c] 
+  0xa7dc: add	r2, r2, #1 
+  0xa7e0: uxth	r2, r2 
+  0xa7e4: add	r1, r0, r1, lsl #2 
+  0xa7e8: ldr	r0, [r3] 
+  0xa7ec: ldr	r1, [r1, #0x62c] 
+  0xa7f0: ldr	r1, [r1, #0xc] 
+  0xa7f4: add	r1, r0, r1 
+  0xa7f8: str	r1, [r3] 
+  0xa7fc: ldrh	r1, [ip] 
+  0xa800: cmp	r1, r2 
+  0xa804: bhi	#0xa7c4 
+  0xa808: mov	r0, #0 
+  0xa80c: sxth	r0, r0 
+  0xa810: sub	sp, fp, #0x1c 
+  0xa814: ldm	sp, {r4, r5, r6, r7, fp, sp, pc} 
+  0xa818: andeq	r0, r0, r0, asr #3 
+  0xa81c: andeq	ip, r5, r8, asr #25 

@@ -1,0 +1,119 @@
+== boss_lld_get_base_addr_dmac @ 0x81c (thumb=False)
+  0x0000081c: mov      ip, sp
+  0x00000820: push     {fp, ip, lr, pc}
+  0x00000824: sub      fp, ip, #4
+  0x00000828: ldr      r3, [pc, #8]
+  0x0000082c: add      r3, r3, r0, lsl #2
+  0x00000830: ldr      r0, [r3, #8]
+  0x00000834: ldm      sp, {fp, sp, pc}
+  0x00000838: andeq    r0, r0, r0
+== boss_lld_get_base_addr_dmac_ch @ 0x83c (thumb=False)
+  0x0000083c: mov      ip, sp
+  0x00000840: push     {r3, r4, r5, r6, fp, ip, lr, pc}
+  0x00000844: sub      fp, ip, #4
+  0x00000848: ldr      r3, [pc, #0x74]
+  0x0000084c: mov      r6, r0
+  0x00000850: add      r3, r3, r0, lsl #2
+  0x00000854: ldr      r5, [r3, #8]
+  0x00000858: cmp      r5, #0
+  0x0000085c: bne      #0x880
+  0x00000860: ldr      r1, [pc, #0x60]
+  0x00000864: movw     r2, #0x26f
+  0x00000868: mov      r3, r5
+  0x0000086c: ldr      r0, [pc, #0x58]
+  0x00000870: bl       #0x870 ; printk
+  0x00000874: bl       #0x874 ; __bug_noarg
+  0x00000878: andeq    r0, r0, r0
+  0x0000087c: andeq    r0, r0, pc, ror #4
+  0x00000880: cmp      r6, #3
+  0x00000884: mov      r4, #0x30
+  0x00000888: subhi    r6, r6, #4
+  0x0000088c: mla      r4, r4, r6, r5
+  0x00000890: add      r4, r4, #0x10
+  0x00000894: cmp      r4, #0
+  0x00000898: bne      #0x8bc
+  0x0000089c: ldr      r1, [pc, #0x24]
+  0x000008a0: mov      r2, #0x27c
+  0x000008a4: mov      r3, r4
+  0x000008a8: ldr      r0, [pc, #0x1c]
+  0x000008ac: bl       #0x8ac ; printk
+  0x000008b0: bl       #0x8b0 ; __bug_noarg
+  0x000008b4: andeq    r0, r0, r4, lsl #1
+  0x000008b8: andeq    r0, r0, ip, ror r2
+  0x000008bc: mov      r0, r4
+  0x000008c0: ldm      sp, {r3, r4, r5, r6, fp, sp, pc}
+  0x000008c4: andeq    r0, r0, r0
+  0x000008c8: andeq    r0, r0, r2, lsl #6
+  0x000008cc: andeq    r0, r0, r7, ror #5
+== dmac_probe @ 0x8d0 (thumb=False)
+  0x000008d0: mov      ip, sp
+  0x000008d4: push     {r4, r5, r6, r7, fp, ip, lr, pc}
+  0x000008d8: sub      fp, ip, #4
+  0x000008dc: subs     r6, r0, #0
+  0x000008e0: mov      r4, r1
+  0x000008e4: mov      r7, r2
+  0x000008e8: bne      #0x904
+  0x000008ec: ldr      r0, [pc, #0x68]
+  0x000008f0: movw     r2, #0x1a7
+  0x000008f4: ldr      r1, [pc, #0x64]
+  0x000008f8: bl       #0x8f8 ; printk
+  0x000008fc: mvn      r0, #0x15
+  0x00000900: ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+  0x00000904: ldr      r3, [r6, #0x14]
+  0x00000908: mov      r2, #0x5c
+  0x0000090c: mlas     r3, r2, r1, r3
+  0x00000910: ldr      r2, [pc, #0x4c]
+  0x00000914: ldrne    r3, [r3, #0x10]
+  0x00000918: mov      r0, r1
+  0x0000091c: add      r2, r2, r1, lsl #2
+  0x00000920: str      r3, [r2, #8]
+  0x00000924: bl       #0x924 ; boss_lld_get_base_addr_dmac_ch
+  0x00000928: mov      r1, r4
+  0x0000092c: mov      r5, r0
+  0x00000930: mov      r0, r6
+  0x00000934: bl       #0x934 ; boss_hw_dmac_request_irq
+  0x00000938: mov      r0, r6
+  0x0000093c: mov      r1, r4
+  0x00000940: mov      r2, r7
+  0x00000944: mov      r3, r5
+  0x00000948: bl       #0x948 ; dmac_async_probe
+  0x0000094c: mov      r0, r4
+  0x00000950: bl       #0x28
+  0x00000954: mov      r0, #0
+  0x00000958: ldm      sp, {r4, r5, r6, r7, fp, sp, pc}
+  0x0000095c: andeq    r0, r0, r0
+  0x00000960: andeq    r0, r0, r8, lsr r1
+  0x00000964: andeq    r0, r0, r0
+== boss_hw_dmac_resource_init @ 0x1a94 (thumb=False)
+  0x00001a94: mov      ip, sp
+  0x00001a98: push     {r3, r4, r5, r6, r7, r8, fp, ip, lr, pc}
+  0x00001a9c: sub      fp, ip, #4
+  0x00001aa0: ldr      r7, [pc, #0x5c]
+  0x00001aa4: mov      r4, #0
+  0x00001aa8: mov      r8, #0x18
+  0x00001aac: ldr      r5, [pc, #0x54]
+  0x00001ab0: mov      r6, #0
+  0x00001ab4: ldr      r1, [pc, #0x50]
+  0x00001ab8: mul      r8, r8, r4
+  0x00001abc: add      r3, r5, r8
+  0x00001ac0: add      r2, r3, #0x60
+  0x00001ac4: str      r6, [r3, #0x60]
+  0x00001ac8: add      r3, r5, #0x60
+  0x00001acc: add      r8, r3, r8
+  0x00001ad0: str      r6, [r2, #4]
+  0x00001ad4: mov      r0, r8
+  0x00001ad8: bl       #0x1ad8 ; __rt_mutex_init
+  0x00001adc: mov      r0, r8
+  0x00001ae0: ldr      r1, [pc, #0x28]
+  0x00001ae4: add      r2, r5, #0x180
+  0x00001ae8: bl       #0x1ae8 ; __mutex_do_init
+  0x00001aec: str      r6, [r5, r4, lsl #2]
+  0x00001af0: add      r4, r4, #1
+  0x00001af4: str      r6, [r7, #4]!
+  0x00001af8: cmp      r4, #8
+  0x00001afc: bne      #0x1aa8
+  0x00001b00: ldm      sp, {r3, r4, r5, r6, r7, r8, fp, sp, pc}
+  0x00001b04: andeq    r0, r0, r4, lsr #4
+  0x00001b08: andeq    r0, r0, r8, ror #3
+  0x00001b0c: andeq    r0, r0, r7, lsr #14
+  0x00001b10: andeq    r0, r0, fp, asr #14

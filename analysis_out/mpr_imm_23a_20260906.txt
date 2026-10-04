@@ -1,0 +1,17 @@
+00239168 imm=23a strh.w r3,[r7,#0x23a] function=FUN_00238fbc
+002a64dc imm=23a strb.w r9,[r7,#0x23a] function=FUN_002a5d80
+002a76be imm=23a strb.w r3,[r7,#0x23a] function=FUN_002a5d80
+002a76ce imm=23a strb.w r1,[r7,#0x23a] function=FUN_002a5d80
+002f584e imm=23a movw r0,#0x23a function=FUN_002f5814
+00387da4 imm=23a movw r0,#0x23a function=CopyReadStillStream
+00387e0a imm=23a movw r3,#0x23a function=CopyReadStillStream
+003a7ef6 imm=23a movw r0,#0x23a function=CopyReadStillStream
+00450dcc imm=23a movw r2,#0x23a function=FUN_00450d30
+005f4262 imm=23a movw r1,#0x23a function=FUN_005f4204
+00611040 imm=23a movw r1,#0x23a function=FUN_00610bf4
+0062735a imm=23a movw r1,#0x23a function=FUN_00627388
+006d3220 imm=23a movw r3,#0x23a function=FUN_006d30c8
+006edf8a imm=23a movw r3,#0x23a function=SetNumberingMode
+006fa50c imm=23a ldrb.w r9,[r1,#0x23a] function=FUN_006fa378
+008a56b6 imm=23a strb.w r3,[r7,#0x23a] function=FUN_008a5290
+008ab70c imm=23a movw r1,#0x23a function=FUN_008ab25c

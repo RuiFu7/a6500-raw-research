@@ -1,0 +1,20 @@
+RANGE 403b2d38-403b2d80
+DATA 403b2d74  undefined4 4036A1F5h
+DATA 403b2d78  undefined4 403F497Ch
+403b2d38  stmdb sp!,{r3,r4,r11,r12,lr,pc}
+403b2d3c  sub r11,r12,#0x4
+403b2d40  ldr r0,[0x403b2d74]
+403b2d44  bl 0x4019c298
+403b2d48  mov r0,#0x0
+403b2d4c  cpy r4,r0
+403b2d50  b 0x403b2d68
+403b2d54  ldr r3,[0x403b2d78]
+403b2d58  mov r0,#0x28
+403b2d5c  mla r0,r0,r4,r3
+403b2d60  bl 0x4020d7d4
+403b2d64  add r4,r4,#0x1
+403b2d68  cmp r4,#0xf
+403b2d6c  bne 0x403b2d54
+403b2d70  ldmia sp,{r3,r4,r11,sp,pc}
+403b2d7c  cpy r12,sp
+403b2d80  stmdb sp!,{r11,r12,lr,pc}

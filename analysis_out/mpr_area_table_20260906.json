@@ -1,0 +1,569 @@
+{
+  "input": "D:\\Desktop\\a6500\\firmware\\unpacked\\ilce6500-v106\\firmware.tar_unpacked\\0700_part_image\\dev\\nflasha15_unpacked_unpacked\\lib\\libmpr.so",
+  "rows": [
+    {
+      "id": 0,
+      "label": "Dec Video ES",
+      "label_address": "0xa21dbc",
+      "table_entry_address": "0xb51738"
+    },
+    {
+      "id": 1,
+      "label": "Dec Video PI",
+      "label_address": "0xa21dd9",
+      "table_entry_address": "0xb51740"
+    },
+    {
+      "id": 2,
+      "label": "Dec Video Info",
+      "label_address": "0xa21df6",
+      "table_entry_address": "0xb51748"
+    },
+    {
+      "id": 3,
+      "label": "Dec Audio ES",
+      "label_address": "0xa21e13",
+      "table_entry_address": "0xb51750"
+    },
+    {
+      "id": 4,
+      "label": "Dec Audio PI",
+      "label_address": "0xa21e30",
+      "table_entry_address": "0xb51758"
+    },
+    {
+      "id": 5,
+      "label": "Dec Audio Info",
+      "label_address": "0xa21e4d",
+      "table_entry_address": "0xb51760"
+    },
+    {
+      "id": 7,
+      "label": "Dec Video Ctrl Info",
+      "label_address": "0xa21e6a",
+      "table_entry_address": "0xb51768"
+    },
+    {
+      "id": 8,
+      "label": "Enc Video ES",
+      "label_address": "0xa21e87",
+      "table_entry_address": "0xb51770"
+    },
+    {
+      "id": 9,
+      "label": "Enc Video Info",
+      "label_address": "0xa21ea4",
+      "table_entry_address": "0xb51778"
+    },
+    {
+      "id": 10,
+      "label": "Enc Audio ES",
+      "label_address": "0xa21ec1",
+      "table_entry_address": "0xb51780"
+    },
+    {
+      "id": 11,
+      "label": "Enc Audio Info",
+      "label_address": "0xa21ede",
+      "table_entry_address": "0xb51788"
+    },
+    {
+      "id": 12,
+      "label": "PS/TS Buffer",
+      "label_address": "0xa21efb",
+      "table_entry_address": "0xb51790"
+    },
+    {
+      "id": 13,
+      "label": "Still Info",
+      "label_address": "0xa21f18",
+      "table_entry_address": "0xb51798"
+    },
+    {
+      "id": 14,
+      "label": "Still Stream",
+      "label_address": "0xa21f35",
+      "table_entry_address": "0xb517a0"
+    },
+    {
+      "id": 15,
+      "label": "DMA Link List( Mux )",
+      "label_address": "0xa21f52",
+      "table_entry_address": "0xb517a8"
+    },
+    {
+      "id": 16,
+      "label": "DMA Link List( Demux)",
+      "label_address": "0xa21f6f",
+      "table_entry_address": "0xb517b0"
+    },
+    {
+      "id": 17,
+      "label": "Status(Host->MEnc)",
+      "label_address": "0xa21f8c",
+      "table_entry_address": "0xb517b8"
+    },
+    {
+      "id": 18,
+      "label": "Status(MEnc->Host)",
+      "label_address": "0xa21fa9",
+      "table_entry_address": "0xb517c0"
+    },
+    {
+      "id": 19,
+      "label": "Status(Host->SEnc)",
+      "label_address": "0xa21fc6",
+      "table_entry_address": "0xb517c8"
+    },
+    {
+      "id": 20,
+      "label": "Status(SEnc->Host)",
+      "label_address": "0xa21fe3",
+      "table_entry_address": "0xb517d0"
+    },
+    {
+      "id": 21,
+      "label": "Status(Host->ADec)",
+      "label_address": "0xa22000",
+      "table_entry_address": "0xb517d8"
+    },
+    {
+      "id": 22,
+      "label": "Status(ADec->Host)",
+      "label_address": "0xa2201d",
+      "table_entry_address": "0xb517e0"
+    },
+    {
+      "id": 23,
+      "label": "Status(Host->MDec)",
+      "label_address": "0xa2203a",
+      "table_entry_address": "0xb517e8"
+    },
+    {
+      "id": 24,
+      "label": "Status(MDec->Host)",
+      "label_address": "0xa22057",
+      "table_entry_address": "0xb517f0"
+    },
+    {
+      "id": 25,
+      "label": "Status(Host->SDec)",
+      "label_address": "0xa22074",
+      "table_entry_address": "0xb517f8"
+    },
+    {
+      "id": 26,
+      "label": "Status(SDec->Host)",
+      "label_address": "0xa22091",
+      "table_entry_address": "0xb51800"
+    },
+    {
+      "id": 27,
+      "label": "PS/TS Buffer(Ipic)",
+      "label_address": "0xa220ae",
+      "table_entry_address": "0xb51808"
+    },
+    {
+      "id": 28,
+      "label": "PS/TS Buffer(Muxed)",
+      "label_address": "0xa220cb",
+      "table_entry_address": "0xb51810"
+    },
+    {
+      "id": 29,
+      "label": "MV Pck Search",
+      "label_address": "0xa220e8",
+      "table_entry_address": "0xb51818"
+    },
+    {
+      "id": 30,
+      "label": "Header Search",
+      "label_address": "0xa22105",
+      "table_entry_address": "0xb51820"
+    },
+    {
+      "id": 31,
+      "label": "DCF Thm Stream",
+      "label_address": "0xa22122",
+      "table_entry_address": "0xb51828"
+    },
+    {
+      "id": 32,
+      "label": "DCF Thm Status( Host->SEnc )",
+      "label_address": "0xa2213f",
+      "table_entry_address": "0xb51830"
+    },
+    {
+      "id": 33,
+      "label": "DCF Thm Status( SEnc->Host )",
+      "label_address": "0xa2215c",
+      "table_entry_address": "0xb51838"
+    },
+    {
+      "id": 34,
+      "label": "DCF Thm Info",
+      "label_address": "0xa22179",
+      "table_entry_address": "0xb51840"
+    },
+    {
+      "id": 35,
+      "label": "EncodeStillOnMemory",
+      "label_address": "0xa22196",
+      "table_entry_address": "0xb51848"
+    },
+    {
+      "id": 36,
+      "label": "JPEG Work",
+      "label_address": "0xa221b3",
+      "table_entry_address": "0xb51850"
+    },
+    {
+      "id": 37,
+      "label": "Edit Work",
+      "label_address": "0xa221d0",
+      "table_entry_address": "0xb51858"
+    },
+    {
+      "id": 38,
+      "label": "Face Index",
+      "label_address": "0xa221ed",
+      "table_entry_address": "0xb51860"
+    },
+    {
+      "id": 39,
+      "label": "Face Smile Info",
+      "label_address": "0xa2220a",
+      "table_entry_address": "0xb51868"
+    },
+    {
+      "id": 40,
+      "label": "Map Data",
+      "label_address": "0xa22227",
+      "table_entry_address": "0xb51870"
+    },
+    {
+      "id": 41,
+      "label": "BGM Audio ES",
+      "label_address": "0xa22244",
+      "table_entry_address": "0xb51878"
+    },
+    {
+      "id": 42,
+      "label": "BGM Audio PI",
+      "label_address": "0xa22261",
+      "table_entry_address": "0xb51880"
+    },
+    {
+      "id": 43,
+      "label": "BGM Audio Info",
+      "label_address": "0xa2227e",
+      "table_entry_address": "0xb51888"
+    },
+    {
+      "id": 44,
+      "label": "Effect PI",
+      "label_address": "0xa2229b",
+      "table_entry_address": "0xb51890"
+    },
+    {
+      "id": 45,
+      "label": "Effect Timing PI",
+      "label_address": "0xa222b8",
+      "table_entry_address": "0xb51898"
+    },
+    {
+      "id": 46,
+      "label": "Effect Status( Host->MDec )",
+      "label_address": "0xa222d5",
+      "table_entry_address": "0xb518a0"
+    },
+    {
+      "id": 47,
+      "label": "Effect Status( MDec->Host )",
+      "label_address": "0xa222f2",
+      "table_entry_address": "0xb518a8"
+    },
+    {
+      "id": 48,
+      "label": "Work for TitleClose(Remux)",
+      "label_address": "0xa2230f",
+      "table_entry_address": "0xb518b0"
+    },
+    {
+      "id": 49,
+      "label": "PS/TS Buffer(Muxed) Chain1",
+      "label_address": "0xa2232c",
+      "table_entry_address": "0xb518b8"
+    },
+    {
+      "id": 50,
+      "label": "PS/TS Buffer(Muxed) Chain2",
+      "label_address": "0xa22349",
+      "table_entry_address": "0xb518c0"
+    },
+    {
+      "id": 51,
+      "label": "PS/TS Buffer(Muxed) Chain3",
+      "label_address": "0xa22366",
+      "table_entry_address": "0xb518c8"
+    },
+    {
+      "id": 52,
+      "label": "PS/TS Buffer(Muxed) Chain4",
+      "label_address": "0xa22383",
+      "table_entry_address": "0xb518d0"
+    },
+    {
+      "id": 53,
+      "label": "Buffer Chain1",
+      "label_address": "0xa223a0",
+      "table_entry_address": "0xb518d8"
+    },
+    {
+      "id": 54,
+      "label": "Buffer Chain2",
+      "label_address": "0xa223bd",
+      "table_entry_address": "0xb518e0"
+    },
+    {
+      "id": 55,
+      "label": "Buffer Chain3",
+      "label_address": "0xa223da",
+      "table_entry_address": "0xb518e8"
+    },
+    {
+      "id": 56,
+      "label": "Buffer Chain4",
+      "label_address": "0xa223f7",
+      "table_entry_address": "0xb518f0"
+    },
+    {
+      "id": 57,
+      "label": "Enc Video ES 2",
+      "label_address": "0xa22414",
+      "table_entry_address": "0xb518f8"
+    },
+    {
+      "id": 58,
+      "label": "Enc Audio ES 2",
+      "label_address": "0xa22431",
+      "table_entry_address": "0xb51900"
+    },
+    {
+      "id": 59,
+      "label": "Movie Stream 2",
+      "label_address": "0xa2244e",
+      "table_entry_address": "0xb51908"
+    },
+    {
+      "id": 60,
+      "label": "Enc Video Info 2",
+      "label_address": "0xa2246b",
+      "table_entry_address": "0xb51910"
+    },
+    {
+      "id": 61,
+      "label": "Enc Audio Info 2",
+      "label_address": "0xa22488",
+      "table_entry_address": "0xb51918"
+    },
+    {
+      "id": 62,
+      "label": "Dma Link List 2( Mux )",
+      "label_address": "0xa224a5",
+      "table_entry_address": "0xb51920"
+    },
+    {
+      "id": 63,
+      "label": "Status(Host->MEnc) 2",
+      "label_address": "0xa224c2",
+      "table_entry_address": "0xb51928"
+    },
+    {
+      "id": 64,
+      "label": "Status(MEnc->Host) 2",
+      "label_address": "0xa224df",
+      "table_entry_address": "0xb51930"
+    },
+    {
+      "id": 65,
+      "label": "Face Index 2",
+      "label_address": "0xa224fc",
+      "table_entry_address": "0xb51938"
+    },
+    {
+      "id": 66,
+      "label": "Face Smile Info 2",
+      "label_address": "0xa22519",
+      "table_entry_address": "0xb51940"
+    },
+    {
+      "id": 67,
+      "label": "Copy Buffer 1",
+      "label_address": "0xa22536",
+      "table_entry_address": "0xb51948"
+    },
+    {
+      "id": 68,
+      "label": "Copy Buffer 2",
+      "label_address": "0xa22553",
+      "table_entry_address": "0xb51950"
+    },
+    {
+      "id": 69,
+      "label": "Copy Buffer 3",
+      "label_address": "0xa22570",
+      "table_entry_address": "0xb51958"
+    },
+    {
+      "id": 70,
+      "label": "DCF Thm Stream2",
+      "label_address": "0xa2258d",
+      "table_entry_address": "0xb51960"
+    },
+    {
+      "id": 71,
+      "label": "DCF Thm Status(Host->SEnc)2",
+      "label_address": "0xa225aa",
+      "table_entry_address": "0xb51968"
+    },
+    {
+      "id": 72,
+      "label": "DCF Thm Status(SEnc->Host)2",
+      "label_address": "0xa225c7",
+      "table_entry_address": "0xb51970"
+    },
+    {
+      "id": 73,
+      "label": "DCF Thm Info2",
+      "label_address": "0xa225e4",
+      "table_entry_address": "0xb51978"
+    },
+    {
+      "id": 74,
+      "label": "DCF Thm Jpg Info2",
+      "label_address": "0xa22601",
+      "table_entry_address": "0xb51980"
+    },
+    {
+      "id": 84,
+      "label": "DFS alloc area",
+      "label_address": "0xa2261e",
+      "table_entry_address": "0xb51988"
+    },
+    {
+      "id": 85,
+      "label": "Mem_NonCache alloc area",
+      "label_address": "0xa2263b",
+      "table_entry_address": "0xb51990"
+    },
+    {
+      "id": 75,
+      "label": "YC SDS",
+      "label_address": "0xa22658",
+      "table_entry_address": "0xb51998"
+    },
+    {
+      "id": 76,
+      "label": "DCF Thm Jpg Info",
+      "label_address": "0xa22675",
+      "table_entry_address": "0xb519a0"
+    },
+    {
+      "id": 77,
+      "label": "Dec Video ES 2",
+      "label_address": "0xa22692",
+      "table_entry_address": "0xb519a8"
+    },
+    {
+      "id": 78,
+      "label": "Dec Video PI 2",
+      "label_address": "0xa226af",
+      "table_entry_address": "0xb519b0"
+    },
+    {
+      "id": 79,
+      "label": "Dec Video Info 2",
+      "label_address": "0xa226cc",
+      "table_entry_address": "0xb519b8"
+    },
+    {
+      "id": 80,
+      "label": "Dec VideoCtrl Info 2",
+      "label_address": "0xa226e9",
+      "table_entry_address": "0xb519c0"
+    },
+    {
+      "id": 81,
+      "label": "Status(Host->MDec) 2",
+      "label_address": "0xa22706",
+      "table_entry_address": "0xb519c8"
+    },
+    {
+      "id": 82,
+      "label": "Status(MDec->Host) 2",
+      "label_address": "0xa22723",
+      "table_entry_address": "0xb519d0"
+    },
+    {
+      "id": 83,
+      "label": "Still Stream RAW Main",
+      "label_address": "0xa22740",
+      "table_entry_address": "0xb519d8"
+    },
+    {
+      "id": 86,
+      "label": "IFO Work",
+      "label_address": "0xa2275d",
+      "table_entry_address": "0xb519e0"
+    },
+    {
+      "id": 87,
+      "label": "Effect Engine Work",
+      "label_address": "0xa2277a",
+      "table_entry_address": "0xb519e8"
+    },
+    {
+      "id": 88,
+      "label": "SAVE Work",
+      "label_address": "0xa22797",
+      "table_entry_address": "0xb519f0"
+    },
+    {
+      "id": 89,
+      "label": "OpeningEndingIFO Work",
+      "label_address": "0xa227b4",
+      "table_entry_address": "0xb519f8"
+    },
+    {
+      "id": 90,
+      "label": "Meta Buffer",
+      "label_address": "0xa227d1",
+      "table_entry_address": "0xb51a00"
+    },
+    {
+      "id": 91,
+      "label": "Meta Store",
+      "label_address": "0xa227ee",
+      "table_entry_address": "0xb51a08"
+    },
+    {
+      "id": 92,
+      "label": "Meta ES for MB",
+      "label_address": "0xa2280b",
+      "table_entry_address": "0xb51a10"
+    },
+    {
+      "id": 93,
+      "label": "Meta Buffer 2",
+      "label_address": "0xa22828",
+      "table_entry_address": "0xb51a18"
+    },
+    {
+      "id": 96,
+      "label": "dummy bufffer",
+      "label_address": "0xa22845",
+      "table_entry_address": "0xb51a20"
+    }
+  ]
+}

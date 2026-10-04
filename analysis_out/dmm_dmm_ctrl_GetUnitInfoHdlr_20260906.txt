@@ -1,0 +1,32 @@
+== dmm_ctrl_GetUnitInfoHdlr @ 0x5960 (thumb=False)
+  0x5960: mov	ip, sp 
+  0x5964: push	{r4, r5, r6, fp, ip, lr, pc} 
+  0x5968: sub	fp, ip, #4 
+  0x596c: sub	sp, sp, #0xc 
+  0x5970: ldrh	r3, [r0, #0xc] 
+  0x5974: mov	r4, r1 
+  0x5978: mov	r5, r0 
+  0x597c: add	r2, r4, #0xc 
+  0x5980: mvn	r3, r3, lsl #17 
+  0x5984: mvn	r3, r3, lsr #17 
+  0x5988: strh	r3, [r1] 
+  0x598c: ldrh	r3, [r0, #0x20] 
+  0x5990: strh	r3, [r1, #6] 
+  0x5994: add	r3, r1, #8 
+  0x5998: ldrh	r0, [r0, #0xe] 
+  0x599c: add	r1, r1, #0xa 
+  0x59a0: str	r3, [sp] 
+  0x59a4: add	r3, r4, #0x10 
+  0x59a8: bl	#0x59a8 
+  0x59ac: ldr	r1, [r5, #4] 
+  0x59b0: ldrh	r2, [r5, #0xc] 
+  0x59b4: mov	r3, #1 
+  0x59b8: mov	r6, r0 
+  0x59bc: ldrh	r0, [r5, #0xe] 
+  0x59c0: bl	#0x59c0 
+  0x59c4: mov	r0, r6 
+  0x59c8: bl	#0x51e4 
+  0x59cc: strh	r0, [r4, #2] 
+  0x59d0: mov	r0, #2 
+  0x59d4: sub	sp, fp, #0x18 
+  0x59d8: ldm	sp, {r4, r5, r6, fp, sp, pc} 

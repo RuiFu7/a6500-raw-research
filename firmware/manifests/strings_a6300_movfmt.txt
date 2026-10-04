@@ -1,0 +1,41 @@
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd6cbd: static void OBJEFFECT::ObjEffectSequenceBasePin::GetAndSaveParameterMovieFormatInfo(MWF::ObjMsg*, GlobalAccessor*, DefCommon::MOVIE_FORMAT_INFO*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd6d4f: static bool OBJEFFECT::ObjEffectSequenceBasePin::IsSameParameterMovieFormatInfo(MWF::ObjMsg*, GlobalAccessor*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9996: N9OBJEFFECT33SequencePinOpenMovieFormatInfoRaw13ActionPinOpenE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd99d5: N9OBJEFFECT33SequencePinOpenMovieFormatInfoRawE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9a05: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9a72: SequencePinOpenMovieFormatInfoRaw.cpp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9a98: [ObjEffect]SequencePinOpenMovieFormatInfoRaw End [%x]
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9ad7: [ObjEffect]NEW SequencePinOpenMovieFormatInfoRaw
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbd9b08: virtual AVBBC_RETCODE OBJEFFECT::SequencePinOpenMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdad29: N9OBJEFFECT35SequencePinNotifyMovieFormatInfoRaw15ActionPinNotifyE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdad6c: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::SetParameter(MWF::ObjMsg*, MWF::ObjMsg*)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdaddb: virtual AVBBC_RETCODE OBJEFFECT::SequencePinNotifyMovieFormatInfoRaw::OnSequenceFinished(AVBBC_RETCODE)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdae43: N9OBJEFFECT35SequencePinNotifyMovieFormatInfoRawE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdae7f: SequencePinNotifyMovieFormatInfoRaw.cpp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xbdaf80: [ObjEffect]NEW SequencePinNotifyMovieFormatInfoRaw
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a183:  N9OBJSCALAR29SequenceSequenceRawCaptureEvtE
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a1b0: [ObjScalar]SequenceSequenceRawCaptureEvt SeqFin seqId:0x%x err:0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a1f4: [ObjScalar]SequenceSequenceRawCaptureEvt SetParam seqId:0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a231: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureMode=%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a281: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureStatus=%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a2d3: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter splitExposureTime=%d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a323: [ObjScalar]SequenceSequenceRawCaptureEvt::convertParameter eventId=0x%x(%d)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a36f: [ObjScalar]SequenceSequenceRawCaptureEvt Response ticket:%d
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a3ab: [ObjScalar]SequenceSequenceRawCaptureEvt dataType is NOT CAMRAW: 0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc5a420: [ObjScalar]SequenceSequenceRawCaptureEvt Begin seqId:0x%x
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc92e7e: SuperResolutionDualRec Set changed:(new)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc92ea7: SuperResolutionDualRec Act changed:(new)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc97eda: pvt_ActionSetSuperResolutionDualRecCmp
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc97f01: ActionNotifySuperResolutionDualRecEvt
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c019: pvt_ActionSetSuperResolutionDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xc9c03d: Err (pvt_ActionSetSuperResolutionDualRec)
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xca39ee: pvt_SetParamSuperResolutionDualRec
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd81798: [ObjMovieRecorder] Proxy YcPin.Send :NOTIFY MovieFormatInfo => failed
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xd819b8: [ObjMovieRecorder] YcPin.Send :NOTIFY MovieFormatInfo => failed
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb4290: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_MOVIE_SIZE_ACT(size) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb42f2: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_FRAME_RATE_ACT(rate) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb4354: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_FRAME_RATE_ACT(aspect) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb43b8: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_RAW_OUTPUT_MODE(aspect) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb441d: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_MOVIE_SIZE_RAW(aspect) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so:0xdb4481: GetStdMovieFormatInfo) ######## ERROR !!!! PARAMID_CCM_IMAGE_FRAME_RATE_ACT(rate) UNKNOWN[0x%02x] #########
+firmware/a6300-unpacked/firmware.tar_unpacked/0700_part_image/dev/nflasha15_unpacked_unpacked/lib/libObj.so: ... truncated

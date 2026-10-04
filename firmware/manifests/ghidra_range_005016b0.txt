@@ -1,0 +1,31 @@
+RANGE 005016b0-005017f0
+DATA 00501704  undefined4 006D7248h
+DATA 00501708  undefined4 008337FEh
+DATA 0050170c  undefined4 0000467Ch
+DATA 00501710  undefined4 00407734h
+005016c4  ldr r2,[0x00501704]
+005016c6  push {r4,lr}
+005016c8  add r2,pc
+005016ca  ldr r4,[r0,#0x8]
+005016cc  ldr.w r0,[r2,#0x610]
+005016d0  ldr r3,[0x00501708]
+005016d2  ldr.w r2,[r4,#0x388]
+005016d6  add r3,pc
+005016d8  cmp r0,r2
+005016da  bne 0x005016fa
+005016dc  mov.w r2,#0xf000
+005016e0  str r2,[r1,#0x8]
+005016e2  ldr r1,[0x0050170c]
+005016e4  ldr r3,[r3,r1]
+005016e6  ldrb.w r3,[r3,#0x32]
+005016ea  cbz r3,0x005016fe
+005016ec  ldr r0,[0x00501710]
+005016ee  mov r1,r2
+005016f0  add r0,pc
+005016f2  bl 0x002e6f88
+005016f6  movs r0,#0xc
+005016f8  pop {r4,pc}
+005016fa  movs r0,#0x0
+005016fc  pop {r4,pc}
+005016fe  movs r0,#0xc
+00501700  pop {r4,pc}

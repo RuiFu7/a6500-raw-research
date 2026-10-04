@@ -1,0 +1,365 @@
+{
+  "input": "firmware/unpacked/ilce6500-v106/firmware.tar_unpacked/0700_part_image/dev/nflasha3_unpacked_unpacked/av-cam.bin",
+  "mode_info_byte_table": {
+    "address": "0x8b8bdb",
+    "range": "CapMode 0x8..0x1b",
+    "rows": [
+      {
+        "cap": "8",
+        "value": 1
+      },
+      {
+        "cap": "9",
+        "value": 1
+      },
+      {
+        "cap": "a",
+        "value": 1
+      },
+      {
+        "cap": "b",
+        "value": 0
+      },
+      {
+        "cap": "c",
+        "value": 0
+      },
+      {
+        "cap": "d",
+        "value": 0
+      },
+      {
+        "cap": "e",
+        "value": 0
+      },
+      {
+        "cap": "f",
+        "value": 0
+      },
+      {
+        "cap": "10",
+        "value": 0
+      },
+      {
+        "cap": "11",
+        "value": 0
+      },
+      {
+        "cap": "12",
+        "value": 0
+      },
+      {
+        "cap": "13",
+        "value": 0
+      },
+      {
+        "cap": "14",
+        "value": 1
+      },
+      {
+        "cap": "15",
+        "value": 0
+      },
+      {
+        "cap": "16",
+        "value": 0
+      },
+      {
+        "cap": "17",
+        "value": 0
+      },
+      {
+        "cap": "18",
+        "value": 1
+      },
+      {
+        "cap": "19",
+        "value": 0
+      },
+      {
+        "cap": "1a",
+        "value": 0
+      },
+      {
+        "cap": "1b",
+        "value": 1
+      }
+    ]
+  },
+  "function_if_byte_table": {
+    "address": "0x8b8ad5",
+    "range": "CapMode 0x1..0x21",
+    "rows": [
+      {
+        "cap": "1",
+        "value": 1
+      },
+      {
+        "cap": "2",
+        "value": 3
+      },
+      {
+        "cap": "3",
+        "value": 3
+      },
+      {
+        "cap": "4",
+        "value": 3
+      },
+      {
+        "cap": "5",
+        "value": 1
+      },
+      {
+        "cap": "6",
+        "value": 0
+      },
+      {
+        "cap": "7",
+        "value": 0
+      },
+      {
+        "cap": "8",
+        "value": 0
+      },
+      {
+        "cap": "9",
+        "value": 1
+      },
+      {
+        "cap": "a",
+        "value": 3
+      },
+      {
+        "cap": "b",
+        "value": 3
+      },
+      {
+        "cap": "c",
+        "value": 3
+      },
+      {
+        "cap": "d",
+        "value": 3
+      },
+      {
+        "cap": "e",
+        "value": 3
+      },
+      {
+        "cap": "f",
+        "value": 3
+      },
+      {
+        "cap": "10",
+        "value": 3
+      },
+      {
+        "cap": "11",
+        "value": 3
+      },
+      {
+        "cap": "12",
+        "value": 3
+      },
+      {
+        "cap": "13",
+        "value": 1
+      },
+      {
+        "cap": "14",
+        "value": 0
+      },
+      {
+        "cap": "15",
+        "value": 0
+      },
+      {
+        "cap": "16",
+        "value": 3
+      },
+      {
+        "cap": "17",
+        "value": 3
+      },
+      {
+        "cap": "18",
+        "value": 3
+      },
+      {
+        "cap": "19",
+        "value": 3
+      },
+      {
+        "cap": "1a",
+        "value": 1
+      },
+      {
+        "cap": "1b",
+        "value": 0
+      },
+      {
+        "cap": "1c",
+        "value": 3
+      },
+      {
+        "cap": "1d",
+        "value": 3
+      },
+      {
+        "cap": "1e",
+        "value": 3
+      },
+      {
+        "cap": "1f",
+        "value": 1
+      },
+      {
+        "cap": "20",
+        "value": 1
+      },
+      {
+        "cap": "21",
+        "value": 1
+      }
+    ]
+  },
+  "state_word_table": {
+    "address": "0x7a39b4",
+    "range": "CapMode 0x1..0x21",
+    "rows": [
+      {
+        "cap": "1",
+        "value": 1
+      },
+      {
+        "cap": "2",
+        "value": 0
+      },
+      {
+        "cap": "3",
+        "value": 0
+      },
+      {
+        "cap": "4",
+        "value": 0
+      },
+      {
+        "cap": "5",
+        "value": 0
+      },
+      {
+        "cap": "6",
+        "value": 0
+      },
+      {
+        "cap": "7",
+        "value": 0
+      },
+      {
+        "cap": "8",
+        "value": 0
+      },
+      {
+        "cap": "9",
+        "value": 0
+      },
+      {
+        "cap": "a",
+        "value": 0
+      },
+      {
+        "cap": "b",
+        "value": 0
+      },
+      {
+        "cap": "c",
+        "value": 0
+      },
+      {
+        "cap": "d",
+        "value": 0
+      },
+      {
+        "cap": "e",
+        "value": 0
+      },
+      {
+        "cap": "f",
+        "value": 0
+      },
+      {
+        "cap": "10",
+        "value": 0
+      },
+      {
+        "cap": "11",
+        "value": 0
+      },
+      {
+        "cap": "12",
+        "value": 0
+      },
+      {
+        "cap": "13",
+        "value": 1
+      },
+      {
+        "cap": "14",
+        "value": 0
+      },
+      {
+        "cap": "15",
+        "value": 0
+      },
+      {
+        "cap": "16",
+        "value": 0
+      },
+      {
+        "cap": "17",
+        "value": 0
+      },
+      {
+        "cap": "18",
+        "value": 0
+      },
+      {
+        "cap": "19",
+        "value": 0
+      },
+      {
+        "cap": "1a",
+        "value": 1
+      },
+      {
+        "cap": "1b",
+        "value": 0
+      },
+      {
+        "cap": "1c",
+        "value": 0
+      },
+      {
+        "cap": "1d",
+        "value": 0
+      },
+      {
+        "cap": "1e",
+        "value": 0
+      },
+      {
+        "cap": "1f",
+        "value": 1
+      },
+      {
+        "cap": "20",
+        "value": 1
+      },
+      {
+        "cap": "21",
+        "value": 1
+      }
+    ]
+  }
+}

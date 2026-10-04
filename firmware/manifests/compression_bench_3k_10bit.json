@@ -1,0 +1,15 @@
+{
+  "width": 3072,
+  "height": 1728,
+  "bits": 10,
+  "predictor": "left-up",
+  "raw_bytes": 10616832,
+  "compressed_bytes": 4062538,
+  "rice_k": 4,
+  "ratio": 2.613,
+  "fps": 25.0,
+  "compressed_mbps": 101.563,
+  "target_mbps": 50,
+  "within_70": false,
+  "note": "v1 synthetic baseline; needs context-adaptive coding to reach 50-70 MB/s"
+}

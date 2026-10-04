@@ -1,0 +1,17 @@
+RANGE 006c4f30-006c4f60
+DATA 006c4f3c  undefined4 00C28F50h
+DATA 006c4f40  undefined4 00B6E028h
+DATA 006c4f44  undefined4 00B6DFE0h
+DATA 006c4f48  undefined4 009DCF51h
+006c4f30  ldr r0,[0x006c4f3c]
+006c4f32  pop.w {r4,r5,r7,lr}
+006c4f36  b.w 0x0076858c
+006c4f4c  push {r3,r4,r7,lr}
+006c4f4e  movs r2,#0x1
+006c4f50  add r7,sp,#0x0
+006c4f52  ldr r1,[0x006c5000]
+006c4f54  ldr r0,[0x006c5004]
+006c4f56  bl 0x006c5ce4
+006c4f5a  ldr r0,[0x006c5004]
+006c4f5c  bl 0x0076858c
+006c4f60  ldr r0,[0x006c5004]
